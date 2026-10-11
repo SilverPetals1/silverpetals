@@ -3,48 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jewelry Making Blog & DIY Tutorial Hub | Silver Petals</title>
+  <title>Pinterest Lookbook & Gallery | SilverPetals™</title>
   
-  <meta name="description" content="Explore free jewelry making tutorials, wire wrapping step-by-step guides, gemstone profiles, and jewelry business advice. Pinterest blogging hub for silversmiths and artisans.">
-  <meta property="og:title" content="Jewelry Making Blog & Free Guides | Silver Petals">
-  <meta property="og:description" content="Step-by-step wire wrapping, metalsmithing, and gemstone tutorials with full supply checklists.">
-  <meta property="og:image" content="assets/images/pinterest-wire-ring-pin.jpg">
+  <meta name="description" content="Explore SilverPetals Pinterest Lookbook: Styled ring stacks, botanical drop earrings, and layered sterling silver necklaces.">
+  <meta property="og:title" content="Pinterest Lookbook | SilverPetals™">
+  <meta property="og:image" content="assets/images/silver-petal-earrings.jpg">
   <meta property="og:type" content="website">
 
+  <link rel="icon" type="image/svg+xml" href="assets/images/silverpetals-logo.svg">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <!-- Top Announcement Bar -->
-  <aside class="announcement-bar">
-    <div class="announcement-inner">
-      <div class="announcement-messages">
-        <span class="announcement-item">
-          📌 Save our tutorials directly to your <strong>Pinterest Boards</strong>
-        </span>
-        <span class="announcement-item">
-          ✨ 120+ Free Jewelry Making Projects & Cheat Sheets
-        </span>
-      </div>
-      <div class="announcement-links">
-        <a href="tutorial-detail.html">Featured Ring Tutorial</a>
-        <a href="gemstones.html">Gemstone Directory</a>
-      </div>
-    </div>
-  </aside>
-
-  <!-- Sticky Header -->
+  <!-- Sticky Header (No Top Announcement Bar) -->
   <header class="site-header">
     <div class="container">
       <div class="header-top">
         <button class="mobile-nav-toggle" aria-label="Open Navigation Menu">☰</button>
 
-        <a href="index.html" class="brand-logo">
-          <div class="brand-logo-icon">✦</div>
-          <div class="brand-logo-text">
-            <span class="brand-title">Silver Petals</span>
-            <span class="brand-subtitle">Artisan Gems & Jewelry Studio</span>
-          </div>
+        <a href="index.html" class="brand-logo" title="SilverPetals Fine Jewelry">
+          <img src="assets/images/silverpetals-logo.svg" alt="SilverPetals Fine Sterling Jewelry" class="brand-logo-img">
         </a>
 
         <div class="header-search">
@@ -52,15 +30,21 @@
             <circle cx="11" cy="11" r="8"></circle>
             <path d="m21 21-4.35-4.35"></path>
           </svg>
-          <input type="text" class="header-search-input" placeholder="Search tutorials, wire wrapping, gemstones..." aria-label="Search">
+          <input type="text" class="header-search-input" placeholder="Search lookbook, rings, earrings..." aria-label="Search">
         </div>
 
         <div class="header-actions">
           <a href="https://pinterest.com" target="_blank" rel="noopener" class="btn btn-pinterest btn-sm">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 0a12 12 0 0 0-4.37 23.18c-.07-.95-.13-2.42.03-3.46l1.04-4.42s-.26-.52-.26-1.3c0-1.22.71-2.13 1.59-2.13.75 0 1.11.56 1.11 1.24 0 .76-.48 1.89-.73 2.94-.21.88.44 1.6 1.3 1.6 1.57 0 2.78-1.65 2.78-4.04 0-2.11-1.52-3.59-3.69-3.59-2.51 0-3.99 1.89-3.99 3.83 0 .76.29 1.57.66 2.01.07.09.08.17.06.26l-.25 1.01c-.04.16-.14.2-.31.12-1.16-.54-1.89-2.22-1.89-3.58 0-2.91 2.11-5.58 6.1-5.58 3.2 0 5.69 2.28 5.69 5.33 0 3.18-2 5.74-4.78 5.74-1.05 0-2.04-.55-2.38-1.19l-.65 2.47c-.24.91-.88 2.05-1.31 2.76A12 12 0 1 0 12 0z"/>
-            </svg>
             Follow on Pinterest
+          </a>
+          <a href="#cart" class="action-btn js-open-cart" title="Shopping Bag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span class="action-badge cart-badge-count">1</span>
+            <span>Bag</span>
           </a>
         </div>
       </div>
@@ -69,254 +53,151 @@
       <nav class="main-nav">
         <ul class="nav-list">
           <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="gemstones.html" class="nav-link">Gemstones</a></li>
-          <li class="nav-item"><a href="shop.html" class="nav-link">Metals & Wire</a></li>
-          <li class="nav-item"><a href="shop.html#findings" class="nav-link">Findings</a></li>
-          <li class="nav-item active"><a href="blog.html" class="nav-link">DIY Guides & Blog</a></li>
-          <li class="nav-item"><a href="shop.html" class="nav-link">Shop Supplies</a></li>
+          <li class="nav-item"><a href="shop.html?category=rings" class="nav-link">Rings</a></li>
+          <li class="nav-item"><a href="shop.html?category=earrings" class="nav-link">Earrings</a></li>
+          <li class="nav-item"><a href="shop.html?category=necklaces" class="nav-link">Necklaces</a></li>
+          <li class="nav-item"><a href="gemstones.html" class="nav-link">Birthstones</a></li>
+          <li class="nav-item active"><a href="blog.html" class="nav-link">Pinterest Lookbook</a></li>
+          <li class="nav-item"><a href="shop.html" class="nav-link">Shop All</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Blog Banner -->
+  <!-- Lookbook Banner -->
   <section class="section" style="background: linear-gradient(135deg, #FAF7F2, #F3EDE2); padding-block: 3.5rem 2.5rem; border-bottom: 1px solid var(--color-border);">
     <div class="container text-center" style="max-width: 800px; margin-inline: auto; text-align: center;">
-      <span class="section-tag">Free Jewelry Making Knowledge Hub</span>
+      <span class="section-tag">Visual Inspiration</span>
       <h1 style="font-size: clamp(2.2rem, 4vw, 3.2rem); margin-bottom: 1rem;">
-        DIY Jewelry Guides, Projects & Inspiration
+        The SilverPetals™ Lookbook
       </h1>
       <p style="color: var(--color-text-muted); font-size: 1.1rem; line-height: 1.6;">
-        From complete beginner wire wrapping projects to silversmithing techniques, explore our full library of tutorials. Every guide features printable checklists, pro tips, and one-click Pinterest pin graphics.
+        Explore curated styling combinations and real looks. Click any piece to add to your bag or pin directly to your Pinterest jewelry board.
       </p>
     </div>
   </section>
 
-  <!-- Filter Tabs & Articles Grid -->
+  <!-- Visual Lookbook Grid -->
   <main class="section">
     <div class="container">
-      
-      <!-- Interactive Category Filter Tabs -->
-      <div class="filter-tabs">
-        <button class="filter-tab active" data-filter="all">All Guides (12)</button>
-        <button class="filter-tab" data-filter="wire-wrapping">Wire Wrapping</button>
-        <button class="filter-tab" data-filter="metalsmithing">Metalsmithing</button>
-        <button class="filter-tab" data-filter="gemstones">Gemstone Guides</button>
-        <button class="filter-tab" data-filter="beginner">Beginner Friendly</button>
-        <button class="filter-tab" data-filter="business">Pinterest & Business</button>
-      </div>
 
-      <!-- Blog Cards Grid -->
       <div class="blog-grid">
 
-        <!-- Card 1 (Viral Ring) -->
-        <article class="blog-card filterable-card" data-category="wire-wrapping beginner">
-          <div class="blog-media pin-wrapper">
-            <span class="blog-category-tag">Wire Wrapping</span>
-            <button class="pin-hover-btn js-pin-share" data-url="https://silverpetals.com/tutorial-detail.html" data-media="assets/images/pinterest-wire-ring-pin.jpg" data-desc="How to Make a Wire Wrapped Labradorite Ring (12 Step Guide)">
-              <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.18c-.07-.95-.13-2.42.03-3.46l1.04-4.42s-.26-.52-.26-1.3c0-1.22.71-2.13 1.59-2.13.75 0 1.11.56 1.11 1.24 0 .76-.48 1.89-.73 2.94-.21.88.44 1.6 1.3 1.6 1.57 0 2.78-1.65 2.78-4.04 0-2.11-1.52-3.59-3.69-3.59-2.51 0-3.99 1.89-3.99 3.83 0 .76.29 1.57.66 2.01.07.09.08.17.06.26l-.25 1.01c-.04.16-.14.2-.31.12-1.16-.54-1.89-2.22-1.89-3.58 0-2.91 2.11-5.58 6.1-5.58 3.2 0 5.69 2.28 5.69 5.33 0 3.18-2 5.74-4.78 5.74-1.05 0-2.04-.55-2.38-1.19l-.65 2.47c-.24.91-.88 2.05-1.31 2.76A12 12 0 1 0 12 0z"/></svg>
-              Save Pin (18.4k)
-            </button>
-            <img src="assets/images/pinterest-wire-ring-pin.jpg" alt="Wire wrapped labradorite ring">
-          </div>
-          <div class="blog-body">
-            <div class="blog-meta-row">
-              <span>📅 October 2026</span>
-              <span>•</span>
-              <span>⏱️ 8 Min Read</span>
-            </div>
-            <h3 class="blog-title">
-              <a href="tutorial-detail.html">How to Make a Wire Wrapped Labradorite Ring (12-Step Tutorial)</a>
-            </h3>
-            <p class="blog-excerpt">
-              The viral Pinterest masterclass! Learn how to construct a sturdy woven band and lock an oval flash gemstone securely with zero soldering.
-            </p>
-            <div class="blog-footer-row">
-              <a href="tutorial-detail.html" class="read-more-btn">Read Tutorial &rarr;</a>
-              <span style="font-size: 0.75rem; color: var(--color-pinterest); font-weight: 700;">📌 18.4k Saves</span>
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 2 (Silver Petal Earrings) -->
-        <article class="blog-card filterable-card" data-category="metalsmithing beginner">
-          <div class="blog-media pin-wrapper">
-            <span class="blog-category-tag">Metalsmithing</span>
-            <button class="pin-hover-btn js-pin-share" data-desc="DIY Silver Petal Moonstone Drop Earrings">
+        <!-- Look 1 -->
+        <div class="product-card">
+          <div class="product-media-wrap pin-wrapper">
+            <span class="product-badge-sale">Viral Look</span>
+            <button class="pin-hover-btn js-pin-share" data-media="assets/images/silver-petal-earrings.jpg" data-desc="SilverPetals Rainbow Moonstone Blossom Earrings Look">
               <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.18c-.07-.95-.13-2.42.03-3.46l1.04-4.42s-.26-.52-.26-1.3c0-1.22.71-2.13 1.59-2.13.75 0 1.11.56 1.11 1.24 0 .76-.48 1.89-.73 2.94-.21.88.44 1.6 1.3 1.6 1.57 0 2.78-1.65 2.78-4.04 0-2.11-1.52-3.59-3.69-3.59-2.51 0-3.99 1.89-3.99 3.83 0 .76.29 1.57.66 2.01.07.09.08.17.06.26l-.25 1.01c-.04.16-.14.2-.31.12-1.16-.54-1.89-2.22-1.89-3.58 0-2.91 2.11-5.58 6.1-5.58 3.2 0 5.69 2.28 5.69 5.33 0 3.18-2 5.74-4.78 5.74-1.05 0-2.04-.55-2.38-1.19l-.65 2.47c-.24.91-.88 2.05-1.31 2.76A12 12 0 1 0 12 0z"/></svg>
               Save Pin (9.2k)
             </button>
-            <img src="assets/images/silver-petal-earrings.jpg" alt="Silver petal moonstone earrings">
+            <img src="assets/images/silver-petal-earrings.jpg" alt="Moonstone blossom earrings look">
           </div>
-          <div class="blog-body">
-            <div class="blog-meta-row">
-              <span>📅 October 2026</span>
-              <span>•</span>
-              <span>⏱️ 6 Min Read</span>
+          <div class="product-details">
+            <h3 class="product-title-link">The Moonstone Blossom Look</h3>
+            <div class="product-price-row">
+              <span class="current-price">$68.00</span>
+              <span class="compare-price">$85.00</span>
             </div>
-            <h3 class="blog-title">
-              <a href="tutorial-detail.html">DIY Artisan Silver Petal Drop Earrings with Moonstones</a>
-            </h3>
-            <p class="blog-excerpt">
-              Step-by-step jewelry guide on hand-texturing sterling sheet, creating delicate curved petals, and setting glowing blue cabochons.
-            </p>
-            <div class="blog-footer-row">
-              <a href="tutorial-detail.html" class="read-more-btn">Read Tutorial &rarr;</a>
-              <span style="font-size: 0.75rem; color: var(--color-pinterest); font-weight: 700;">📌 9.2k Saves</span>
+            <div class="product-action-row">
+              <button class="btn-add-bag" data-id="sp-earrings-1" data-title="SilverPetals™ Moonstone Blossom Drops" data-price="68.00" data-image="assets/images/silver-petal-earrings.jpg">
+                + Add To Bag
+              </button>
             </div>
           </div>
-        </article>
+        </div>
 
-        <!-- Card 3 (Wire Gauge Chart) -->
-        <article class="blog-card filterable-card" data-category="wire-wrapping beginner">
-          <div class="blog-media pin-wrapper">
-            <span class="blog-category-tag">Beginner Guide</span>
-            <button class="pin-hover-btn js-pin-share" data-desc="Wire Gauge Cheat Sheet for Jewelers: 16g to 28g">
+        <!-- Look 2 -->
+        <div class="product-card">
+          <div class="product-media-wrap pin-wrapper">
+            <span class="product-badge-bestseller">Top Pin</span>
+            <button class="pin-hover-btn js-pin-share" data-media="assets/images/pinterest-wire-ring-pin.jpg" data-desc="SilverPetals Flash Blue Labradorite Ring Look">
               <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.18c-.07-.95-.13-2.42.03-3.46l1.04-4.42s-.26-.52-.26-1.3c0-1.22.71-2.13 1.59-2.13.75 0 1.11.56 1.11 1.24 0 .76-.48 1.89-.73 2.94-.21.88.44 1.6 1.3 1.6 1.57 0 2.78-1.65 2.78-4.04 0-2.11-1.52-3.59-3.69-3.59-2.51 0-3.99 1.89-3.99 3.83 0 .76.29 1.57.66 2.01.07.09.08.17.06.26l-.25 1.01c-.04.16-.14.2-.31.12-1.16-.54-1.89-2.22-1.89-3.58 0-2.91 2.11-5.58 6.1-5.58 3.2 0 5.69 2.28 5.69 5.33 0 3.18-2 5.74-4.78 5.74-1.05 0-2.04-.55-2.38-1.19l-.65 2.47c-.24.91-.88 2.05-1.31 2.76A12 12 0 1 0 12 0z"/></svg>
-              Save Pin (14.1k)
+              Save Pin (18.4k)
             </button>
-            <img src="assets/images/hero-banner.jpg" alt="Wire gauge guide">
+            <img src="assets/images/pinterest-wire-ring-pin.jpg" alt="Labradorite Statement Ring look">
           </div>
-          <div class="blog-body">
-            <div class="blog-meta-row">
-              <span>📅 October 2026</span>
-              <span>•</span>
-              <span>⏱️ 5 Min Read</span>
+          <div class="product-details">
+            <h3 class="product-title-link">The Flash Labradorite Statement</h3>
+            <div class="product-price-row">
+              <span class="current-price">$58.00</span>
+              <span class="compare-price">$72.00</span>
             </div>
-            <h3 class="blog-title">
-              <a href="tutorial-detail.html">The Ultimate Wire Gauge Cheat Sheet: 16g to 28g Explained</a>
-            </h3>
-            <p class="blog-excerpt">
-              Which wire gauge do you use for earwires? What gauge for bezel wraps? Download our printable jeweler's reference table.
-            </p>
-            <div class="blog-footer-row">
-              <a href="tutorial-detail.html" class="read-more-btn">Read Guide &rarr;</a>
-              <span style="font-size: 0.75rem; color: var(--color-pinterest); font-weight: 700;">📌 14.1k Saves</span>
+            <div class="product-action-row">
+              <button class="btn-add-bag" data-id="sp-ring-1" data-title="SilverPetals™ Flash Labradorite Ring" data-price="58.00" data-image="assets/images/pinterest-wire-ring-pin.jpg">
+                + Add To Bag
+              </button>
             </div>
           </div>
-        </article>
+        </div>
 
-        <!-- Card 4 (Gemstone Mohs) -->
-        <article class="blog-card filterable-card" data-category="gemstones">
-          <div class="blog-media pin-wrapper">
-            <span class="blog-category-tag">Gemstones</span>
-            <button class="pin-hover-btn js-pin-share" data-desc="Mohs Hardness Scale for Jewelers: Heat & Care Guide">
+        <!-- Look 3 -->
+        <div class="product-card">
+          <div class="product-media-wrap pin-wrapper">
+            <span class="product-badge-new">New</span>
+            <button class="pin-hover-btn js-pin-share" data-media="assets/images/hero-banner.jpg" data-desc="SilverPetals Water Lily Floral Pendant Look">
               <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.18c-.07-.95-.13-2.42.03-3.46l1.04-4.42s-.26-.52-.26-1.3c0-1.22.71-2.13 1.59-2.13.75 0 1.11.56 1.11 1.24 0 .76-.48 1.89-.73 2.94-.21.88.44 1.6 1.3 1.6 1.57 0 2.78-1.65 2.78-4.04 0-2.11-1.52-3.59-3.69-3.59-2.51 0-3.99 1.89-3.99 3.83 0 .76.29 1.57.66 2.01.07.09.08.17.06.26l-.25 1.01c-.04.16-.14.2-.31.12-1.16-.54-1.89-2.22-1.89-3.58 0-2.91 2.11-5.58 6.1-5.58 3.2 0 5.69 2.28 5.69 5.33 0 3.18-2 5.74-4.78 5.74-1.05 0-2.04-.55-2.38-1.19l-.65 2.47c-.24.91-.88 2.05-1.31 2.76A12 12 0 1 0 12 0z"/></svg>
-              Save Pin (11.8k)
+              Save Pin (6.8k)
             </button>
-            <img src="assets/images/silver-petal-earrings.jpg" alt="Gemstone Mohs scale">
+            <img src="assets/images/hero-banner.jpg" alt="Water lily floral pendant look">
           </div>
-          <div class="blog-body">
-            <div class="blog-meta-row">
-              <span>📅 September 2026</span>
-              <span>•</span>
-              <span>⏱️ 7 Min Read</span>
+          <div class="product-details">
+            <h3 class="product-title-link">The Water Lily Layered Pendant</h3>
+            <div class="product-price-row">
+              <span class="current-price">$74.00</span>
+              <span class="compare-price">$90.00</span>
             </div>
-            <h3 class="blog-title">
-              <a href="gemstones.html">Gemstone Mohs Hardness Scale: Which Stones Can Take Heat?</a>
-            </h3>
-            <p class="blog-excerpt">
-              Never ruin an Opal or Turquoise again! A complete silversmith's guide to which gemstones can survive pickling, soldering, and ultrasonic cleaning.
-            </p>
-            <div class="blog-footer-row">
-              <a href="gemstones.html" class="read-more-btn">Read Guide &rarr;</a>
-              <span style="font-size: 0.75rem; color: var(--color-pinterest); font-weight: 700;">📌 11.8k Saves</span>
+            <div class="product-action-row">
+              <button class="btn-add-bag" data-id="sp-necklace-1" data-title="SilverPetals™ Water Lily Floral Pendant" data-price="74.00" data-image="assets/images/hero-banner.jpg">
+                + Add To Bag
+              </button>
             </div>
           </div>
-        </article>
-
-        <!-- Card 5 (Pinterest SEO for Jewelers) -->
-        <article class="blog-card filterable-card" data-category="business">
-          <div class="blog-media pin-wrapper">
-            <span class="blog-category-tag">Pinterest Strategy</span>
-            <button class="pin-hover-btn js-pin-share" data-desc="How to Grow a Jewelry Blog on Pinterest to 100k Monthly Views">
-              <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.18c-.07-.95-.13-2.42.03-3.46l1.04-4.42s-.26-.52-.26-1.3c0-1.22.71-2.13 1.59-2.13.75 0 1.11.56 1.11 1.24 0 .76-.48 1.89-.73 2.94-.21.88.44 1.6 1.3 1.6 1.57 0 2.78-1.65 2.78-4.04 0-2.11-1.52-3.59-3.69-3.59-2.51 0-3.99 1.89-3.99 3.83 0 .76.29 1.57.66 2.01.07.09.08.17.06.26l-.25 1.01c-.04.16-.14.2-.31.12-1.16-.54-1.89-2.22-1.89-3.58 0-2.91 2.11-5.58 6.1-5.58 3.2 0 5.69 2.28 5.69 5.33 0 3.18-2 5.74-4.78 5.74-1.05 0-2.04-.55-2.38-1.19l-.65 2.47c-.24.91-.88 2.05-1.31 2.76A12 12 0 1 0 12 0z"/></svg>
-              Save Pin (25.3k)
-            </button>
-            <img src="assets/images/pinterest-wire-ring-pin.jpg" alt="Pinterest strategy">
-          </div>
-          <div class="blog-body">
-            <div class="blog-meta-row">
-              <span>📅 October 2026</span>
-              <span>•</span>
-              <span>⏱️ 9 Min Read</span>
-            </div>
-            <h3 class="blog-title">
-              <a href="blog.html">How to Get 100k+ Monthly Pinterest Traffic to a Jewelry Blog</a>
-            </h3>
-            <p class="blog-excerpt">
-              The blueprint to turning Pinterest repins into craft supply affiliate sales, email subscribers, and Etsy store conversions.
-            </p>
-            <div class="blog-footer-row">
-              <a href="blog.html" class="read-more-btn">Read Strategy &rarr;</a>
-              <span style="font-size: 0.75rem; color: var(--color-pinterest); font-weight: 700;">📌 25.3k Saves</span>
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 6 (Sea Glass Drilling) -->
-        <article class="blog-card filterable-card" data-category="metalsmithing beginner">
-          <div class="blog-media pin-wrapper">
-            <span class="blog-category-tag">DIY Techniques</span>
-            <button class="pin-hover-btn js-pin-share" data-desc="How to Drill Sea Glass & Pebbles at Home Without Cracking">
-              <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.18c-.07-.95-.13-2.42.03-3.46l1.04-4.42s-.26-.52-.26-1.3c0-1.22.71-2.13 1.59-2.13.75 0 1.11.56 1.11 1.24 0 .76-.48 1.89-.73 2.94-.21.88.44 1.6 1.3 1.6 1.57 0 2.78-1.65 2.78-4.04 0-2.11-1.52-3.59-3.69-3.59-2.51 0-3.99 1.89-3.99 3.83 0 .76.29 1.57.66 2.01.07.09.08.17.06.26l-.25 1.01c-.04.16-.14.2-.31.12-1.16-.54-1.89-2.22-1.89-3.58 0-2.91 2.11-5.58 6.1-5.58 3.2 0 5.69 2.28 5.69 5.33 0 3.18-2 5.74-4.78 5.74-1.05 0-2.04-.55-2.38-1.19l-.65 2.47c-.24.91-.88 2.05-1.31 2.76A12 12 0 1 0 12 0z"/></svg>
-              Save Pin (8.6k)
-            </button>
-            <img src="assets/images/hero-banner.jpg" alt="Sea glass drilling tutorial">
-          </div>
-          <div class="blog-body">
-            <div class="blog-meta-row">
-              <span>📅 August 2026</span>
-              <span>•</span>
-              <span>⏱️ 5 Min Read</span>
-            </div>
-            <h3 class="blog-title">
-              <a href="tutorial-detail.html">How to Drill Sea Glass & Ceramic Pebbles at Home</a>
-            </h3>
-            <p class="blog-excerpt">
-              Kernowcraft classic technique! Learn how to use diamond core drill bits under water to safely drill holes for jump rings and bails.
-            </p>
-            <div class="blog-footer-row">
-              <a href="tutorial-detail.html" class="read-more-btn">Read Tutorial &rarr;</a>
-              <span style="font-size: 0.75rem; color: var(--color-pinterest); font-weight: 700;">📌 8.6k Saves</span>
-            </div>
-          </div>
-        </article>
+        </div>
 
       </div>
 
     </div>
   </main>
 
-  <!-- Newsletter Lead Magnet -->
-  <section class="newsletter-banner">
-    <div class="container">
-      <div class="newsletter-grid">
-        <div>
-          <h2 class="newsletter-title">Join the <span>Artisan Club</span></h2>
-          <p class="newsletter-desc">
-            Download our Free 28-Page Jewelry Making Guide and get our newest step-by-step Pinterest projects sent straight to your inbox each week.
-          </p>
-        </div>
-        <div>
-          <form class="newsletter-form">
-            <input type="email" class="newsletter-input" placeholder="Enter your email..." required>
-            <button type="submit" class="btn btn-gold">Download Free Guide</button>
-          </form>
+  <!-- Interactive Cart Drawer -->
+  <div class="cart-drawer-overlay">
+    <div class="cart-drawer">
+      <div class="cart-header">
+        <div class="cart-header-title">Your Shopping Bag (<span class="cart-badge-count">1</span>)</div>
+        <span class="cart-close-btn">&times;</span>
+      </div>
+
+      <div class="cart-shipping-bar">
+        <span>✨ Add <strong>$7.00</strong> more for <strong>FREE Express Shipping</strong>!</span>
+        <div class="cart-shipping-progress">
+          <div class="cart-shipping-fill"></div>
         </div>
       </div>
+
+      <div class="cart-items-body"></div>
+
+      <div class="cart-footer">
+        <div class="cart-subtotal-row">
+          <span>Subtotal</span>
+          <span class="cart-subtotal-val">$68.00</span>
+        </div>
+        <button class="btn btn-primary" style="width: 100%;" onclick="showToast('Redirecting to Secure Checkout...')">
+          Secure Checkout &rarr;
+        </button>
+      </div>
     </div>
-  </section>
+  </div>
 
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom" style="border: none; padding-block: 2rem;">
-        <div>&copy; 2026 Silver Petals Studio. Inspired by Kernowcraft.com.</div>
+        <div>&copy; 2026 SilverPetals™ Fine Jewelry. All Rights Reserved.</div>
         <div style="display: flex; gap: 1.5rem;">
           <a href="index.html">Home</a>
-          <a href="gemstones.html">Gemstones</a>
-          <a href="shop.html">Supplies</a>
+          <a href="shop.html">Shop All</a>
+          <a href="gemstones.html">Birthstones</a>
           <a href="about.html">About</a>
         </div>
       </div>
