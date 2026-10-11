@@ -190,15 +190,46 @@ function initLiveSearch() {
   const searchInput = document.querySelector('.header-search-input');
   if (!searchInput) return;
 
+  // Check URL query param if present
+  const urlParams = new URLSearchParams(window.location.search);
+  const qParam = urlParams.get('q');
+  if (qParam) {
+    searchInput.value = qParam;
+    filterBlogCards(qParam.toLowerCase());
+  }
+
+  // Live filter if on blog page
+  searchInput.addEventListener('input', (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    if (document.querySelectorAll('.blog-card').length) {
+      filterBlogCards(q);
+    }
+  });
+
   searchInput.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
       const q = searchInput.value.trim().toLowerCase();
-      if (q) {
+      if (q && !document.querySelectorAll('.blog-card').length) {
         window.location.href = `blog.html?q=${encodeURIComponent(q)}`;
       }
     }
   });
 }
+
+function filterBlogCards(query) {
+  const cards = document.querySelectorAll('.blog-card');
+  if (!cards.length) return;
+
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    if (!query || text.includes(query)) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
 
 /* ==========================================================================
    8. TOAST NOTIFICATION UTILITY
