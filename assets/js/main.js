@@ -230,16 +230,7 @@ window.copyPageLink = function() {
    ECOMMERCE SHOPPING CART ENGINE (SilverPetals)
    ========================================================================== */
 const cartState = {
-  items: [
-    {
-      id: 'sp-earrings-1',
-      title: 'SilverPetals™ Rainbow Moonstone Drop Earrings',
-      variant: '925 Sterling Silver / Teardrop',
-      price: 68.00,
-      image: 'assets/images/silver-petal-earrings.jpg',
-      qty: 1
-    }
-  ]
+  items: []
 };
 
 function initCartDrawer() {
@@ -312,7 +303,10 @@ function renderCart() {
   const totalCount = cartState.items.reduce((sum, item) => sum + item.qty, 0);
   const subtotal = cartState.items.reduce((sum, item) => sum + (item.price * item.qty), 0);
 
-  if (badge) badge.textContent = totalCount;
+  if (badge) {
+    badge.textContent = totalCount;
+    badge.style.display = totalCount > 0 ? 'grid' : 'none';
+  }
   if (subtotalEl) subtotalEl.textContent = `$${subtotal.toFixed(2)}`;
 
   if (!itemsContainer) return;
