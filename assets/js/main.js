@@ -169,16 +169,16 @@ function initNewsletterForm() {
 
       const email = input.value.trim();
       
-      // Simulate success and guide delivery
+      // Simulate success and discount code delivery
       form.innerHTML = `
-        <div style="background: rgba(31,190,202,0.15); border: 1px solid var(--color-primary); padding: 1rem 1.5rem; border-radius: var(--radius-sm); text-align: center; color: #FFFFFF; width: 100%;">
-          <div style="font-size: 1.4rem; margin-bottom: 0.3rem;">🎉 Welcome to the Artisan Club!</div>
-          <p style="font-size: 0.9rem; margin-bottom: 0.6rem;">We've sent your <strong>Free 28-Page Jewelry Making Guide</strong> to <em>${email}</em>.</p>
-          <a href="tutorial-detail.html" class="btn btn-gold btn-sm" style="display: inline-block;">Start Your 1st DIY Project Now &rarr;</a>
+        <div style="background: rgba(31,190,202,0.15); border: 1px solid var(--color-primary); padding: 1.2rem 1.5rem; border-radius: var(--radius-sm); text-align: center; color: #FFFFFF; width: 100%;">
+          <div style="font-size: 1.3rem; margin-bottom: 0.3rem;">🎉 Welcome to the SilverPetals Club!</div>
+          <p style="font-size: 0.95rem; margin-bottom: 0.8rem;">Your 10% VIP discount code is: <strong style="color: var(--color-gold); font-size: 1.1rem; letter-spacing: 1px;">PETAL10</strong></p>
+          <a href="shop.html" class="btn btn-gold btn-sm" style="display: inline-block;">Shop The Collection &rarr;</a>
         </div>
       `;
 
-      showToast('💌 Guide sent to your inbox! Happy crafting!');
+      showToast('💌 Welcome! Your 10% discount code is PETAL10');
     });
   });
 }
