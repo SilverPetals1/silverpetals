@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="50%" stop-color="#F5EFEB"/>
+      <stop offset="100%" stop-color="#EDE4DC"/>
+    </linearGradient>
+
+    <!-- Metallic Gradients -->
+    <linearGradient id="goldPolish" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C59B27"/>
+      <stop offset="25%" stop-color="#FFF3C4"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="75%" stop-color="#E5C158"/>
+      <stop offset="100%" stop-color="#A67C1E"/>
+    </linearGradient>
+
+    <linearGradient id="goldSatin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#E5C158"/>
+      <stop offset="100%" stop-color="#B88A1E"/>
+    </linearGradient>
+
+    <linearGradient id="platPolish" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8F969E"/>
+      <stop offset="25%" stop-color="#E4E8EC"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="75%" stop-color="#CAD0D6"/>
+      <stop offset="100%" stop-color="#737A82"/>
+    </linearGradient>
+
+    <linearGradient id="roseHammer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C47362"/>
+      <stop offset="50%" stop-color="#E89F8F"/>
+      <stop offset="100%" stop-color="#A35445"/>
+    </linearGradient>
+
+    <linearGradient id="tantalumDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A3D40"/>
+      <stop offset="50%" stop-color="#555A60"/>
+      <stop offset="100%" stop-color="#26282A"/>
+    </linearGradient>
+
+    <!-- Card Backgrounds & Shadows -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#FCFAF7" stop-opacity="0.92"/>
+    </linearGradient>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#5A4A42" flood-opacity="0.08"/>
+    </filter>
+    <filter id="ringShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#3A2818" flood-opacity="0.22"/>
+    </filter>
+
+    <!-- Brushed texture pattern -->
+    <pattern id="brushedTexture" width="60" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="1" x2="60" y2="1" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="0.8"/>
+      <line x1="0" y1="3" x2="60" y2="3" stroke="#8A6715" stroke-opacity="0.2" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="none" stroke="#D1C7BD" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- Top Badge & Header -->
+  <g transform="translate(600, 70)" text-anchor="middle">
+    <rect x="-140" y="0" width="280" height="32" rx="16" fill="#8C7355" fill-opacity="0.12"/>
+    <text x="0" y="21" font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="700" letter-spacing="3" fill="#6B533E" text-transform="uppercase">SILVERPETALS™ BUYER'S GUIDE</text>
+    
+    <text x="0" y="66" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" fill="#241E19" letter-spacing="0.5">Wedding Ring Finish Guide</text>
+    <text x="0" y="96" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" fill="#6B5E55">8 Popular Textures, Durability, Scratch Resistance &amp; Styling Guide</text>
+  </g>
+
+  <!-- 4 Top Cards (Polish, Satin, Brushed, Hammered) -->
+  <!-- Card 1: High Polish -->
+  <g transform="translate(70, 200)" filter="url(#cardShadow)">
+    <rect width="245" height="175" rx="12" fill="url(#cardGrad)" stroke="#E8E2D9" stroke-width="1.2"/>
+    <!-- Ring Graphic -->
+    <circle cx="122" cy="55" r="32" fill="url(#goldPolish)" filter="url(#ringShadow)"/>
+    <circle cx="122" cy="55" r="22" fill="#FAF7F2"/>
+    <text x="122" y="116" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#241E19" text-anchor="middle">High Polish</text>
+    <text x="122" y="136" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#7A6E65" text-anchor="middle">Mirror Brilliance • Maximum Glow</text>
+    <text x="122" y="154" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle">Reflectivity: 100%</text>
+  </g>
+
+  <!-- Card 2: Satin Matte -->
+  <g transform="translate(340, 200)" filter="url(#cardShadow)">
+    <rect width="245" height="175" rx="12" fill="url(#cardGrad)" stroke="#E8E2D9" stroke-width="1.2"/>
+    <!-- Ring Graphic -->
+    <circle cx="122" cy="55" r="32" fill="url(#platPolish)" filter="url(#ringShadow)"/>
+    <circle cx="122" cy="55" r="22" fill="#FAF7F2"/>
+    <text x="122" y="116" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#241E19" text-anchor="middle">Satin / Matte</text>
+    <text x="122" y="136" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#7A6E65" text-anchor="middle">Velvety Sheen • Non-Reflective</text>
+    <text x="122" y="154" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle">Fingerprint-Resistant</text>
+  </g>
+
+  <!-- Card 3: Wire-Brushed -->
+  <g transform="translate(610, 200)" filter="url(#cardShadow)">
+    <rect width="245" height="175" rx="12" fill="url(#cardGrad)" stroke="#E8E2D9" stroke-width="1.2"/>
+    <!-- Ring Graphic -->
+    <circle cx="122" cy="55" r="32" fill="url(#goldSatin)" filter="url(#ringShadow)"/>
+    <circle cx="122" cy="55" r="32" fill="url(#brushedTexture)"/>
+    <circle cx="122" cy="55" r="22" fill="#FAF7F2"/>
+    <text x="122" y="116" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#241E19" text-anchor="middle">Wire-Brushed</text>
+    <text x="122" y="136" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#7A6E65" text-anchor="middle">Linear Grain • Tactile Luster</text>
+    <text x="122" y="154" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle">Masks Desk Scuffs</text>
+  </g>
+
+  <!-- Card 4: Hammered -->
+  <g transform="translate(880, 200)" filter="url(#cardShadow)">
+    <rect width="245" height="175" rx="12" fill="url(#cardGrad)" stroke="#E8E2D9" stroke-width="1.2"/>
+    <!-- Ring Graphic -->
+    <circle cx="122" cy="55" r="32" fill="url(#roseHammer)" filter="url(#ringShadow)"/>
+    <!-- Dimples -->
+    <circle cx="112" cy="42" r="3" fill="#FFE5DF" opacity="0.6"/>
+    <circle cx="132" cy="46" r="3.5" fill="#FFE5DF" opacity="0.6"/>
+    <circle cx="120" cy="68" r="3.2" fill="#FFE5DF" opacity="0.6"/>
+    <circle cx="138" cy="62" r="2.8" fill="#FFE5DF" opacity="0.6"/>
+    <circle cx="106" cy="58" r="3" fill="#FFE5DF" opacity="0.6"/>
+    <circle cx="122" cy="55" r="22" fill="#FAF7F2"/>
+    <text x="122" y="116" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#241E19" text-anchor="middle">Hand-Hammered</text>
+    <text x="122" y="136" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#7A6E65" text-anchor="middle">Multi-Faceted • Organic Charm</text>
+    <text x="122" y="154" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle">Best Scratch Forgiveness</text>
+  </g>
+
+  <!-- 4 Bottom Cards (Sandblast, Florentine, Milgrain, Dual-Tone) -->
+  <!-- Card 5: Sandblasted -->
+  <g transform="translate(70, 395)" filter="url(#cardShadow)">
+    <rect width="245" height="175" rx="12" fill="url(#cardGrad)" stroke="#E8E2D9" stroke-width="1.2"/>
+    <circle cx="122" cy="55" r="32" fill="url(#tantalumDark)" filter="url(#ringShadow)"/>
+    <circle cx="122" cy="55" r="22" fill="#FAF7F2"/>
+    <text x="122" y="116" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#241E19" text-anchor="middle">Sandblasted</text>
+    <text x="122" y="136" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#7A6E65" text-anchor="middle">Granular Frost • Zero Glare</text>
+    <text x="122" y="154" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle">Modern Industrial Feel</text>
+  </g>
+
+  <!-- Card 6: Florentine -->
+  <g transform="translate(340, 395)" filter="url(#cardShadow)">
+    <rect width="245" height="175" rx="12" fill="url(#cardGrad)" stroke="#E8E2D9" stroke-width="1.2"/>
+    <circle cx="122" cy="55" r="32" fill="url(#goldSatin)" filter="url(#ringShadow)"/>
+    <!-- Cross hatch lines -->
+    <line x1="102" y1="35" x2="142" y2="75" stroke="#FFFFFF" stroke-width="0.8" opacity="0.5"/>
+    <line x1="142" y1="35" x2="102" y2="75" stroke="#FFFFFF" stroke-width="0.8" opacity="0.5"/>
+    <circle cx="122" cy="55" r="22" fill="#FAF7F2"/>
+    <text x="122" y="116" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#241E19" text-anchor="middle">Florentine Texture</text>
+    <text x="122" y="136" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#7A6E65" text-anchor="middle">Woven Cross-Hatch • Moiré</text>
+    <text x="122" y="154" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle">Old-World Heirloom Luxury</text>
+  </g>
+
+  <!-- Card 7: Milgrain & Engraved -->
+  <g transform="translate(610, 395)" filter="url(#cardShadow)">
+    <rect width="245" height="175" rx="12" fill="url(#cardGrad)" stroke="#E8E2D9" stroke-width="1.2"/>
+    <circle cx="122" cy="55" r="32" fill="url(#platPolish)" filter="url(#ringShadow)"/>
+    <!-- Milgrain dots -->
+    <circle cx="122" cy="25" r="1.5" fill="#5A4A42"/>
+    <circle cx="128" cy="26" r="1.5" fill="#5A4A42"/>
+    <circle cx="116" cy="26" r="1.5" fill="#5A4A42"/>
+    <circle cx="122" cy="85" r="1.5" fill="#5A4A42"/>
+    <circle cx="128" cy="84" r="1.5" fill="#5A4A42"/>
+    <circle cx="116" cy="84" r="1.5" fill="#5A4A42"/>
+    <circle cx="122" cy="55" r="22" fill="#FAF7F2"/>
+    <text x="122" y="116" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#241E19" text-anchor="middle">Milgrain Details</text>
+    <text x="122" y="136" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#7A6E65" text-anchor="middle">Beaded Edges • Vintage Carving</text>
+    <text x="122" y="154" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle">Art Deco Romanticism</text>
+  </g>
+
+  <!-- Card 8: Dual-Texture -->
+  <g transform="translate(880, 395)" filter="url(#cardShadow)">
+    <rect width="245" height="175" rx="12" fill="url(#cardGrad)" stroke="#E8E2D9" stroke-width="1.2"/>
+    <!-- Ring Graphic with Two Tone -->
+    <circle cx="122" cy="55" r="32" fill="url(#goldPolish)" filter="url(#ringShadow)"/>
+    <circle cx="122" cy="55" r="28" fill="url(#platPolish)"/>
+    <circle cx="122" cy="55" r="22" fill="#FAF7F2"/>
+    <text x="122" y="116" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#241E19" text-anchor="middle">Dual-Texture</text>
+    <text x="122" y="136" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#7A6E65" text-anchor="middle">Brushed Core + Mirror Bevels</text>
+    <text x="122" y="154" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#8C7355" text-anchor="middle">Architectural Contrast</text>
+  </g>
+
+  <!-- Footer Brand Signature -->
+  <text x="600" y="600" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8C7E73" text-anchor="middle" letter-spacing="0.5">SilverPetals™ Solid 925 Sterling Silver &amp; Fine Bridal Jewelry • Expert Finish Comparison Guide</text>
+</svg>
