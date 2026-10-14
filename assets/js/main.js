@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initPinterestSharers();
   initSuppliesChecklist();
   initCategoryFilters();
+  initShopCategoryUrlFilter();
   initNewsletterForm();
   initLiveSearch();
 });
@@ -153,6 +154,42 @@ function initCategoryFilters() {
         }
       });
     });
+  });
+}
+
+/* ==========================================================================
+   5B. SHOP PAGE CATEGORY FILTER BY URL PARAM (?category=earrings/necklaces/rings/bracelets)
+   ========================================================================== */
+function initShopCategoryUrlFilter() {
+  const sections = document.querySelectorAll('main.section section[id]');
+  if (!sections.length) return;
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const categoryParam = (urlParams.get('category') || '').toLowerCase().trim();
+
+  if (!categoryParam) return;
+
+  const validCategories = ['rings', 'earrings', 'necklaces', 'bracelets'];
+  if (!validCategories.includes(categoryParam)) return;
+
+  // Filter sections: Show only the matching category section, hide all other categories
+  sections.forEach(sec => {
+    const secId = sec.id.toLowerCase();
+    if (secId === categoryParam) {
+      sec.style.display = 'block';
+    } else {
+      sec.style.display = 'none';
+    }
+  });
+
+  // Update navigation active state
+  document.querySelectorAll('.main-nav .nav-link').forEach(link => {
+    const href = link.getAttribute('href') || '';
+    if (href.includes(`category=${categoryParam}`)) {
+      link.parentElement?.classList.add('active');
+    } else {
+      link.parentElement?.classList.remove('active');
+    }
   });
 }
 
