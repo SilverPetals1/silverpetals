@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="vBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/><stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" rx="14" fill="url(#vBg3)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Signature Gemstones &amp; Metals in Vintage Bridal Drops</text>
+  <g transform="translate(40, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="110" cy="50" r="22" fill="#FAF6EE" stroke="#E0D3C1" stroke-width="2"/>
+    <text x="110" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">Freshwater &amp; Seed Pearls</text>
+    <text x="110" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Soft diffused organic luster</text>
+    <text x="110" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Matches antique ivory tones</text>
+    <text x="110" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Teardrop &amp; baroque silhouettes</text>
+    <text x="110" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Luster: Warm Satin</text>
+  </g>
+  <g transform="translate(290, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <polygon points="110,28 128,48 110,68 92,48" fill="#F0F8FF" stroke="#A8C4DF" stroke-width="2"/>
+    <text x="110" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">Moissanite &amp; European Cuts</text>
+    <text x="110" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Old European / mine facets</text>
+    <text x="110" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Fiery rainbow scintillation</text>
+    <text x="110" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Ethical &amp; heirloom-durable</text>
+    <text x="110" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Hardness: 9.25 Mohs</text>
+  </g>
+  <g transform="translate(540, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <rect x="70" y="42" width="80" height="16" rx="8" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2"/>
+    <text x="110" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">925 Sterling &amp; Antique Gold</text>
+    <text x="110" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Hypoallergenic nickel-free</text>
+    <text x="110" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Oxidized patina detailing</text>
+    <text x="110" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Highlights intricate milgrain</text>
+    <text x="110" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Finish: Antique Patina</text>
+  </g>
+</svg>

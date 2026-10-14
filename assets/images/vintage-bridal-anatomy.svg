@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="vBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+    <linearGradient id="vSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#E2E8F0"/>
+      <stop offset="70%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <radialGradient id="vPearl" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FBF7F0"/>
+      <stop offset="85%" stop-color="#E7DBCF"/>
+      <stop offset="100%" stop-color="#CBB7A2"/>
+    </radialGradient>
+    <filter id="vShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#3A2E2C" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="800" height="360" rx="14" fill="url(#vBg1)"/>
+  <rect x="16" y="16" width="768" height="328" rx="10" fill="none" stroke="#E2D5C7" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <g transform="translate(190, 180)" filter="url(#vShadow)">
+    <circle cx="0" cy="-90" r="16" fill="url(#vSilver)"/>
+    <circle cx="0" cy="-90" r="8" fill="#FFF"/>
+    <polygon points="0,-72 -18,-45 0,-18 18,-45" fill="none" stroke="url(#vSilver)" stroke-width="4"/>
+    <circle cx="0" cy="-45" r="5" fill="#C5A059"/>
+    <path d="M 0 -18 L 0 10" stroke="url(#vSilver)" stroke-width="3"/>
+    <path d="M 0 10 C -26 30, -32 65, 0 100 C 32 65, 26 30, 0 10 Z" fill="url(#vPearl)"/>
+    <ellipse cx="-8" cy="45" rx="7" ry="14" fill="#FFF" opacity="0.8" transform="rotate(-15 -8 45)"/>
+  </g>
+  <g transform="translate(400, 50)">
+    <rect width="360" height="260" rx="10" fill="#FFFFFF" stroke="#EAE0D5" stroke-width="1" filter="url(#vShadow)"/>
+    <text x="24" y="38" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" fill="#2C2422">Anatomy of Vintage Bridal Drops</text>
+    <line x1="24" y1="50" x2="336" y2="50" stroke="#F0E5D8" stroke-width="1.5"/>
+    <circle cx="36" cy="80" r="5" fill="#8C6826"/>
+    <text x="52" y="84" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Articulated Joint Movement</text>
+    <text x="52" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Delivers fluid, organic kinetic sway with bridal steps</text>
+    <circle cx="36" cy="132" r="5" fill="#8C6826"/>
+    <text x="52" y="136" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Hand-Applied Milgrain Borders</text>
+    <text x="52" y="154" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Delicate beaded metal edges frame antique centerpieces</text>
+    <circle cx="36" cy="184" r="5" fill="#8C6826"/>
+    <text x="52" y="188" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Teardrop &amp; Baroque Drops</text>
+    <text x="52" y="206" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Elongates neck profile while diffusing candlelight</text>
+    <circle cx="36" cy="236" r="5" fill="#8C6826"/>
+    <text x="52" y="240" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Openwork Filigree Wire</text>
+  </g>
+</svg>

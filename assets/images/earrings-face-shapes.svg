@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="vBg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/><stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" rx="14" fill="url(#vBg6)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Selecting Vintage Drop Earrings by Face Shape</text>
+  <g transform="translate(30, 65)">
+    <rect width="170" height="230" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="22" fill="#FAF4EB" stroke="#D5C2AA"/>
+    <text x="85" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Round Face</text>
+    <text x="85" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Linear Art Deco Drops</text>
+    <text x="85" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Narrow vertical drop</text>
+    <text x="85" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Elongates facial curves</text>
+    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Avoid: Round discs</text>
+  </g>
+  <g transform="translate(220, 65)">
+    <rect width="170" height="230" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <ellipse cx="85" cy="50" rx="18" ry="24" fill="#FAF4EB" stroke="#D5C2AA"/>
+    <text x="85" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Oval Face</text>
+    <text x="85" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Universal Compatibility</text>
+    <text x="85" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Chandeliers, teardrops</text>
+    <text x="85" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Natural balanced canvas</text>
+    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Choice: Any silhouette</text>
+  </g>
+  <g transform="translate(410, 65)">
+    <rect width="170" height="230" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <rect x="65" y="30" width="40" height="40" rx="4" fill="#FAF4EB" stroke="#D5C2AA"/>
+    <text x="85" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Square Jaw</text>
+    <text x="85" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Flowing Teardrop Drops</text>
+    <text x="85" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Soft curved contours</text>
+    <text x="85" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Softens angular jawline</text>
+    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Avoid: Harsh squares</text>
+  </g>
+  <g transform="translate(600, 65)">
+    <rect width="170" height="230" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <polygon points="85,30 108,55 85,75 62,55" fill="#FAF4EB" stroke="#D5C2AA"/>
+    <text x="85" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Heart Face</text>
+    <text x="85" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Bottom-Wide Chandeliers</text>
+    <text x="85" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Flared bottom tier</text>
+    <text x="85" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Balances narrower chin</text>
+    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Avoid: Top-heavy pins</text>
+  </g>
+</svg>

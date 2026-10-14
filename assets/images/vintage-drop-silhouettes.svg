@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330">
+  <defs>
+    <linearGradient id="vBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/><stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="330" rx="14" fill="url(#vBg4)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Five Classic Vintage Drop Silhouettes</text>
+  <g transform="translate(30, 65)">
+    <rect width="135" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="67" cy="45" r="7" fill="#C5A059"/>
+    <line x1="67" y1="52" x2="67" y2="70" stroke="#94A3B8" stroke-width="2"/>
+    <ellipse cx="67" cy="95" rx="14" ry="20" fill="#F8F3ED" stroke="#D5C2AA" stroke-width="2"/>
+    <text x="67" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Teardrop</text>
+    <text x="67" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Fluid elegance</text>
+    <text x="67" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">V-necklines</text>
+  </g>
+  <g transform="translate(180, 65)">
+    <rect width="135" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <polygon points="67,35 77,50 67,65 57,50" fill="none" stroke="#94A3B8" stroke-width="2"/>
+    <path d="M 45 75 L 89 75 L 67 110 Z" fill="none" stroke="#94A3B8" stroke-width="2"/>
+    <circle cx="67" cy="115" r="5" fill="#C5A059"/>
+    <text x="67" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Chandelier</text>
+    <text x="67" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Grand statement</text>
+    <text x="67" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Strapless gowns</text>
+  </g>
+  <g transform="translate(330, 65)">
+    <rect width="135" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="67" cy="45" r="6" fill="#C5A059"/>
+    <path d="M 52 65 Q 67 55 82 65 Q 67 105 52 65 Z" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="2,2"/>
+    <circle cx="67" cy="80" r="4" fill="#8C6826"/>
+    <text x="67" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Filigree</text>
+    <text x="67" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Lace wirework</text>
+    <text x="67" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Ultra-lightweight</text>
+  </g>
+  <g transform="translate(480, 65)">
+    <rect width="135" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="67" cy="45" r="5" fill="#C5A059"/>
+    <circle cx="67" cy="65" r="6" fill="#FAF6EE" stroke="#E0D3C1"/>
+    <circle cx="57" cy="78" r="6" fill="#FAF6EE" stroke="#E0D3C1"/>
+    <circle cx="77" cy="78" r="6" fill="#FAF6EE" stroke="#E0D3C1"/>
+    <circle cx="67" cy="95" r="8" fill="#FAF6EE" stroke="#E0D3C1"/>
+    <text x="67" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Pearl Cluster</text>
+    <text x="67" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Vintage grape drop</text>
+    <text x="67" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Rich volume</text>
+  </g>
+  <g transform="translate(630, 65)">
+    <rect width="140" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <path d="M 70 40 Q 60 55 70 70 Q 80 85 70 100" fill="none" stroke="#94A3B8" stroke-width="2"/>
+    <circle cx="65" cy="55" r="4" fill="#C5A059"/>
+    <circle cx="75" cy="70" r="4" fill="#C5A059"/>
+    <circle cx="70" cy="105" r="6" fill="#FAF6EE" stroke="#E0D3C1"/>
+    <text x="70" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Floral Vine</text>
+    <text x="70" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Botanical curves</text>
+    <text x="70" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Boho vintage</text>
+  </g>
+</svg>

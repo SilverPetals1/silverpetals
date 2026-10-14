@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="vBg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/><stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" rx="14" fill="url(#vBg7)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Authentic Antique vs Vintage-Inspired Reproduction</text>
+  <g transform="translate(50, 65)">
+    <rect width="330" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="165" y="40" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#2C2422">Authentic Antiques (100+ Yrs)</text>
+    <line x1="20" y1="52" x2="310" y2="52" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="35" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#3D3230"><strong>Pro:</strong> Genuine history &amp; one-of-a-kind uniqueness</text>
+    <text x="35" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#3D3230"><strong>Pro:</strong> Appreciating collectible heirloom value</text>
+    <text x="35" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#B91C1C"><strong>Con:</strong> Fragile old solder joints &amp; worn clasps</text>
+    <text x="35" y="175" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#B91C1C"><strong>Con:</strong> Potential nickel alloys causing ear irritation</text>
+    <rect x="25" y="190" width="280" height="24" rx="4" fill="#FAF4EB"/>
+    <text x="165" y="206" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Price: $450 â€“ $3,500+</text>
+  </g>
+  <g transform="translate(420, 65)">
+    <rect width="330" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="165" y="40" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#2C2422">Handcrafted Vintage-Inspired</text>
+    <line x1="20" y1="52" x2="310" y2="52" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="35" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#3D3230"><strong>Pro:</strong> Solid 925 sterling silver &amp; hypoallergenic</text>
+    <text x="35" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#3D3230"><strong>Pro:</strong> Modern secure friction/leverback clasps</text>
+    <text x="35" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#3D3230"><strong>Pro:</strong> Authentic milgrain aesthetics without fragility</text>
+    <text x="35" y="175" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#3D3230"><strong>Pro:</strong> Easy replacement if bridesmaid matching needed</text>
+    <rect x="25" y="190" width="280" height="24" rx="4" fill="#FAF4EB"/>
+    <text x="165" y="206" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Price: $75 â€“ $280</text>
+  </g>
+</svg>

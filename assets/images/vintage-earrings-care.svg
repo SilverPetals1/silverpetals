@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="vBg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/><stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" rx="14" fill="url(#vBg8)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Heirloom Drop Earring Maintenance &amp; Storage</text>
+  <g transform="translate(40, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="110" y="40" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">1. No Ultrasonic</text>
+    <line x1="20" y1="52" x2="200" y2="52" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="110" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#B91C1C">Avoid Machine Cleaners</text>
+    <text x="110" y="110" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Vibrations shatter pearl nacre</text>
+    <text x="110" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">and loosen delicate milgrain prongs.</text>
+    <text x="110" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Use only lukewarm water</text>
+    <text x="110" y="174" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">and mild baby soap.</text>
+  </g>
+  <g transform="translate(290, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="110" y="40" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">2. Clasp Inspection</text>
+    <line x1="20" y1="52" x2="200" y2="52" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="110" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Check Hinges &amp; Posts</text>
+    <text x="110" y="110" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Before your wedding morning,</text>
+    <text x="110" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">test the leverback tension click.</text>
+    <text x="110" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Ensure drop jump rings</text>
+    <text x="110" y="174" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">are fully soldered closed.</text>
+  </g>
+  <g transform="translate(540, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="110" y="40" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">3. Velvet Compartment</text>
+    <line x1="20" y1="52" x2="200" y2="52" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="110" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Separate Storage</text>
+    <text x="110" y="110" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Never let earrings rub against</text>
+    <text x="110" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">each other in a single box.</text>
+    <text x="110" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Store flat in lined suede slots</text>
+    <text x="110" y="174" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">with anti-tarnish strips.</text>
+  </g>
+</svg>

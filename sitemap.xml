@@ -44,6 +44,17 @@
 
   <!-- Bridal & Ring Guides -->
   <url>
+    <loc>https://www.silverpetals.online/vintage-bridal-drop-earrings</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.silverpetals.online/assets/images/vintage-bridal-drop-earrings-hero.jpg</image:loc>
+      <image:title>Vintage Bridal Drop Earrings</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://www.silverpetals.online/bridal-pearl-earrings-for-wedding</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>

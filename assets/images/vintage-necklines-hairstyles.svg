@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="vBg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/><stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" rx="14" fill="url(#vBg5)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Pairing Vintage Drops with Necklines &amp; Hairstyles</text>
+  <g transform="translate(40, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="110" y="40" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">Strapless &amp; Updo</text>
+    <line x1="20" y1="52" x2="200" y2="52" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="110" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Long Art Deco Chandeliers</text>
+    <text x="110" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Frames exposed collarbone</text>
+    <text x="110" y="135" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Unimpeded 360 degree visibility</text>
+    <text x="110" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Drop length: 2.0" to 3.0"</text>
+    <text x="110" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Best Look: Regal Romance</text>
+  </g>
+  <g transform="translate(290, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="110" y="40" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">V-Neck &amp; Half-Up</text>
+    <line x1="20" y1="52" x2="200" y2="52" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="110" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Milgrain Teardrop Pearls</text>
+    <text x="110" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Mirrors bodice plunge line</text>
+    <text x="110" y="135" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Enclosed caps prevent hair snags</text>
+    <text x="110" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Drop length: 1.25" to 2.0"</text>
+    <text x="110" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Best Look: Bohemian Chic</text>
+  </g>
+  <g transform="translate(540, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="110" y="40" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2C2422">High Collar &amp; Chignon</text>
+    <line x1="20" y1="52" x2="200" y2="52" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="110" y="80" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Delicate Filigree Petite Drops</text>
+    <text x="110" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Prevents visual collision with lace</text>
+    <text x="110" y="135" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Restrained Victorian charm</text>
+    <text x="110" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Drop length: 0.75" to 1.25"</text>
+    <text x="110" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Best Look: Victorian Grace</text>
+  </g>
+</svg>
