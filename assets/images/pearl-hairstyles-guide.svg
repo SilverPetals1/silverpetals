@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="bgP5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/><stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" rx="14" fill="url(#bgP5)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Matching Earrings with Bridal Hairstyles &amp; Veils</text>
+  <g transform="translate(40, 65)">
+    <rect width="215" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="107" y="45" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#2C2422">Sleek Updo / Chignon</text>
+    <line x1="20" y1="60" x2="195" y2="60" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="107" y="90" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Long Drops &amp; Chandeliers</text>
+    <text x="107" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Earrings receive 100% visibility</text>
+    <text x="107" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Accentuate jawline and neck</text>
+    <text x="107" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#5A4E4C">Tip: Balance with veil comb placement</text>
+  </g>
+  <g transform="translate(290, 65)">
+    <rect width="220" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="110" y="45" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#2C2422">Romantic Loose Waves</text>
+    <line x1="20" y1="60" x2="200" y2="60" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="110" y="90" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Bold Pearl Studs or Clusters</text>
+    <text x="110" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Avoid delicate prongs that snag curls</text>
+    <text x="110" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Solid, smooth pearl contours</text>
+    <text x="110" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#5A4E4C">Tip: Tuck one side behind ear</text>
+  </g>
+  <g transform="translate(545, 65)">
+    <rect width="215" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <text x="107" y="45" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#2C2422">Cathedral &amp; Birdcage Veils</text>
+    <line x1="20" y1="60" x2="195" y2="60" stroke="#F0E5D8" stroke-width="1"/>
+    <text x="107" y="90" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Medium Drops with Leverbacks</text>
+    <text x="107" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Secure latch prevents veil catches</text>
+    <text x="107" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#7A6E6C">Subtle shimmer through sheer tulle</text>
+    <text x="107" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#5A4E4C">Tip: Test earrings with veil during trial</text>
+  </g>
+</svg>

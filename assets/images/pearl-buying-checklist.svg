@@ -1,0 +1,37 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="bgP7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/><stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" rx="14" fill="url(#bgP7)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">5-Point Bridal Pearl Quality &amp; Budget Checklist</text>
+  <g transform="translate(50, 65)">
+    <rect width="700" height="225" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    
+    <circle cx="35" cy="35" r="12" fill="#8C6826"/>
+    <text x="35" y="39" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFF">1</text>
+    <text x="65" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Luster Intensity:</text>
+    <text x="180" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Check crispness of reflections. Sharp, clear light reflections indicate thick nacre.</text>
+    
+    <circle cx="35" cy="78" r="12" fill="#8C6826"/>
+    <text x="35" y="82" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFF">2</text>
+    <text x="65" y="81" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Surface Cleanliness:</text>
+    <text x="210" y="81" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Look for minimal pitting or blemishes visible from a conversational distance.</text>
+
+    <circle cx="35" cy="121" r="12" fill="#8C6826"/>
+    <text x="35" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFF">3</text>
+    <text x="65" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Pair Matching:</text>
+    <text x="165" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Ensure both earrings share identical diameter, body color, overtone, and silhouette.</text>
+
+    <circle cx="35" cy="164" r="12" fill="#8C6826"/>
+    <text x="35" y="168" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFF">4</text>
+    <text x="65" y="167" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Secure Settings:</text>
+    <text x="175" y="167" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Select solid post cups with grooved friction or screw-backs for dancing safety.</text>
+
+    <circle cx="35" cy="207" r="12" fill="#8C6826"/>
+    <text x="35" y="211" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFF">5</text>
+    <text x="65" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Authentic Certification:</text>
+    <text x="220" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Demand 925 sterling or 14K/18K gold hallmarks and origin authenticity.</text>
+  </g>
+</svg>
