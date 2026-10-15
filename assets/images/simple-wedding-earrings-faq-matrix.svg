@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="faqBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="320" rx="14" fill="url(#faqBg)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">Bridal Jewelry Quick Reference Matrix</text>
+  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Fast answers to the top bridal earring decisions</text>
+
+  <!-- Box 1: Plain Dress -->
+  <g transform="translate(30, 85)">
+    <rect width="170" height="210" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <rect x="20" y="20" width="130" height="24" rx="4" fill="#FAF4EB"/>
+    <text x="85" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">PLAIN GOWN</text>
+    <text x="85" y="75" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Quiet Luxury</text>
+    <text x="85" y="105" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Dainty pearl drops</text>
+    <text x="85" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">or ear climbers add</text>
+    <text x="85" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">artistic texture.</text>
+    <text x="85" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C6826">Perfect Pairing</text>
+  </g>
+
+  <!-- Box 2: Sensitive Ears -->
+  <g transform="translate(220, 85)">
+    <rect width="170" height="210" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <rect x="20" y="20" width="130" height="24" rx="4" fill="#FAF4EB"/>
+    <text x="85" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">SENSITIVE EARS</text>
+    <text x="85" y="75" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Hypoallergenic</text>
+    <text x="85" y="105" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Solid 14k/18k gold,</text>
+    <text x="85" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">platinum, or titanium.</text>
+    <text x="85" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Zero nickel.</text>
+    <text x="85" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C6826">Redness-Free</text>
+  </g>
+
+  <!-- Box 3: Ring Metal Match -->
+  <g transform="translate(410, 85)">
+    <rect width="170" height="210" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <rect x="20" y="20" width="130" height="24" rx="4" fill="#FAF4EB"/>
+    <text x="85" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">RING HARMONY</text>
+    <text x="85" y="75" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Unified Metals</text>
+    <text x="85" y="105" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Matching metals</text>
+    <text x="85" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">creates cohesive</text>
+    <text x="85" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">detail photographs.</text>
+    <text x="85" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C6826">Cohesive Vibe</text>
+  </g>
+
+  <!-- Box 4: Modern Pearls -->
+  <g transform="translate(600, 85)">
+    <rect width="170" height="210" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <rect x="20" y="20" width="130" height="24" rx="4" fill="#FAF4EB"/>
+    <text x="85" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">MODERN PEARLS</text>
+    <text x="85" y="75" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Trending Icon</text>
+    <text x="85" y="105" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Baroque shapes</text>
+    <text x="85" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">and asymmetric drops</text>
+    <text x="85" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">are high-fashion now.</text>
+    <text x="85" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C6826">Top Trend</text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340">
+  <defs>
+    <linearGradient id="budgetBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F4ECE1"/>
+    </linearGradient>
+    <radialGradient id="luxDiamond" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#EBF4F6"/>
+      <stop offset="100%" stop-color="#A2B7C4"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="340" rx="14" fill="url(#budgetBg)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">Bridal Earrings: Budget vs Luxury Comparison</text>
+  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Finding extraordinary bridal beauty across every investment level</text>
+
+  <!-- Left Card: Budget-Friendly -->
+  <g transform="translate(40, 85)">
+    <rect width="340" height="230" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="55" cy="48" r="22" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <text x="55" y="55" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="16">✨</text>
+    <text x="95" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#2C2422">Accessible Glamour</text>
+    <text x="95" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Under $150 • Smart Luxury</text>
+
+    <line x1="25" y1="88" x2="315" y2="88" stroke="#F0E8DF" stroke-width="1"/>
+
+    <text x="25" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#2C2422" font-weight="600">• 925 Sterling Silver &amp; Gold Vermeil</text>
+    <text x="25" y="140" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#2C2422" font-weight="600">• Flawless Cubic Zirconia &amp; Lab Crystals</text>
+    <text x="25" y="165" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#2C2422" font-weight="600">• Cultured Freshwater Pearls</text>
+    <text x="25" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#7A6E6C">Ideal for: Destination weddings, bridesmaid gifts, budget brides</text>
+  </g>
+
+  <!-- Right Card: Luxury Heirloom -->
+  <g transform="translate(420, 85)">
+    <rect width="340" height="230" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1.5"/>
+    <circle cx="55" cy="48" r="22" fill="url(#luxDiamond)" stroke="#8C6826" stroke-width="1.5"/>
+    <text x="55" y="55" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">💎</text>
+    <text x="95" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#2C2422">Fine Heirloom Investment</text>
+    <text x="95" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8C6826">Lifetime Value • $500+</text>
+
+    <line x1="25" y1="88" x2="315" y2="88" stroke="#F0E8DF" stroke-width="1"/>
+
+    <text x="25" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#2C2422" font-weight="600">• Solid 14k / 18k Gold &amp; Platinum</text>
+    <text x="25" y="140" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#2C2422" font-weight="600">• Natural Brilliant Cut Diamonds</text>
+    <text x="25" y="165" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#2C2422" font-weight="600">• Akoya &amp; South Sea High-Luster Pearls</text>
+    <text x="25" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#7A6E6C">Ideal for: Generational pass-down, daily luxury, haute couture</text>
+  </g>
+</svg>

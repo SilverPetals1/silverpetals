@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="concBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="50%" stop-color="#F7EFE4"/>
+      <stop offset="100%" stop-color="#EFE3D3"/>
+    </linearGradient>
+    <radialGradient id="concPearl" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#FBF7F0"/>
+      <stop offset="100%" stop-color="#DAC7B0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="320" rx="14" fill="url(#concBg)"/>
+
+  <!-- Subtle floral arch -->
+  <path d="M 100 280 Q 400 40 700 280" fill="none" stroke="#D5C2AA" stroke-width="1.5" stroke-dasharray="4,6"/>
+
+  <g transform="translate(400, 75)">
+    <!-- Decorative Center Icon -->
+    <circle cx="0" cy="0" r="28" fill="#FFF" stroke="#C5A059" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="12" ry="16" fill="url(#concPearl)"/>
+
+    <text x="0" y="55" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="22" font-weight="700" fill="#2C2422">Quiet Luxury, Enduring Love</text>
+    <text x="0" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B5E5B">
+      Your simple bridal earrings will capture the light of your happiest vows
+    </text>
+    <text x="0" y="108" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B5E5B">
+      and remain a cherished treasure long after your first dance.
+    </text>
+
+    <!-- Tagline Badge -->
+    <rect x="-120" y="130" width="240" height="32" rx="16" fill="#8C6826"/>
+    <text x="0" y="151" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#FFF" letter-spacing="1">FIND YOUR BRIDAL PAIR</text>
+  </g>
+</svg>

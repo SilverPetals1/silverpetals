@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="whyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F4ECE1"/>
+    </linearGradient>
+    <radialGradient id="studGleam" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F6E7D2"/>
+      <stop offset="100%" stop-color="#C5A059"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="14" fill="url(#whyBg)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">Why Brides Choose Simple &amp; Minimalist Earrings</text>
+  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">The 4 timeless advantages of understated bridal jewelry on your wedding day</text>
+
+  <!-- 1. All-Day Comfort -->
+  <g transform="translate(30, 85)">
+    <rect width="170" height="240" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="26" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <!-- Feather / Lightweight Icon -->
+    <path d="M 72 62 Q 85 38 98 42 Q 94 56 72 62 Z" fill="#8C6826" opacity="0.85"/>
+    <line x1="72" y1="62" x2="94" y2="40" stroke="#FFF" stroke-width="1.2"/>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">All-Day Comfort</text>
+    <text x="85" y="124" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Zero Lobe Fatigue</text>
+    <text x="85" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Featherweight wear</text>
+    <text x="85" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Dance &amp; mingle freely</text>
+    <text x="85" y="192" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">No painful pulling</text>
+    <text x="85" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">12+ Hours Ease</text>
+  </g>
+
+  <!-- 2. Frames Your Features -->
+  <g transform="translate(220, 85)">
+    <rect width="170" height="240" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="26" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <!-- Eye / Smile Focus Icon -->
+    <circle cx="85" cy="50" r="14" fill="url(#studGleam)"/>
+    <circle cx="85" cy="50" r="6" fill="#FFF"/>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Frames Face</text>
+    <text x="85" y="124" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Natural Radiance</text>
+    <text x="85" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Draws eyes to smile</text>
+    <text x="85" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">No heavy distraction</text>
+    <text x="85" y="192" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Flattering in photos</text>
+    <text x="85" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Photogenic Pop</text>
+  </g>
+
+  <!-- 3. Complements Dress -->
+  <g transform="translate(410, 85)">
+    <rect width="170" height="240" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="26" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <!-- Dress Harmony Silhouette -->
+    <path d="M 76 40 L 94 40 L 102 62 L 68 62 Z" fill="#8C6826" opacity="0.85"/>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Gown Harmony</text>
+    <text x="85" y="124" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Lace &amp; Beading</text>
+    <text x="85" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Never competes</text>
+    <text x="85" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Enhances silhouette</text>
+    <text x="85" y="192" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Zero fabric snags</text>
+    <text x="85" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Balanced Look</text>
+  </g>
+
+  <!-- 4. Rewear Value -->
+  <g transform="translate(600, 85)">
+    <rect width="170" height="240" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="26" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <!-- Heart / Anniversary Loop -->
+    <path d="M 85 43 C 81 37 72 38 72 46 C 72 55 85 62 85 62 C 85 62 98 55 98 46 C 98 38 89 37 85 43 Z" fill="#8C6826" opacity="0.85"/>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Forever Value</text>
+    <text x="85" y="124" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Rewear for Life</text>
+    <text x="85" y="152" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Anniversary dinners</text>
+    <text x="85" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Everyday chic jewelry</text>
+    <text x="85" y="192" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Sentimental keepsake</text>
+    <text x="85" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Lifetime Treasure</text>
+  </g>
+</svg>
