@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="whyChBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F4ECE1"/>
+    </linearGradient>
+    <radialGradient id="gSun" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF5D1"/>
+      <stop offset="50%" stop-color="#DFB96C"/>
+      <stop offset="100%" stop-color="#9E782F"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="14" fill="url(#whyChBg)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">Why Gold Chandelier Earrings Are a Bridal Icon</text>
+  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">The four hallmarks that make gold chandeliers unforgettable down the aisle</text>
+
+  <!-- 1. Face Framing -->
+  <g transform="translate(30, 85)">
+    <rect width="170" height="240" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="26" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <path d="M 72 45 Q 85 62 98 45" fill="none" stroke="#8C6826" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="85" cy="40" r="5" fill="#C5A059"/>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Face-Framing Glow</text>
+    <text x="85" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Golden Radiance</text>
+    <text x="85" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Highlights jawline</text>
+    <text x="85" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Illuminates cheekbones</text>
+    <text x="85" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Warm photo reflection</text>
+    <text x="85" y="218" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C2422">Photogenic Pop</text>
+  </g>
+
+  <!-- 2. Dynamic Movement -->
+  <g transform="translate(220, 85)">
+    <rect width="170" height="240" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="26" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <!-- Motion lines -->
+    <path d="M 74 38 Q 85 55 96 38" fill="none" stroke="#8C6826" stroke-width="2"/>
+    <line x1="77" y1="52" x2="73" y2="64" stroke="#8C6826" stroke-width="2"/>
+    <line x1="85" y1="52" x2="85" y2="68" stroke="#8C6826" stroke-width="2"/>
+    <line x1="93" y1="52" x2="97" y2="64" stroke="#8C6826" stroke-width="2"/>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Fluid Movement</text>
+    <text x="85" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Catches Reception Light</text>
+    <text x="85" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Tiered drops sway</text>
+    <text x="85" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Shimmers during dance</text>
+    <text x="85" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Candlelight sparkle</text>
+    <text x="85" y="218" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C2422">Graceful Motion</text>
+  </g>
+
+  <!-- 3. Regal Presence -->
+  <g transform="translate(410, 85)">
+    <rect width="170" height="240" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="26" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <!-- Crown icon -->
+    <path d="M 73 58 L 73 44 L 79 50 L 85 40 L 91 50 L 97 44 L 97 58 Z" fill="#8C6826" opacity="0.85"/>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Regal Statement</text>
+    <text x="85" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Elevates Any Gown</text>
+    <text x="85" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Bridges classic &amp; modern</text>
+    <text x="85" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">High-fashion couture</text>
+    <text x="85" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">No heavy necklace needed</text>
+    <text x="85" y="218" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C2422">Focal Showstopper</text>
+  </g>
+
+  <!-- 4. Heirloom Legacy -->
+  <g transform="translate(600, 85)">
+    <rect width="170" height="240" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="50" r="26" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <!-- Vault / Gemstone icon -->
+    <path d="M 75 42 L 95 42 L 99 50 L 85 64 L 71 50 Z" fill="url(#gSun)"/>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Heirloom Value</text>
+    <text x="85" y="122" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Timeless Investment</text>
+    <text x="85" y="150" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Retains precious value</text>
+    <text x="85" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Pass down generations</text>
+    <text x="85" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Rewear on milestones</text>
+    <text x="85" y="218" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C2422">Generational Gold</text>
+  </g>
+</svg>

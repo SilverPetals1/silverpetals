@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="goldTypeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F4ECE1"/>
+    </linearGradient>
+    <radialGradient id="g22k" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFEBB0"/>
+      <stop offset="50%" stop-color="#E2A62C"/>
+      <stop offset="100%" stop-color="#8E5B0E"/>
+    </radialGradient>
+    <radialGradient id="g18k" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF3C7"/>
+      <stop offset="50%" stop-color="#DCB356"/>
+      <stop offset="100%" stop-color="#9A7426"/>
+    </radialGradient>
+    <radialGradient id="g14k" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF8E0"/>
+      <stop offset="50%" stop-color="#E5CA85"/>
+      <stop offset="100%" stop-color="#9B8045"/>
+    </radialGradient>
+    <radialGradient id="gVermeil" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="50%" stop-color="#DFD0AF"/>
+      <stop offset="100%" stop-color="#9C8B68"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="320" rx="14" fill="url(#goldTypeBg)"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Gold Karat &amp; Purity Comparison Guide</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Matching gold color saturation, durability, and bridal budget</text>
+
+  <!-- 1. 22k Gold -->
+  <g transform="translate(30, 80)">
+    <rect width="170" height="215" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="46" r="22" fill="url(#g22k)"/>
+    <text x="85" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">22k Pure Gold</text>
+    <text x="85" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">91.6% Purity</text>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Rich deep yellow</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Heritage bridal sets</text>
+    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Cultural Royalty</text>
+  </g>
+
+  <!-- 2. 18k Gold -->
+  <g transform="translate(220, 80)">
+    <rect width="170" height="215" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="46" r="22" fill="url(#g18k)"/>
+    <text x="85" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">18k Fine Gold</text>
+    <text x="85" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">75.0% Purity</text>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Classic buttery warm</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Ideal diamond settings</text>
+    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Fine Luxury Pick</text>
+  </g>
+
+  <!-- 3. 14k Gold -->
+  <g transform="translate(410, 80)">
+    <rect width="170" height="215" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="46" r="22" fill="url(#g14k)"/>
+    <text x="85" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">14k Durable Gold</text>
+    <text x="85" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">58.3% Purity</text>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Bright soft yellow</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Maximum durability</text>
+    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Smart Investment</text>
+  </g>
+
+  <!-- 4. Gold Vermeil -->
+  <g transform="translate(600, 80)">
+    <rect width="170" height="215" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="46" r="22" fill="url(#gVermeil)"/>
+    <text x="85" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Gold Vermeil</text>
+    <text x="85" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Thick Gold on 925</text>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Gleams like solid gold</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Destination weddings</text>
+    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Budget Savvy</text>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340">
+  <defs>
+    <linearGradient id="neckChBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="340" rx="14" fill="url(#neckChBg)"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Neckline &amp; Gold Chandelier Earring Harmony</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Maximizing statement earrings without visual clutter</text>
+
+  <!-- 1. Strapless & Sweetheart -->
+  <g transform="translate(30, 80)">
+    <rect width="170" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <path d="M 50 35 Q 85 55 120 35" fill="none" stroke="#8C6826" stroke-width="2.5"/>
+    <text x="85" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Strapless &amp;</text>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Sweetheart</text>
+    <text x="85" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Multi-Tier Showstoppers</text>
+    <text x="85" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Bare collarbones</text>
+    <text x="85" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Total styling freedom</text>
+    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Skip necklace entirely</text>
+    <text x="85" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Length: 2.5" – 3.5"</text>
+  </g>
+
+  <!-- 2. V-Neck & Plunging -->
+  <g transform="translate(220, 80)">
+    <rect width="170" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <path d="M 50 32 L 85 58 L 120 32" fill="none" stroke="#8C6826" stroke-width="2.5"/>
+    <text x="85" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">V-Neck &amp;</text>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Plunging Bodice</text>
+    <text x="85" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Tapered Drops</text>
+    <text x="85" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Mirrors bodice angle</text>
+    <text x="85" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Elongates neckline</text>
+    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Teardrop bottom tier</text>
+    <text x="85" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Length: 2.0" – 2.8"</text>
+  </g>
+
+  <!-- 3. Off-Shoulder & Bardot -->
+  <g transform="translate(410, 80)">
+    <rect width="170" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <path d="M 45 42 L 125 42" fill="none" stroke="#8C6826" stroke-width="2.5"/>
+    <text x="85" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Off-Shoulder &amp;</text>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Bardot Sleeves</text>
+    <text x="85" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Floating Medium Drops</text>
+    <text x="85" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Frames neck contour</text>
+    <text x="85" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Leaves sleeve bare</text>
+    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Won't rub shoulders</text>
+    <text x="85" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Length: 2.0" – 2.5"</text>
+  </g>
+
+  <!-- 4. High Collar / Halter -->
+  <g transform="translate(600, 80)">
+    <rect width="170" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <path d="M 55 50 Q 85 30 115 50" fill="none" stroke="#8C6826" stroke-width="2.5"/>
+    <text x="85" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">High Collar &amp;</text>
+    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Illusion Lace</text>
+    <text x="85" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Compact Chandeliers</text>
+    <text x="85" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Avoid fabric snagging</text>
+    <text x="85" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Clears collar fabric</text>
+    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Balanced proportion</text>
+    <text x="85" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Length: 1.5" Max</text>
+  </g>
+</svg>

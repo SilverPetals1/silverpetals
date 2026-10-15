@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+  <defs>
+    <linearGradient id="stylesChBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F3ECE2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="350" rx="14" fill="url(#stylesChBg)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">5 Popular Styles of Bridal Chandelier Earrings</text>
+  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">From heritage filigree to sleek architectural chandeliers</text>
+
+  <!-- 1. Traditional Filigree -->
+  <g transform="translate(25, 85)">
+    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <!-- Filigree silhouette -->
+    <path d="M 50 35 Q 69 22 88 35 Q 88 55 69 68 Q 50 55 50 35 Z" fill="none" stroke="#C5A059" stroke-width="2"/>
+    <circle cx="69" cy="45" r="5" fill="#8C6826"/>
+    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Traditional</text>
+    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Filigree</text>
+    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Lace Wirework</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Heritage jhumkas</text>
+    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Lightweight openwork</text>
+    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Cultural grandeur</text>
+    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Heritage Pick</text>
+  </g>
+
+  <!-- 2. Modern Geometric -->
+  <g transform="translate(178, 85)">
+    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <!-- Geometric Chevron / Rhombus -->
+    <polygon points="69,25 94,48 69,72 44,48" fill="none" stroke="#C5A059" stroke-width="2"/>
+    <line x1="56" y1="48" x2="82" y2="48" stroke="#8C6826" stroke-width="2"/>
+    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Modern</text>
+    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Geometric</text>
+    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Linear &amp; Clean</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Chevrons &amp; fringe</text>
+    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Architectural flair</text>
+    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">City hall / Penthouse</text>
+    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Editorial Vibe</text>
+  </g>
+
+  <!-- 3. Pearl-Accented -->
+  <g transform="translate(331, 85)">
+    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <!-- Pearl cluster arch -->
+    <path d="M 50 35 Q 69 22 88 35" fill="none" stroke="#C5A059" stroke-width="2"/>
+    <circle cx="53" cy="52" r="5" fill="#FFF" stroke="#D5C2AA"/>
+    <circle cx="69" cy="58" r="6" fill="#FFF" stroke="#D5C2AA"/>
+    <circle cx="85" cy="52" r="5" fill="#FFF" stroke="#D5C2AA"/>
+    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Pearl-Accented</text>
+    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Drops</text>
+    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Soft Romance</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Freshwater seeds</text>
+    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Softens bold gold</text>
+    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Classic garden style</text>
+    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Luminous Glow</text>
+  </g>
+
+  <!-- 4. Gemstone & Diamond -->
+  <g transform="translate(484, 85)">
+    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <!-- Faceted sparkle clusters -->
+    <circle cx="69" cy="35" r="8" fill="#EBF4F6" stroke="#C5A059" stroke-width="1.5"/>
+    <circle cx="55" cy="55" r="7" fill="#EBF4F6" stroke="#C5A059" stroke-width="1.5"/>
+    <circle cx="83" cy="55" r="7" fill="#EBF4F6" stroke="#C5A059" stroke-width="1.5"/>
+    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Gemstone &amp;</text>
+    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Diamonds</text>
+    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Maximum Fire</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Brilliant pavé tiers</text>
+    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Emerald or sapphire</text>
+    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Luxury ballroom</text>
+    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">High Sparkle</text>
+  </g>
+
+  <!-- 5. Minimalist Wire -->
+  <g transform="translate(637, 85)">
+    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <!-- Slim wires -->
+    <line x1="69" y1="25" x2="69" y2="45" stroke="#C5A059" stroke-width="2"/>
+    <line x1="55" y1="45" x2="83" y2="45" stroke="#C5A059" stroke-width="1.5"/>
+    <line x1="55" y1="45" x2="55" y2="68" stroke="#C5A059" stroke-width="1.2"/>
+    <line x1="69" y1="45" x2="69" y2="72" stroke="#C5A059" stroke-width="1.2"/>
+    <line x1="83" y1="45" x2="83" y2="68" stroke="#C5A059" stroke-width="1.2"/>
+    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Minimalist</text>
+    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Fine Wire</text>
+    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Featherweight</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Delicate chain cascade</text>
+    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Zero heaviness</text>
+    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Understated luxury</text>
+    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Effortless Ease</text>
+  </g>
+</svg>

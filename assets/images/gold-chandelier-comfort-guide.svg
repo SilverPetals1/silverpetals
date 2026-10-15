@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330">
+  <defs>
+    <linearGradient id="comfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="330" rx="14" fill="url(#comfBg)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">Comfort &amp; Weight Engineering: The 3 Rules</text>
+  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Ensuring heavy statement chandeliers feel weightless through 12+ hours of wedding joy</text>
+
+  <!-- 1. The Weight Rule -->
+  <g transform="translate(30, 85)">
+    <rect width="225" height="215" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="112" cy="46" r="22" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <text x="112" y="52" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#8C6826">⚖️</text>
+    <text x="112" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Under 8–10g Per Ear</text>
+    <text x="112" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Weight Benchmark</text>
+    <text x="112" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Choose hollow electroform</text>
+    <text x="112" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">or delicate filigree wire</text>
+    <text x="112" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Zero Lobe Sagging</text>
+  </g>
+
+  <!-- 2. The Disc Backing -->
+  <g transform="translate(285, 85)">
+    <rect width="225" height="215" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="112" cy="46" r="22" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <circle cx="112" cy="46" r="14" fill="#FFF" stroke="#8C6826" stroke-width="2"/>
+    <circle cx="112" cy="46" r="4" fill="#8C6826"/>
+    <text x="112" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Wide Disc Clutches</text>
+    <text x="112" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Pressure Dispersal</text>
+    <text x="112" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Spreads weight across lobe</text>
+    <text x="112" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Keeps earring straight upright</text>
+    <text x="112" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">No Forward Droop</text>
+  </g>
+
+  <!-- 3. Lobe Support Patches -->
+  <g transform="translate(540, 85)">
+    <rect width="225" height="215" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="112" cy="46" r="22" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
+    <rect x="98" y="36" width="28" height="20" rx="4" fill="#EADBCC" stroke="#8C6826" stroke-width="1.5"/>
+    <text x="112" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Support Patches</text>
+    <text x="112" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Secret Bridal Hack</text>
+    <text x="112" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Clear medical tape adhesive</text>
+    <text x="112" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Applied behind ear piercing</text>
+    <text x="112" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">All-Day Dancing</text>
+  </g>
+</svg>
