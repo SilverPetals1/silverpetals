@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="metalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="100%" stop-color="#F4ECE1"/>
+    </linearGradient>
+    <radialGradient id="goldSphere" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF2B8"/>
+      <stop offset="45%" stop-color="#DFB96C"/>
+      <stop offset="100%" stop-color="#9E782F"/>
+    </radialGradient>
+    <radialGradient id="silverSphere" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#E2E7EC"/>
+      <stop offset="100%" stop-color="#8E9DA8"/>
+    </radialGradient>
+    <radialGradient id="roseSphere" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFE4DF"/>
+      <stop offset="50%" stop-color="#E5A69B"/>
+      <stop offset="100%" stop-color="#A86358"/>
+    </radialGradient>
+    <radialGradient id="pearlSphere" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F8F3EA"/>
+      <stop offset="100%" stop-color="#DAC7B0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="320" rx="14" fill="url(#metalBg)"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Bridal Metals &amp; Gemstone Palette Guide</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Harmonizing jewelry undertones with bridal gown fabrics and skin warmth</text>
+
+  <!-- 1. Yellow Gold -->
+  <g transform="translate(30, 80)">
+    <rect width="170" height="215" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="46" r="22" fill="url(#goldSphere)"/>
+    <text x="85" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Yellow Gold</text>
+    <text x="85" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Warm &amp; Heritage</text>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Ivory &amp; Champagne</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Vintage lace gowns</text>
+    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Warm Undertones</text>
+  </g>
+
+  <!-- 2. White Gold & Silver -->
+  <g transform="translate(220, 80)">
+    <rect width="170" height="215" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="46" r="22" fill="url(#silverSphere)"/>
+    <text x="85" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">White Gold / Silver</text>
+    <text x="85" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Crisp &amp; Brilliant</text>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Bright optical white</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Platinum ring sets</text>
+    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Cool Undertones</text>
+  </g>
+
+  <!-- 3. Rose Gold -->
+  <g transform="translate(410, 80)">
+    <rect width="170" height="215" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="46" r="22" fill="url(#roseSphere)"/>
+    <text x="85" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Rose Gold</text>
+    <text x="85" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Romantic Blush</text>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Blush &amp; nude linings</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Whimsical floral gowns</text>
+    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Warm &amp; Olive Skin</text>
+  </g>
+
+  <!-- 4. Luminous Pearls -->
+  <g transform="translate(600, 80)">
+    <rect width="170" height="215" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
+    <circle cx="85" cy="46" r="22" fill="url(#pearlSphere)"/>
+    <text x="85" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Freshwater Pearl</text>
+    <text x="85" y="114" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Lustrous Glow</text>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">All gown undertones</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Soft diffused glow</text>
+    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Universal Elegance</text>
+  </g>
+</svg>

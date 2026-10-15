@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="50%" stop-color="#F7EFE4"/>
+      <stop offset="100%" stop-color="#EFE3D3"/>
+    </linearGradient>
+    <radialGradient id="pearlGleam" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#FBF7F0"/>
+      <stop offset="75%" stop-color="#EADBCC"/>
+      <stop offset="100%" stop-color="#CBB59E"/>
+    </radialGradient>
+    <radialGradient id="diamondSpark" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#EBF4F6"/>
+      <stop offset="100%" stop-color="#A2B7C4"/>
+    </radialGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#705238" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="630" fill="url(#heroBg)"/>
+
+  <!-- Subtle Elegant Botanical Foliage Background (Vector Silhouettes) -->
+  <path d="M 0 630 Q 180 500 240 320 T 160 80" fill="none" stroke="#E2D5C7" stroke-width="2" stroke-dasharray="4,6" opacity="0.6"/>
+  <path d="M 1200 0 Q 1020 130 960 310 T 1040 550" fill="none" stroke="#E2D5C7" stroke-width="2" stroke-dasharray="4,6" opacity="0.6"/>
+
+  <!-- Left Side: Editorial Banner Content -->
+  <g transform="translate(90, 110)">
+    <!-- Badge -->
+    <rect width="210" height="34" rx="17" fill="#8C6826" fill-opacity="0.1"/>
+    <text x="105" y="22" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#8C6826" letter-spacing="1.5">BRIDAL JEWELRY GUIDE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="90" font-family="'Cinzel', Georgia, serif" font-size="46" font-weight="700" fill="#2C2422" letter-spacing="0.5">Simple Wedding</text>
+    <text x="0" y="145" font-family="'Cinzel', Georgia, serif" font-size="46" font-weight="700" fill="#8C6826" letter-spacing="0.5">Earrings for Bride</text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" fill="#6B5E5B" line-height="1.5">
+      <tspan x="0" dy="0">Understated luxury, dainty studs, and minimalist pearl drops</tspan>
+      <tspan x="0" dy="28">curated for modern, effortless wedding-day romance.</tspan>
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 275)">
+      <rect x="0" y="0" width="130" height="38" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1.2"/>
+      <text x="65" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#2C2422">✨ Solitaire Studs</text>
+
+      <rect x="145" y="0" width="130" height="38" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1.2"/>
+      <text x="210" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#2C2422">🌿 Dainty Pearls</text>
+
+      <rect x="290" y="0" width="140" height="38" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1.2"/>
+      <text x="360" y="24" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#2C2422">🕊️ Huggies &amp; Drops</text>
+    </g>
+
+    <!-- Reading Metric -->
+    <g transform="translate(0, 360)">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#8A7E7B" font-weight="500">
+        SilverPetals™ Editorial Studio • 9 Min Comprehensive Guide • 2026 Edition
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Luxury Jewelry Showcase Platter Card -->
+  <g transform="translate(710, 85)" filter="url(#cardShadow)">
+    <!-- White Platter Base -->
+    <rect width="400" height="460" rx="24" fill="#FFFFFF" stroke="#E8DED1" stroke-width="1.5"/>
+    <circle cx="200" cy="230" r="170" fill="#FAF6F0" opacity="0.6"/>
+
+    <!-- Subtle Silk Ribbon / Arch decoration -->
+    <path d="M 80 430 C 120 370 280 390 320 430" fill="none" stroke="#D5C2AA" stroke-width="2" stroke-dasharray="2,4"/>
+
+    <!-- Earring 1: Solitaire Diamond & Gold Stud (Left) -->
+    <g transform="translate(130, 180)">
+      <circle cx="0" cy="0" r="28" fill="#F4EFE6" stroke="#D5C2AA" stroke-width="1"/>
+      <circle cx="0" cy="0" r="18" fill="url(#diamondSpark)" stroke="#B39355" stroke-width="2.5"/>
+      <!-- Sparkle Facets -->
+      <line x1="-12" y1="0" x2="12" y2="0" stroke="#FFF" stroke-width="1.5" opacity="0.8"/>
+      <line x1="0" y1="-12" x2="0" y2="12" stroke="#FFF" stroke-width="1.5" opacity="0.8"/>
+      <line x1="-8" y1="-8" x2="8" y2="8" stroke="#FFF" stroke-width="1.5" opacity="0.8"/>
+      <line x1="-8" y1="8" x2="8" y2="-8" stroke="#FFF" stroke-width="1.5" opacity="0.8"/>
+      <text x="0" y="50" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#2C2422">Classic Stud</text>
+      <text x="0" y="68" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#8C6826">Solitaire Sparkle</text>
+    </g>
+
+    <!-- Earring 2: Dainty Pearl Drop (Center Right) -->
+    <g transform="translate(265, 150)">
+      <!-- Gold Post & Connecting Wire -->
+      <circle cx="0" cy="0" r="5" fill="#C5A059" stroke="#8C6826" stroke-width="1"/>
+      <line x1="0" y1="5" x2="0" y2="38" stroke="#C5A059" stroke-width="2.2"/>
+      <circle cx="0" cy="40" r="4" fill="#C5A059"/>
+      <!-- Luminous Freshwater Drop Pearl -->
+      <ellipse cx="0" cy="72" rx="19" ry="26" fill="url(#pearlGleam)" stroke="#D5C2AA" stroke-width="1.2" filter="url(#softGlow)"/>
+      <text x="0" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#2C2422">Dainty Pearl Drop</text>
+      <text x="0" y="143" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#8C6826">Soft Bridal Glow</text>
+    </g>
+
+    <!-- Earring 3: Sleek Gold Huggie (Bottom Center) -->
+    <g transform="translate(195, 345)">
+      <path d="M -15 -10 A 18 18 0 1 0 15 -10" fill="none" stroke="#C5A059" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="0" cy="9" r="2.5" fill="#FFF"/>
+      <circle cx="-8" cy="6" r="2" fill="#FFF"/>
+      <circle cx="8" cy="6" r="2" fill="#FFF"/>
+      <text x="0" y="32" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Pavé Huggie</text>
+    </g>
+
+    <!-- Platter Footer Badge -->
+    <rect x="90" y="415" width="220" height="26" rx="13" fill="#FAF4EB"/>
+    <text x="200" y="432" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="10" font-weight="700" fill="#8C6826" letter-spacing="1">SILVERPETALS FINE COLLECTION</text>
+  </g>
+</svg>
