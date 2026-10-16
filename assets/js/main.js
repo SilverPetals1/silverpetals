@@ -158,34 +158,57 @@ function initCategoryFilters() {
 }
 
 /* ==========================================================================
-   5B. SHOP PAGE CATEGORY FILTER BY URL PARAM (?category=earrings/necklaces/rings/bracelets)
+   5B. SHOP PAGE CATEGORY FILTER BY URL PARAM (?category=earrings/necklaces/rings/bracelets...)
    ========================================================================== */
 function initShopCategoryUrlFilter() {
   const sections = document.querySelectorAll('main.section section[id]');
   if (!sections.length) return;
 
   const urlParams = new URLSearchParams(window.location.search);
-  const categoryParam = (urlParams.get('category') || '').toLowerCase().trim();
+  let categoryParam = (urlParams.get('category') || '').toLowerCase().trim();
+
+  // Also check window.location.hash if no search param
+  if (!categoryParam && window.location.hash) {
+    categoryParam = window.location.hash.replace('#', '').toLowerCase().trim();
+  }
 
   if (!categoryParam) return;
 
-  const validCategories = ['rings', 'earrings', 'necklaces', 'bracelets'];
-  if (!validCategories.includes(categoryParam)) return;
+  // Map sub-categories to available shop sections
+  const categoryMap = {
+    'rings': 'rings',
+    'earrings': 'earrings',
+    'necklaces': 'necklaces',
+    'bracelets': 'bracelets',
+    'bangles': 'bracelets',
+    'bridal': 'necklaces',
+    'choker': 'necklaces',
+    'jhumka': 'earrings',
+    'studs': 'earrings',
+    'hoops': 'earrings'
+  };
 
-  // Filter sections: Show only the matching category section, hide all other categories
-  sections.forEach(sec => {
-    const secId = sec.id.toLowerCase();
-    if (secId === categoryParam) {
-      sec.style.display = 'block';
-    } else {
-      sec.style.display = 'none';
-    }
-  });
+  const targetSectionId = categoryMap[categoryParam] || (document.getElementById(categoryParam) ? categoryParam : null);
+
+  if (targetSectionId) {
+    // Show only the relevant section if filtering by category
+    sections.forEach(sec => {
+      const secId = sec.id.toLowerCase();
+      if (secId === targetSectionId) {
+        sec.style.display = 'block';
+        setTimeout(() => {
+          sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+      } else {
+        sec.style.display = 'none';
+      }
+    });
+  }
 
   // Update navigation active state
   document.querySelectorAll('.main-nav .nav-link').forEach(link => {
     const href = link.getAttribute('href') || '';
-    if (href.includes(`category=${categoryParam}`)) {
+    if (href.includes(`category=${categoryParam}`) || (targetSectionId && href.includes(`category=${targetSectionId}`))) {
       link.parentElement?.classList.add('active');
     } else {
       link.parentElement?.classList.remove('active');
