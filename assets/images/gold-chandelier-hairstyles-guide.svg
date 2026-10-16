@@ -1,63 +1,124 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
   <defs>
-    <linearGradient id="hairChBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FCFAF7"/>
-      <stop offset="100%" stop-color="#F3ECE2"/>
+    <linearGradient id="hairSilk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5EE"/>
+      <stop offset="50%" stop-color="#F2E5D3"/>
+      <stop offset="100%" stop-color="#E8D7C2"/>
     </linearGradient>
+
+    <linearGradient id="hairGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAB0"/>
+      <stop offset="50%" stop-color="#D9A83A"/>
+      <stop offset="100%" stop-color="#9C6F19"/>
+    </linearGradient>
+
+    <radialGradient id="hairPearl" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#F5EEE4"/>
+      <stop offset="100%" stop-color="#D5C2AA"/>
+    </radialGradient>
+
+    <filter id="softHairShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#4A341E" flood-opacity="0.12"/>
+    </filter>
   </defs>
 
-  <rect width="800" height="350" rx="14" fill="url(#hairChBg)"/>
-  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">Hairstyle &amp; Veil Pairing with Chandelier Earrings</text>
-  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Ensuring your earrings remain visible and tangle-free all day</text>
+  <rect width="800" height="350" rx="14" fill="url(#hairSilk)"/>
+  <path d="M 0 310 Q 250 190 500 320 T 800 230 L 800 350 L 0 350 Z" fill="#DFC9B2" opacity="0.35"/>
+  <path d="M 0 50 Q 260 170 540 40 T 800 120 L 800 0 L 0 0 Z" fill="#FFFFFF" opacity="0.45"/>
 
-  <!-- 1. Sleek Updo -->
-  <g transform="translate(30, 85)">
-    <rect width="170" height="235" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <circle cx="85" cy="42" r="16" fill="#D5C2AA"/>
-    <circle cx="85" cy="34" r="8" fill="#8C6826"/>
-    <text x="85" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Sleek Updo / Bun</text>
-    <text x="85" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Center Stage Display</text>
-    <text x="85" y="146" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Full 360° visibility</text>
-    <text x="85" y="166" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Showcases every tier</text>
-    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Flawless side portraits</text>
-    <text x="85" y="214" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C2422">Maximum Visibility</text>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2018" letter-spacing="1">Bridal Hairstyle, Veils &amp; Earring Placement Guide</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#755E4E">Optimize visibility and prevent veil snags on your wedding day</text>
+
+  <!-- 1. Sleek Updo & Chignon -->
+  <g transform="translate(30, 78)" filter="url(#softHairShadow)">
+    <rect width="170" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <!-- Updo Icon -->
+    <g transform="translate(85, 38)">
+      <circle cx="0" cy="-12" r="14" fill="#E8DACB"/>
+      <circle cx="0" cy="8" r="8" fill="#D3BEA8"/>
+      <!-- Chandelier earring displayed clearly -->
+      <g transform="translate(18, -4)">
+        <circle cx="0" cy="0" r="3" fill="url(#hairGold)"/>
+        <path d="M -4 5 L 4 5 L 0 16 Z" fill="url(#hairGold)"/>
+        <circle cx="0" cy="20" r="2.5" fill="url(#hairPearl)"/>
+      </g>
+    </g>
+    <text x="85" y="96" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12.5" font-weight="700" fill="#2C2018">Sleek Updo &amp;</text>
+    <text x="85" y="112" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11.5" font-weight="700" fill="#8C6826">Chignon</text>
+    <line x1="30" y1="122" x2="140" y2="122" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">100% Unobstructed</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Earrings take center stage</text>
+    <text x="85" y="176" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Shows jawline &amp; neck</text>
+    <text x="85" y="192" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">No hair snagging risks</text>
+    <rect x="25" y="212" width="120" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="85" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Prime Statement</text>
   </g>
 
-  <!-- 2. Hollywood Waves -->
-  <g transform="translate(220, 85)">
-    <rect width="170" height="235" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <circle cx="85" cy="42" r="14" fill="#D5C2AA"/>
-    <path d="M 68 40 Q 64 56 68 68 M 102 40 Q 106 56 102 68" fill="none" stroke="#8C6826" stroke-width="4" stroke-linecap="round"/>
-    <text x="85" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Hollywood Waves</text>
-    <text x="85" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Wider Tiered Styles</text>
-    <text x="85" y="146" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Tuck one side behind ear</text>
-    <text x="85" y="166" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Gleams through tresses</text>
-    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Glamorous vintage aura</text>
-    <text x="85" y="214" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C2422">High Glamour</text>
+  <!-- 2. Hollywood Waves & Down -->
+  <g transform="translate(220, 78)" filter="url(#softHairShadow)">
+    <rect width="170" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <g transform="translate(85, 38)">
+      <path d="M -16 -12 C -8 -20, 8 -20, 16 -12 C 18 4, 10 20, 16 30 C 6 30, -6 30, -16 30 C -10 20, -18 4, -16 -12 Z" fill="#E8DACB"/>
+      <g transform="translate(6, 4)">
+        <circle cx="0" cy="0" r="3" fill="url(#hairGold)"/>
+        <ellipse cx="0" cy="10" rx="5" ry="7" fill="url(#hairGold)"/>
+        <circle cx="0" cy="20" r="3" fill="url(#hairPearl)"/>
+      </g>
+    </g>
+    <text x="85" y="96" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12.5" font-weight="700" fill="#2C2018">Hollywood Waves &amp;</text>
+    <text x="85" y="112" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11.5" font-weight="700" fill="#8C6826">Loose Curls</text>
+    <line x1="30" y1="122" x2="140" y2="122" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Glint Through Strands</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Choose wider chandeliers</text>
+    <text x="85" y="176" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Faceted stones catch light</text>
+    <text x="85" y="192" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Tuck one side behind ear</text>
+    <rect x="25" y="212" width="120" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="85" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Vintage Glamour</text>
   </g>
 
-  <!-- 3. Half-Up Braids -->
-  <g transform="translate(410, 85)">
-    <rect width="170" height="235" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <circle cx="85" cy="40" r="14" fill="#D5C2AA"/>
-    <path d="M 82 50 L 88 56 L 82 62 L 88 68" fill="none" stroke="#8C6826" stroke-width="3" stroke-linecap="round"/>
-    <text x="85" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Half-Up Braids</text>
-    <text x="85" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Botanical Motifs</text>
-    <text x="85" y="146" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Gold vines and leaves</text>
-    <text x="85" y="166" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Pulls front hair back</text>
-    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Boho luxury romance</text>
-    <text x="85" y="214" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C2422">Boho Chic</text>
+  <!-- 3. Half-Up & Braids -->
+  <g transform="translate(410, 78)" filter="url(#softHairShadow)">
+    <rect width="170" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <g transform="translate(85, 38)">
+      <circle cx="0" cy="-14" r="10" fill="#E8DACB"/>
+      <path d="M -12 -4 C -8 10, -4 20, 0 28 C 4 20, 8 10, 12 -4 Z" fill="#D3BEA8"/>
+      <g transform="translate(14, 0)">
+        <circle cx="0" cy="0" r="3" fill="url(#hairGold)"/>
+        <path d="M -4 5 Q 0 15 4 5" fill="none" stroke="url(#hairGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="16" r="2.5" fill="url(#hairPearl)"/>
+      </g>
+    </g>
+    <text x="85" y="96" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12.5" font-weight="700" fill="#2C2018">Half-Up Half-Down</text>
+    <text x="85" y="112" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11.5" font-weight="700" fill="#8C6826">&amp; Boho Braids</text>
+    <line x1="30" y1="122" x2="140" y2="122" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Botanical &amp; Floral</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Matches organic textures</text>
+    <text x="85" y="176" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Golden leaves &amp; pearls</text>
+    <text x="85" y="192" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Keeps ear zone clear</text>
+    <rect x="25" y="212" width="120" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="85" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Whimsical Romance</text>
   </g>
 
-  <!-- 4. Wearing a Veil -->
-  <g transform="translate(600, 85)">
-    <rect width="170" height="235" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <path d="M 75 36 C 85 30 85 30 95 36 C 98 50 106 68 106 72 L 64 72 C 64 68 72 50 75 36 Z" fill="#F4ECE1" stroke="#C5A059" stroke-width="1.2" stroke-dasharray="2,2"/>
-    <text x="85" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Veil Precautions</text>
-    <text x="85" y="120" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Leverbacks &amp; Smooth Bezels</text>
-    <text x="85" y="146" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Prevents tulle snags</text>
-    <text x="85" y="166" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Secure lock clasp</text>
-    <text x="85" y="186" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Won't catch when moving</text>
-    <text x="85" y="214" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C2422">Tangle Free</text>
+  <!-- 4. Bridal Veil Pairing -->
+  <g transform="translate(600, 78)" filter="url(#softHairShadow)">
+    <rect width="170" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <g transform="translate(85, 38)">
+      <path d="M -22 -16 Q 0 -22 22 -16 L 26 28 Q 0 34 -26 28 Z" fill="#F0E8DD" stroke="#D5C2AA" stroke-dasharray="3,3"/>
+      <g transform="translate(0, 0)">
+        <circle cx="0" cy="0" r="3.5" fill="url(#hairGold)"/>
+        <path d="M -5 6 L 5 6 L 0 16 Z" fill="url(#hairGold)"/>
+        <circle cx="0" cy="20" r="2.8" fill="url(#hairPearl)"/>
+      </g>
+    </g>
+    <text x="85" y="96" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12.5" font-weight="700" fill="#2C2018">Veil Pairing &amp;</text>
+    <text x="85" y="112" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11.5" font-weight="700" fill="#8C6826">Safety Protocol</text>
+    <line x1="30" y1="122" x2="140" y2="122" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="85" y="140" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Snag Prevention</text>
+    <text x="85" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Choose smooth bezels</text>
+    <text x="85" y="176" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Avoid open sharp prongs</text>
+    <text x="85" y="192" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Leverbacks lock secure</text>
+    <rect x="25" y="212" width="120" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="85" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">100% Snag-Free</text>
   </g>
 </svg>

@@ -1,93 +1,139 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
   <defs>
-    <linearGradient id="stylesChBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FCFAF7"/>
-      <stop offset="100%" stop-color="#F3ECE2"/>
+    <!-- Warm Silk & Champagne Backdrop -->
+    <linearGradient id="popSilk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5EE"/>
+      <stop offset="50%" stop-color="#F3E7D5"/>
+      <stop offset="100%" stop-color="#E8D7C2"/>
     </linearGradient>
+
+    <!-- Rich Brushed Gold -->
+    <linearGradient id="cardGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAB0"/>
+      <stop offset="50%" stop-color="#D9A83A"/>
+      <stop offset="100%" stop-color="#9C6F19"/>
+    </linearGradient>
+
+    <!-- Card Shadow -->
+    <filter id="softCardShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#4A341E" flood-opacity="0.12"/>
+    </filter>
+
+    <radialGradient id="pearl" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#F3ECE2"/>
+      <stop offset="100%" stop-color="#D5C2AA"/>
+    </radialGradient>
   </defs>
 
-  <rect width="800" height="350" rx="14" fill="url(#stylesChBg)"/>
-  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">5 Popular Styles of Bridal Chandelier Earrings</text>
-  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">From heritage filigree to sleek architectural chandeliers</text>
+  <!-- Background Canvas -->
+  <rect width="800" height="350" rx="14" fill="url(#popSilk)"/>
+  <path d="M 0 320 Q 250 200 500 330 T 800 240 L 800 350 L 0 350 Z" fill="#DFC9B2" opacity="0.35"/>
+  <path d="M 0 60 Q 280 180 540 50 T 800 130 L 800 0 L 0 0 Z" fill="#FFFFFF" opacity="0.45"/>
 
-  <!-- 1. Traditional Filigree -->
-  <g transform="translate(25, 85)">
-    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <!-- Filigree silhouette -->
-    <path d="M 50 35 Q 69 22 88 35 Q 88 55 69 68 Q 50 55 50 35 Z" fill="none" stroke="#C5A059" stroke-width="2"/>
-    <circle cx="69" cy="45" r="5" fill="#8C6826"/>
-    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Traditional</text>
-    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Filigree</text>
-    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Lace Wirework</text>
-    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Heritage jhumkas</text>
-    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Lightweight openwork</text>
-    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Cultural grandeur</text>
-    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Heritage Pick</text>
+  <!-- Section Title -->
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2018" letter-spacing="1">5 Popular Styles of Bridal Chandelier Earrings</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#755E4E">Discover the signature silhouettes crafted for modern &amp; traditional brides</text>
+
+  <!-- Card 1: Traditional Filigree -->
+  <g transform="translate(25, 78)" filter="url(#softCardShadow)">
+    <rect width="138" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <!-- Gold floral filigree visual -->
+    <g transform="translate(69, 44)">
+      <circle cx="0" cy="-14" r="7" fill="url(#cardGold)"/>
+      <path d="M -18 8 Q 0 -6 18 8 Q 0 24 -18 8 Z" fill="url(#cardGold)" opacity="0.85"/>
+      <circle cx="-12" cy="18" r="3.5" fill="url(#pearl)"/>
+      <circle cx="0" cy="22" r="4.5" fill="url(#pearl)"/>
+      <circle cx="12" cy="18" r="3.5" fill="url(#pearl)"/>
+    </g>
+    <text x="69" y="98" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#2C2018">Traditional</text>
+    <text x="69" y="114" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11" font-weight="700" fill="#8C6826">Filigree</text>
+    <line x1="25" y1="124" x2="113" y2="124" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="69" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Artisan Lace</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Heritage jhumkas</text>
+    <text x="69" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Lightweight openwork</text>
+    <text x="69" y="194" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Cultural grandeur</text>
+    <rect x="20" y="212" width="98" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="69" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Heritage Icon</text>
   </g>
 
-  <!-- 2. Modern Geometric -->
-  <g transform="translate(178, 85)">
-    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <!-- Geometric Chevron / Rhombus -->
-    <polygon points="69,25 94,48 69,72 44,48" fill="none" stroke="#C5A059" stroke-width="2"/>
-    <line x1="56" y1="48" x2="82" y2="48" stroke="#8C6826" stroke-width="2"/>
-    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Modern</text>
-    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Geometric</text>
-    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Linear &amp; Clean</text>
-    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Chevrons &amp; fringe</text>
-    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Architectural flair</text>
-    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">City hall / Penthouse</text>
-    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Editorial Vibe</text>
+  <!-- Card 2: Modern Geometric -->
+  <g transform="translate(178, 78)" filter="url(#softCardShadow)">
+    <rect width="138" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <g transform="translate(69, 44)">
+      <polygon points="0,-16 16,0 0,16 -16,0" fill="none" stroke="url(#cardGold)" stroke-width="2.5"/>
+      <line x1="-12" y1="0" x2="12" y2="0" stroke="url(#cardGold)" stroke-width="1.8"/>
+      <polygon points="0,2 10,12 0,22 -10,12" fill="url(#cardGold)" opacity="0.75"/>
+    </g>
+    <text x="69" y="98" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#2C2018">Modern</text>
+    <text x="69" y="114" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11" font-weight="700" fill="#8C6826">Geometric</text>
+    <line x1="25" y1="124" x2="113" y2="124" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="69" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Linear Architecture</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Chevrons &amp; fringe</text>
+    <text x="69" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Sleek polished wire</text>
+    <text x="69" y="194" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">City hall &amp; galas</text>
+    <rect x="20" y="212" width="98" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="69" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Editorial Vibe</text>
   </g>
 
-  <!-- 3. Pearl-Accented -->
-  <g transform="translate(331, 85)">
-    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <!-- Pearl cluster arch -->
-    <path d="M 50 35 Q 69 22 88 35" fill="none" stroke="#C5A059" stroke-width="2"/>
-    <circle cx="53" cy="52" r="5" fill="#FFF" stroke="#D5C2AA"/>
-    <circle cx="69" cy="58" r="6" fill="#FFF" stroke="#D5C2AA"/>
-    <circle cx="85" cy="52" r="5" fill="#FFF" stroke="#D5C2AA"/>
-    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Pearl-Accented</text>
-    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Drops</text>
-    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Soft Romance</text>
-    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Freshwater seeds</text>
-    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Softens bold gold</text>
-    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Classic garden style</text>
-    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Luminous Glow</text>
+  <!-- Card 3: Pearl-Accented Drops -->
+  <g transform="translate(331, 78)" filter="url(#softCardShadow)">
+    <rect width="138" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <g transform="translate(69, 44)">
+      <path d="M -16 -6 Q 0 -16 16 -6" fill="none" stroke="url(#cardGold)" stroke-width="2"/>
+      <circle cx="-14" cy="8" r="4.5" fill="url(#pearl)"/>
+      <circle cx="0" cy="14" r="6" fill="url(#pearl)"/>
+      <circle cx="14" cy="8" r="4.5" fill="url(#pearl)"/>
+      <circle cx="0" cy="24" r="3.5" fill="url(#pearl)"/>
+    </g>
+    <text x="69" y="98" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#2C2018">Pearl-Accented</text>
+    <text x="69" y="114" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11" font-weight="700" fill="#8C6826">Clusters</text>
+    <line x1="25" y1="124" x2="113" y2="124" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="69" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Romantic Glow</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Freshwater drops</text>
+    <text x="69" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Soft feminine motion</text>
+    <text x="69" y="194" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Romantic gardens</text>
+    <rect x="20" y="212" width="98" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="69" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Bride Favorite</text>
   </g>
 
-  <!-- 4. Gemstone & Diamond -->
-  <g transform="translate(484, 85)">
-    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <!-- Faceted sparkle clusters -->
-    <circle cx="69" cy="35" r="8" fill="#EBF4F6" stroke="#C5A059" stroke-width="1.5"/>
-    <circle cx="55" cy="55" r="7" fill="#EBF4F6" stroke="#C5A059" stroke-width="1.5"/>
-    <circle cx="83" cy="55" r="7" fill="#EBF4F6" stroke="#C5A059" stroke-width="1.5"/>
-    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Gemstone &amp;</text>
-    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Diamonds</text>
-    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Maximum Fire</text>
-    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Brilliant pavé tiers</text>
-    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Emerald or sapphire</text>
-    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Luxury ballroom</text>
-    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">High Sparkle</text>
+  <!-- Card 4: Gemstone & Diamond -->
+  <g transform="translate(484, 78)" filter="url(#softCardShadow)">
+    <rect width="138" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <g transform="translate(69, 44)">
+      <polygon points="0,-16 6,-8 15,-4 8,4 9,14 0,9 -9,14 -8,4 -15,-4 -6,-8" fill="url(#cardGold)"/>
+      <polygon points="0,-10 4,-5 9,-2 5,2 6,8 0,5 -6,8 -5,2 -9,-2 -4,-5" fill="#FFFFFF"/>
+      <circle cx="0" cy="22" r="4.5" fill="#52B788" stroke="url(#cardGold)" stroke-width="1"/>
+    </g>
+    <text x="69" y="98" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#2C2018">Gemstone &amp;</text>
+    <text x="69" y="114" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11" font-weight="700" fill="#8C6826">Diamonds</text>
+    <line x1="25" y1="124" x2="113" y2="124" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="69" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Max Brilliance</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Emeralds &amp; Moissanite</text>
+    <text x="69" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Dynamic candlelight fire</text>
+    <text x="69" y="194" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Luxury receptions</text>
+    <rect x="20" y="212" width="98" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="69" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Showstopper</text>
   </g>
 
-  <!-- 5. Minimalist Wire -->
-  <g transform="translate(637, 85)">
-    <rect width="138" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <!-- Slim wires -->
-    <line x1="69" y1="25" x2="69" y2="45" stroke="#C5A059" stroke-width="2"/>
-    <line x1="55" y1="45" x2="83" y2="45" stroke="#C5A059" stroke-width="1.5"/>
-    <line x1="55" y1="45" x2="55" y2="68" stroke="#C5A059" stroke-width="1.2"/>
-    <line x1="69" y1="45" x2="69" y2="72" stroke="#C5A059" stroke-width="1.2"/>
-    <line x1="83" y1="45" x2="83" y2="68" stroke="#C5A059" stroke-width="1.2"/>
-    <text x="69" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Minimalist</text>
-    <text x="69" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C2422">Fine Wire</text>
-    <text x="69" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Featherweight</text>
-    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Delicate chain cascade</text>
-    <text x="69" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Zero heaviness</text>
-    <text x="69" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Understated luxury</text>
-    <text x="69" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Effortless Ease</text>
+  <!-- Card 5: Minimalist Fine-Wire -->
+  <g transform="translate(637, 78)" filter="url(#softCardShadow)">
+    <rect width="138" height="245" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <g transform="translate(69, 44)">
+      <line x1="-12" y1="-14" x2="12" y2="-14" stroke="url(#cardGold)" stroke-width="1.8"/>
+      <line x1="-8" y1="-14" x2="-8" y2="14" stroke="url(#cardGold)" stroke-width="1"/>
+      <line x1="0" y1="-14" x2="0" y2="24" stroke="url(#cardGold)" stroke-width="1.2"/>
+      <line x1="8" y1="-14" x2="8" y2="14" stroke="url(#cardGold)" stroke-width="1"/>
+      <circle cx="0" cy="24" r="2.5" fill="url(#cardGold)"/>
+    </g>
+    <text x="69" y="98" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#2C2018">Minimalist</text>
+    <text x="69" y="114" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="11" font-weight="700" fill="#8C6826">Fine-Wire</text>
+    <line x1="25" y1="124" x2="113" y2="124" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="69" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Featherweight</text>
+    <text x="69" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Dainty micro-chains</text>
+    <text x="69" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Subtle cascading flow</text>
+    <text x="69" y="194" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Outdoor vows</text>
+    <rect x="20" y="212" width="98" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="69" y="226" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Modern Dainty</text>
   </g>
 </svg>

@@ -1,64 +1,113 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340">
   <defs>
-    <linearGradient id="neckChBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FCFAF7"/>
-      <stop offset="100%" stop-color="#F2EBE0"/>
+    <linearGradient id="neckSilk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5EE"/>
+      <stop offset="50%" stop-color="#F2E5D3"/>
+      <stop offset="100%" stop-color="#E8D7C2"/>
     </linearGradient>
+
+    <linearGradient id="earringGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAB0"/>
+      <stop offset="50%" stop-color="#D9A83A"/>
+      <stop offset="100%" stop-color="#9C6F19"/>
+    </linearGradient>
+
+    <radialGradient id="pearlShine" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#F5EEE4"/>
+      <stop offset="100%" stop-color="#D5C2AA"/>
+    </radialGradient>
+
+    <filter id="softNeckShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#4A341E" flood-opacity="0.12"/>
+    </filter>
   </defs>
 
-  <rect width="800" height="340" rx="14" fill="url(#neckChBg)"/>
-  <text x="400" y="36" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="17" font-weight="700" fill="#2C2422">Neckline &amp; Gold Chandelier Earring Harmony</text>
-  <text x="400" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Maximizing statement earrings without visual clutter</text>
+  <rect width="800" height="340" rx="14" fill="url(#neckSilk)"/>
+  <path d="M 0 300 Q 240 180 500 320 T 800 220 L 800 340 L 0 340 Z" fill="#DFC9B2" opacity="0.35"/>
+  <path d="M 0 50 Q 260 170 540 40 T 800 120 L 800 0 L 0 0 Z" fill="#FFFFFF" opacity="0.45"/>
 
-  <!-- 1. Strapless & Sweetheart -->
-  <g transform="translate(30, 80)">
-    <rect width="170" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <path d="M 50 35 Q 85 55 120 35" fill="none" stroke="#8C6826" stroke-width="2.5"/>
-    <text x="85" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Strapless &amp;</text>
-    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Sweetheart</text>
-    <text x="85" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Multi-Tier Showstoppers</text>
-    <text x="85" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Bare collarbones</text>
-    <text x="85" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Total styling freedom</text>
-    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Skip necklace entirely</text>
-    <text x="85" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Length: 2.5" – 3.5"</text>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2018" letter-spacing="1">Wedding Dress Necklines &amp; Gold Chandelier Harmony</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#755E4E">Balance your gown's neckline with the perfect earring silhouette</text>
+
+  <!-- 1. Strapless / Sweetheart -->
+  <g transform="translate(30, 78)" filter="url(#softNeckShadow)">
+    <rect width="170" height="235" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <!-- Gown neckline sketch + chandelier -->
+    <path d="M 40 45 C 58 55, 68 55, 85 46 C 102 55, 112 55, 130 45" fill="none" stroke="#BAA591" stroke-width="2.5"/>
+    <g transform="translate(85, 30)">
+      <circle cx="0" cy="0" r="4.5" fill="url(#earringGold)"/>
+      <path d="M -8 10 Q 0 4 8 10 L 4 24 L -4 24 Z" fill="url(#earringGold)"/>
+      <circle cx="0" cy="30" r="3" fill="url(#pearlShine)"/>
+    </g>
+    <text x="85" y="94" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#2C2018">Sweetheart &amp;</text>
+    <text x="85" y="110" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#8C6826">Strapless</text>
+    <line x1="30" y1="120" x2="140" y2="120" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="85" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Ideal Earring Style</text>
+    <text x="85" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Dramatic 3" Chandeliers</text>
+    <text x="85" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Wide cascading tiers</text>
+    <text x="85" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Leaves collar open</text>
+    <rect x="25" y="202" width="120" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="85" y="216" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Maximum Impact</text>
   </g>
 
   <!-- 2. V-Neck & Plunging -->
-  <g transform="translate(220, 80)">
-    <rect width="170" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <path d="M 50 32 L 85 58 L 120 32" fill="none" stroke="#8C6826" stroke-width="2.5"/>
-    <text x="85" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">V-Neck &amp;</text>
-    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Plunging Bodice</text>
-    <text x="85" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Tapered Drops</text>
-    <text x="85" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Mirrors bodice angle</text>
-    <text x="85" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Elongates neckline</text>
-    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Teardrop bottom tier</text>
-    <text x="85" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Length: 2.0" – 2.8"</text>
+  <g transform="translate(220, 78)" filter="url(#softNeckShadow)">
+    <rect width="170" height="235" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <path d="M 40 35 L 85 62 L 130 35" fill="none" stroke="#BAA591" stroke-width="2.5"/>
+    <g transform="translate(85, 26)">
+      <circle cx="0" cy="0" r="4" fill="url(#earringGold)"/>
+      <polygon points="0,8 6,18 0,26 -6,18" fill="url(#earringGold)"/>
+      <circle cx="0" cy="32" r="2.8" fill="url(#pearlShine)"/>
+    </g>
+    <text x="85" y="94" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#2C2018">V-Neck &amp;</text>
+    <text x="85" y="110" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#8C6826">Plunging</text>
+    <line x1="30" y1="120" x2="140" y2="120" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="85" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Ideal Earring Style</text>
+    <text x="85" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Tapered Linear Drops</text>
+    <text x="85" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Teardrop pendants</text>
+    <text x="85" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Echoes V-angle</text>
+    <rect x="25" y="202" width="120" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="85" y="216" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Elongating &amp; Slimming</text>
   </g>
 
-  <!-- 3. Off-Shoulder & Bardot -->
-  <g transform="translate(410, 80)">
-    <rect width="170" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <path d="M 45 42 L 125 42" fill="none" stroke="#8C6826" stroke-width="2.5"/>
-    <text x="85" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Off-Shoulder &amp;</text>
-    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Bardot Sleeves</text>
-    <text x="85" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Floating Medium Drops</text>
-    <text x="85" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Frames neck contour</text>
-    <text x="85" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Leaves sleeve bare</text>
-    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Won't rub shoulders</text>
-    <text x="85" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Length: 2.0" – 2.5"</text>
+  <!-- 3. Off-The-Shoulder / Bardot -->
+  <g transform="translate(410, 78)" filter="url(#softNeckShadow)">
+    <rect width="170" height="235" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <path d="M 35 48 C 65 52, 105 52, 135 48" fill="none" stroke="#BAA591" stroke-width="2.5"/>
+    <g transform="translate(85, 26)">
+      <circle cx="0" cy="0" r="4" fill="url(#earringGold)"/>
+      <ellipse cx="0" cy="14" rx="10" ry="7" fill="none" stroke="url(#earringGold)" stroke-width="2"/>
+      <circle cx="-5" cy="24" r="2.8" fill="url(#pearlShine)"/>
+      <circle cx="5" cy="24" r="2.8" fill="url(#pearlShine)"/>
+    </g>
+    <text x="85" y="94" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#2C2018">Off-The-Shoulder</text>
+    <text x="85" y="110" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#8C6826">Bardot Collar</text>
+    <line x1="30" y1="120" x2="140" y2="120" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="85" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Ideal Earring Style</text>
+    <text x="85" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Medium Length (2"-2.5")</text>
+    <text x="85" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Botanical floral branch</text>
+    <text x="85" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Clears gown cuff</text>
+    <rect x="25" y="202" width="120" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="85" y="216" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Romantic &amp; Soft</text>
   </g>
 
-  <!-- 4. High Collar / Halter -->
-  <g transform="translate(600, 80)">
-    <rect width="170" height="235" rx="8" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <path d="M 55 50 Q 85 30 115 50" fill="none" stroke="#8C6826" stroke-width="2.5"/>
-    <text x="85" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">High Collar &amp;</text>
-    <text x="85" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2C2422">Illusion Lace</text>
-    <text x="85" y="128" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Compact Chandeliers</text>
-    <text x="85" y="155" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Avoid fabric snagging</text>
-    <text x="85" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Clears collar fabric</text>
-    <text x="85" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#7A6E6C">Balanced proportion</text>
-    <text x="85" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#2C2422">Length: 1.5" Max</text>
+  <!-- 4. High Neck & Halter -->
+  <g transform="translate(600, 78)" filter="url(#softNeckShadow)">
+    <rect width="170" height="235" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <path d="M 60 48 L 70 30 L 100 30 L 110 48" fill="none" stroke="#BAA591" stroke-width="2.5"/>
+    <g transform="translate(85, 26)">
+      <circle cx="0" cy="0" r="4.5" fill="url(#earringGold)"/>
+      <circle cx="0" cy="14" r="5" fill="url(#pearlShine)"/>
+    </g>
+    <text x="85" y="94" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#2C2018">High Neck &amp;</text>
+    <text x="85" y="110" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#8C6826">Illusion Lace</text>
+    <line x1="30" y1="120" x2="140" y2="120" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="85" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Ideal Earring Style</text>
+    <text x="85" y="156" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Compact Drops / Studs</text>
+    <text x="85" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Under 1.5" drops</text>
+    <text x="85" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#665345">Prevents lace snagging</text>
+    <rect x="25" y="202" width="120" height="20" rx="4" fill="#FAF5EE"/>
+    <text x="85" y="216" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Tangle-Free Polish</text>
   </g>
 </svg>

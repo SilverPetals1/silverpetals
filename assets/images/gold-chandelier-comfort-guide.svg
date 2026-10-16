@@ -1,49 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330">
   <defs>
-    <linearGradient id="comfBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FCFAF7"/>
-      <stop offset="100%" stop-color="#F2EBE0"/>
+    <linearGradient id="comfSilk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5EE"/>
+      <stop offset="50%" stop-color="#F2E5D3"/>
+      <stop offset="100%" stop-color="#E8D7C2"/>
     </linearGradient>
+
+    <linearGradient id="comfGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAB0"/>
+      <stop offset="50%" stop-color="#D9A83A"/>
+      <stop offset="100%" stop-color="#9C6F19"/>
+    </linearGradient>
+
+    <filter id="softComfShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#4A341E" flood-opacity="0.12"/>
+    </filter>
   </defs>
 
-  <rect width="800" height="330" rx="14" fill="url(#comfBg)"/>
-  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2422">Comfort &amp; Weight Engineering: The 3 Rules</text>
-  <text x="400" y="60" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7A6E6C">Ensuring heavy statement chandeliers feel weightless through 12+ hours of wedding joy</text>
+  <rect width="800" height="330" rx="14" fill="url(#comfSilk)"/>
+  <path d="M 0 290 Q 250 170 500 300 T 800 210 L 800 330 L 0 330 Z" fill="#DFC9B2" opacity="0.35"/>
+  <path d="M 0 50 Q 260 170 540 40 T 800 120 L 800 0 L 0 0 Z" fill="#FFFFFF" opacity="0.45"/>
 
-  <!-- 1. The Weight Rule -->
-  <g transform="translate(30, 85)">
-    <rect width="225" height="215" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <circle cx="112" cy="46" r="22" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
-    <text x="112" y="52" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#8C6826">⚖️</text>
-    <text x="112" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Under 8–10g Per Ear</text>
-    <text x="112" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Weight Benchmark</text>
-    <text x="112" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Choose hollow electroform</text>
-    <text x="112" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">or delicate filigree wire</text>
-    <text x="112" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">Zero Lobe Sagging</text>
+  <text x="400" y="38" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#2C2018" letter-spacing="1">Bridal Earring Comfort &amp; Weight Engineering</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#755E4E">The 3 golden rules for wearing dramatic chandeliers pain-free for 12+ hours</text>
+
+  <!-- Pillar 1: Weight -->
+  <g transform="translate(40, 78)" filter="url(#softComfShadow)">
+    <rect width="220" height="225" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <circle cx="110" cy="40" r="22" fill="#FAF5EE" stroke="#D5C2AA"/>
+    <text x="110" y="47" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" fill="#8C6826">&lt;8g</text>
+    <text x="110" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#2C2018">Weight Engineering</text>
+    <line x1="40" y1="104" x2="180" y2="104" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="110" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Under 7-10 Grams / Ear</text>
+    <text x="110" y="146" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Hollow-form construction</text>
+    <text x="110" y="164" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Electroformed gold</text>
+    <text x="110" y="182" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Intricate filigree wire</text>
+    <rect x="35" y="196" width="150" height="18" rx="4" fill="#FAF5EE"/>
+    <text x="110" y="209" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Lightweight Volume</text>
   </g>
 
-  <!-- 2. The Disc Backing -->
-  <g transform="translate(285, 85)">
-    <rect width="225" height="215" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <circle cx="112" cy="46" r="22" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
-    <circle cx="112" cy="46" r="14" fill="#FFF" stroke="#8C6826" stroke-width="2"/>
-    <circle cx="112" cy="46" r="4" fill="#8C6826"/>
-    <text x="112" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Wide Disc Clutches</text>
-    <text x="112" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Pressure Dispersal</text>
-    <text x="112" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Spreads weight across lobe</text>
-    <text x="112" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Keeps earring straight upright</text>
-    <text x="112" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">No Forward Droop</text>
+  <!-- Pillar 2: Disc Backing -->
+  <g transform="translate(290, 78)" filter="url(#softComfShadow)">
+    <rect width="220" height="225" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <circle cx="110" cy="40" r="22" fill="#FAF5EE" stroke="#D5C2AA"/>
+    <!-- Wide Disc Backing Graphic -->
+    <circle cx="110" cy="40" r="16" fill="none" stroke="url(#comfGold)" stroke-width="3"/>
+    <circle cx="110" cy="40" r="4" fill="url(#comfGold)"/>
+    <text x="110" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#2C2018">Wide Disc Clutch Backs</text>
+    <line x1="40" y1="104" x2="180" y2="104" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="110" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Eliminates Forward Droop</text>
+    <text x="110" y="146" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Wide silicone stabilizing rim</text>
+    <text x="110" y="164" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Distributes weight evenly</text>
+    <text x="110" y="182" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Keeps earring flush to lobe</text>
+    <rect x="35" y="196" width="150" height="18" rx="4" fill="#FAF5EE"/>
+    <text x="110" y="209" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">Flush Upright Fit</text>
   </g>
 
-  <!-- 3. Lobe Support Patches -->
-  <g transform="translate(540, 85)">
-    <rect width="225" height="215" rx="10" fill="#FFF" stroke="#E2D5C7" stroke-width="1"/>
-    <circle cx="112" cy="46" r="22" fill="#FAF4EB" stroke="#C5A059" stroke-width="1.5"/>
-    <rect x="98" y="36" width="28" height="20" rx="4" fill="#EADBCC" stroke="#8C6826" stroke-width="1.5"/>
-    <text x="112" y="94" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2C2422">Support Patches</text>
-    <text x="112" y="116" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C6826">Secret Bridal Hack</text>
-    <text x="112" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Clear medical tape adhesive</text>
-    <text x="112" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#7A6E6C">Applied behind ear piercing</text>
-    <text x="112" y="188" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#2C2422">All-Day Dancing</text>
+  <!-- Pillar 3: Support Patches -->
+  <g transform="translate(540, 78)" filter="url(#softComfShadow)">
+    <rect width="220" height="225" rx="10" fill="#FFFFFF" stroke="#E8DACB" stroke-width="1.2"/>
+    <circle cx="110" cy="40" r="22" fill="#FAF5EE" stroke="#D5C2AA"/>
+    <!-- Medical grade patch sketch -->
+    <rect x="98" y="28" width="24" height="24" rx="6" fill="#E8DACB" stroke="#BAA591" stroke-dasharray="2,2"/>
+    <text x="110" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#2C2018">Invisible Lobe Patches</text>
+    <line x1="40" y1="104" x2="180" y2="104" stroke="#EFE5D8" stroke-width="1"/>
+    <text x="110" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#8C6826">Zero Ear Fatigue</text>
+    <text x="110" y="146" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Medical-grade tape behind lobe</text>
+    <text x="110" y="164" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Absorbs earring weight</text>
+    <text x="110" y="182" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#665345">Guarantees all-night comfort</text>
+    <rect x="35" y="196" width="150" height="18" rx="4" fill="#FAF5EE"/>
+    <text x="110" y="209" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#8C6826">12+ Hour Relief</text>
   </g>
 </svg>
