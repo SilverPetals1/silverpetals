@@ -6,12 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap');
 
 :root {
-  /* Kernowcraft Inspired Palette */
-  --color-primary: #1FBECA;          /* Ocean Turquoise / Teal Accent */
-  --color-primary-dark: #128994;     /* Deep Teal */
-  --color-gold: #CFAA7A;             /* Warm Artisan Gold / Sand */
+  /* Luxury Gold & Artisan Palette (Nayab Inspired) */
+  --color-primary: #C5A059;          /* Refined Warm Gold */
+  --color-primary-dark: #8C6826;     /* Deep Antique Gold Bronze */
+  --color-gold: #CFAA7A;             /* Warm Artisan Gold */
   --color-gold-light: #F7EFE3;       /* Warm Cream */
-  --color-gold-dark: #A9834F;        /* Deep Gold Bronze */
+  --color-gold-dark: #8C6826;        /* Deep Gold Bronze */
   --color-pinterest: #E60023;        /* Official Pinterest Red */
   --color-pinterest-dark: #AD081B;   /* Deep Red */
   
@@ -353,17 +353,20 @@ h1, h2, h3, h4, h5, h6 {
   place-items: center;
 }
 
-/* Desktop Main Navigation Bar */
+/* Desktop Main Navigation Bar (Nayab Jewelry Inspired) */
 .main-nav {
-  border-top: 1px solid var(--color-border);
+  border-top: 1px solid #EFEAE3;
   background-color: #FFFFFF;
 }
 .nav-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.2rem;
+  gap: clamp(1.2rem, 2.5vw, 2.6rem);
   position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .nav-item {
   position: relative;
@@ -372,17 +375,32 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  padding-block: 0.85rem;
-  font-family: var(--font-heading);
-  font-size: 0.95rem;
+  padding-block: 0.95rem 0.85rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
   font-weight: 600;
-  color: var(--color-text-main);
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
+  color: #2C2422;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  position: relative;
   transition: color var(--transition-fast);
+  text-decoration: none;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #C5A059;
+  transition: width var(--transition-fast);
 }
 .nav-link:hover, .nav-item.active .nav-link {
-  color: var(--color-primary);
+  color: #8C6826;
+}
+.nav-link:hover::after, .nav-item.active .nav-link::after {
+  width: 100%;
 }
 .nav-link svg {
   width: 12px;
