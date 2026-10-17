@@ -3,33 +3,32 @@
    Modeled after Kernowcraft.com Design System & Pinterest SEO
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 :root {
-  /* Luxury Gold & Artisan Palette (Nayab Inspired) */
-  --color-primary: #C5A059;          /* Refined Warm Gold */
-  --color-primary-dark: #8C6826;     /* Deep Antique Gold Bronze */
-  --color-gold: #CFAA7A;             /* Warm Artisan Gold */
+  /* Luxury Jewelry Magazine Palette (Ivory, Warm Beige, Muted Gold, Dark Brown) */
+  --color-primary: #C5A059;          /* Muted Satin Gold */
+  --color-primary-dark: #8C6826;     /* Deep Antique Gold */
+  --color-gold: #D8B46F;             /* Warm Muted Gold */
   --color-gold-light: #F7EFE3;       /* Warm Cream */
-  --color-gold-dark: #8C6826;        /* Deep Gold Bronze */
+  --color-gold-dark: #7A581E;        /* Rich Bronze */
   --color-pinterest: #E60023;        /* Official Pinterest Red */
-  --color-pinterest-dark: #AD081B;   /* Deep Red */
   
-  /* Neutrals & Surfaces */
-  --color-bg-main: #FAF9F6;          /* Alabaster / Pearl Soft White */
-  --color-bg-card: #FFFFFF;          /* Pure White */
-  --color-bg-muted: #F3F1EC;         /* Light Sand Grey */
-  --color-border: #E8E5DF;          /* Subtle Border */
-  --color-border-dark: #D4CEBF;      /* Focused Border */
+  /* Magazine Surfaces & Backgrounds */
+  --color-bg-main: #FBF8F3;          /* Soft Ivory / Cream Canvas */
+  --color-bg-card: #FAF6EF;          /* Warm Beige Surface */
+  --color-bg-muted: #F3EBE1;         /* Muted Warm Sand */
+  --color-border: #E8DDD0;          /* Soft Beige Border */
+  --color-border-dark: #D4C5B3;      /* Defined Beige Border */
   
-  /* Text */
-  --color-text-main: #1D2124;        /* Charcoal Black */
-  --color-text-muted: #5C6269;       /* Muted Slate */
-  --color-text-light: #8E959E;       /* Light Grey */
+  /* Magazine Typography Colors */
+  --color-text-main: #2A211B;        /* Dark Espresso Brown */
+  --color-text-muted: #6B5E55;       /* Warm Earthy Taupe */
+  --color-text-light: #9C8E84;       /* Muted Almond */
   
   /* Typography */
-  --font-heading: 'Josefin Sans', sans-serif;
-  --font-serif: 'Playfair Display', serif;
+  --font-heading: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
   --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   
   /* Spacing */
@@ -239,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-header {
   position: sticky;
   top: 0;
-  background-color: #FFFFFF;
+  background-color: var(--color-bg-main);
   border-bottom: 1px solid var(--color-border);
   z-index: 40;
   transition: all var(--transition-smooth);
@@ -353,10 +352,10 @@ h1, h2, h3, h4, h5, h6 {
   place-items: center;
 }
 
-/* Desktop Main Navigation Bar (Nayab Jewelry Inspired) */
+/* Desktop Main Navigation Bar (Luxury Magazine Style) */
 .main-nav {
-  border-top: 1px solid #EFEAE3;
-  background-color: #FFFFFF;
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-bg-card);
 }
 .nav-list {
   display: flex;
@@ -2124,11 +2123,14 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  background-color: #FAF6EF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 .blog-card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 10px 30px rgba(60, 45, 35, 0.08);
 }
 .blog-card a {
   color: inherit;
@@ -2333,19 +2335,196 @@ h1, h2, h3, h4, h5, h6 {
   color: #1D2124;
 }
 
-/* Free Shipping Marquee/Bar */
-.nayab-shipping-strip {
-  background: #FAF7F2;
-  border-bottom: 1px solid #EFEAE3;
-  padding: 8px 16px;
+/* ==========================================================================
+   LUXURY JEWELRY MAGAZINE EDITORIAL SYSTEM (Ivory, Warm Beige, Muted Gold)
+   ========================================================================== */
+.magazine-frame {
+  max-width: 980px;
+  margin-inline: auto;
+  background-color: #FAF6EF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 10px 40px rgba(78, 62, 50, 0.06);
+  padding: clamp(1.2rem, 3.5vw, 2.5rem);
+  margin-block: 2rem 4rem;
+}
+
+.magazine-brand-bar {
   text-align: center;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #2C2422;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 1.25rem;
+}
+.magazine-brand-name {
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--color-text-main);
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.magazine-nav-row {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: clamp(1rem, 2.8vw, 2.4rem);
+  margin-bottom: 2rem;
 }
+.magazine-nav-link {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text-main);
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: color var(--transition-fast);
+}
+.magazine-nav-link:hover,
+.magazine-nav-link.active {
+  color: var(--color-primary-dark);
+}
+
+/* Magazine Hero Feature Card */
+.magazine-hero-card {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(60, 45, 35, 0.08);
+  margin-bottom: 1.8rem;
+  background-color: #FAF6EF;
+}
+.magazine-hero-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.magazine-hero-meta {
+  text-align: center;
+  padding-block: 1rem 0.5rem;
+}
+.magazine-kicker {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8C6826;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+.magazine-hero-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 3.2vw, 2.6rem);
+  font-weight: 600;
+  color: var(--color-text-main);
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+.magazine-hero-lead {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.2vw, 1.05rem);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  max-width: 680px;
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+}
+
+.magazine-cta-btn {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 1.05rem 2rem;
+  background-color: #E6D9C8;
+  color: var(--color-text-main);
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-smooth);
+  border: 1px solid var(--color-border);
+}
+.magazine-cta-btn:hover {
+  background-color: #DDD0BF;
+  color: #1A130F;
+  box-shadow: 0 4px 14px rgba(100, 80, 60, 0.12);
+  transform: translateY(-1px);
+}
+
+/* Explore by Category Grid */
+.magazine-section-header {
+  margin-top: 2.8rem;
+  margin-bottom: 1.4rem;
+}
+.magazine-section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.35rem, 2.2vw, 1.7rem);
+  color: var(--color-text-main);
+  font-weight: 600;
+}
+
+.magazine-cat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+@media (max-width: 640px) {
+  .magazine-cat-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.magazine-cat-card {
+  display: block;
+  text-decoration: none;
+  color: var(--color-text-main);
+  transition: transform var(--transition-smooth);
+}
+.magazine-cat-card:hover {
+  transform: translateY(-4px);
+}
+.magazine-cat-img-box {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(60, 45, 35, 0.08);
+  background-color: #F3EBE1;
+  position: relative;
+}
+.magazine-cat-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-smooth);
+  display: block;
+}
+.magazine-cat-card:hover .magazine-cat-img-box img {
+  transform: scale(1.04);
+}
+.magazine-cat-label {
+  margin-top: 0.75rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-main);
+  letter-spacing: 0.01em;
+  transition: color var(--transition-fast);
+}
+.magazine-cat-card:hover .magazine-cat-label {
+  color: var(--color-primary-dark);
+}
+
 
 
