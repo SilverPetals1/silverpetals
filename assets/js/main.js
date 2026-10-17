@@ -227,18 +227,15 @@ function initNewsletterForm() {
       const input = form.querySelector('input[type="email"]');
       if (!input || !input.value.trim()) return;
 
-      const email = input.value.trim();
-      
-      // Simulate success and discount code delivery
       form.innerHTML = `
-        <div style="background: rgba(31,190,202,0.15); border: 1px solid var(--color-primary); padding: 1.2rem 1.5rem; border-radius: var(--radius-sm); text-align: center; color: #FFFFFF; width: 100%;">
-          <div style="font-size: 1.3rem; margin-bottom: 0.3rem;">🎉 Welcome to the SilverPetals Club!</div>
-          <p style="font-size: 0.95rem; margin-bottom: 0.8rem;">Your 10% VIP discount code is: <strong style="color: var(--color-gold); font-size: 1.1rem; letter-spacing: 1px;">PETAL10</strong></p>
-          <a href="shop.html" class="btn btn-gold btn-sm" style="display: inline-block;">Shop The Collection &rarr;</a>
+        <div style="background: #FAF6EF; border: 1px solid var(--color-primary); padding: 1.2rem 1.5rem; border-radius: var(--radius-sm); text-align: center; color: var(--color-text-main); width: 100%;">
+          <div style="font-family: var(--font-heading); font-size: 1.4rem; margin-bottom: 0.3rem; color: var(--color-primary-dark);">✨ Welcome to SilverPetals Journal</div>
+          <p style="font-size: 0.95rem; margin-bottom: 0.8rem; color: var(--color-text-muted);">Thank you for joining. You will receive our latest jewelry guides and bridal styling articles directly in your inbox.</p>
+          <a href="blog.html" class="btn btn-outline btn-sm" style="display: inline-block;">Explore Latest Articles &rarr;</a>
         </div>
       `;
 
-      showToast('💌 Welcome! Your 10% discount code is PETAL10');
+      showToast('✨ Thank you for subscribing to SilverPetals editorial journal!');
     });
   });
 }
