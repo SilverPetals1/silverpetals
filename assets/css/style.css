@@ -1500,11 +1500,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==========================================================================
-   FOOTER (Luxury Editorial Style)
+   FOOTER (Luxury Editorial Magazine Style - Ivory & Champagne Palette)
    ========================================================================== */
 .site-footer {
-  background-color: #201A16;
-  color: #D6CBC2;
+  background-color: #F8F5EE;
+  color: #3D332A;
   padding-top: clamp(3.5rem, 6vw, 4.8rem);
   border-top: 1px solid rgba(197, 160, 89, 0.35);
   position: relative;
@@ -1515,33 +1515,37 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: min(100%, 1200px);
-  height: 1px;
+  width: min(100%, 1140px);
+  height: 2px;
   background: linear-gradient(90deg, transparent, #C5A059 50%, transparent);
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.5fr repeat(auto-fit, minmax(190px, 1fr));
-  gap: clamp(2rem, 3.5vw, 3.5rem);
-  margin-bottom: 3rem;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  margin-bottom: 3.5rem;
   align-items: start;
+}
+.footer-brand .brand-logo {
+  display: inline-block;
+  margin-bottom: 0.5rem;
 }
 .footer-brand p,
 .footer-desc {
-  font-size: 0.9rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
   line-height: 1.7;
-  margin-top: 1.1rem;
+  margin-top: 0.75rem;
   margin-bottom: 1.5rem;
-  color: #B8ABA0;
+  color: #6E5E52;
   max-width: 320px;
 }
 .footer-heading {
   font-family: var(--font-heading);
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #FAF6EF;
+  letter-spacing: 0.04em;
+  color: #2A211B;
   margin-bottom: 1.25rem;
   position: relative;
   display: inline-block;
@@ -1552,65 +1556,82 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 24px;
+  width: 28px;
   height: 2px;
-  background-color: var(--color-primary);
+  background-color: #C5A059;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .footer-links li {
   margin-bottom: 0.75rem;
 }
 .footer-links a {
-  font-size: 0.88rem;
-  color: #B8ABA0;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: #5C4E43;
   text-decoration: none;
-  transition: color var(--transition-fast), padding-left var(--transition-fast);
+  transition: all var(--transition-fast);
   display: inline-flex;
   align-items: center;
+  position: relative;
 }
 .footer-links a:hover {
-  color: var(--color-primary);
-  padding-left: 4px;
+  color: #8C6826;
+  transform: translateX(4px);
+  font-weight: 500;
 }
 .footer-socials {
   display: flex;
-  gap: 0.8rem;
+  align-items: center;
+  gap: 0.85rem;
 }
 .social-icon {
   width: 38px;
   height: 38px;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #FFFFFF;
+  border: 1px solid rgba(197, 160, 89, 0.35);
   border-radius: 50%;
   display: grid;
   place-items: center;
-  color: #FFFFFF;
+  color: #2A211B;
+  box-shadow: 0 2px 6px rgba(42, 33, 27, 0.05);
   transition: all var(--transition-smooth);
 }
 .social-icon.pinterest {
-  background-color: var(--color-pinterest);
+  background-color: #E60023;
+  border-color: #E60023;
+  color: #FFFFFF;
 }
 .social-icon:hover {
-  transform: translateY(-3px);
-  background-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(42, 33, 27, 0.12);
+}
+.social-icon.pinterest:hover {
+  background-color: #AD081B;
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-block: 1.75rem;
-  font-size: 0.84rem;
+  border-top: 1px solid rgba(197, 160, 89, 0.25);
+  padding-block: 1.75rem 2rem;
+  font-size: 0.86rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 1.2rem;
-  color: #9C8E84;
+  color: #7D6D61;
 }
 .footer-bottom a {
-  color: #B8ABA0;
+  color: #5C4E43;
   text-decoration: none;
   transition: color var(--transition-fast);
 }
 .footer-bottom a:hover {
-  color: var(--color-primary);
+  color: #8C6826;
+  text-decoration: underline;
 }
 
 /* ==========================================================================
