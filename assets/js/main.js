@@ -318,121 +318,36 @@ window.copyPageLink = function() {
 };
 
 /* ==========================================================================
-   ECOMMERCE SHOPPING CART ENGINE (SilverPetals)
+   OPTIONAL ECOMMERCE CART HELPER (Guarded for editorial pages)
    ========================================================================== */
-const cartState = {
-  items: []
-};
-
 function initCartDrawer() {
   const cartBtn = document.querySelector('.js-open-cart');
   const cartOverlay = document.querySelector('.cart-drawer-overlay');
   const closeBtn = document.querySelector('.cart-close-btn');
 
+  if (!cartBtn && !cartOverlay) return;
+
   if (cartBtn && cartOverlay) {
     cartBtn.addEventListener('click', (e) => {
       e.preventDefault();
-      openCart();
+      cartOverlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
     });
   }
 
   if (closeBtn && cartOverlay) {
-    closeBtn.addEventListener('click', closeCart);
+    const close = () => {
+      cartOverlay.classList.remove('open');
+      document.body.style.overflow = '';
+    };
+    closeBtn.addEventListener('click', close);
     cartOverlay.addEventListener('click', (e) => {
-      if (e.target === cartOverlay) closeCart();
+      if (e.target === cartOverlay) close();
     });
   }
-
-  // Delegate Add to Bag buttons
-  document.addEventListener('click', (e) => {
-    const addBtn = e.target.closest('.btn-add-bag');
-    if (!addBtn) return;
-
-    e.preventDefault();
-    const id = addBtn.dataset.id || 'sp-custom-' + Date.now();
-    const title = addBtn.dataset.title || 'SilverPetals™ Artisan Jewelry';
-    const price = parseFloat(addBtn.dataset.price || '58.00');
-    const image = addBtn.dataset.image || 'assets/images/silver-petal-earrings.jpg';
-
-    // Add or increment
-    const existing = cartState.items.find(i => i.id === id);
-    if (existing) {
-      existing.qty++;
-    } else {
-      cartState.items.push({ id, title, variant: '925 Sterling Silver', price, image, qty: 1 });
-    }
-
-    renderCart();
-    openCart();
-    showToast(`🛍️ Added ${title} to your bag!`);
-  });
-
-  renderCart();
 }
-
-function openCart() {
-  const overlay = document.querySelector('.cart-drawer-overlay');
-  if (overlay) {
-    overlay.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-}
-
-function closeCart() {
-  const overlay = document.querySelector('.cart-drawer-overlay');
-  if (overlay) {
-    overlay.classList.remove('open');
-    document.body.style.overflow = '';
-  }
-}
-
-function renderCart() {
-  const itemsContainer = document.querySelector('.cart-items-body');
-  const badge = document.querySelector('.cart-badge-count');
-  const subtotalEl = document.querySelector('.cart-subtotal-val');
-
-  const totalCount = cartState.items.reduce((sum, item) => sum + item.qty, 0);
-  const subtotal = cartState.items.reduce((sum, item) => sum + (item.price * item.qty), 0);
-
-  if (badge) {
-    badge.textContent = totalCount;
-    badge.style.display = totalCount > 0 ? 'grid' : 'none';
-  }
-  if (subtotalEl) subtotalEl.textContent = `$${subtotal.toFixed(2)}`;
-
-  if (!itemsContainer) return;
-
-  if (cartState.items.length === 0) {
-    itemsContainer.innerHTML = `
-      <div style="text-align: center; padding: 3rem 1rem; color: var(--color-text-muted);">
-        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🛍️</div>
-        <p style="font-size: 1.1rem; font-weight: 600; color: var(--color-text-main);">Your Shopping Bag is Empty</p>
-        <p style="font-size: 0.85rem; margin-bottom: 1.5rem;">Discover our bestselling SilverPetals botanical collections.</p>
-        <a href="shop.html" class="btn btn-primary btn-sm" onclick="closeCart()">Explore Jewelry &rarr;</a>
-      </div>
-    `;
-    return;
-  }
-
-  itemsContainer.innerHTML = cartState.items.map(item => `
-    <div class="cart-item" data-id="${item.id}">
-      <img src="${item.image}" alt="${item.title}" class="cart-item-img">
-      <div class="cart-item-info">
-        <div class="cart-item-name">${item.title}</div>
-        <div class="cart-item-variant">${item.variant} &times; ${item.qty}</div>
-        <div class="cart-item-price">$${(item.price * item.qty).toFixed(2)}</div>
-        <span class="cart-item-remove" onclick="removeCartItem('${item.id}')">Remove</span>
-      </div>
-    </div>
-  `).join('');
-}
-
-window.removeCartItem = function(id) {
-  cartState.items = cartState.items.filter(i => i.id !== id);
-  renderCart();
-  showToast('Item removed from shopping bag');
-};
 
 document.addEventListener('DOMContentLoaded', () => {
   initCartDrawer();
 });
+
