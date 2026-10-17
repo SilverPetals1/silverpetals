@@ -646,8 +646,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero-main-card img {
   width: 100%;
-  height: 400px;
+  height: auto;
+  min-height: 320px;
+  max-height: 480px;
   object-fit: cover;
+  object-position: center 25%;
 }
 .hero-floating-pin {
   position: absolute;
@@ -1079,13 +1082,20 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   height: 220px;
   overflow: hidden;
-  background-color: var(--color-bg-muted);
+  background-color: #FAF6EF;
 }
 .blog-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   transition: transform var(--transition-smooth);
+}
+.blog-media.is-diagram img,
+.blog-media img[src*="wedding-band-width-comparison"],
+.blog-media img[src*="ring-size-guide-thumb"] {
+  object-fit: contain;
+  padding: 8px;
 }
 .blog-card:hover .blog-media img {
   transform: scale(1.04);
@@ -2288,15 +2298,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nayab-prod-img-wrap {
   width: 100%;
-  aspect-ratio: 4 / 5;
-  background: var(--color-bg-muted);
+  aspect-ratio: 1 / 1;
+  background: #FAF6EF;
   overflow: hidden;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nayab-prod-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 8px;
   transition: transform var(--transition-smooth);
 }
 .nayab-prod-card:hover .nayab-prod-img {
@@ -2376,8 +2390,11 @@ h1, h2, h3, h4, h5, h6 {
 .magazine-hero-card img {
   width: 100%;
   height: auto;
+  max-height: 500px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: center 30%;
+  background-color: #FAF6EF;
   display: block;
 }
 
@@ -2514,15 +2531,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 .magazine-cat-img-box {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
-  background-color: var(--color-bg-muted);
+  background-color: #FAF6EF;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .magazine-cat-img-box img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 10px;
   transition: transform var(--transition-smooth);
   display: block;
 }
