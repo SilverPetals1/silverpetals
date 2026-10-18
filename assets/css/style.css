@@ -2895,6 +2895,88 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==========================================================================
+   CIRCULAR CATEGORIES RAIL (Earrings, Rings, Necklaces, Bridal, Bangles, etc.)
+   ========================================================================== */
+.nayab-category-strip {
+  background: #FAF7F2;
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 1.1rem 0.85rem;
+  overflow: hidden;
+  position: relative;
+}
+.nayab-category-track {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(14px, 2.2vw, 24px);
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  padding-inline: clamp(1rem, 3vw, 2.5rem);
+  list-style: none;
+  margin: 0;
+}
+.nayab-category-track::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 900px) {
+  .nayab-category-track {
+    justify-content: flex-start;
+  }
+}
+.nayab-cat-item {
+  flex: 0 0 auto;
+  width: clamp(72px, 10vw, 96px);
+  text-align: center;
+}
+.nayab-cat-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-text-main);
+  transition: transform var(--transition-fast);
+}
+.nayab-cat-circle {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #F3EFE9;
+  border: 1.5px solid #C5A059;
+  box-shadow: 0 4px 14px rgba(197, 160, 89, 0.18);
+  position: relative;
+  transition: transform var(--transition-smooth), border-color var(--transition-smooth), box-shadow var(--transition-smooth);
+}
+.nayab-cat-link:hover .nayab-cat-circle {
+  transform: translateY(-3px) scale(1.05);
+  border-color: #8C6826;
+  box-shadow: 0 8px 20px rgba(140, 104, 38, 0.28);
+}
+.nayab-cat-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.nayab-cat-title {
+  margin-top: 0.55rem;
+  font-family: var(--font-heading);
+  font-size: clamp(0.68rem, 0.95vw, 0.78rem);
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #2A211B;
+  line-height: 1.2;
+  transition: color var(--transition-fast);
+}
+.nayab-cat-link:hover .nayab-cat-title {
+  color: #8C6826;
+}
+
+
+/* ==========================================================================
    EDITORIAL 4-CARD ARTICLES SECTION (Clean Luxury Redesign)
    ========================================================================== */
 .editorial-articles-grid-4 {
