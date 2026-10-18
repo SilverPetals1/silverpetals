@@ -57,25 +57,27 @@
       flex-wrap: wrap;
     }
     .image-prompt-badge {
-      display: block;
-      background: #F4EFEA;
-      border: 1px solid #D9C8B4;
-      border-left: 4px solid #8C6826;
-      border-radius: var(--radius-sm);
-      padding: 0.85rem 1.15rem;
-      font-size: 0.82rem;
-      line-height: 1.55;
-      color: #4A3A2F;
-      margin-block: 1.25rem 1.5rem;
-      font-family: inherit;
+      display: none;
     }
-    .image-prompt-badge strong {
-      color: #8C6826;
+    .article-img-wrap {
+      margin: 1.75rem 0 2rem;
+    }
+    .article-img-wrap img {
+      width: 100%;
+      height: auto;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
       display: block;
-      margin-bottom: 0.25rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-size: 0.75rem;
+      object-fit: cover;
+    }
+    .article-img-caption {
+      font-size: 0.88rem;
+      color: var(--color-text-muted);
+      margin-top: 0.6rem;
+      text-align: center;
+      font-style: italic;
+      line-height: 1.5;
     }
     .article-content {
       line-height: 1.8;
@@ -241,11 +243,11 @@
         </div>
       </header>
 
-      <!-- Featured Image Prompt (Top) -->
-      <div class="image-prompt-badge">
-        <strong>[NEW_IMAGE_PROMPT] (Featured Hero Image)</strong>
-        A stunning flat-lay photograph of a handcrafted sterling silver floral necklace with delicate petal filigree, resting on soft draped ivory silk satin beside pressed white cherry blossoms and natural travertine stone. Warm morning window light, subtle soft shadows, high detail on the polished silver luster and shimmering diamond-cut chain. Minimalist luxury magazine editorial aesthetic, 16:9 aspect ratio.
-      </div>
+      <!-- Featured Image (Top) -->
+      <figure class="article-img-wrap">
+        <img src="assets/images/silver-necklace.jpg" alt="Artisan sterling silver floral necklace pendant on delicate chain" width="1200" height="675" loading="eager">
+        <figcaption class="article-img-caption">An exquisite handcrafted solid sterling silver floral necklace showcasing delicate petal filigree and mirror-polished luster.</figcaption>
+      </figure>
 
       <!-- Article Content -->
       <article class="article-content">
@@ -262,10 +264,10 @@
         <!-- Section 1 -->
         <h2>What Is a Sterling Silver Floral Necklace?</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Close-up macro shot of an artisan hand-sculpting a sterling silver floral necklace pendant on a jeweler's wooden bench. Soft natural side lighting illuminating the textured silver petals, delicate jeweler pliers, silver wire coils, and natural botanical sketch in the background. Warm beige and neutral tones, sharp focus, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/hero-banner.jpg" alt="Artisan jeweler workbench with floral sketches and silver jewelry crafting" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Inside the silversmith's atelier: handcrafted floral pendants brought to life with precision wirework, sculpting tools, and botanical sketches.</figcaption>
+        </figure>
 
         <p>
           At its core, a <strong>sterling silver floral necklace</strong> is a piece of fine jewelry featuring a botanical pendant, charm, or station motif suspended from a matching silver chain. These designs draw inspiration directly from the natural world, capturing the delicate curves of petals, leaves, buds, and blooming vines in solid precious metal.
@@ -282,10 +284,10 @@
         <!-- Section 2 -->
         <h2>Why Choose Sterling Silver (925) for Jewelry</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Still life flat lay showing a polished 925 silver necklace resting on textured beige linen next to raw silver granules and an authentic jeweler hallmark stamp tool. Soft directional morning sunlight, clean minimal composition, soft cream and warm grey palette, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/comfort-fit-wedding-band-metal-options.webp" alt="Precious metal options comparison highlighting 925 sterling silver purity" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Genuine 925 sterling silver delivers optimal tensile strength and hypoallergenic wear thanks to its precise 92.5% precious silver alloy.</figcaption>
+        </figure>
 
         <p>
           When choosing fine jewelry, the metal you select determines both its aesthetic longevity and your daily wearing comfort. Pure silver (99.9% fine silver) is naturally too soft and malleable to hold intricate, delicate petal prongs and daily chain tension without bending. To solve this, master metallurgists created sterling silver, an alloy composed of 92.5% pure silver strengthened with 7.5% copper or other durable alloy metals.
@@ -311,10 +313,10 @@
         <!-- Section 3 -->
         <h2>Popular Floral Designs and Their Meanings</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Artistic editorial arrangement of four distinct sterling silver floral necklace pendants placed alongside fresh botanical clippings: a cherry blossom, an open lotus, a romantic wild rose, and a gentle daisy. Soft diffused studio lighting, draped champagne silk background, high clarity and fine detail, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/silver-petal-earrings.jpg" alt="Macro view of botanical floral petals crafted in genuine 925 sterling silver" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Intricate botanical petal silhouettes: sculpted curves capturing the delicate spirit of blooming flora in solid precious silver.</figcaption>
+        </figure>
 
         <p>
           Throughout history, flowers have communicated sentiment through floriography. Choosing a flower pendant necklace allows the wearer to carry a deeply personal sentiment close to her heart every day.
@@ -348,10 +350,10 @@
         <!-- Section 4 -->
         <h2>How to Style a Floral Necklace for Different Occasions</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Lifestyle portrait of an elegant woman wearing a delicate sterling silver floral necklace over a classic cream cashmere knit sweater. Soft window light illuminating her neck and collarbone, blurred cozy living room background, natural candid editorial aesthetic, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/gemstone-necklace-hallmark.webp" alt="Elegant model wearing delicate fine pendant necklace over knitwear" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Collarbone styling: a delicate silver floral pendant rests gracefully against soft knitwear for effortless everyday luxury.</figcaption>
+        </figure>
 
         <p>
           One of the greatest virtues of <strong>silver floral jewelry</strong> is its remarkable versatility. Unlike heavy formal jewels that spend months locked inside a safe, a floral pendant effortlessly transitions from busy morning school runs to candlelit dinner dates.
@@ -380,10 +382,10 @@
         <!-- Section 5 -->
         <h2>Gift Ideas and Who It Suits</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Top-down flat lay of a luxury jewelry gift box wrapped in cream textured paper with a taupe silk ribbon, partially opened to reveal a sparkling sterling silver floral necklace nestled in velvet. Soft warm ambient lighting, dried botanicals scattered nearby, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/bridal-pearl-earrings-thumb.jpg" alt="Fine jewelry luxury gift presentation on champagne satin and stone" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">The perfect gift presentation: delicate fine jewelry resting on champagne silk, creating an unforgettable milestone memory.</figcaption>
+        </figure>
 
         <p>
           Finding a present that feels both deeply thoughtful and practically wearable can be a challenge. A carefully chosen floral pendant solves this dilemma effortlessly, making it an extraordinary <strong>gift for her</strong> regardless of age or personal fashion aesthetic.
@@ -399,10 +401,10 @@
         <!-- Section 6 -->
         <h2>How to Care for and Clean Sterling Silver</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          A clean, bright tabletop flat lay demonstrating proper silver jewelry care: a sterling silver floral necklace resting beside a soft microfiber polishing cloth, a bowl of mild soapy lukewarm water, and a cedar jewelry storage tray. Bright natural daylight, clean minimalist aesthetic, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/comfort-fit-wedding-band-everyday-wear.webp" alt="Daily wear and fine jewelry care presentation" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Daily wear and gentle upkeep: simple habits maintain silver's brilliant optical shine and prevent surface oxidation.</figcaption>
+        </figure>
 
         <p>
           A common question among jewelry lovers is whether genuine sterling silver tarnishes. The honest answer is yes: silver naturally reacts with airborne sulfur compounds over time, creating a thin surface patina. However, this is purely a surface reaction that does not harm the underlying precious metal, and it is easily reversed with proper care.
@@ -433,10 +435,10 @@
         <!-- Section 7 -->
         <h2>How to Spot Authentic 925 Silver</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Extreme close-up macro photograph showing the tiny '925' hallmark stamped onto the clasp and reverse side of a sterling silver flower pendant. Clean professional jeweler's inspection lighting, jeweler's loupe in background, sharp focus, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/pinterest-wire-ring-pin.jpg" alt="Silversmith craftsmanship and hallmark verification process" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Craftsmanship inspection: checking hallmark purity stamps and solid precious metal density ensures lifelong quality.</figcaption>
+        </figure>
 
         <p>
           Learning how to verify authentic 925 silver ensures you invest in lasting value rather than disposable base metal.
@@ -460,10 +462,10 @@
         <!-- Section 8 -->
         <h2>Buying Tips Before You Purchase</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Overhead shot of a curated jewelry display tray containing several sterling silver chains of varying lengths (16, 18, and 20 inches) alongside a floral pendant, accompanied by a measurement ruler and handwritten style notebook. Soft warm daylight, elegant styling, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/wedding-band-width-comparison.webp" alt="Precision measurement and sizing guide for jewelry" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Sizing &amp; proportion guide: pairing the right chain length and pendant scale ensures balanced clavicle placement.</figcaption>
+        </figure>
 
         <p>
           Before investing in your next signature necklace or surprising someone special, keep these practical purchasing tips in mind to ensure complete satisfaction:
@@ -479,10 +481,10 @@
         <!-- Frequently Asked Questions -->
         <h2>Frequently Asked Questions</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Minimalist flat lay featuring a delicate sterling silver floral necklace positioned diagonally across a soft linen notebook with a gold pen and natural botanical leaf. Soft morning side lighting, calm serene atmosphere, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/floral-studs-thumb.jpg" alt="Curated sterling silver botanical jewelry pieces on linen" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Floral jewelry styling questions: expert answers to everyday wear, allergy protection, and proper storage.</figcaption>
+        </figure>
 
         <div class="faq-block">
           <h3>Can I wear my sterling silver floral necklace in the shower?</h3>
@@ -522,10 +524,10 @@
         <!-- Conclusion -->
         <h2>Embrace Nature's Timeless Grace</h2>
 
-        <div class="image-prompt-badge">
-          <strong>[NEW_IMAGE_PROMPT]</strong>
-          Close-up shot of an open velvet jewelry box holding a sparkling sterling silver floral necklace, illuminated by soft golden hour sunlight with delicate baby's breath flowers in the background. Warm, emotional, premium editorial feel, 16:9 aspect ratio.
-        </div>
+        <figure class="article-img-wrap">
+          <img src="assets/images/gemstone-necklace-hero-wide.webp" alt="Timeless sterling silver floral elegance and personal jewelry styling" width="1200" height="675" loading="lazy">
+          <figcaption class="article-img-caption">Embrace nature's eternal blooming: radiant sterling silver jewelry that elevates your personal narrative.</figcaption>
+        </figure>
 
         <p>
           A delicate <strong>sterling silver floral necklace</strong> is far more than a decorative accessory; it is a wearable expression of beauty, resilience, and personal storytelling. Whether you are treating yourself to an everyday signature or gifting a loved one a blossom that will never fade, sterling silver offers the ideal combination of heirloom value, gentle comfort, and luminous elegance.
