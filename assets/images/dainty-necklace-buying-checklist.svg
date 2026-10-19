@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="bgBuying" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF8"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="16" fill="url(#bgBuying)" stroke="#E7DDD1" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="700" fill="#1D2124" letter-spacing="1">BUYING CHECKLIST FOR DAINTY SILVER NECKLACES</text>
+  <text x="400" y="66" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B7280">Five Essential Specifications to Check Before You Make Your Purchase</text>
+
+  <!-- 4 Checklist Cards -->
+  <!-- 1: Clasp Security -->
+  <g transform="translate(40, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+    <!-- Lock / Clasp icon -->
+    <path d="M 76,42 L 76,38 C 76,34.5 78.5,32 82,32 C 85.5,32 88,34.5 88,38 L 88,42" stroke="#92400E" stroke-width="2" fill="none"/>
+    <rect x="73" y="42" width="18" height="14" rx="3" fill="#D97706"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">CLASP TYPE</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Spring vs Lobster</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Robust spring-ring</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">or micro-lobster</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">clasp that won't</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">snag on hair.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#FEF3C7"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#92400E">Security First</text>
+  </g>
+
+  <!-- 2: Chain Link Durability -->
+  <g transform="translate(225, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+    <!-- Chain link icon -->
+    <ellipse cx="78" cy="45" rx="10" ry="6" stroke="#16A34A" stroke-width="2" fill="none"/>
+    <ellipse cx="86" cy="45" rx="10" ry="6" stroke="#16A34A" stroke-width="2" fill="none"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">LINK STRENGTH</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Soldered Jumprings</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Ensure ends are</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">firmly laser-welded</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">or soldered to</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">prevent snapping.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#F0FDF4"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803D">Tensile Check</text>
+  </g>
+
+  <!-- 3: Hallmark Stamp -->
+  <g transform="translate(410, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+    <text x="82" y="50" text-anchor="middle" font-family="'Plus Jakarta Sans', monospace" font-size="12" font-weight="700" fill="#0F172A">925</text>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">HALLMARK</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Purity Mark</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Verify the '925',</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">'STER', or 'S925'</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">stamp near the</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">clasp attachment.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#F1F5F9"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#475569">Certified Silver</text>
+  </g>
+
+  <!-- 4: Extender Chain -->
+  <g transform="translate(595, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="82" y="50" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#2563EB">+2"</text>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">EXTENDER</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Adjustable Tail</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">A 2-inch extender</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">lets you adjust</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">between 16" and 18"</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">for every neckline.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#EFF6FF"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#1D4ED8">Total Versatility</text>
+  </g>
+</svg>

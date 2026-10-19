@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="bgStyles" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF8"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="16" fill="url(#bgStyles)" stroke="#E7DDD1" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="700" fill="#1D2124" letter-spacing="1">POPULAR DAINTY SILVER NECKLACE STYLES</text>
+  <text x="400" y="66" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B7280">Five Essential Silhouettes for Every Modern Jewelry Wardrobe</text>
+
+  <!-- 5 Cards (130px each) -->
+  <!-- 1: Solitaire Pendant -->
+  <g transform="translate(30, 95)">
+    <rect width="136" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="68" cy="45" r="20" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+    <circle cx="68" cy="45" r="7" fill="#64748B"/>
+
+    <text x="68" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#1D2124">SOLITAIRE</text>
+    <text x="68" y="112" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Bezel Gem</text>
+
+    <text x="68" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">Single bezel</text>
+    <text x="68" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">crystal or pearl;</text>
+    <text x="68" y="174" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">subtle floating</text>
+    <text x="68" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">sparkle.</text>
+
+    <rect x="18" y="210" width="100" height="20" rx="10" fill="#F1F5F9"/>
+    <text x="68" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#475569">Timeless</text>
+  </g>
+
+  <!-- 2: Initial / Letter -->
+  <g transform="translate(182, 95)">
+    <rect width="136" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="68" cy="45" r="20" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="68" y="52" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" fill="#92400E">A</text>
+
+    <text x="68" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#1D2124">INITIAL</text>
+    <text x="68" y="112" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Monogram</text>
+
+    <text x="68" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">Personalized</text>
+    <text x="68" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">stamped silver disc</text>
+    <text x="68" y="174" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">carrying loved</text>
+    <text x="68" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">one's initial.</text>
+
+    <rect x="18" y="210" width="100" height="20" rx="10" fill="#FEF3C7"/>
+    <text x="68" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#92400E">Custom Gift</text>
+  </g>
+
+  <!-- 3: Chain-Only Minimalist -->
+  <g transform="translate(334, 95)">
+    <rect width="136" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="68" cy="45" r="20" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+    <path d="M 54,45 C 60,37 76,53 82,45" stroke="#16A34A" stroke-width="3" fill="none"/>
+
+    <text x="68" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#1D2124">CHAIN-ONLY</text>
+    <text x="68" y="112" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Bare Shimmer</text>
+
+    <text x="68" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">Paperclip, rope</text>
+    <text x="68" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">or box chain</text>
+    <text x="68" y="174" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">worn bare for</text>
+    <text x="68" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">pure liquid luster.</text>
+
+    <rect x="18" y="210" width="100" height="20" rx="10" fill="#F0FDF4"/>
+    <text x="68" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#15803D">Modern Chic</text>
+  </g>
+
+  <!-- 4: Birthstone Accent -->
+  <g transform="translate(486, 95)">
+    <rect width="136" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="68" cy="45" r="20" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+    <polygon points="68,34 76,45 68,56 60,45" fill="#2563EB"/>
+
+    <text x="68" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#1D2124">BIRTHSTONE</text>
+    <text x="68" y="112" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Color Charm</text>
+
+    <text x="68" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">Tiny 3mm bezel</text>
+    <text x="68" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">colored gemstone</text>
+    <text x="68" y="174" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">representing</text>
+    <text x="68" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">your birth month.</text>
+
+    <rect x="18" y="210" width="100" height="20" rx="10" fill="#EFF6FF"/>
+    <text x="68" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#1D4ED8">Meaningful</text>
+  </g>
+
+  <!-- 5: Multi-Strand Layered -->
+  <g transform="translate(638, 95)">
+    <rect width="136" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="68" cy="45" r="20" fill="#FDF2F8" stroke="#DB2777" stroke-width="2"/>
+    <path d="M 52,38 C 60,43 76,43 84,38" stroke="#DB2777" stroke-width="2" fill="none"/>
+    <path d="M 48,46 C 60,53 76,53 88,46" stroke="#DB2777" stroke-width="2" fill="none"/>
+    <path d="M 44,54 C 60,63 76,63 92,54" stroke="#DB2777" stroke-width="2" fill="none"/>
+
+    <text x="68" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" fill="#1D2124">LAYERED</text>
+    <text x="68" y="112" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Cascade Look</text>
+
+    <text x="68" y="142" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">Pre-curated</text>
+    <text x="68" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">dual or triple</text>
+    <text x="68" y="174" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">chains on a single</text>
+    <text x="68" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#4B5563">tangle-free clasp.</text>
+
+    <rect x="18" y="210" width="100" height="20" rx="10" fill="#FDF2F8"/>
+    <text x="68" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#BE185D">Effortless</text>
+  </g>
+</svg>

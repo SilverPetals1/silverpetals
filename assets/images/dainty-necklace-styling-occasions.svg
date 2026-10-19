@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="bgStyleGuide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF8"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="16" fill="url(#bgStyleGuide)" stroke="#E7DDD1" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="700" fill="#1D2124" letter-spacing="1">STYLING DAINTY SILVER FOR EVERY OCCASION</text>
+  <text x="400" y="66" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B7280">How a Single Delicate Silver Chain Bridges Casual Everyday to Formal Evening Wear</text>
+
+  <!-- 3 Occasion Panels -->
+  <!-- 1: Casual Coffee Run -->
+  <g transform="translate(60, 95)">
+    <rect width="210" height="230" rx="12" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="105" cy="45" r="22" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+    <!-- Minimalist T-shirt icon -->
+    <path d="M 94,36 L 100,40 L 110,40 L 116,36 L 122,44 L 114,48 L 114,56 L 96,56 L 96,48 L 88,44 Z" fill="#64748B"/>
+
+    <text x="105" y="95" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="15" font-weight="700" fill="#1D2124">CASUAL CHIC</text>
+    <text x="105" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Tees &amp; Knitwear</text>
+
+    <text x="105" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">Solo 16" or 18" chain</text>
+    <text x="105" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">tucked neatly against</text>
+    <text x="105" y="185" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">crewnecks &amp; cardigans.</text>
+
+    <rect x="45" y="208" width="120" height="24" rx="12" fill="#F1F5F9"/>
+    <text x="105" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#475569">Subtle Polish</text>
+  </g>
+
+  <!-- 2: Professional Boardroom -->
+  <g transform="translate(295, 95)">
+    <rect width="210" height="230" rx="12" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="105" cy="45" r="22" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <!-- Blazer / Collar icon -->
+    <path d="M 95,34 L 105,48 L 115,34 L 118,56 L 92,56 Z" fill="#D97706"/>
+
+    <text x="105" y="95" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="15" font-weight="700" fill="#1D2124">OFFICE READY</text>
+    <text x="105" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Tailored Blazers</text>
+
+    <text x="105" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">Petite bezel pendant</text>
+    <text x="105" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">sitting gracefully in an</text>
+    <text x="105" y="185" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">open-collared silk shirt.</text>
+
+    <rect x="45" y="208" width="120" height="24" rx="12" fill="#FEF3C7"/>
+    <text x="105" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#92400E">Poised &amp; Discreet</text>
+  </g>
+
+  <!-- 3: Layered Evening Gala -->
+  <g transform="translate(530, 95)">
+    <rect width="210" height="230" rx="12" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="105" cy="45" r="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+    <!-- Sparkling diamond / cocktail icon -->
+    <path d="M 105,32 L 113,44 L 105,56 L 97,44 Z" fill="#2563EB"/>
+
+    <text x="105" y="95" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="15" font-weight="700" fill="#1D2124">EVENING STACK</text>
+    <text x="105" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Cocktail &amp; Galas</text>
+
+    <text x="105" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">Stack 14" choker, 16"</text>
+    <text x="105" y="165" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">pendant &amp; 20" chain</text>
+    <text x="105" y="185" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">with deep V-necklines.</text>
+
+    <rect x="45" y="208" width="120" height="24" rx="12" fill="#EFF6FF"/>
+    <text x="105" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#1D4ED8">Luminous Drama</text>
+  </g>
+</svg>

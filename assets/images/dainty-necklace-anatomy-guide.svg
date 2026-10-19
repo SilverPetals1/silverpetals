@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="bgWhat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF8"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="16" fill="url(#bgWhat)" stroke="#E7DDD1" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="700" fill="#1D2124" letter-spacing="1">ANATOMY OF A DAINTY NECKLACE</text>
+  <text x="400" y="66" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B7280">Four Defining Characteristics of Fine Minimalist Jewelry Design</text>
+
+  <!-- 4 Feature Cards -->
+  <!-- 1: Chain Gauge -->
+  <g transform="translate(40, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+    <text x="82" y="50" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#475569">0.8mm</text>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">WHISPER CHAIN</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">0.8mm - 1.2mm</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Diamond-cut links</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">that shimmer subtly</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">without weighing</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">down your neck.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#F1F5F9"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#475569">Subtle Presence</text>
+  </g>
+
+  <!-- 2: Petite Pendants -->
+  <g transform="translate(225, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <circle cx="82" cy="45" r="8" fill="#D97706"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">PETITE CHARMS</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">5mm - 10mm Scale</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Miniature discs,</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">bezel crystals &amp;</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">botanical buds with</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">intricate detail.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#FEF3C7"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#92400E">Micro Craft</text>
+  </g>
+
+  <!-- 3: Featherweight Comfort -->
+  <g transform="translate(410, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+    <!-- Feather/Balance icon -->
+    <path d="M 74,52 C 74,52 80,44 86,38 C 92,32 94,36 90,44 C 86,50 78,54 74,52 Z" fill="#16A34A"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">SECOND-SKIN</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Under 3 Grams</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">So lightweight and</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">silky smooth you</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">forget you are even</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">wearing jewelry.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#F0FDF4"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803D">All-Day Ease</text>
+  </g>
+
+  <!-- 4: Versatility -->
+  <g transform="translate(595, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+    <!-- Layers / Infinity icon -->
+    <path d="M 72,45 C 72,40 76,38 80,41 C 84,44 88,48 92,45 C 92,40 88,38 84,41 C 80,44 76,48 72,45 Z" stroke="#2563EB" stroke-width="2.5" fill="none"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">LAYER FRIENDLY</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Stacks Seamlessly</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Wears beautifully</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">solo for quiet luxury,</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">or pairs in 2-3</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">layered neck stacks.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#EFF6FF"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#1D4ED8">Endless Styling</text>
+  </g>
+</svg>

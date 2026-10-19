@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="dhBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="50%" stop-color="#F4ECE1"/>
+      <stop offset="100%" stop-color="#EBE0D0"/>
+    </linearGradient>
+    <linearGradient id="silverGleam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="450" fill="url(#dhBg)"/>
+
+  <!-- Luxury Silk Wave Folds -->
+  <path d="M 0,220 C 150,180 260,270 420,210 C 580,150 700,240 800,200 L 800,450 L 0,450 Z" fill="#E8DBC9" opacity="0.45"/>
+  <path d="M 0,280 C 180,240 320,320 500,260 C 660,200 720,290 800,260 L 800,450 L 0,450 Z" fill="#DFCDB7" opacity="0.5"/>
+
+  <!-- Editorial Floating Badge -->
+  <g transform="translate(50, 45)">
+    <rect width="180" height="28" rx="14" fill="#FFFFFF" stroke="#D5C4B1" stroke-width="1"/>
+    <text x="90" y="18" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826" letter-spacing="1.5">EDITORIAL ESSENTIALS</text>
+  </g>
+
+  <!-- Title overlay -->
+  <text x="50" y="115" font-family="'Cinzel', Georgia, serif" font-size="28" font-weight="700" fill="#1D2124" letter-spacing="1">THE DAINTY STERLING SILVER NECKLACE</text>
+  <text x="50" y="142" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#6B5E52">Effortless Everyday Minimalism • Handcrafted Solid 925 Precious Silver</text>
+
+  <!-- Dainty Cable Chain Illustration -->
+  <path d="M 120,220 C 260,340 540,340 680,220" fill="none" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 6"/>
+  <path d="M 120,220 C 260,340 540,340 680,220" fill="none" stroke="#94A3B8" stroke-width="1.8"/>
+
+  <!-- Hanging Minimalist Solitaire / Bezel Pendant (Centered) -->
+  <g transform="translate(400, 310)">
+    <!-- Bail Loop -->
+    <ellipse cx="0" cy="-22" rx="4.5" ry="8" fill="none" stroke="url(#silverGleam)" stroke-width="2.5"/>
+    <!-- Outer Bezel Halo -->
+    <circle cx="0" cy="0" r="20" fill="#FFFFFF" stroke="url(#silverGleam)" stroke-width="3" filter="url(#softGlow)"/>
+    <!-- Faceted Moissanite / Diamond Star Center -->
+    <circle cx="0" cy="0" r="14" fill="#F8FAFC"/>
+    <path d="M 0,-12 L 3,-3 L 12,0 L 3,3 L 0,12 L -3,3 L -12,0 L -3,-3 Z" fill="#94A3B8"/>
+    <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    <!-- Sparkle Highlights -->
+    <line x1="-28" y1="-28" x2="-20" y2="-20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="28" y1="-28" x2="20" y2="-20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Quality Stamp Pill (Bottom Right) -->
+  <g transform="translate(580, 375)">
+    <rect width="170" height="42" rx="21" fill="#FFFFFF" stroke="#D5C4B1" stroke-width="1.5"/>
+    <circle cx="26" cy="21" r="12" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+    <text x="26" y="25" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#92400E">✓</text>
+    <text x="96" y="25" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1D2124">925 SOLID SILVER</text>
+  </g>
+</svg>
