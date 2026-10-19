@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="bgGradGift" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF8"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="16" fill="url(#bgGradGift)" stroke="#E7DDD1" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="700" fill="#1D2124" letter-spacing="1">GIFTING OCCASIONS &amp; WHO IT SUITS</text>
+  <text x="400" y="66" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B7280">Why a Sterling Silver Floral Pendant Is the Ultimate Thoughtful Keepsake for Her</text>
+
+  <!-- 4 Occasion Columns -->
+  <!-- Col 1: Milestones -->
+  <g transform="translate(40, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+    <!-- Star / Milestone icon -->
+    <path d="M 82,32 L 85,41 L 94,41 L 87,46 L 90,55 L 82,50 L 74,55 L 77,46 L 70,41 L 79,41 Z" fill="#D97706"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">MILESTONES</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">18th, 21st, 30th</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">A permanent silver</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">blossom marking</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">adulthood, career</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">&amp; life triumphs.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#FEF3C7"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#92400E">Cherished Memory</text>
+  </g>
+
+  <!-- Col 2: Mother's Day -->
+  <g transform="translate(225, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#FCE7F3" stroke="#EC4899" stroke-width="1.5"/>
+    <!-- Heart / Maternal Care icon -->
+    <path d="M 82,35 C 80,31 73,31 73,37 C 73,45 82,53 82,53 C 82,53 91,45 91,37 C 91,31 84,31 82,35 Z" fill="#EC4899"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">MOTHERHOOD</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Mothers &amp; Grans</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Flowers reflect</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">maternal devotion;</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">a daily emblem of</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">unconditional love.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#FCE7F3"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#9D174D">Enduring Bond</text>
+  </g>
+
+  <!-- Col 3: Bridal Party -->
+  <g transform="translate(410, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+    <!-- Diamond/Gift ribbon icon -->
+    <path d="M 82,31 L 91,42 L 82,53 L 73,42 Z" fill="#16A34A"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">BRIDAL PARTY</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">Maid of Honor</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Cohesive wedding</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">day aesthetic that</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">bridesmaids keep</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">&amp; re-wear forever.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#F0FDF4"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803D">Gratitude Keepsake</text>
+  </g>
+
+  <!-- Col 4: Romance -->
+  <g transform="translate(595, 95)">
+    <rect width="165" height="230" rx="10" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="82" cy="45" r="22" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+    <path d="M 82,34 C 77,34 74,38 74,43 C 74,51 82,57 82,57 C 82,57 90,51 90,43 C 90,38 87,34 82,34 Z" fill="#DC2626"/>
+
+    <text x="82" y="92" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#1D2124">ROMANCE</text>
+    <text x="82" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#8C6826">"Flowers That Last"</text>
+
+    <text x="82" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">Fresh bouquets</text>
+    <text x="82" y="163" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">fade in days; fine</text>
+    <text x="82" y="181" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">silver preserves</text>
+    <text x="82" y="199" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#4B5563">love for decades.</text>
+
+    <rect x="25" y="210" width="115" height="22" rx="11" fill="#FEF2F2"/>
+    <text x="82" y="225" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#991B1B">Never Fades</text>
+  </g>
+</svg>

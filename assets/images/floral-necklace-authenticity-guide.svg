@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF8"/>
+      <stop offset="100%" stop-color="#F2EBE0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="16" fill="url(#bgGrad3)" stroke="#E7DDD1" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="700" fill="#1D2124" letter-spacing="1">AUTHENTIC 925 STERLING SILVER VERIFICATION</text>
+  <text x="400" y="66" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#6B7280">Three Foolproof Tests to Ensure Your Floral Pendant Is Genuine Solid Precious Silver</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(60, 95)">
+    <rect width="210" height="230" rx="12" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="105" cy="45" r="24" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="105" y="52" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" fill="#92400E">1</text>
+    
+    <text x="105" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#1D2124">Hallmark Stamp</text>
+    
+    <rect x="55" y="110" width="100" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="105" y="129" text-anchor="middle" font-family="'Plus Jakarta Sans', monospace" font-size="13" font-weight="700" fill="#0F172A">"925" / "S925"</text>
+
+    <text x="105" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">Inspect clasp tag &amp;</text>
+    <text x="105" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">reverse of pendant bail</text>
+    <text x="105" y="196" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">with a jeweler's loupe</text>
+
+    <text x="105" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C6826">Legal Standard</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(295, 95)">
+    <rect width="210" height="230" rx="12" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="105" cy="45" r="24" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+    <text x="105" y="52" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" fill="#1D4ED8">2</text>
+
+    <text x="105" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#1D2124">Neodymium Magnet</text>
+
+    <rect x="55" y="110" width="100" height="28" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <text x="105" y="129" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1D4ED8">Non-Magnetic</text>
+
+    <text x="105" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">Precious silver will NOT</text>
+    <text x="105" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">stick to magnets. Base</text>
+    <text x="105" y="196" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">iron/steel metals snap.</text>
+
+    <text x="105" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2563EB">Zero Pull</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(530, 95)">
+    <rect width="210" height="230" rx="12" fill="#FFFFFF" stroke="#E5DCD1" stroke-width="1.5"/>
+    <circle cx="105" cy="45" r="24" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+    <text x="105" y="52" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" fill="#15803D">3</text>
+
+    <text x="105" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#1D2124">Scent &amp; Polish Test</text>
+
+    <rect x="55" y="110" width="100" height="28" rx="6" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+    <text x="105" y="129" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#15803D">Odorless</text>
+
+    <text x="105" y="160" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">Solid silver has zero</text>
+    <text x="105" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">brassy metallic smell.</text>
+    <text x="105" y="196" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" fill="#4B5563">Polishes clean instantly.</text>
+
+    <text x="105" y="222" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#16A34A">Pure Quality</text>
+  </g>
+</svg>
