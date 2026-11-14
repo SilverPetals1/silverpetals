@@ -2832,3 +2832,6 @@ body {
     vertical-align: middle;
     border: 1px solid rgba(0,0,0,0.15);
 }
+
+/* Force hide all advertising elements */
+.adsterra-ad-card, .adsterra-sticky-footer, .in-article-ad-card, .ad-desktop-slot, .ad-mobile-slot, .adsterra-badge { display: none !important; height: 0 !important; margin: 0 !important; padding: 0 !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }

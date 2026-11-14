@@ -7,7 +7,7 @@ import BoardDrawer from './components/BoardDrawer'
 import DetailsModal from './components/DetailsModal'
 import Home from './pages/Home'
 import Blog from './pages/Blog'
-import AdsterraStickyFooter from './components/AdsterraStickyFooter'
+// AdsterraStickyFooter removed
 import { DECOR_DB } from './db'
 
 export default function App() {
@@ -181,7 +181,7 @@ export default function App() {
         onTogglePin={handleTogglePin}
       />
 
-      <AdsterraStickyFooter />
+      {/* AdsterraStickyFooter removed */}
     </>
   )
 }

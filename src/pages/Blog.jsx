@@ -1,41 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { DECOR_DB } from '../db'
-import AdsterraAd from '../components/AdsterraAd'
-
-const ad728Doc = `<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{margin:0;padding:0;display:flex;justify-content:center;align-items:center;background:transparent;overflow:hidden;height:90px;width:728px;}</style></head><body><script>atOptions={'key':'19d79c25e295f3046e227577efa2e057','format':'iframe','height':90,'width':728,'params':{}};</script><script src="https://www.highrevenueformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script></body></html>`
-
-const ad320Doc = `<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{margin:0;padding:0;display:flex;justify-content:center;align-items:center;background:transparent;overflow:hidden;height:50px;width:320px;}</style></head><body><script>atOptions={'key':'fe723b0255a167a39d307ad8e6fb69a4','format':'iframe','height':50,'width':320,'params':{}};</script><script src="https://www.highrevenueformat.com/fe723b0255a167a39d307ad8e6fb69a4/invoke.js"></script></body></html>`
-
-const escapeAttr = (str) => str.replace(/"/g, '&quot;')
-
-function getInArticleAdHtml(slotNumber = 1) {
-  return `
-    <div class="in-article-ad-card">
-      <div class="adsterra-badge"><span>Advertisement</span></div>
-      <div class="ad-desktop-slot">
-        <iframe
-          srcdoc="${escapeAttr(ad728Doc)}"
-          width="728"
-          height="90"
-          loading="lazy"
-          style="border:none;max-width:100%;display:block;margin:0 auto;"
-          scrolling="no"
-        ></iframe>
-      </div>
-      <div class="ad-mobile-slot">
-        <iframe
-          srcdoc="${escapeAttr(ad320Doc)}"
-          width="320"
-          height="50"
-          loading="lazy"
-          style="border:none;max-width:100%;display:block;margin:0 auto;"
-          scrolling="no"
-        ></iframe>
-      </div>
-    </div>
-  `
-}
+function getInArticleAdHtml() { return ""; }
 
 const SMARTLINK_URL = '/'
 
@@ -164,6 +130,7 @@ export default function Blog() {
 
         const parser = new DOMParser()
         const doc = parser.parseFromString(cleanedText, 'text/html')
+        doc.querySelectorAll('.in-article-ad-card').forEach(el => el.remove())
         
         // Dynamically update document head tags for SEO
         const parsedTitle = doc.querySelector('title')?.textContent || doc.title
@@ -400,7 +367,7 @@ export default function Blog() {
         {/* Sidebar Inspiration Column */}
         <aside className="blog-sidebar-column">
           <div className="sidebar-sticky-content">
-            {!isMobile && <AdsterraAd variant="sidebar" />}
+            {/* Sidebar ad removed */}
 
             {/* Smartlink Guide CTA Card */}
             <div className="sidebar-guide-card">

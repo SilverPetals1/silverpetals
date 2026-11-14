@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { DECOR_DB } from '../db'
-import AdsterraAd from '../components/AdsterraAd'
+// AdsterraAd removed
 
 export default function Home({
   activeCategory,
@@ -187,9 +187,7 @@ export default function Home({
           </div>
         ) : (
           <div id="masonry-grid" className="masonry-grid">
-            <div style={{ gridColumn: '1 / -1', width: '100%' }}>
-              <AdsterraAd variant="home-card" />
-            </div>
+            
             {gridItems.map((item, idx) => {
               const isPinned = savedPins.includes(item.id)
               return (

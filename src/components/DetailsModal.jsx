@@ -70,7 +70,7 @@ export default function DetailsModal({ item, isOpen, onClose, savedPins, onToggl
 
             {/* Action buttons */}
             <div className="modal-actions">
-              <a href="https://pinterest.com/" target="_blank" rel="noopener noreferrer" className="btn btn-pinterest">
+              <a href="#" onClick={(e) => e.preventDefault()} className="btn btn-pinterest">
                 <svg className="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
                   <path d="M12 0C5.37 0 0 5.37 0 12c0 5.08 3.16 9.42 7.63 11.16-.1-.95-.2-2.4.04-3.43.22-.93 1.4-5.93 1.4-5.93s-.36-.72-.36-1.77c0-1.66.96-2.9 2.17-2.9 1.02 0 1.51.77 1.51 1.69 0 1.03-.66 2.56-1 3.98-.28 1.19.6 2.16 1.77 2.16 2.12 0 3.76-2.24 3.76-5.48 0-2.87-2.06-4.88-5.01-4.88-3.41 0-5.42 2.56-5.42 5.21 0 1.03.4 2.14.9 2.75.1.12.11.23.08.35-.09.38-.3.1.22-.38-.93-1.07-1.12-1.67-1.12-2.7 0-2.93 2.13-5.63 6.15-5.63 3.23 0 5.74 2.3 5.74 5.38 0 3.21-2.02 5.79-4.82 5.79-.94 0-1.83-.49-2.13-1.07l-.58 2.22c-.21.81-.78 1.83-1.16 2.46C9.88 23.63 10.91 24 12 24c6.63 0 12-5.37 12-12S18.63 0 12 0z"/>
                 </svg>
