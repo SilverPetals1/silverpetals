@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | SilverPetals</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://www.silverpetals.online/">
+    <!-- Google Fonts: Outfit & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        body {
+            margin: 0;
+            background-color: var(--color-bg, #0d0d0d);
+            color: var(--color-text-primary, #ffffff);
+            font-family: 'Outfit', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .error-container {
+            max-width: 720px;
+            margin: auto;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .error-code {
+            font-family: 'Playfair Display', serif;
+            font-size: 6rem;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #c5a880, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .error-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            margin-bottom: 16px;
+            color: #ffffff;
+        }
+        .error-text {
+            font-size: 1.1rem;
+            color: #b3b3b3;
+            line-height: 1.7;
+            margin-bottom: 36px;
+        }
+        .error-actions {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 48px;
+        }
+        .btn-home {
+            background-color: #c5a880;
+            color: #0d0d0d;
+            padding: 14px 28px;
+            border-radius: 9999px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .btn-home:hover {
+            background-color: #dfddd6;
+            transform: translateY(-2px);
+        }
+        .category-pills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 24px;
+        }
+        .cat-pill {
+            padding: 8px 16px;
+            background: #1a1a1a;
+            border: 1px solid #333333;
+            color: #e0e0e0;
+            border-radius: 9999px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        .cat-pill:hover {
+            border-color: #c5a880;
+            color: #c5a880;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header" style="padding: 20px 30px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222;">
+        <a href="/" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+            <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
+            <span style="font-size: 1.3rem; color: #ffffff; font-weight: 600;">
+                <span style="color: #c5a880;">H</span>ome Style <span style="font-family: 'Playfair Display', serif; font-style: italic;">Magic</span>
+            </span>
+        </a>
+        <a href="/" class="btn-home" style="padding: 8px 18px; font-size: 0.9rem;">Back to Home</a>
+    </header>
+
+    <main class="error-container">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-text">
+            The page or decor guide you're looking for might have been moved, renamed, or is temporarily unavailable. Explore our curated collections below to find design inspiration for your home.
+        </p>
+
+        <div class="error-actions">
+            <a href="/" class="btn-home">Explore Home Page</a>
+            <a href="/category/home-decor" class="btn-home" style="background: transparent; color: #ffffff; border: 1.5px solid #c5a880;">Browse Home Decor</a>
+        </div>
+
+        <div>
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; color: #c5a880; margin-bottom: 12px;">Popular Categories</h3>
+            <div class="category-pills">
+                <a href="/category/living-room" class="cat-pill">Living Room</a>
+                <a href="/category/kitchen" class="cat-pill">Kitchen</a>
+                <a href="/category/bedroom" class="cat-pill">Bedroom</a>
+                <a href="/category/bathroom" class="cat-pill">Bathroom</a>
+                <a href="/category/flooring" class="cat-pill">Flooring</a>
+                <a href="/category/ceiling" class="cat-pill">Ceiling</a>
+                <a href="/category/wall-decor" class="cat-pill">Wall Decor</a>
+                <a href="/category/outdoor" class="cat-pill">Outdoor</a>
+            </div>
+        </div>
+    </main>
+
+    <footer style="margin-top: auto; padding: 24px; text-align: center; border-top: 1px solid #222; font-size: 0.85rem; color: #777;">
+        &copy; 2026 SilverPetals. All rights reserved.
+    </footer>
+</body>
+</html>

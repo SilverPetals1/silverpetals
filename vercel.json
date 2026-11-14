@@ -1,8 +1,130 @@
 {
-  "version": 2,
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
   "cleanUrls": true,
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/$1" }
+  "redirects": [
+    {
+      "source": "/blogs/blog-:slug.html",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/blog-:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/blog-:slug.html",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/blog-:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/category",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/disclosure",
+      "destination": "/affiliate-disclosure",
+      "permanent": true
+    },
+    {
+      "source": "/blogs",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/\\${post.link}",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/%24%7Bpost.link%7D",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chic-cozy-very-small-bedroom-ideas",
+      "destination": "/blog/small-bedroom-ideas-tiny-rooms",
+      "permanent": true
+    },
+    {
+      "source": "/blog/20-midcentury-modern-kitchen-timeless-appeal",
+      "destination": "/blog/20-midcentury-modern-kitchens-timeless-appeal",
+      "permanent": true
+    },
+    {
+      "source": "/best-office-chair-for-back-pain-and-long-hours",
+      "destination": "/blog/best-office-chair-for-back-pain-and-long-hours",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.html"
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/terms-of-service.html"
+    },
+    {
+      "source": "/affiliate-disclosure",
+      "destination": "/affiliate-disclosure.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog/:slug.html"
+    },
+    {
+      "source": "/category/:categoryName",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/category",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/((?!assets|blogs|blog|images|favicon\\.svg|rss\\.xml|feed\\.xml|sitemap\\.xml|robots\\.txt|googlec7a0e57d12b1176d\\.html|styles\\.css).*)",
+      "destination": "/index.html"
+    }
   ]
 }

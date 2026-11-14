@@ -1,4 +1,13 @@
+node_modules/
+dist/
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 *.log
+*.tmp
 .vercel
+.gemini/
+.agents/
+.system_generated/
+scratch/

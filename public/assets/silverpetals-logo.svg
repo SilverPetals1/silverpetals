@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" fill="none" class="silverpetals-logo-svg">
+  <defs>
+    <linearGradient id="homeGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8CCA4" />
+      <stop offset="50%" stop-color="#C5A059" />
+      <stop offset="100%" stop-color="#8C6826" />
+    </linearGradient>
+    <linearGradient id="warmTerracottaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6EF" />
+      <stop offset="50%" stop-color="#E8DDD0" />
+      <stop offset="100%" stop-color="#C5B7A8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Modern Architectural Home & Botanical Petal Emblem -->
+  <g transform="translate(8, 7)">
+    <!-- House Silhouette Roofline -->
+    <path d="M28 6 L48 23 L44 26 L28 12.5 L12 26 L8 23 Z" fill="url(#homeGoldGrad)" />
+    <!-- Chimney / Accent -->
+    <rect x="38" y="11" width="4" height="7" fill="url(#homeGoldGrad)" opacity="0.85" rx="1" />
+    
+    <!-- Interior Archway -->
+    <path d="M16 28 C16 19, 40 19, 40 28 L40 48 L16 48 Z" fill="#FAF8F3" stroke="#C5A059" stroke-width="1.2" />
+
+    <!-- Organic Botanical Petal Inside the Arch (The "Petal" in SilverPetals) -->
+    <path d="M28 24 C23 31, 23 39, 28 44 C33 39, 33 31, 28 24 Z" fill="url(#homeGoldGrad)" />
+    <path d="M28 24 L28 44" stroke="#FAF8F3" stroke-width="0.75" stroke-linecap="round" />
+    <circle cx="28" cy="34" r="1.5" fill="#FAF8F3" />
+
+    <!-- Base Floor Line -->
+    <line x1="8" y1="51" x2="48" y2="51" stroke="#8C6826" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Wordmark: SilverPetals in Luxury Editorial Serif -->
+  <text x="68" y="38" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif" font-size="31" font-weight="700" letter-spacing="0.03em" fill="#2A211B">
+    Silver<tspan fill="#8C6826" font-weight="700">Petals</tspan>
+  </text>
+
+  <!-- Subtitle: HOME DECOR & LIVING -->
+  <text x="70" y="52" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.32em" fill="#8C6826">
+    HOME DECOR &amp; LIVING
+  </text>
+
+  <!-- Delicate Sparkle Icon -->
+  <path d="M298 22 Q300 25 303 26 Q300 27 298 30 Q296 27 293 26 Q296 25 298 22 Z" fill="#C5A059" />
+</svg>
