@@ -4,6 +4,161 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/blog/top-2026-bathroom-trends-youll-want-to-try",
+      "destination": "/blog/15-top-2026-bathroom-trends-youll-want-to-try",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-15-best-full-length-mirrors-for-every-budget",
+      "destination": "/blog/15-best-full-length-mirrors-for-every-budget",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tiny-apartment-cozy-essentials",
+      "destination": "/blog/20-tiny-apartment-cozy-essentials",
+      "permanent": true
+    },
+    {
+      "source": "/blog/organic-modern-living-room-amazon-decor",
+      "destination": "/blog/10-organic-modern-living-room-amazon-decor",
+      "permanent": true
+    },
+    {
+      "source": "/blog/my-home-style-bed-sheets",
+      "destination": "/blog/12-my-home-style-bed-sheets",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mid-century-modern-bathroom-ideas",
+      "destination": "/blog/15-mid-century-modern-bathroom-ideas",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kitchen-counter-organization",
+      "destination": "/blog/20-kitchen-counter-organization",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kitchen-counter-decor",
+      "destination": "/blog/15-kitchen-counter-decor",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kids-room-lighting-ideas",
+      "destination": "/blog/15-kids-room-lighting-ideas",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cozy-lamps-for-living-room",
+      "destination": "/blog/15-cozy-lamps-for-living-room",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-wooden-cutting-board-for-raw-meat",
+      "destination": "/blog/7-best-wooden-cutting-board-for-raw-meat",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-water-bottle-for-hot-water",
+      "destination": "/blog/5-best-water-bottle-for-hot-water",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-utility-sinks-for-laundry-room",
+      "destination": "/blog/5-best-utility-sinks-for-laundry-room",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-travel-water-bottle-for-flying",
+      "destination": "/blog/3-best-travel-water-bottle-for-flying",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-stainless-steel-water-bottle-with-straw",
+      "destination": "/blog/3-best-stainless-steel-water-bottle-with-straw",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-smart-doorbell-side-mounted-installation",
+      "destination": "/blog/12-best-smart-doorbell-side-mounted-installation",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-silicone-oven-gloves",
+      "destination": "/blog/5-best-silicone-oven-gloves",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-paints-for-bathroom-ceilings-to-prevent-mold",
+      "destination": "/blog/5-best-paints-for-bathroom-ceilings-to-prevent-mold",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-oven-mitts-for-high-heat",
+      "destination": "/blog/3-best-oven-mitts-for-high-heat",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-oven-mitts-500-degrees",
+      "destination": "/blog/4-best-oven-mitts-500-degrees",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-outdoor-clothes-drying-rack",
+      "destination": "/blog/3-best-outdoor-clothes-drying-rack",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-office-chair-for-back-pain-and-long-hours",
+      "destination": "/blog/6-best-office-chair-for-back-pain-and-long-hours",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-ninja-countertop-oven",
+      "destination": "/blog/4-best-ninja-countertop-oven",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-laundry-products",
+      "destination": "/blog/12-best-laundry-products",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-indoor-clothes-drying-rack",
+      "destination": "/blog/4-best-indoor-clothes-drying-rack",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-hot-water-bottle-for-cramps",
+      "destination": "/blog/3-best-hot-water-bottle-for-cramps",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-high-heat-cooking-spray",
+      "destination": "/blog/4-best-high-heat-cooking-spray",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-heavy-duty-clothes-drying-rack",
+      "destination": "/blog/3-best-heavy-duty-clothes-drying-rack",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-hangers-for-drying-wet-clothes",
+      "destination": "/blog/4-best-hangers-for-drying-wet-clothes",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-cooking-spray-for-eggs",
+      "destination": "/blog/4-best-cooking-spray-for-eggs",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-bamboo-sheets-on-amazon-2026",
+      "destination": "/blog/8-best-bamboo-sheets-on-amazon-2026",
+      "permanent": true
+    },
+    {
       "source": "/blogs/blog-:slug.html",
       "destination": "/blog/:slug",
       "permanent": true

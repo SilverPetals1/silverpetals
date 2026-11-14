@@ -1,13 +1,13 @@
 export const DECOR_DB = [
     {
-        id: "blog-best-ninja-countertop-oven",
+        id: "blog-4-best-ninja-countertop-oven",
         title: "Best Ninja Countertop Oven: 4 Picks Compared (2026)",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/images/ninja-countertop-ovens/00-hero-ninja-countertop-ovens.jpg",
         saves: 298400,
         description: "Compare the best Ninja countertop ovens: DT551 Prestige Pro XL, DT501, DCT801BK Double Oven, and SP151 Flip. See features, capacity, pros, cons, and buyer tips.",
-        link: "blog-best-ninja-countertop-oven.html",
+        link: "blog-4-best-ninja-countertop-oven.html",
         colors: ["#1B4D3E", "#111827", "#C5A880", "#F9F9F8"],
         steps: ["Review the 4 Best Ninja Countertop Ovens, comparing the Prestige Pro XL DT551, Prestige XL DT501, Double Oven Pro DCT801BK, and space-saving Flip SP151 with verified Amazon affiliate links."]
     },
@@ -60,14 +60,14 @@ export const DECOR_DB = [
         steps: ["Review the Quimoo Large Vanity Desk, featuring a 3-mode lighted LED mirror, 7 storage drawers, 4 display shelves, 5 necklace hooks, built-in dual AC/USB charging hub, and Amazon shopping options."]
     },
     {
-        id: "blog-best-laundry-products",
+        id: "blog-12-best-laundry-products",
         title: "12 Best Laundry Products to Make Wash Day Easier in 2026",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/images/laundry-products/00-hero-laundry-products.jpg",
         saves: 268400,
         description: "Discover 12 best laundry products for 2026, including detergents, stain removers, dryer balls, laundry hampers, and clothing-care essentials.",
-        link: "blog-best-laundry-products.html",
+        link: "blog-12-best-laundry-products.html",
         colors: ["#2C5E7A", "#1B4157", "#3B82F6", "#FFFFFF"],
         steps: ["Compare 12 top-rated laundry essentials for 2026, evaluating detergents, oxygen boosters, stain sprays, reusable wool dryer balls, mesh bags, and verified Amazon affiliate links."]
     },
@@ -84,14 +84,14 @@ export const DECOR_DB = [
         steps: ["Compare top Hydro Flask water bottle sizes, evaluating 24 oz Standard Mouth, 32 oz Wide Mouth, Trail Series, vacuum insulation, dishwasher care, and verified Amazon affiliate links."]
     },
     {
-        id: "blog-best-smart-doorbell-side-mounted-installation",
+        id: "blog-12-best-smart-doorbell-side-mounted-installation",
         title: "Top 12 Best Smart Doorbells for Side-Mounted Installation (2026)",
         category: "home-decor",
         categoryLabel: "Home Decor",
         image: "/images/smart-doorbells/00-hero-smart-doorbells.jpg",
         saves: 294200,
         description: "Compare 12 smart doorbells for side-mounted installation in 2026. Explore video features, wedge mounts, power options, storage, and buying tips.",
-        link: "blog-best-smart-doorbell-side-mounted-installation.html",
+        link: "blog-12-best-smart-doorbell-side-mounted-installation.html",
         colors: ["#2C3E50", "#1A252F", "#3B82F6", "#FFFFFF"],
         steps: ["Compare 12 top-rated smart doorbells for side-mounted installation, evaluating wedge mounts, 2K video clarity, battery vs. wired power, local storage, and verified Amazon affiliate links."]
     },
@@ -108,14 +108,14 @@ export const DECOR_DB = [
         steps: ["Compare 10 top-rated vintage-style home decor finds under $60, evaluating antique brass candlesticks, ornate gold frames, traditional rugs, apothecary bottles, and verified Amazon affiliate links."]
     },
     {
-        id: "blog-organic-modern-living-room-amazon-decor",
+        id: "blog-10-organic-modern-living-room-amazon-decor",
         title: "Organic Modern Living Room: 10 Best Pieces from Amazon",
         category: "living-room",
         categoryLabel: "Living Room",
         image: "/images/organic-modern-living-room/00-hero-organic-modern-living-room.jpg",
         saves: 274600,
         description: "Create a warm, stylish organic modern living room with 10 Amazon decor pieces, including natural wood coffee tables, neutral rugs, ceramic vases, and cozy lighting.",
-        link: "blog-organic-modern-living-room-amazon-decor.html",
+        link: "blog-10-organic-modern-living-room-amazon-decor.html",
         colors: ["#E8E2D8", "#BBA37C", "#5C5346", "#3E3830"],
         steps: ["Compare 10 top-rated organic modern living room decor pieces, evaluating natural wood tables, high-low textured rugs, sculptural ceramics, linen curtains, and verified Amazon affiliate links."]
     },
@@ -216,14 +216,14 @@ export const DECOR_DB = [
         steps: ["Compare 10 top-rated curved sofa slipcovers, evaluating stretch velvet, waffle knit, jacquard textures, foam tuck-in anchors, sectional modularity, and verified Amazon affiliate links."]
     },
     {
-        id: "blog-best-bamboo-sheets-on-amazon-2026",
+        id: "blog-8-best-bamboo-sheets-on-amazon-2026",
         title: "Best Bamboo Sheets on Amazon: 8 Top Picks Reviewed for 2026",
         category: "bedroom",
         categoryLabel: "Bedroom",
         image: "/images/bamboo-sheets/00-hero-bamboo-sheets.jpg",
         saves: 224300,
         description: "Compare the 8 best bamboo sheets on Amazon for 2026. Detailed reviews of Bedsure, Pure Bamboo, Cosy House, SONORO KATE, Cariloha, Luxome, Cozy Earth, and ettitude.",
-        link: "blog-best-bamboo-sheets-on-amazon-2026.html",
+        link: "blog-8-best-bamboo-sheets-on-amazon-2026.html",
         colors: ["#D4AF37", "#E8DFD1", "#78866B", "#2A2824"],
         steps: ["Compare 8 top-rated bamboo sheet sets on Amazon, evaluating viscose vs lyocell, pocket depth, sateen vs twill weave, cooling performance, and verified affiliate links."]
     },
@@ -288,38 +288,38 @@ export const DECOR_DB = [
         steps: ["Compare 5 top-rated bottle washer sterilizer and dryers, evaluating 26-jet washing, self-contained water tanks, HEPA hot-air drying, and smart app automation."]
     },
     {
-        id: "blog-best-cooking-spray-for-eggs",
+        id: "blog-4-best-cooking-spray-for-eggs",
         title: "Best Cooking Spray for Eggs: 4 Top Picks by Pan and Diet",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-cooking-spray-for-eggs-hero.webp",
         saves: 200300,
         description: "Discover the best cooking spray for eggs by pan type and diet. Compare Chosen Foods 100% Avocado Oil, Pompeian Organic EVOO, PAM Butter, and Misto refillable sprayer.",
-        link: "blog-best-cooking-spray-for-eggs.html",
+        link: "blog-4-best-cooking-spray-for-eggs.html",
         colors: ["#D4AF37", "#6B8E23", "#F4EFEA", "#24221F"],
         steps: ["Compare 4 top-rated cooking sprays for eggs, evaluating neutral avocado oil, organic extra-virgin olive oil, traditional diner butter flavor, and eco-friendly refillable pump misters."]
     },
     {
-        id: "blog-best-high-heat-cooking-spray",
+        id: "blog-4-best-high-heat-cooking-spray",
         title: "Best High Heat Cooking Spray: 4 Top Picks Reviewed",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-high-heat-cooking-spray-hero.webp",
         saves: 200150,
         description: "Discover the best high heat cooking spray for searing, roasting, and air frying. Compare La Tourangelle, Chosen Foods 500°F avocado oil, Good & Gather, and Mantova Air Fryer Spray.",
-        link: "blog-best-high-heat-cooking-spray.html",
+        link: "blog-4-best-high-heat-cooking-spray.html",
         colors: ["#6B8E23", "#C5A059", "#FAF8F5", "#24221F"],
         steps: ["Compare 4 top-rated high-heat cooking sprays, evaluating single-ingredient refined avocado oil, 500°F smoke points, propellant-free bag-on-valve misting, and cookware safety."]
     },
     {
-        id: "blog-best-utility-sinks-for-laundry-room",
+        id: "blog-5-best-utility-sinks-for-laundry-room",
         title: "Best Utility Sinks for Laundry Room: 5 Top Picks",
         category: "bathroom",
         categoryLabel: "Bathroom",
         image: "/assets/best-utility-sinks-for-laundry-room-hero.webp",
         saves: 199950,
         description: "Discover the best utility sinks for laundry room spaces. Compare VINGLI freestanding tubs, Mustee Utilatub, TRINITY stainless steel, Kraus Standart PRO, and cabinet sinks.",
-        link: "blog-best-utility-sinks-for-laundry-room.html",
+        link: "blog-5-best-utility-sinks-for-laundry-room.html",
         colors: ["#E8ECEF", "#A8BBA2", "#C5A059", "#24221F"],
         steps: ["Compare 5 top-rated utility sinks for laundry rooms, evaluating heavy-duty freestanding tubs, commercial stainless steel basins, seamless undermount models, and vanity cabinets."]
     },
@@ -348,14 +348,14 @@ export const DECOR_DB = [
         steps: ["Explore 5 top decorative vases for modern living rooms, evaluating textured sandstone ceramics, translucent smoky glass, vertical fluting, sculptural donut silhouettes, and coordinated sets."]
     },
     {
-        id: "blog-best-heavy-duty-clothes-drying-rack",
+        id: "blog-3-best-heavy-duty-clothes-drying-rack",
         title: "Best Heavy Duty Clothes Drying Rack: Top 3 Picks for Big Loads",
         category: "bedroom",
         categoryLabel: "Bedroom",
         image: "/assets/best-heavy-duty-clothes-drying-rack-hero.webp",
         saves: 198900,
         description: "Discover the best heavy duty clothes drying racks for big laundry loads. Compare Honey-Can-Do Gullwing, SONGMICS 2-Level, and JAUREE Expandable for weight capacity, stability, and space savings.",
-        link: "blog-best-heavy-duty-clothes-drying-rack.html",
+        link: "blog-3-best-heavy-duty-clothes-drying-rack.html",
         colors: ["#A8BBA2", "#4A5859", "#C5A059", "#F4EFEA"],
         steps: ["Compare 3 top-rated heavy duty clothes drying racks for big laundry loads, evaluating 46 linear feet gullwing designs, 33-rail vertical towers, and telescoping stainless steel outdoor frames."]
     },
@@ -372,134 +372,134 @@ export const DECOR_DB = [
         steps: ["Review official Zevo Flying Insect Trap Refill Cartridges for fruit flies, gnats, and house flies, evaluating trap-and-lock adhesive, dual-spectrum UV light, and no-mess disposal."]
     },
     {
-        id: "blog-best-hangers-for-drying-wet-clothes",
+        id: "blog-4-best-hangers-for-drying-wet-clothes",
         title: "Best Hangers for Drying Wet Clothes: 4 Top Picks",
         category: "home-decor",
         categoryLabel: "Home Decor",
         image: "/assets/best-hangers-for-drying-wet-clothes-hero.webp",
         saves: 194600,
         description: "Discover the best hangers for drying wet clothes without bumps or wrinkles. Compare wide-shoulder plastic, heavy-duty extra-wide, slim bulk, and PVC-coated non-slip hangers.",
-        link: "blog-best-hangers-for-drying-wet-clothes.html",
+        link: "blog-4-best-hangers-for-drying-wet-clothes.html",
         colors: ["#E8ECEF", "#A8BBA2", "#C5A059", "#24221F"],
         steps: ["Compare 4 top-rated hangers for air-drying wet clothes, evaluating contoured wide shoulders, 20 lb heavy-duty frames, space-saving bulk packs, and rubberized non-slip coatings."]
     },
     {
-        id: "blog-best-paints-for-bathroom-ceilings-to-prevent-mold",
+        id: "blog-5-best-paints-for-bathroom-ceilings-to-prevent-mold",
         title: "5 Best Paints for Bathroom Ceilings to Prevent Mold: Tested and Compared",
         category: "ceiling",
         categoryLabel: "Ceiling",
         image: "/assets/best-paints-for-bathroom-ceilings-to-prevent-mold-hero.webp",
         saves: 198200,
         description: "Discover the best paints for bathroom ceilings to prevent mold and mildew. Compare Zinsser PERMA-WHITE, Benjamin Moore Aura Bath & Spa, Sherwin-Williams Duration Home, BEHR PREMIUM PLUS, and Benjamin Moore Kitchen & Bath.",
-        link: "blog-best-paints-for-bathroom-ceilings-to-prevent-mold.html",
+        link: "blog-5-best-paints-for-bathroom-ceilings-to-prevent-mold.html",
         colors: ["#E8ECEF", "#A3B8C2", "#C5A059", "#24221F"],
         steps: ["Compare 5 top-rated bathroom ceiling paints to prevent mold and moisture damage, evaluating antimicrobial film guarantees, matte finishes, washability, and self-priming formulas."]
     },
     {
-        id: "blog-best-indoor-clothes-drying-rack",
+        id: "blog-4-best-indoor-clothes-drying-rack",
         title: "Best Indoor Clothes Drying Rack: Top 4 for Space and Strength",
         category: "outdoor",
         categoryLabel: "Outdoor Ideas",
         image: "/assets/best-indoor-clothes-drying-rack-hero.webp",
         saves: 195400,
         description: "Discover the best indoor clothes drying racks for space, stability, and big loads. Compare Brabantia HangOn, Honey-Can-Do Gullwing, SONGMICS 2-Level, and Polder Accordion.",
-        link: "blog-best-indoor-clothes-drying-rack.html",
+        link: "blog-4-best-indoor-clothes-drying-rack.html",
         colors: ["#2D5A27", "#8FBC8F", "#C5A059", "#F4EFEA"],
         steps: ["Compare 4 top-rated indoor clothes drying racks for space and strength, evaluating Brabantia HangOn, Honey-Can-Do Gullwing, SONGMICS 2-Level, and Polder Accordion."]
     },
     {
-        id: "blog-best-outdoor-clothes-drying-rack",
+        id: "blog-3-best-outdoor-clothes-drying-rack",
         title: "Best Outdoor Clothes Drying Rack: Top 3 Foldable Picks",
         category: "outdoor",
         categoryLabel: "Outdoor Ideas",
         image: "/assets/best-outdoor-clothes-drying-rack-hero.webp",
         saves: 192800,
         description: "Discover the best outdoor clothes drying racks for patios, balconies, and backyards. Compare Amazon Basics, SONGMICS, and JAUREE for wind stability, rust resistance, and folding space.",
-        link: "blog-best-outdoor-clothes-drying-rack.html",
+        link: "blog-3-best-outdoor-clothes-drying-rack.html",
         colors: ["#2D5A27", "#8FBC8F", "#C5A059", "#F4EFEA"],
         steps: ["Compare 3 top-rated foldable outdoor clothes drying racks for balconies, patios, and backyards, evaluating accordion portability, multi-rail wings, and expandable stainless steel frames."]
     },
     {
-        id: "blog-best-stainless-steel-water-bottle-with-straw",
+        id: "blog-3-best-stainless-steel-water-bottle-with-straw",
         title: "3 Best Stainless Steel Water Bottles with Straw: Top Picks for Everyday Hydration",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-stainless-steel-water-bottle-with-straw-hero.webp",
         saves: 187600,
         description: "Discover the 3 best stainless steel water bottles with straw for everyday hydration. Compare Owala FreeSip, Stanley IceFlow, and Hydro Flask Flex Straw for cold retention, leakproof lids, and ease of cleaning.",
-        link: "blog-best-stainless-steel-water-bottle-with-straw.html",
+        link: "blog-3-best-stainless-steel-water-bottle-with-straw.html",
         colors: ["#1B4965", "#62B6CB", "#C5A059", "#F4EFEA"],
         steps: ["Compare 3 top stainless steel water bottles with straw, evaluating two-way FreeSip spouts, folding flip straw tumblers, and pro-grade powder coats."]
     },
     {
-        id: "blog-best-travel-water-bottle-for-flying",
+        id: "blog-3-best-travel-water-bottle-for-flying",
         title: "Best Travel Water Bottle for Flying: 3 Top Picks",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-travel-water-bottle-for-flying-hero.webp",
         saves: 184500,
         description: "Discover the best travel water bottles for flying. Compare Owala FreeSip, HydraPak Stow Collapsible, and Nalgene Wide Mouth Sustain for airport security, cabin pressure leaks, and hydration.",
-        link: "blog-best-travel-water-bottle-for-flying.html",
+        link: "blog-3-best-travel-water-bottle-for-flying.html",
         colors: ["#1B4965", "#62B6CB", "#C5A059", "#F4EFEA"],
         steps: ["Compare 3 top travel water bottles for air travel, evaluating two-way sipping spouts, collapsible packing efficiency, and indestructible lightweight materials."]
     },
     {
-        id: "blog-best-hot-water-bottle-for-cramps",
+        id: "blog-3-best-hot-water-bottle-for-cramps",
         title: "Best Hot Water Bottle for Cramps: 3 Top Picks Compared",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-hot-water-bottle-for-cramps-hero.webp",
         saves: 181400,
         description: "Discover the best hot water bottles for menstrual cramps. Compare HomeTop Classic Rubber, samply 2L with Knitted Cover, and FORICOM 2-Pack for soothing warmth, comfort, and safety.",
-        link: "blog-best-hot-water-bottle-for-cramps.html",
+        link: "blog-3-best-hot-water-bottle-for-cramps.html",
         colors: ["#D4A373", "#8C584B", "#C5A059", "#F4EFEA"],
         steps: ["Compare 3 top-rated hot water bottles for menstrual cramps, exploring natural rubber flexibility, cozy knitted covers, and dual-pack value."]
     },
     {
-        id: "blog-best-water-bottle-for-hot-water",
+        id: "blog-5-best-water-bottle-for-hot-water",
         title: "5 Best Water Bottles for Hot Water: Our Top Picks",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-water-bottle-for-hot-water-hero.webp",
         saves: 178200,
         description: "Looking for the best water bottle for hot water? Compare THERMOS Stainless King, Hydro Flask Wide Mouth, Zojirushi Mug, Stanley Classic, and IRON FLASK.",
-        link: "blog-best-water-bottle-for-hot-water.html",
+        link: "blog-5-best-water-bottle-for-hot-water.html",
         colors: ["#2C3E50", "#185A9D", "#C5A059", "#F4EFEA"],
         steps: ["Compare 5 top-rated insulated water bottles for hot water, evaluating double-wall vacuum retention, lid safety, leak prevention, and everyday portability."]
     },
     {
-        id: "blog-best-oven-mitts-500-degrees",
+        id: "blog-4-best-oven-mitts-500-degrees",
         title: "Best Oven Mitts 500 Degrees: 4 Silicone Picks Compared",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-oven-mitts-500-degrees-hero.webp",
         saves: 175600,
         description: "Looking for the best oven mitts for 500 degrees? Compare HOMWE, GORILLA GRIP, All-Clad, and KitchenAid silicone mitts for grip, heat insulation, and kitchen safety.",
-        link: "blog-best-oven-mitts-500-degrees.html",
+        link: "blog-4-best-oven-mitts-500-degrees.html",
         colors: ["#D4A373", "#2C3539", "#C5A059", "#F4EFEA"],
         steps: ["Compare 4 top-rated silicone oven mitts for 500 degrees Fahrenheit, balancing heat resistance, slip-proof grip, and kitchen comfort."]
     },
     {
-        id: "blog-best-silicone-oven-gloves",
+        id: "blog-5-best-silicone-oven-gloves",
         title: "Best Silicone Oven Gloves: 5 Top Picks for High Heat & Grip",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-silicone-oven-gloves-hero.webp",
         saves: 172400,
         description: "Discover the best silicone oven gloves for high heat, superior grip, and comfort. Compare Gorilla Grip, KitchenAid, HOMWE, sungwoo, and Hovico silicone mitts.",
-        link: "blog-best-silicone-oven-gloves.html",
+        link: "blog-5-best-silicone-oven-gloves.html",
         colors: ["#D4A373", "#2C3539", "#C5A059", "#F4EFEA"],
         steps: ["Compare 5 top-rated silicone oven gloves and mitts for maximum heat resistance, textured non-slip grip, and complete kitchen forearm safety."]
     },
     {
-        id: "blog-best-oven-mitts-for-high-heat",
+        id: "blog-3-best-oven-mitts-for-high-heat",
         title: "Best Oven Mitts for High Heat: 3 Top Picks for Every Kitchen",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-oven-mitts-high-heat-hero.webp",
         saves: 168500,
         description: "Discover the best oven mitts for high heat. Compare OXO Good Grips, HOMWE Extra Long, and Grill Armor gloves for dependable heat protection, textured silicone grip, and kitchen safety.",
-        link: "blog-best-oven-mitts-for-high-heat.html",
+        link: "blog-3-best-oven-mitts-for-high-heat.html",
         colors: ["#D4A373", "#2C3539", "#C5A059", "#F4EFEA"],
         steps: ["Compare 3 top-rated oven mitts and high-heat gloves for everyday baking, deep ovens, and barbecue grilling with our comprehensive kitchen buying guide."]
     },
@@ -612,14 +612,14 @@ export const DECOR_DB = [
         steps: ["Discover 30 handpicked Amazon bedroom essentials across luxury bedding, mood lighting, clutter-free storage, and soothing wellness accessories."]
     },
     {
-        id: "blog-top-2026-bathroom-trends-youll-want-to-try",
+        id: "blog-15-top-2026-bathroom-trends-youll-want-to-try",
         title: "Top 2026 Bathroom Trends You'll Want to Try",
         category: "bathroom",
         categoryLabel: "Bathroom",
         image: "/assets/bathroom-trends-hero.webp",
         saves: 135800,
         description: "Explore the top 2026 bathroom trends redefining modern homes—from warm earthy palettes and curved vanities to textured plaster, spa steam showers, and smart mirrors.",
-        link: "blog-top-2026-bathroom-trends-youll-want-to-try.html",
+        link: "blog-15-top-2026-bathroom-trends-youll-want-to-try.html",
         colors: ["#C2A68D", "#3B4A3F", "#1A1A1A", "#F4EFEA"],
         steps: ["Discover 15 defining 2026 bathroom design trends across organic curves, earthy plaster, freestanding soaking tubs, and wellness-focused smart features."]
     },
@@ -840,26 +840,26 @@ export const DECOR_DB = [
         steps: ["Explore 20 space-saving and cozy small dining room ideas combining round tables, mirrors, banquettes, warm wood tones, and ambient pendant lighting."]
     },
     {
-        id: "blog-the-15-best-full-length-mirrors-for-every-budget",
+        id: "blog-15-best-full-length-mirrors-for-every-budget",
         title: "The 15 Best Full-Length Mirrors for Every Budget",
         category: "home-decor",
         categoryLabel: "Home Decor",
         image: "/assets/full-length-mirrors-hero.webp",
         saves: 89400,
         description: "Shop the 15 best full-length mirrors across budget-friendly, mid-range, and luxury splurge tiers—from frameless leaners and over-the-door hooks to arched brass, solid oak, and dimmable LED mirrors.",
-        link: "blog-the-15-best-full-length-mirrors-for-every-budget.html",
+        link: "blog-15-best-full-length-mirrors-for-every-budget.html",
         colors: ["#C29D6D", "#1E1D1A", "#E5DCD3", "#F7CA00"],
         steps: ["Compare 15 full-length mirror styles across every budget tier with sizing rules, glass thickness specs, and direct Amazon shopping links."]
     },
     {
-        id: "blog-my-home-style-bed-sheets",
+        id: "blog-12-my-home-style-bed-sheets",
         title: "My Home Style Bed Sheets: How to Match Your Bedding to 12 Distinct Decor Aesthetics",
         category: "home-decor",
         categoryLabel: "Home Decor",
         image: "/assets/bed-sheets-home-style-hero.webp",
         saves: 83600,
         description: "Discover how to match bed sheet weaves, fiber weights, colors, and patterns to 12 signature home decor styles—from crisp minimalist percale and Scandi oatmeal linen to jewel-toned sateen and Japandi clay.",
-        link: "blog-my-home-style-bed-sheets.html",
+        link: "blog-12-my-home-style-bed-sheets.html",
         colors: ["#E5DCD3", "#2A3A4A", "#C46B48", "#3E5D4F"],
         steps: ["Learn how to choose the exact sheet weave, thread count, GSM weight, and palette for 12 distinct bedroom aesthetics."]
     },
@@ -924,14 +924,14 @@ export const DECOR_DB = [
         steps: ["Discover 10 bold yet sophisticated orange and black bathroom makeover ideas with designer 60-30-10 color ratios, matte black fixtures, and terracotta warmth."]
     },
     {
-        id: "blog-best-wooden-cutting-board-for-raw-meat",
+        id: "blog-7-best-wooden-cutting-board-for-raw-meat",
         title: "Best Wooden Cutting Board for Raw Meat: 7 Durable, Safe, and Easy-to-Clean Picks",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/wooden-cutting-board-raw-meat-hero.webp",
         saves: 69400,
         description: "Compare the 7 best wooden cutting boards for raw meat based on USDA food safety, hardwood type, juice grooves, stability, and ease of cleaning, including John Boos Maple CB Series, Teakhaus 109, and Sonder Los Angeles.",
-        link: "blog-best-wooden-cutting-board-for-raw-meat.html",
+        link: "blog-7-best-wooden-cutting-board-for-raw-meat.html",
         colors: ["#C29D6D", "#5C4033", "#1E1D1A", "#F7CA00"],
         steps: ["Discover the 7 best wooden cutting boards for raw meat preparation with deep perimeter juice grooves, USDA cleaning guidelines, and maple, teak, walnut, and acacia comparisons."]
     },
@@ -972,14 +972,14 @@ export const DECOR_DB = [
         steps: ["Discover 9 architectural modern balcony designs blending cantilevered glass, warm timber, steel railings, and seamless indoor-outdoor flow."]
     },
     {
-        id: "blog-best-office-chair-for-back-pain-and-long-hours",
+        id: "blog-6-best-office-chair-for-back-pain-and-long-hours",
         title: "Best Office Chair for Back Pain and Long Hours: 6 Ergonomic Picks Worth Considering",
         category: "home-decor",
         categoryLabel: "Home Decor",
         image: "/assets/office-chair-back-pain-hero.webp",
         saves: 71800,
         description: "Compare the 6 best ergonomic office chairs for back pain and long working hours, including Steelcase Leap, Herman Miller Aeron, Branch Ergonomic Chair Pro, HON Ignition 2.0, Sihoo Doro C300, and Autonomous ErgoChair Pro.",
-        link: "blog-best-office-chair-for-back-pain-and-long-hours.html",
+        link: "blog-6-best-office-chair-for-back-pain-and-long-hours.html",
         colors: ["#1E1D1A", "#C29D6D", "#4A5568", "#8C6A38"],
         steps: ["Explore our complete ergonomic comparison of the 6 best office chairs for back support and extended desk work."]
     },
@@ -2607,14 +2607,14 @@ export const DECOR_DB = [
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
     {
-        id: "blog-kitchen-counter-decor",
+        id: "blog-15-kitchen-counter-decor",
         title: "Kitchen Counter Decor: 15 Ideas to Style Your Space",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "https://images.pexels.com/photos/18033166/pexels-photo-18033166/free-photo-of-countertop-of-modern-kitchen.jpeg?auto=compress&cs=tinysrgb&w=800",
         saves: 11520,
         description: "Transform your counters with 15 kitchen counter decor ideas. Learn to style fresh greenery, leaning cutting boards, trays, and canisters with intention.",
-        link: "blog-kitchen-counter-decor.html",
+        link: "blog-15-kitchen-counter-decor.html",
         colors: ["#DFDDD6", "#C5A880", "#69665E", "#1E1D1A"],
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
@@ -2739,14 +2739,14 @@ export const DECOR_DB = [
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
     {
-        id: "blog-kids-room-lighting-ideas",
+        id: "blog-15-kids-room-lighting-ideas",
         title: "15 Kids' Room Lighting Ideas That Are Fun and Functional",
         category: "kids-room",
         categoryLabel: "Kids Room Decor",
         image: "/assets/kids_room_lighting_ideas.jpg",
         saves: 6830,
         description: "Brighten up your child's space with 15 kids' room lighting ideas. Discover fun, safe, and functional options from cloud pendants to starry night sky projectors.",
-        link: "blog-kids-room-lighting-ideas.html",
+        link: "blog-15-kids-room-lighting-ideas.html",
         colors: ["#C5A880", "#DFDDD6", "#69665E", "#1E1D1A"],
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
@@ -2775,14 +2775,14 @@ export const DECOR_DB = [
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
     {
-        id: "blog-tiny-apartment-cozy-essentials",
+        id: "blog-20-tiny-apartment-cozy-essentials",
         title: "20 Tiny Apartment Essential Pieces for a Vibey, Cozy Look",
         category: "bedroom",
         categoryLabel: "Bedroom",
         image: "/assets/tiny_apartment_cozy_essentials.jpg",
         saves: 9350,
         description: "Transform your bedroom and flat with 20 tiny apartment cozy essentials. Get design tips on warm lights, textured rugs, plants, and lived-in vibes.",
-        link: "blog-tiny-apartment-cozy-essentials.html",
+        link: "blog-20-tiny-apartment-cozy-essentials.html",
         colors: ["#C5A880", "#DFDDD6", "#69665E", "#1E1D1A"],
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
@@ -2811,14 +2811,14 @@ export const DECOR_DB = [
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
     {
-        id: "blog-cozy-lamps-for-living-room",
+        id: "blog-15-cozy-lamps-for-living-room",
         title: "Cozy Lamps for Living Room: 15 Picks to Warm Up Your Space",
         category: "living-room",
         categoryLabel: "Living Room",
         image: "/assets/cozy_lamps_for_living_room.jpg",
         saves: 7420,
         description: "Transform your home's atmosphere with cozy lamps for living room spaces. Discover 15 warm, friendly lighting styles from woven rattan to vintage fringed shades.",
-        link: "blog-cozy-lamps-for-living-room.html",
+        link: "blog-15-cozy-lamps-for-living-room.html",
         colors: ["#C5A880", "#DFDDD6", "#69665E", "#1E1D1A"],
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
@@ -3274,7 +3274,7 @@ export const DECOR_DB = [
         image: "https://images.pexels.com/photos/29887333/pexels-photo-29887333/free-photo-of-rustic-bathroom-with-exposed-brick-wall.jpeg?auto=compress&cs=tinysrgb&w=800",
         saves: 9140,
         description: "Transform your space with mid-century modern bathroom ideas. Learn to pair walnut vanities with terrazzo tops, brass hardware, and geometric tiles.",
-        link: "blog-mid-century-modern-bathroom-ideas.html",
+        link: "blog-15-mid-century-modern-bathroom-ideas.html",
         colors: ["#C5A880", "#DFDDD6", "#69665E", "#1E1D1A"],
         steps: ["Read the complete article for step-by-step room decoration guidelines."]
     },
