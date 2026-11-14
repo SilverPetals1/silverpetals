@@ -158,49 +158,20 @@ function initCategoryFilters() {
 }
 
 /* ==========================================================================
-   5B. SHOP PAGE CATEGORY FILTER BY URL PARAM (?category=earrings/necklaces/rings/bracelets...)
+   5B. SHOP PAGE CATEGORY FILTER BY URL PARAM (?category=living-room/bedroom/kitchen...)
    ========================================================================== */
 function initShopCategoryUrlFilter() {
-  const sections = document.querySelectorAll('main.section section[id]');
-  if (!sections.length) return;
-
   const urlParams = new URLSearchParams(window.location.search);
-  let categoryParam = (urlParams.get('category') || '').toLowerCase().trim();
+  const categoryParam = (urlParams.get('category') || '').toLowerCase().trim();
 
-  // Also check window.location.hash if no search param
-  if (!categoryParam && window.location.hash) {
-    categoryParam = window.location.hash.replace('#', '').toLowerCase().trim();
-  }
-
-  if (!categoryParam) return;
-
-  // Map sub-categories to available shop sections
-  const categoryMap = {
-    'rings': 'rings',
-    'earrings': 'earrings',
-    'necklaces': 'necklaces',
-    'bracelets': 'bracelets',
-    'bangles': 'bracelets',
-    'bridal': 'necklaces',
-    'choker': 'necklaces',
-    'jhumka': 'earrings',
-    'studs': 'earrings',
-    'hoops': 'earrings'
-  };
-
-  const targetSectionId = categoryMap[categoryParam] || (document.getElementById(categoryParam) ? categoryParam : null);
-
-  if (targetSectionId) {
-    // Show only the relevant section if filtering by category
-    sections.forEach(sec => {
-      const secId = sec.id.toLowerCase();
-      if (secId === targetSectionId) {
-        sec.style.display = 'block';
-        setTimeout(() => {
-          sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 100);
+  const productCards = document.querySelectorAll('.amazon-product-card');
+  if (productCards.length && categoryParam && categoryParam !== 'all') {
+    productCards.forEach(card => {
+      const roomTag = (card.querySelector('.amazon-room-tag')?.textContent || '').toLowerCase().replace(/\s+/g, '-');
+      if (roomTag.includes(categoryParam) || categoryParam.includes(roomTag)) {
+        card.style.display = 'flex';
       } else {
-        sec.style.display = 'none';
+        card.style.display = 'none';
       }
     });
   }
@@ -208,9 +179,9 @@ function initShopCategoryUrlFilter() {
   // Update navigation active state
   document.querySelectorAll('.main-nav .nav-link').forEach(link => {
     const href = link.getAttribute('href') || '';
-    if (href.includes(`category=${categoryParam}`) || (targetSectionId && href.includes(`category=${targetSectionId}`))) {
+    if (categoryParam && href.includes(`category=${categoryParam}`)) {
       link.parentElement?.classList.add('active');
-    } else {
+    } else if (categoryParam) {
       link.parentElement?.classList.remove('active');
     }
   });

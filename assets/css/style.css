@@ -3098,3 +3098,256 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+
+
+/* ==========================================================================
+   HOME DECOR & AMAZON AFFILIATE STYLING SUITE
+   ========================================================================== */
+
+/* Amazon Affiliate Notification Banner */
+.amazon-affiliate-banner {
+  background: #FDF9F3;
+  border-bottom: 1px solid #EFE4D6;
+  padding: 0.6rem 1rem;
+  font-size: 0.8rem;
+  color: #7A6956;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.amazon-affiliate-banner a {
+  color: #8C6826;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* Room Category Showcase Grid (Living Room, Bedroom, Kitchen, Bathroom, Kids Room, Accents) */
+.room-grid-6 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-block: 2rem;
+}
+
+@media (min-width: 900px) {
+  .room-grid-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.room-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.room-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+
+.room-card-img-wrap {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+  background: #FAF6EF;
+}
+
+.room-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-smooth);
+}
+
+.room-card:hover .room-card-img {
+  transform: scale(1.08);
+}
+
+.room-card-content {
+  padding: 0.9rem 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.room-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  margin-bottom: 0.2rem;
+}
+
+.room-card-count {
+  font-size: 0.75rem;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Amazon Product Cards Grid */
+.amazon-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.75rem;
+  margin-top: 2rem;
+}
+
+.amazon-product-card {
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.amazon-product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
+}
+
+.amazon-product-img-wrap {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #FAF6EF;
+}
+
+.amazon-product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-smooth);
+}
+
+.amazon-product-card:hover .amazon-product-img {
+  transform: scale(1.05);
+}
+
+.amazon-room-tag {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(42, 33, 27, 0.85);
+  color: #FFFFFF;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+.amazon-badge-pill {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #FF9900;
+  color: #111111;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  z-index: 2;
+}
+
+.amazon-product-body {
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.amazon-rating-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: #6E6259;
+  margin-bottom: 0.5rem;
+}
+
+.star-icons {
+  color: #FFA41C;
+  letter-spacing: 0.05em;
+  font-size: 0.95rem;
+}
+
+.amazon-product-title {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  line-height: 1.3;
+  color: var(--color-text-main);
+  margin-bottom: 0.6rem;
+  font-weight: 700;
+}
+
+.amazon-product-desc {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+  flex: 1;
+}
+
+.amazon-cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+  background: linear-gradient(135deg, #FF9900, #E68A00);
+  color: #111111;
+  font-size: 0.88rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.25);
+  border: none;
+  cursor: pointer;
+}
+
+.amazon-cta-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(255, 153, 0, 0.35);
+  background: linear-gradient(135deg, #FFB033, #FF9900);
+}
+
+.amazon-cta-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+/* Curated Room Guides Grid */
+.decor-blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+  margin-block: 2rem;
+}

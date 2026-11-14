@@ -1,48 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none" class="silverpetals-logo-svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" fill="none" class="silverpetals-logo-svg">
   <defs>
-    <linearGradient id="warmGoldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="homeGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#E8CCA4" />
       <stop offset="50%" stop-color="#C5A059" />
       <stop offset="100%" stop-color="#8C6826" />
     </linearGradient>
-    <linearGradient id="softPetalSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="warmTerracottaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FAF6EF" />
       <stop offset="50%" stop-color="#E8DDD0" />
       <stop offset="100%" stop-color="#C5B7A8" />
     </linearGradient>
   </defs>
 
-  <!-- Elegant Botanical Petal Blossom Emblem -->
-  <g transform="translate(6, 4)">
-    <!-- Outer Silver Petals -->
-    <path d="M26 6 C23 16, 29 23, 26 28 C23 23, 29 16, 26 6 Z" fill="url(#softPetalSilver)" stroke="#C5A059" stroke-width="0.75" />
-    <path d="M26 28 C36 25, 43 31, 48 28 C43 25, 36 31, 26 28 Z" fill="url(#softPetalSilver)" stroke="#C5A059" stroke-width="0.75" />
-    <path d="M26 28 C29 38, 23 45, 26 50 C29 45, 23 38, 26 28 Z" fill="url(#softPetalSilver)" stroke="#C5A059" stroke-width="0.75" />
-    <path d="M26 28 C16 31, 9 25, 4 28 C9 31, 16 25, 26 28 Z" fill="url(#softPetalSilver)" stroke="#C5A059" stroke-width="0.75" />
+  <!-- Modern Architectural Home & Botanical Petal Emblem -->
+  <g transform="translate(8, 7)">
+    <!-- House Silhouette Roofline -->
+    <path d="M28 6 L48 23 L44 26 L28 12.5 L12 26 L8 23 Z" fill="url(#homeGoldGrad)" />
+    <!-- Chimney / Accent -->
+    <rect x="38" y="11" width="4" height="7" fill="url(#homeGoldGrad)" opacity="0.85" rx="1" />
     
-    <!-- Rotated Gold Accents -->
-    <g transform="rotate(45, 26, 28)">
-      <path d="M26 10 C23 18, 29 22, 26 28 C23 22, 29 18, 26 10 Z" fill="url(#warmGoldGradient)" opacity="0.95" />
-      <path d="M26 28 C34 25, 38 29, 42 28 C38 29, 34 25, 26 28 Z" fill="url(#warmGoldGradient)" opacity="0.95" />
-      <path d="M26 28 C29 36, 25 40, 26 46 C25 40, 29 36, 26 28 Z" fill="url(#warmGoldGradient)" opacity="0.95" />
-      <path d="M26 28 C18 29, 14 25, 10 28 C14 25, 18 29, 26 28 Z" fill="url(#warmGoldGradient)" opacity="0.95" />
-    </g>
+    <!-- Interior Archway -->
+    <path d="M16 28 C16 19, 40 19, 40 28 L40 48 L16 48 Z" fill="#FAF8F3" stroke="#C5A059" stroke-width="1.2" />
 
-    <!-- Center Sparkling Core -->
-    <circle cx="26" cy="28" r="4.2" fill="#FAF8F3" stroke="url(#warmGoldGradient)" stroke-width="1.2" />
-    <polygon points="26,24.5 27.2,27 29.5,28 27.2,29 26,31.5 24.8,29 22.5,28 24.8,27" fill="#C5A059" />
+    <!-- Organic Botanical Petal Inside the Arch (The "Petal" in SilverPetals) -->
+    <path d="M28 24 C23 31, 23 39, 28 44 C33 39, 33 31, 28 24 Z" fill="url(#homeGoldGrad)" />
+    <path d="M28 24 L28 44" stroke="#FAF8F3" stroke-width="0.75" stroke-linecap="round" />
+    <circle cx="28" cy="34" r="1.5" fill="#FAF8F3" />
+
+    <!-- Base Floor Line -->
+    <line x1="8" y1="51" x2="48" y2="51" stroke="#8C6826" stroke-width="1.5" stroke-linecap="round" />
   </g>
 
-  <!-- Brand Wordmark: SilverPetals in Serif Editorial Typography -->
-  <text x="68" y="36" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif" font-size="31" font-weight="600" letter-spacing="0.04em" fill="#2A211B">
-    Silver<tspan fill="#8C6826" font-weight="600">Petals</tspan>
+  <!-- Wordmark: SilverPetals in Luxury Editorial Serif -->
+  <text x="68" y="38" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif" font-size="31" font-weight="700" letter-spacing="0.03em" fill="#2A211B">
+    Silver<tspan fill="#8C6826" font-weight="700">Petals</tspan>
   </text>
 
-  <!-- Tagline: Luxury Jewelry Editorial -->
-  <text x="70" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="600" letter-spacing="0.32em" fill="#8C6826">
-    FINE JEWELRY &amp; EDITORIAL
+  <!-- Subtitle: HOME DECOR & LIVING -->
+  <text x="70" y="52" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.32em" fill="#8C6826">
+    HOME DECOR &amp; LIVING
   </text>
-  
-  <!-- Subtle Muted Gold Diamond Sparkle -->
-  <path d="M285 20 Q287 23 290 24 Q287 25 285 28 Q283 25 280 24 Q283 23 285 20 Z" fill="#C5A059" />
+
+  <!-- Delicate Sparkle Icon -->
+  <path d="M298 22 Q300 25 303 26 Q300 27 298 30 Q296 27 293 26 Q296 25 298 22 Z" fill="#C5A059" />
 </svg>
