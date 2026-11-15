@@ -1,104 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="About SilverPetals. Learn about our editorial philosophy, commitment to useful home design guides, and how we help decor enthusiasts style their spaces.">
-    <link rel="canonical" href="https://www.silverpetals.online/about">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - SilverPetals</title>
+    <title>About SilverPetals | Home Decor, Interior Design & Modern Living Guides</title>
+    <meta name="description" content="Welcome to SilverPetals - your premier inspiration hub for home decor ideas, interior styling trends, kitchen organization, modern furniture, and stylish living space solutions.">
+    <meta name="keywords" content="home decor, interior design, home styling ideas, living room decor, kitchen organization, modern furniture, bedroom decor, SilverPetals">
+    <link rel="canonical" href="https://www.silverpetals.online/about">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SilverPetals">
+    <meta property="og:title" content="About SilverPetals | Home Decor, Interior Design &amp; Modern Living Guides">
+    <meta property="og:description" content="Welcome to SilverPetals - your premier inspiration hub for home decor ideas, interior styling trends, kitchen organization, modern furniture, and stylish living space solutions.">
+    <meta property="og:url" content="https://www.silverpetals.online/about">
+    <meta property="og:image" content="https://www.silverpetals.online/assets/logo_brand.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@silverpetals">
+    <meta name="twitter:title" content="About SilverPetals | Home Decor, Interior Design &amp; Modern Living Guides">
+    <meta name="twitter:description" content="Welcome to SilverPetals - your premier inspiration hub for home decor ideas, interior styling trends, kitchen organization, modern furniture, and stylish living space solutions.">
+    <meta name="twitter:image" content="https://www.silverpetals.online/assets/logo_brand.jpg">
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AboutPage",
+          "@id": "https://www.silverpetals.online/about#webpage",
+          "url": "https://www.silverpetals.online/about",
+          "name": "About SilverPetals | Home Decor, Interior Design & Modern Living Guides",
+          "description": "Welcome to SilverPetals - your premier inspiration hub for home decor ideas, interior styling trends, kitchen organization, modern furniture, and stylish living space solutions.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://www.silverpetals.online/#website",
+            "name": "SilverPetals",
+            "url": "https://www.silverpetals.online/",
+            "description": "Premium Home Decor & Interior Design Ideas"
+          },
+          "about": {
+            "@type": "Organization",
+            "@id": "https://www.silverpetals.online/#organization",
+            "name": "SilverPetals",
+            "url": "https://www.silverpetals.online/",
+            "logo": "https://www.silverpetals.online/assets/logo_brand.jpg",
+            "description": "SilverPetals is a dedicated home decor and interior design publication helping homeowners, renters, and decor enthusiasts create beautiful, functional, and organized living spaces.",
+            "knowsAbout": [
+              "Home Decor",
+              "Interior Design",
+              "Kitchen Remodeling & Storage",
+              "Living Room Styling",
+              "Bedroom Aesthetics",
+              "Modern Furniture",
+              "Home Storage Solutions"
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+
     <!-- Google Fonts: Outfit & Playfair Display -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="/styles.css">
+
     <style>
-        .policy-container {
-            max-width: 800px;
-            margin: 60px auto;
-            padding: 0 20px;
-            font-family: 'Outfit', sans-serif;
-            color: var(--color-text-primary);
-            line-height: 1.8;
+        .about-hero {
+            text-align: center;
+            padding: 60px 20px 40px;
+            max-width: 900px;
+            margin: 0 auto;
         }
-        .policy-container h1 {
+        .about-badge {
+            display: inline-block;
+            background: rgba(194, 157, 109, 0.15);
+            color: #a17d4e;
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .about-hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: 2.8rem;
+            color: var(--color-text-primary, #1e1d1a);
+            line-height: 1.25;
             margin-bottom: 20px;
-            color: var(--color-text-primary);
-            text-align: center;
         }
-        .policy-container h2 {
+        .about-hero p.lead {
+            font-size: 1.2rem;
+            color: var(--color-text-muted, #6e6c64);
+            font-weight: 300;
+            line-height: 1.7;
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        .about-content-wrap {
+            max-width: 960px;
+            margin: 0 auto 80px;
+            padding: 0 20px;
+            font-family: 'Outfit', sans-serif;
+            color: var(--color-text-primary, #1e1d1a);
+            line-height: 1.8;
+        }
+        .about-card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin: 40px 0;
+        }
+        .about-card {
+            background: #ffffff;
+            border: 1px solid var(--color-border, #e6e4de);
+            border-radius: 16px;
+            padding: 28px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .about-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+        }
+        .about-card-icon {
+            width: 48px;
+            height: 48px;
+            background: #f7f6f2;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #c29d6d;
+            margin-bottom: 16px;
+        }
+        .about-card h3 {
             font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            margin-top: 40px;
-            margin-bottom: 15px;
-            border-bottom: 1px solid var(--color-border);
-            padding-bottom: 8px;
-            color: var(--color-text-primary);
-        }
-        .policy-container p {
-            margin-bottom: 20px;
-            font-size: 1.05rem;
-            font-weight: 300;
-        }
-        .policy-container ul {
-            margin-bottom: 20px;
-            padding-left: 20px;
-        }
-        .policy-container li {
+            font-size: 1.3rem;
             margin-bottom: 10px;
+            color: #1e1d1a;
+        }
+        .about-card p {
+            font-size: 0.95rem;
+            color: #6e6c64;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .about-section {
+            background: #ffffff;
+            border: 1px solid var(--color-border, #e6e4de);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 35px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+        }
+        .about-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            margin-bottom: 16px;
+            color: #1e1d1a;
+            border-bottom: 2px solid #f2eee8;
+            padding-bottom: 12px;
+        }
+        .about-section p {
             font-size: 1.05rem;
             font-weight: 300;
+            margin-bottom: 18px;
+            color: #333;
+        }
+        .about-section ul {
+            padding-left: 24px;
+            margin-bottom: 20px;
+        }
+        .about-section li {
+            margin-bottom: 10px;
+            font-size: 1.02rem;
+            font-weight: 300;
+        }
+        .cat-pills-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 25px;
+        }
+        .cat-pill-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #f7f6f2;
+            border: 1px solid #e6e4de;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            color: #1e1d1a;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        .cat-pill-btn:hover {
+            background: #c29d6d;
+            color: #ffffff;
+            border-color: #c29d6d;
+        }
+        @media (max-width: 768px) {
+            .about-hero h1 { font-size: 2.1rem; }
+            .about-section { padding: 24px; }
         }
     </style>
 </head>
 <body>
 
     <!-- Top Sticky Header -->
-    <header class="main-header">
-        <div class="header-container">
-            <a href="/" class="logo" id="logo-home">
-                <span class="logo-accent">H</span>ome Style <span class="logo-serif">Magic</span>
+    <header class="main-header" style="background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--color-border); position: sticky; top: 0; z-index: 1000; padding: 12px 24px;">
+        <div class="header-container" style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between;">
+            <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
+                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
+                    <span class="logo-accent">H</span>ome Style <span class="logo-serif">Magic</span>
+                </span>
             </a>
+            <nav style="display: flex; gap: 20px; font-weight: 500; font-family: 'Outfit', sans-serif;">
+                <a href="/" style="transition: color 0.2s;">Home</a>
+                <a href="/category/living-room" style="transition: color 0.2s;">Living Room</a>
+                <a href="/category/kitchen" style="transition: color 0.2s;">Kitchen</a>
+                <a href="/category/bedroom" style="transition: color 0.2s;">Bedroom</a>
+                <a href="/about" style="color: var(--color-accent); font-weight: 600;">About</a>
+            </nav>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="policy-container">
-        <h1>About SilverPetals</h1>
-        <p>Welcome to <strong>SilverPetals</strong>, an online publication and curated design library dedicated to helping homeowners, renters, and Pinterest decor creators discover practical interior styling inspiration.</p>
-        
-        <p>We believe that a beautiful home is built on functional, well-planned spaces. Our mission is to strip away the design jargon and provide clear, actionable guides that help you transform your everyday living environment with style and ease.</p>
+    <!-- Hero Header -->
+    <div class="about-hero">
+        <span class="about-badge">About SilverPetals</span>
+        <h1>Inspiring Beautiful, Practical &amp; Timeless Living Spaces</h1>
+        <p class="lead">Welcome to <strong>SilverPetals</strong> &mdash; your premier online publication and curated design library dedicated to modern home decor, interior styling, space optimization, and thoughtful living.</p>
+    </div>
 
-        <h2>Our Content Focus</h2>
-        <p>We publish comprehensive styling directories and planning guides covering key areas of residential design, including:</p>
-        <ul>
-            <li><strong>Kitchen Layouts & Storage:</strong> Practical workspace layouts, the kitchen work triangle guidelines, and appliance clearances.</li>
-            <li><strong>Living Room Arrangements:</strong> Furniture spacing rules, conversations zones, and neutral color balance layouts.</li>
-            <li><strong>Ceiling & Wall Treatments:</strong> Symmetrical shiplap walls, false ceiling lighting channels, and proper art hanging heights.</li>
-            <li><strong>Flooring & Materials:</strong> Durability comparisons (like LVP vs. porcelain stone tiles) and PEI wear/slip resistance guidelines.</li>
-        </ul>
+    <!-- Main Content Container -->
+    <main class="about-content-wrap">
 
-        <h2>Our Editorial Philosophy</h2>
-        <p>At SilverPetals, we are committed to publishing high-quality, original, and people-first information. Our content is written with a strict focus on utility:</p>
-        <ul>
-            <li><strong>Actionable Spacing Guidelines:</strong> We include realistic spatial clearances and furniture sizing recommendations to ensure your layouts remain comfortable.</li>
-            <li><strong>No Clickbait Mismatches:</strong> We ensure our article titles align exactly with the list counts and detail depth provided on the page.</li>
-            <li><strong>Appropriate Qualifications:</strong> We explicitly qualify technical recommendations, advising readers to verify building codes, electrical standards, and manufacturer instructions with licensed trade professionals.</li>
-        </ul>
+        <!-- 4 Pillars Cards -->
+        <div class="about-card-grid">
+            <div class="about-card">
+                <div class="about-card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                </div>
+                <h3>Interior Styling</h3>
+                <p>Curated guides on balanced color palettes, conversational furniture layouts, statement walls, and ambient lighting.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                </div>
+                <h3>Kitchen &amp; Dining</h3>
+                <p>Functional layout triangles, stylish island lighting ideas, pantry organization, and durable cookware essentials.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01"/><path d="M10 8h.01"/><path d="M14 8h.01"/><path d="M18 8h.01"/><path d="M8 12h8"/><path d="M8 16h8"/></svg>
+                </div>
+                <h3>Smart Storage</h3>
+                <p>Space-saving shoe storage, compact entryway organizers, modular shelving, and clutter-free minimalist solutions.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <h3>Curated Home Finds</h3>
+                <p>Rigorously researched furniture, textiles, and accessories selected to elevate your everyday living environment.</p>
+            </div>
+        </div>
 
-        <h2>Contacting Us</h2>
-        <p>We are constantly expanding our curation board and design guides. If you have questions, feedback, or would like to submit a design project for curation, please visit our <a href="/contact" style="color: var(--color-accent); text-decoration: none;">Contact Page</a>.</p>
+        <!-- Section: Our Mission -->
+        <section class="about-section">
+            <h2>Our Mission</h2>
+            <p>At <strong>SilverPetals</strong>, we believe every home has the potential to feel inspiring, tranquil, and effortlessly organized. Whether you live in a cozy studio apartment, are redesigning a family home, or are simply searching for fresh Pinterest-inspired decor ideas, our mission is simple: <strong>to strip away design jargon and provide actionable, beautiful home styling solutions for real everyday living.</strong></p>
+            <p>From choosing the right lighting height over a kitchen island to maximizing narrow entryway storage with slim shoe cabinets, our guides provide realistic recommendations you can immediately put into practice.</p>
+        </section>
+
+        <!-- Section: What We Cover -->
+        <section class="about-section">
+            <h2>What We Cover</h2>
+            <p>Our editorial team publishes comprehensive interior styling directories, comparison reviews, and design guides covering key areas of residential living:</p>
+            <ul>
+                <li><strong>Living Room Design:</strong> Conversation zones, coffee table styling, sectional sofa arrangements, rug sizing guidelines, and accent lighting.</li>
+                <li><strong>Kitchens &amp; Pantries:</strong> Island pendant illumination, ergonomic workstation flow, countertop organization, and heavy-duty cooking gear.</li>
+                <li><strong>Bedroom Sanctuaries:</strong> Calming color schemes, luxurious breathable bedding, nightstand decor, and space-conscious master suites.</li>
+                <li><strong>Entryway &amp; Mudroom Storage:</strong> Multi-tier shoe racks, drop-front storage boxes, coat hooks, and bench seating ideas.</li>
+                <li><strong>Home Materials &amp; Finishes:</strong> Flooring durability comparisons, peel-and-stick accents, mold-resistant ceiling paints, and modern textures.</li>
+            </ul>
+
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-top: 25px; margin-bottom: 12px;">Explore Popular Topics:</h3>
+            <div class="cat-pills-wrap">
+                <a href="/category/home-decor" class="cat-pill-btn">&bull; Home Decor Ideas</a>
+                <a href="/category/living-room" class="cat-pill-btn">&bull; Living Room Styling</a>
+                <a href="/category/kitchen" class="cat-pill-btn">&bull; Kitchen Organization</a>
+                <a href="/category/bedroom" class="cat-pill-btn">&bull; Bedroom Inspiration</a>
+                <a href="/category/bathroom" class="cat-pill-btn">&bull; Bathroom Trends</a>
+            </div>
+        </section>
+
+        <!-- Section: Editorial Philosophy -->
+        <section class="about-section">
+            <h2>Our Editorial Philosophy &amp; Standards</h2>
+            <p>We pride ourselves on publishing people-first, genuine, and high-utility design content. Here is what guides every article we publish:</p>
+            <ul>
+                <li><strong>Spatial Accuracy &amp; Sizing:</strong> We provide realistic clearance numbers, ceiling heights, and furniture dimensions so you never purchase pieces that do not fit.</li>
+                <li><strong>Unbiased Product Research:</strong> When we recommend furniture, lighting fixtures, or organizational tools, we analyze verified customer feedback, build durability, and functional performance.</li>
+                <li><strong>Affiliate Transparency:</strong> As an Amazon Associate, SilverPetals earns from qualifying purchases. This supports our independent editorial team at no extra cost to you. We only recommend products we genuinely believe bring value to your home.</li>
+                <li><strong>Safety &amp; Compliance:</strong> For electrical wiring, heavy wall mounting, or plumbing renovations, we always encourage readers to consult certified local contractors.</li>
+            </ul>
+        </section>
+
+        <!-- Section: Get In Touch -->
+        <section class="about-section">
+            <h2>Connect With Us</h2>
+            <p>We love hearing from our community of homeowners, designers, and decor lovers! If you have styling questions, feedback on our guides, or wish to share your own space transformation, please visit our <a href="/contact" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">Contact Page</a> or reach out directly at <a href="mailto:nimramehar0011@gmail.com" style="color: var(--color-accent); font-weight: 500;">nimramehar0011@gmail.com</a>.</p>
+        </section>
+
     </main>
 
-    <!-- Simple Footer inside about page -->
-    <footer class="main-footer" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 20px 0; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 40px;">
-        <p style="margin: 0; font-family: 'Outfit', sans-serif;">&copy; 2026 SilverPetals. All rights reserved.</p>
-        <div style="display: flex; gap: 20px; font-size: 0.85rem; font-family: 'Outfit', sans-serif;">
-            <a href="/about" style="color: #b0ad9e; text-decoration: none; transition: color 0.2s;">About Us</a>
-            <a href="/contact" style="color: #b0ad9e; text-decoration: none; transition: color 0.2s;">Contact Us</a>
-            <a href="/privacy-policy" style="color: #b0ad9e; text-decoration: none; transition: color 0.2s;">Privacy Policy</a>
-            <a href="/terms-of-service" style="color: #b0ad9e; text-decoration: none; transition: color 0.2s;">Terms & Conditions</a>
+    <!-- Comprehensive Footer -->
+    <footer class="main-footer" style="background: #1a1a1a; color: #fff; padding: 60px 0 30px 0; font-family: 'Outfit', sans-serif;">
+        <div class="footer-container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px;">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo" style="display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; margin-bottom: 15px;">
+                    <img src="/assets/logo_brand.jpg" alt="SilverPetals" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
+                    <span style="font-size: 1.25rem; font-weight: 700;">Home Style <span style="color: var(--color-accent, #c5a059);">Magic</span></span>
+                </a>
+                <p style="color: #999; font-size: 0.9rem; line-height: 1.6; max-width: 380px;">Your premier destination for interior inspiration, modern furniture curation, and thoughtful home styling guides.</p>
+            </div>
+            <div class="footer-links">
+                <h4 style="color: #fff; font-size: 1rem; margin-bottom: 15px; font-family: 'Playfair Display', serif;">Categories</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; font-size: 0.9rem;">
+                    <li><a href="/category/home-decor" style="color: #bbb; text-decoration: none;">Home Decor</a></li>
+                    <li><a href="/category/living-room" style="color: #bbb; text-decoration: none;">Living Room</a></li>
+                    <li><a href="/category/bedroom" style="color: #bbb; text-decoration: none;">Bedroom</a></li>
+                    <li><a href="/category/kitchen" style="color: #bbb; text-decoration: none;">Kitchen</a></li>
+                    <li><a href="/category/bathroom" style="color: #bbb; text-decoration: none;">Bathroom</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 style="color: #fff; font-size: 1rem; margin-bottom: 15px; font-family: 'Playfair Display', serif;">Company</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; font-size: 0.9rem;">
+                    <li><a href="/about" style="color: #bbb; text-decoration: none;">About Us</a></li>
+                    <li><a href="/contact" style="color: #bbb; text-decoration: none;">Contact Us</a></li>
+                    <li><a href="/privacy-policy" style="color: #bbb; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="/terms-of-service" style="color: #bbb; text-decoration: none;">Terms &amp; Conditions</a></li>
+                    <li><a href="/affiliate-disclosure" style="color: #bbb; text-decoration: none;">Affiliate Disclosure</a></li>
+                </ul>
+            </div>
+        </div>
+        <div style="max-width: 1200px; margin: 40px auto 0; padding: 20px 20px 0; border-top: 1px solid rgba(255,255,255,0.08); text-align: center; color: #888; font-size: 0.85rem;">
+            &copy; 2026 SilverPetals (Home Style Magic). All rights reserved.
         </div>
     </footer>
 

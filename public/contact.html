@@ -1,93 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="Contact SilverPetals. Reach out to us for design queries, feedback, or collaborations.">
-    <link rel="canonical" href="https://www.silverpetals.online/contact">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - SilverPetals</title>
+    <title>Contact Us | SilverPetals Home Decor &amp; Interior Design</title>
+    <meta name="description" content="Contact the SilverPetals editorial team. Reach out for home decor questions, interior styling feedback, brand partnerships, or editorial submissions.">
+    <link rel="canonical" href="https://www.silverpetals.online/contact">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SilverPetals">
+    <meta property="og:title" content="Contact Us | SilverPetals Home Decor &amp; Interior Design">
+    <meta property="og:description" content="Contact the SilverPetals editorial team. Reach out for home decor questions, interior styling feedback, brand partnerships, or editorial submissions.">
+    <meta property="og:url" content="https://www.silverpetals.online/contact">
+    <meta property="og:image" content="https://www.silverpetals.online/assets/logo_brand.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@silverpetals">
+    <meta name="twitter:title" content="Contact Us | SilverPetals Home Decor &amp; Interior Design">
+    <meta name="twitter:description" content="Contact the SilverPetals editorial team. Reach out for home decor questions, interior styling feedback, brand partnerships, or editorial submissions.">
+    <meta name="twitter:image" content="https://www.silverpetals.online/assets/logo_brand.jpg">
+
     <!-- Google Fonts: Outfit & Playfair Display -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="/styles.css">
+
     <style>
-        .policy-container {
-            max-width: 800px;
-            margin: 60px auto;
+        .contact-container {
+            max-width: 820px;
+            margin: 50px auto 80px;
             padding: 0 20px;
             font-family: 'Outfit', sans-serif;
-            color: var(--color-text-primary);
+            color: var(--color-text-primary, #1e1d1a);
             line-height: 1.8;
         }
-        .policy-container h1 {
+        .contact-hero {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .contact-badge {
+            display: inline-block;
+            background: rgba(194, 157, 109, 0.15);
+            color: #a17d4e;
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        .contact-container h1 {
             font-family: 'Playfair Display', serif;
             font-size: 2.8rem;
-            margin-bottom: 20px;
-            color: var(--color-text-primary);
-            text-align: center;
-        }
-        .policy-container h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            margin-top: 40px;
             margin-bottom: 15px;
-            border-bottom: 1px solid var(--color-border);
-            padding-bottom: 8px;
-            color: var(--color-text-primary);
+            color: var(--color-text-primary, #1e1d1a);
         }
-        .policy-container p {
-            margin-bottom: 20px;
-            font-size: 1.05rem;
+        .contact-container p.lead {
+            font-size: 1.15rem;
+            color: #6e6c64;
             font-weight: 300;
         }
-        .contact-box {
-            background-color: #2d2c27;
-            border: 1px solid var(--color-border);
-            padding: 30px;
-            border-radius: 12px;
-            margin-top: 30px;
+        .contact-card {
+            background: #ffffff;
+            border: 1px solid var(--color-border, #e6e4de);
+            border-radius: 16px;
+            padding: 35px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+            margin-bottom: 30px;
             text-align: center;
+        }
+        .contact-email-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #1e1d1a;
+            color: #ffffff;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-size: 1.05rem;
+            font-weight: 500;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: all 0.2s ease;
+        }
+        .contact-email-btn:hover {
+            background: #c29d6d;
+            transform: translateY(-2px);
+        }
+        .info-card {
+            background: #ffffff;
+            border: 1px solid var(--color-border, #e6e4de);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+        }
+        .info-card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            margin-bottom: 12px;
+            color: #1e1d1a;
+        }
+        .info-card p {
+            font-size: 1.02rem;
+            color: #444;
+            font-weight: 300;
+            margin-bottom: 0;
+            line-height: 1.7;
         }
     </style>
 </head>
 <body>
 
     <!-- Top Sticky Header -->
-    <header class="main-header">
-        <div class="header-container">
-            <a href="/" class="logo" id="logo-home">
-                <span class="logo-accent">H</span>ome Style <span class="logo-serif">Magic</span>
+    <header class="main-header" style="background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--color-border); position: sticky; top: 0; z-index: 1000; padding: 12px 24px;">
+        <div class="header-container" style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between;">
+            <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
+                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
+                    <span class="logo-accent">H</span>ome Style <span class="logo-serif">Magic</span>
+                </span>
             </a>
+            <nav style="display: flex; gap: 20px; font-weight: 500; font-family: 'Outfit', sans-serif;">
+                <a href="/" style="transition: color 0.2s;">Home</a>
+                <a href="/category/living-room" style="transition: color 0.2s;">Living Room</a>
+                <a href="/category/kitchen" style="transition: color 0.2s;">Kitchen</a>
+                <a href="/category/bedroom" style="transition: color 0.2s;">Bedroom</a>
+                <a href="/about" style="transition: color 0.2s;">About</a>
+            </nav>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="policy-container">
-        <h1>Contact Us</h1>
-        <p>Have a question about our design guides, feedback on our layout curations, or a project you would like to submit for showcase? We would love to hear from you.</p>
-
-        <div class="contact-box">
-            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 15px; color: #ffffff;">Send Us an Inquiry</h3>
-            <p style="color: #b0ad9e; font-size: 0.95rem; margin-bottom: 0;">
-                Our editorial team welcomes suggestions and collaboration inquiries. 
-                <br /><br />
-                <a href="mailto:nimramehar0011@gmail.com" style="color: var(--color-accent); text-decoration: underline; font-weight: 500;">nimramehar0011@gmail.com</a>
-            </p>
+    <main class="contact-container">
+        <div class="contact-hero">
+            <span class="contact-badge">GET IN TOUCH</span>
+            <h1>Contact SilverPetals</h1>
+            <p class="lead">Have a question about our interior design guides, feedback on our layout curations, or want to collaborate? We would love to hear from you.</p>
         </div>
 
-        <h2>Notice for Visitors & Advertisers</h2>
-        <p>Please note that SilverPetals does not sell products or directly offer construction services. We are an educational and design curation publication. For questions regarding specific products showcased in our guides, please contact the respective manufacturers directly.</p>
+        <div class="contact-card">
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 10px; color: #1e1d1a;">Editorial &amp; Partnership Inquiries</h3>
+            <p style="color: #6e6c64; font-size: 1rem; margin-bottom: 20px;">
+                Our editorial team welcomes suggestions, corrections, and partnership opportunities. Click below or send us an email directly:
+            </p>
+            <a href="mailto:nimramehar0011@gmail.com" class="contact-email-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                nimramehar0011@gmail.com
+            </a>
+        </div>
+
+        <div class="info-card">
+            <h2>Notice for Readers &amp; Advertisers</h2>
+            <p>Please note that SilverPetals is an independent design publication and curated home decor resource. We do not sell physical products directly or provide contractor installation services. For inquiries or customer support regarding specific products featured in our guides, please contact the respective retailer or manufacturer directly.</p>
+        </div>
     </main>
 
-    <!-- Simple Footer inside contact page -->
-    <footer class="main-footer" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 20px 0; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 40px;">
-        <p style="margin: 0; font-family: 'Outfit', sans-serif;">&copy; 2026 SilverPetals. All rights reserved.</p>
-        <div style="display: flex; gap: 20px; font-size: 0.85rem; font-family: 'Outfit', sans-serif;">
-            <a href="/about" style="color: #b0ad9e; text-decoration: none; transition: color 0.2s;">About Us</a>
-            <a href="/contact" style="color: #b0ad9e; text-decoration: none; transition: color 0.2s;">Contact Us</a>
-            <a href="/privacy-policy" style="color: #b0ad9e; text-decoration: none; transition: color 0.2s;">Privacy Policy</a>
-            <a href="/terms-of-service" style="color: #b0ad9e; text-decoration: none; transition: color 0.2s;">Terms & Conditions</a>
+    <!-- Comprehensive Footer -->
+    <footer class="main-footer" style="background: #1a1a1a; color: #fff; padding: 60px 0 30px 0; font-family: 'Outfit', sans-serif;">
+        <div class="footer-container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px;">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo" style="display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; margin-bottom: 15px;">
+                    <img src="/assets/logo_brand.jpg" alt="SilverPetals" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
+                    <span style="font-size: 1.25rem; font-weight: 700;">Home Style <span style="color: var(--color-accent, #c5a059);">Magic</span></span>
+                </a>
+                <p style="color: #999; font-size: 0.9rem; line-height: 1.6; max-width: 380px;">Your premier destination for interior inspiration, modern furniture curation, and thoughtful home styling guides.</p>
+            </div>
+            <div class="footer-links">
+                <h4 style="color: #fff; font-size: 1rem; margin-bottom: 15px; font-family: 'Playfair Display', serif;">Categories</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; font-size: 0.9rem;">
+                    <li><a href="/category/home-decor" style="color: #bbb; text-decoration: none;">Home Decor</a></li>
+                    <li><a href="/category/living-room" style="color: #bbb; text-decoration: none;">Living Room</a></li>
+                    <li><a href="/category/bedroom" style="color: #bbb; text-decoration: none;">Bedroom</a></li>
+                    <li><a href="/category/kitchen" style="color: #bbb; text-decoration: none;">Kitchen</a></li>
+                    <li><a href="/category/bathroom" style="color: #bbb; text-decoration: none;">Bathroom</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 style="color: #fff; font-size: 1rem; margin-bottom: 15px; font-family: 'Playfair Display', serif;">Company</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; font-size: 0.9rem;">
+                    <li><a href="/about" style="color: #bbb; text-decoration: none;">About Us</a></li>
+                    <li><a href="/contact" style="color: #bbb; text-decoration: none;">Contact Us</a></li>
+                    <li><a href="/privacy-policy" style="color: #bbb; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="/terms-of-service" style="color: #bbb; text-decoration: none;">Terms &amp; Conditions</a></li>
+                    <li><a href="/affiliate-disclosure" style="color: #bbb; text-decoration: none;">Affiliate Disclosure</a></li>
+                </ul>
+            </div>
+        </div>
+        <div style="max-width: 1200px; margin: 40px auto 0; padding: 20px 20px 0; border-top: 1px solid rgba(255,255,255,0.08); text-align: center; color: #888; font-size: 0.85rem;">
+            &copy; 2026 SilverPetals (Home Style Magic). All rights reserved.
         </div>
     </footer>
 
