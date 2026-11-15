@@ -14,7 +14,7 @@ export default function Header({ searchQuery, setSearchQuery, savedPinsCount, on
     <header className="main-header">
       <div className="header-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
         <a href="/" className="logo" id="logo-home" onClick={handleLogoClick} style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none' }}>
-          <img src="/assets/silverpetals-logo.svg" alt="SilverPetals Logo" style={{ width: '42px', height: '42px', objectFit: 'contain' }} />
+          <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style={{ width: '42px', height: '42px', borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--color-accent, #c29d6d)' }} />
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.1' }}>
             <span style={{ fontSize: '1.45rem', fontWeight: '700', letterSpacing: '0.5px', color: '#1B4D3E' }}>
               Silver<span className="logo-serif" style={{ color: '#D4AF37', fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>Petals</span>

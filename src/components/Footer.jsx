@@ -31,7 +31,7 @@ export default function Footer({ setSearchQuery }) {
         {/* Brand Column */}
         <div className="footer-brand">
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '15px' }}>
-            <img src="/assets/silverpetals-logo.svg" alt="SilverPetals Logo" style={{ width: '42px', height: '42px', objectFit: 'contain' }} />
+            <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--color-accent, #c29d6d)' }} />
             <span className="logo" style={{ fontSize: '1.4rem', color: '#ffffff', letterSpacing: '0.5px' }}>
               Silver<span className="logo-serif" style={{ color: '#D4AF37', fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>Petals</span>
             </span>
