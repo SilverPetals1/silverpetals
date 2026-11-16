@@ -35,6 +35,15 @@ export default function App() {
     }
   }
 
+  // Track page views in GTM dataLayer across all SPA routes
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({
+      event: 'pageview',
+      page: location.pathname + location.search
+    })
+  }, [location])
+
   // Load from LocalStorage
   useEffect(() => {
     try {
