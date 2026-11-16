@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-5-best-pellet-grills-and-smokers",
+        title: "The 5 Best Pellet Grills & Smokers to Consider – Fall 2027",
+        category: "kitchen",
+        categoryLabel: "Kitchen",
+        image: "/assets/bbq_setup_hero.webp",
+        saves: 342100,
+        description: "Compare 5 top pellet grills & smokers: Weber Searwood 600, Pit Boss 850 DX, Traeger Woodridge Pro, Yoder YS640s, and Grilla Grills Mammoth. Specs, pros, cons, and buyer tips.",
+        link: "blog-5-best-pellet-grills-and-smokers.html",
+        colors: ["#9C6644", "#7F5539", "#DDA15E", "#1A1918"],
+        steps: [
+            "Compare the 5 Best Pellet Grills & Smokers across versatility, budget, beginner features, heavy-duty build, and vertical capacity with verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-4-best-ninja-countertop-oven",
         title: "Best Ninja Countertop Oven: 4 Picks Compared (2026)",
         category: "kitchen",
