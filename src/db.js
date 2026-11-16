@@ -4,7 +4,7 @@ export const DECOR_DB = [
         title: "The 5 Best Pellet Grills & Smokers to Consider – Fall 2027",
         category: "kitchen",
         categoryLabel: "Kitchen",
-        image: "/assets/bbq_setup_hero.webp",
+        image: "/assets/best-pellet-grills-and-smokers-hero.jpg",
         saves: 342100,
         description: "Compare 5 top pellet grills & smokers: Weber Searwood 600, Pit Boss 850 DX, Traeger Woodridge Pro, Yoder YS640s, and Grilla Grills Mammoth. Specs, pros, cons, and buyer tips.",
         link: "blog-5-best-pellet-grills-and-smokers.html",
