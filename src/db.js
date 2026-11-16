@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-5-best-gas-grills-under-500",
+        title: "The 5 Best Gas Grills Under $500 – Fall 2027",
+        category: "kitchen",
+        categoryLabel: "Kitchen",
+        image: "/assets/best-gas-grills-under-500-hero.jpg",
+        saves: 295600,
+        description: "Compare the 5 best gas grills under $500: Weber Spirit E-325, Monument Mesa 410MBZ, Nexgrill 4-Burner with Side Burner, Char-Broil Performance, and Weber Traveler.",
+        link: "blog-5-best-gas-grills-under-500.html",
+        colors: ["#24221F", "#C5A059", "#DDA15E", "#FAF8F5"],
+        steps: [
+            "Compare the 5 Best Gas Grills Under $500 with multi-burner layouts, sear zones, side burners, portable options, and verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-5-best-pellet-grills-and-smokers",
         title: "The 5 Best Pellet Grills & Smokers to Consider – Fall 2027",
         category: "kitchen",
