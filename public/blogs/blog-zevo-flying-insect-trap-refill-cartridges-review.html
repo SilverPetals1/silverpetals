@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -361,7 +365,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -419,7 +423,7 @@
 
             <!-- Main Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/zevo-flying-insect-trap-refill-cartridges-hero.webp" alt="Zevo Flying Insect Trap Refill Cartridges Review: Are They Worth Buying?">
+                <img src="/assets/zevo-flying-insect-trap-refill-cartridges-hero.webp" fetchpriority="high" decoding="async" alt="Zevo Flying Insect Trap Refill Cartridges Review: Are They Worth Buying?">
             </div>
 
             <!-- Intro Paragraphs -->
@@ -470,7 +474,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/zevo-flying-insect-trap-refill-cartridges-4-pack.webp" alt="Zevo Standard &amp; MAX Refill 4-Pack" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;">
+                                    <img src="/assets/zevo-flying-insect-trap-refill-cartridges-4-pack.webp" decoding="async" loading="lazy" alt="Zevo Standard &amp; MAX Refill 4-Pack" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;">
                                     <strong>Zevo Standard Refills (4-Pack)</strong>
                                 </div>
                             </td>
@@ -481,7 +485,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/zevo-refill-device-compatibility-guide.webp" alt="Zevo MAX Trap Refill Inserts" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;">
+                                    <img src="/assets/zevo-refill-device-compatibility-guide.webp" decoding="async" loading="lazy" alt="Zevo MAX Trap Refill Inserts" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;">
                                     <strong>Zevo MAX Refill Inserts</strong>
                                 </div>
                             </td>
@@ -492,7 +496,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/zevo-refill-no-mess-replacement-tab.webp" alt="Zevo Compact &amp; Plant Refills" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;">
+                                    <img src="/assets/zevo-refill-no-mess-replacement-tab.webp" decoding="async" loading="lazy" alt="Zevo Compact &amp; Plant Refills" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;">
                                     <strong>Zevo Compact &amp; Plant Refills</strong>
                                 </div>
                             </td>
@@ -503,7 +507,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/zevo-trap-insects-caught-gnats-fruit-flies.webp" alt="Zevo Starter Kit + Refill Bundle" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;">
+                                    <img src="/assets/zevo-trap-insects-caught-gnats-fruit-flies.webp" decoding="async" loading="lazy" alt="Zevo Starter Kit + Refill Bundle" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;">
                                     <strong>Starter Kit + Refill Bundle</strong>
                                 </div>
                             </td>
@@ -521,7 +525,7 @@
                 <h3 style="font-family: 'Playfair Display', serif; font-size: 1.7rem; color: #24221f; margin: 6px 0 12px 0;">How Do Zevo Refill Cartridges Work?</h3>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/zevo-flying-insect-trap-refill-cartridges-4-pack.webp" alt="Official Zevo Flying Insect Trap 4-Pack Refill Cartridges box and cartridges" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/zevo-flying-insect-trap-refill-cartridges-4-pack.webp" decoding="async" loading="lazy" alt="Official Zevo Flying Insect Trap 4-Pack Refill Cartridges box and cartridges" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Zevo Flying Insect Trap Refill Cartridges are specialized adhesive inserts engineered to snap directly into compatible Zevo plug-in bases. The system operates on a proven bio-attractant principle:</p>
@@ -534,7 +538,7 @@
                 </ol>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/zevo-refill-no-mess-replacement-tab.webp" alt="Hand pulling out used Zevo cartridge using the clean no-mess tab without touching insects" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/zevo-refill-no-mess-replacement-tab.webp" decoding="async" loading="lazy" alt="Hand pulling out used Zevo cartridge using the clean no-mess tab without touching insects" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <div style="text-align: center; margin-top: 20px;">
@@ -551,7 +555,7 @@
                 <h3 style="font-family: 'Playfair Display', serif; font-size: 1.7rem; color: #24221f; margin: 6px 0 12px 0;">What Types of Insects Do Zevo Refills Catch?</h3>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/zevo-trap-insects-caught-gnats-fruit-flies.webp" alt="Infographic of insects trapped by Zevo including fruit flies, gnats, fungus gnats, house flies, and midges" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/zevo-trap-insects-caught-gnats-fruit-flies.webp" decoding="async" loading="lazy" alt="Infographic of insects trapped by Zevo including fruit flies, gnats, fungus gnats, house flies, and midges" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>According to manufacturer laboratory data and extensive homeowner feedback, Zevo standard and MAX refill cartridges effectively capture common household flying pests:</p>
@@ -607,7 +611,7 @@
                 <h3 style="font-family: 'Playfair Display', serif; font-size: 1.7rem; color: #24221f; margin: 6px 0 12px 0;">Which Zevo Refill Cartridge Fits Your Trap?</h3>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/zevo-refill-device-compatibility-guide.webp" alt="Official Zevo device compatibility guide showing full size and max vs compact and plant traps" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/zevo-refill-device-compatibility-guide.webp" decoding="async" loading="lazy" alt="Official Zevo device compatibility guide showing full size and max vs compact and plant traps" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>The most common mistake buyers make is ordering the wrong cartridge size. Always verify your device model before purchasing:</p>
@@ -718,7 +722,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

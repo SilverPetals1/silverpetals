@@ -45,10 +45,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>15 Different Types of Curtains: How to Pick the Right Style - SilverPetals</title>
     <!-- Google Fonts: Outfit & Playfair Display -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
 <body>
@@ -61,7 +66,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -122,7 +127,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/curtain_hero.jpg" alt="15 Different Types of Curtains Buying Guide Hero">
+                <img src="/assets/curtain_hero.jpg" fetchpriority="high" decoding="async" alt="15 Different Types of Curtains Buying Guide Hero">
             </div>
 
             <!-- Introduction -->
@@ -157,21 +162,21 @@
                 <article class="blog-section">
                     <h3 class="blog-h3-title">1. Sheer Curtains for Soft, Diffused Light</h3>
                     <p>Sheer curtains are crafted from lightweight, semi-translucent fabrics such as voile, chiffon, faux-linen, or delicate lace. Their primary purpose is to soften harsh incoming daylight, cutting glare while maintaining daytime privacy and preserving outdoor views. Because they allow ample natural light to filter through, sheer panels create an airy, ethereal ambiance that makes compact living rooms, breakfast nooks, and sunrooms feel substantially brighter and more spacious. While they provide daytime discretion, sheers offer minimal nighttime privacy when interior lights are on. To style them effectively, hang floor-to-ceiling sheer panels across the entire width of your window wall on a slender brass or black metal rod, allowing the delicate fabric to billow gently with summer breezes.</p>
-                    <img class="blog-section-image" src="/assets/curtain_sheer.jpg" alt="Sheer White Curtains Diffusing Daylight in Modern Living Room">
+                    <img class="blog-section-image" src="/assets/curtain_sheer.jpg" decoding="async" loading="lazy" alt="Sheer White Curtains Diffusing Daylight in Modern Living Room">
                 </article>
 
                 <!-- Section 2 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">2. Blackout Curtains for Full Light Control</h3>
                     <p>Blackout curtains are constructed using dense, tightly woven fabrics backed with an opaque foam lining or multilayer acrylic coating that blocks up to ninety-nine percent of exterior sunlight and artificial street glare. They are the gold standard for master bedrooms, nursery rooms, shift-worker sleep spaces, and dedicated home theater setups where complete darkness is necessary for sleep hygiene and screen visibility. Beyond light control, the heavy bonded backing dampens exterior noise and provides exceptional thermal insulation against drafts. For maximum light blockage, install an wraparound French return curtain rod that mounts directly to the wall corners, preventing light halos from bleeding through the outer sides and top edges.</p>
-                    <img class="blog-section-image" src="/assets/curtain_blackout.jpg" alt="Charcoal Blackout Curtains in Master Bedroom">
+                    <img class="blog-section-image" src="/assets/curtain_blackout.jpg" decoding="async" loading="lazy" alt="Charcoal Blackout Curtains in Master Bedroom">
                 </article>
 
                 <!-- Section 3 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">3. Linen Curtains for a Relaxed, Textured Look</h3>
                     <p>Woven from natural flax fibers, linen curtains are celebrated for their distinctive organic slub texture, breathable drape, and understated casual elegance. They offer medium light filtration, casting a gentle, warm glow across your interior without casting heavy shadows. Linen pairs effortlessly with organic modern, coastal, Japandi, and Scandinavian aesthetics, introducing tactile depth to neutral walls. Because pure linen is prone to natural creasing and humidity fluctuations, many designers recommend unlined Belgian linen panels with a relaxed one-inch floor break. Alternatively, choose a linen-cotton blend if you prefer a slightly crisper, more structured drape in formal dining rooms or open-concept great rooms.</p>
-                    <img class="blog-section-image" src="/assets/curtain_linen.jpg" alt="Natural Oatmeal Linen Curtains with Soft Organic Texture">
+                    <img class="blog-section-image" src="/assets/curtain_linen.jpg" decoding="async" loading="lazy" alt="Natural Oatmeal Linen Curtains with Soft Organic Texture">
                 </article>
 
                 <!-- Section 4 -->
@@ -182,14 +187,14 @@
             
 <h3 class="blog-h3-title">4. Velvet Curtains for Warmth and Drama</h3>
                     <p>Velvet curtains deliver unmatched luxury, rich tactile depth, and old-world drama through their plush, dense pile and subtle light-reflecting sheen. These heavyweight drapes naturally block light, insulate drafty window frames, and absorb sound echoes in high-ceilinged rooms, making them ideal for formal living rooms, traditional libraries, and moody romantic bedrooms. Available in jewel tones like emerald green, sapphire blue, rich burgundy, and warm terracotta, velvet drapes create an inviting cocooning effect during colder seasons. When styling velvet panels, let them gently puddle two to three inches onto hardwood floors to emphasize their opulent weight and tailored silhouette.</p>
-                    <img class="blog-section-image" src="/assets/curtain_velvet.jpg" alt="Plush Emerald Velvet Drapes in Formal Living Room">
+                    <img class="blog-section-image" src="/assets/curtain_velvet.jpg" decoding="async" loading="lazy" alt="Plush Emerald Velvet Drapes in Formal Living Room">
                 </article>
 
                 <!-- Section 5 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">5. Grommet-Top Curtains for a Modern, Clean Look</h3>
                     <p>Grommet-top curtains—also known as eyelet curtains—feature metal rings embedded directly along the top header of the fabric panel. The exposed curtain rod threads directly through these sturdy metal eyelets, causing the fabric to fall into neat, uniform, S-shaped columnar folds from top to bottom. This simple mechanical design allows grommet drapes to glide effortlessly open and closed, making them ideal for high-traffic patio sliding doors and everyday family living spaces. Their clean, architectural vertical lines suit modern, contemporary, and industrial interiors. Select grommet finishes in matte black, brushed nickel, or antique brass to match your light fixtures and cabinet hardware.</p>
-                    <img class="blog-section-image" src="/assets/curtain_grommet.jpg" alt="Grommet-Top Modern Grey Curtains on Sleek Metal Rod">
+                    <img class="blog-section-image" src="/assets/curtain_grommet.jpg" decoding="async" loading="lazy" alt="Grommet-Top Modern Grey Curtains on Sleek Metal Rod">
                 </article>
 
                 <!-- Section 6 -->
@@ -213,70 +218,70 @@
 <article class="blog-section">
                     <h3 class="blog-h3-title">6. Rod-Pocket Curtains for a Classic, Gathered Look</h3>
                     <p>Rod-pocket curtains—sometimes referred to as pole-pocket drapes—feature a sewn fabric channel along the top header through which a curtain rod slides entirely concealed from view. When gathered onto the rod, the fabric creates a charming, softly ruffled heading that feels romantic and traditional. Rod-pocket styles are best suited for stationary drapery panels, guest bedrooms, and dining spaces where curtains remain predominantly drawn rather than slid open and closed daily, as the tight fabric-on-metal friction can make sliding cumbersome. Choose lightweight cottons or printed florals with a decorative top ruffle header to enhance cottage, farmhouse, or French country spaces.</p>
-                    <img class="blog-section-image" src="/assets/curtain_rod_pocket.jpg" alt="Classic Rod-Pocket Linen Curtains in Cozy Cottage Bedroom">
+                    <img class="blog-section-image" src="/assets/curtain_rod_pocket.jpg" decoding="async" loading="lazy" alt="Classic Rod-Pocket Linen Curtains in Cozy Cottage Bedroom">
                 </article>
 
                 <!-- Section 7 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">7. Pinch-Pleat Curtains for a Tailored, Formal Look</h3>
                     <p>Pinch-pleat drapery represents the pinnacle of custom, tailored window dressing. Small bunches of fabric—typically double or triple folds—are permanently stitched together a few inches below the top header and fan outward toward the top, creating sharp, architectural pleats that hold their shape flawlessly from top to floor. Suspended from drapery rings and hidden traverse hooks, pinch-pleat panels glide smoothly across heavy rods or ceiling tracks. They are the ideal choice for formal dining rooms, traditional master suites, and grand open living areas where refined craftsmanship, structured volume, and bespoke elegance are desired.</p>
-                    <img class="blog-section-image" src="/assets/curtain_pinch_pleat.jpg" alt="Tailored Triple Pinch-Pleat Custom Drapery on Ring Clips">
+                    <img class="blog-section-image" src="/assets/curtain_pinch_pleat.jpg" decoding="async" loading="lazy" alt="Tailored Triple Pinch-Pleat Custom Drapery on Ring Clips">
                 </article>
 
                 <!-- Section 8 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">8. Tab-Top Curtains for a Casual, Relaxed Hang</h3>
                     <p>Tab-top curtains feature distinct fabric loops or bands sewn to the upper edge of the panel that loop directly over the curtain rod, exposing the rod prominently between each loop. This construction creates a relaxed, casual aesthetic with gentle, loose folds that feel cheerful and laid-back. Tab-top styles work beautifully in informal kitchens, children's playrooms, bohemian living areas, and rustic country cabins. Because the fabric tabs create high friction on wooden or matte metal rods, pair them with smooth polished poles and install decorative finials to showcase the exposed hardware as a key styling element.</p>
-                    <img class="blog-section-image" src="/assets/curtain_tab_top.jpg" alt="Casual Tab-Top Cotton Curtains on Wooden Curtain Rod">
+                    <img class="blog-section-image" src="/assets/curtain_tab_top.jpg" decoding="async" loading="lazy" alt="Casual Tab-Top Cotton Curtains on Wooden Curtain Rod">
                 </article>
 
                 <!-- Section 9 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">9. Café Curtains for Partial Coverage and Privacy</h3>
                     <p>Café curtains are short drapery panels hung across the lower half or bottom two-thirds of a window frame, leaving the upper glass completely exposed to natural daylight. Originating in Parisian bistros, café curtains offer the perfect combination of street-level privacy and uninterrupted sky views. They are exceptionally well-suited for kitchen sink windows, breakfast dining banquettes, and compact powder rooms where full-length curtains would get splashed or crowded. Hang café panels on a slender tension rod or miniature brass sash rod, opting for crisp white linen, embroidered eyelet lace, or classic gingham patterns for timeless charm.</p>
-                    <img class="blog-section-image" src="/assets/curtain_cafe.jpg" alt="Crisp White Café Curtains on Brass Rod in Sunny Kitchen">
+                    <img class="blog-section-image" src="/assets/curtain_cafe.jpg" decoding="async" loading="lazy" alt="Crisp White Café Curtains on Brass Rod in Sunny Kitchen">
                 </article>
 
                 <!-- Section 10 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">10. Thermal-Insulated Curtains for Energy Efficiency</h3>
                     <p>Thermal-insulated curtains incorporate specialized multilayer fabric engineering—combining a decorative outer face, an inner high-density thermal foam core, and a vapor-barrier backing. This triple-weave design prevents winter heat loss through drafty window panes and reflects intense summer heat, lowering household heating and air conditioning utility costs significantly. Thermal drapes are essential for older homes, drafty historical sash windows, cold basement apartments, and sun-drenched south-facing windows. To maximize energy conservation, ensure panels extend four to six inches beyond the window frame on all sides and brush lightly against the floor.</p>
-                    <img class="blog-section-image" src="/assets/curtain_thermal.jpg" alt="Floor-Length Thermal Insulated Beige Curtains in Living Room">
+                    <img class="blog-section-image" src="/assets/curtain_thermal.jpg" decoding="async" loading="lazy" alt="Floor-Length Thermal Insulated Beige Curtains in Living Room">
                 </article>
 
                 <!-- Section 11 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">11. Sheer-and-Blackout Layered Curtain Pairs</h3>
                     <p>Layered curtain systems utilize double-bracket drapery hardware to hang two separate sets of curtains on parallel rods—an inner sheer panel closest to the glass and an outer opaque or blackout drape facing the room. This dual setup gives you ultimate lifestyle versatility: keep the heavy drapes tied back during the day to allow soft diffused light through the sheers, then draw the blackout panels closed at night for complete privacy and darkness. Layering adds rich dimensional volume, hotel-inspired luxury, and superior acoustic sound dampening to master bedrooms and main living spaces.</p>
-                    <img class="blog-section-image" src="/assets/curtain_layered.jpg" alt="Layered Sheer and Heavy Velvet Drapery Setup on Double Rod">
+                    <img class="blog-section-image" src="/assets/curtain_layered.jpg" decoding="async" loading="lazy" alt="Layered Sheer and Heavy Velvet Drapery Setup on Double Rod">
                 </article>
 
                 <!-- Section 12 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">12. Outdoor-Rated Curtains for Covered Patios</h3>
                     <p>Outdoor curtains are crafted from solution-dyed acrylic or high-performance polyester fabrics treated with UV-inhibitors, water-repellent coatings, and mildew-resistant finishes (such as Sunbrella). Engineered to withstand rain, humidity, and direct sun exposure without fading or deteriorating, outdoor drapes provide essential sun shading, wind protection, and privacy on covered porches, pergolas, and cabana decks. Choose grommet-top or wide tab-top headers that slide smoothly on rustproof stainless steel rods, and incorporate weighted bottom hems or tie-back cords to prevent breezy patio panels from billowing wildly during windy afternoons.</p>
-                    <img class="blog-section-image" src="/assets/curtain_outdoor.jpg" alt="Weatherproof Outdoor Curtains Hanging on a Covered Patio Pergola">
+                    <img class="blog-section-image" src="/assets/curtain_outdoor.jpg" decoding="async" loading="lazy" alt="Weatherproof Outdoor Curtains Hanging on a Covered Patio Pergola">
                 </article>
 
                 <!-- Section 13 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">13. Tie-Top Curtains for a Soft, Cottage-Style Look</h3>
                     <p>Tie-top curtains feature pairs of delicate fabric ribbons or matching cords attached at regular intervals along the top header that you tie by hand into bows or loose knots around the curtain rod. This artisanal, handmade detail lends an unmistakably romantic, whimsical touch to English cottage, vintage country, and rustic nursery spaces. The adjustable tie cords allow you to customize the hanging drop height slightly. Pair sheer white or washed pastel tie-top curtains with a slender wrought-iron or antiqued white wooden pole for a nostalgic, storybook window display.</p>
-                    <img class="blog-section-image" src="/assets/curtain_tie_top.jpg" alt="Romantic Tie-Top White Linen Curtains Tied in Bows">
+                    <img class="blog-section-image" src="/assets/curtain_tie_top.jpg" decoding="async" loading="lazy" alt="Romantic Tie-Top White Linen Curtains Tied in Bows">
                 </article>
 
                 <!-- Section 14 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">14. Ripplefold Curtains for a Sleek, Wave-Like Drape</h3>
                     <p>Ripplefold curtains—also known as S-fold or wave-fold drapery—utilize specialized snap tape attached to continuous wheeled carriers inside a slim ceiling-mounted track. This mechanism forces the fabric into consistent, symmetrical, flowing undulating waves whether the drapery is pulled fully open or closed. The continuous wave profile uses minimal stack-back space, preserving maximum window glass exposure when open. Ripplefold drapery is the premier choice for sleek modern penthouses, floor-to-ceiling glass walls, minimalist architectural homes, and high-end contemporary hotels seeking streamlined sophistication.</p>
-                    <img class="blog-section-image" src="/assets/curtain_ripplefold.jpg" alt="Sleek Ceiling-Track Ripplefold Wave Curtains in Modern Penthouse">
+                    <img class="blog-section-image" src="/assets/curtain_ripplefold.jpg" decoding="async" loading="lazy" alt="Sleek Ceiling-Track Ripplefold Wave Curtains in Modern Penthouse">
                 </article>
 
                 <!-- Section 15 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">15. Room-Darkening Curtains for a Balanced Middle Ground</h3>
                     <p>Room-darkening curtains offer a balanced middle ground between lightweight light-filtering drapes and 100% pitch-black blackout panels. Typically blocking seventy-five to ninety percent of incoming light without requiring a heavy rubberized backing, they significantly dim bright sunlight and eliminate screen reflections while maintaining a soft, natural fabric drape. They are particularly popular for television living rooms, home offices, and guest bedrooms where you want to prevent glare on computer monitors and televisions without completely plunging the room into darkness. They provide complete nighttime privacy and easy machine washability.</p>
-                    <img class="blog-section-image" src="/assets/curtain_room_darkening.jpg" alt="Room-Darkening Textured Linen Curtains in Home Office">
+                    <img class="blog-section-image" src="/assets/curtain_room_darkening.jpg" decoding="async" loading="lazy" alt="Room-Darkening Textured Linen Curtains in Home Office">
                 </article>
 
             </div>
@@ -323,7 +328,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

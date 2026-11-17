@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -383,7 +387,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -441,7 +445,7 @@
 
             <!-- Main Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-utility-sinks-for-laundry-room-hero.webp" alt="Best Utility Sinks for Laundry Room: 5 Top Picks">
+                <img src="/assets/best-utility-sinks-for-laundry-room-hero.webp" fetchpriority="high" decoding="async" alt="Best Utility Sinks for Laundry Room: 5 Top Picks">
             </div>
 
             <!-- Intro Paragraphs -->
@@ -543,7 +547,7 @@
                 <p><strong>Best for:</strong> Homeowners and renters who need an affordable, practical laundry wash station without committing to extensive countertop or cabinetry remodeling.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/vingli-freestanding-utility-sink.webp" alt="VINGLI Freestanding Utility Sink with pull-out sprayer faucet in a bright modern laundry room" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+                    <img src="/assets/vingli-freestanding-utility-sink.webp" decoding="async" loading="lazy" alt="VINGLI Freestanding Utility Sink with pull-out sprayer faucet in a bright modern laundry room" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
                 </div>
 
                 <p>A freestanding utility sink is the fastest and most cost-effective way to add heavy cleaning capability to any laundry room, utility basement, or garage. The <strong>VINGLI Freestanding Utility Sink</strong> delivers complete practicality by packaging a high-capacity molded polypropylene basin, a powder-coated steel leg frame, an integrated lower storage shelf, and a high-arc pull-out sprayer faucet into a lightweight, all-in-one unit.</p>
@@ -590,7 +594,7 @@
                 <p><strong>Best for:</strong> Busy households that regularly pre-soak stained clothes, clean mop heads, rinse muddy sports gear, and demand rugged, commercial-level tub resilience.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/mustee-utilatub-laundry-tub.webp" alt="Mustee Utilatub Laundry Tub standing firmly on heavy-duty floor mounts with laundry accessories" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+                    <img src="/assets/mustee-utilatub-laundry-tub.webp" decoding="async" loading="lazy" alt="Mustee Utilatub Laundry Tub standing firmly on heavy-duty floor mounts with laundry accessories" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
                 </div>
 
                 <p>When tradespeople and seasoned homeowners think of a traditional laundry tub, <strong>Mustee Utilatub</strong> is the brand that inevitably comes to mind. Molded from proprietary heavy-duty structural thermoplastic, Mustee tubs are legendary for their ability to withstand punishing abuse without cracking, rusting, or denting.</p>
@@ -656,7 +660,7 @@
                 <p><strong>Best for:</strong> Garages, workshops, and high-traffic laundry rooms that require sanitary, easy-to-clean stainless steel built for harsh chemicals and heavy metal tools.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/trinity-stainless-steel-utility-sink.webp" alt="TRINITY Stainless Steel Utility Sink with deep basin and industrial gooseneck faucet" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+                    <img src="/assets/trinity-stainless-steel-utility-sink.webp" decoding="async" loading="lazy" alt="TRINITY Stainless Steel Utility Sink with deep basin and industrial gooseneck faucet" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
                 </div>
 
                 <p>If your laundry room frequently doubles as a mudroom, pet-washing station, or home workshop cleanup area, a plastic tub can easily stain or absorb odors. The <strong>TRINITY Stainless Steel Utility Sink</strong> brings commercial NSF-certified quality into residential homes. Constructed from heavy-gauge 304-series stainless steel, it is naturally impervious to corrosion, heat, oil, and harsh cleaning compounds.</p>
@@ -703,7 +707,7 @@
                 <p><strong>Best for:</strong> Homeowners undergoing a full laundry remodel featuring quartz, granite, or solid-surface countertops who want an architecturally integrated, designer look.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/kraus-standart-pro-utility-sink.webp" alt="Kraus Standart PRO undermount utility sink integrated into a quartz countertop with matte black faucet" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+                    <img src="/assets/kraus-standart-pro-utility-sink.webp" decoding="async" loading="lazy" alt="Kraus Standart PRO undermount utility sink integrated into a quartz countertop with matte black faucet" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
                 </div>
 
                 <p>When renovating a modern laundry room into a showcase interior space, exposed plastic legs and bulky tubs can spoil the clean aesthetic. The <strong>Kraus Standart PRO Undermount Laundry/Utility Sink (Model KHU101-24L)</strong> transforms utility washing into high-end design. Engineered specifically for laundry depth, its 12-inch deep basin is mounted beneath the countertop for an uninterrupted, wipe-clean work surface.</p>
@@ -750,7 +754,7 @@
                 <p><strong>Best for:</strong> Homes where the laundry area is visible from hallways or living rooms and needs to conceal plumbing, sponges, and chemical cleaners behind closed doors.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/laundry-sink-with-cabinet.webp" alt="Laundry sink with shaker style vanity cabinet and pull-out faucet in an organized modern laundry room" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+                    <img src="/assets/laundry-sink-with-cabinet.webp" decoding="async" loading="lazy" alt="Laundry sink with shaker style vanity cabinet and pull-out faucet in an organized modern laundry room" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
                 </div>
 
                 <p>Open plumbing pipes and freestanding tubs often look messy in main-floor laundry rooms, guest bathrooms, or open-plan mudrooms. A <strong>Laundry Sink With Cabinet</strong> offers the perfect compromise: a deep, practical utility washing bowl paired with a handsome furniture vanity featuring soft-close shaker doors.</p>
@@ -796,7 +800,7 @@
                 <p>Before purchasing a new laundry sink, carefully consider your daily cleaning workflow, room dimensions, and plumbing requirements to ensure a seamless installation:</p>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/utility-sink-faucet-clearance-maintenance.webp" alt="High-arc laundry faucet clearance over a deep utility sink with aerated water stream" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+                    <img src="/assets/utility-sink-faucet-clearance-maintenance.webp" decoding="async" loading="lazy" alt="High-arc laundry faucet clearance over a deep utility sink with aerated water stream" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
                 </div>
 
                 <h3 style="font-size: 1.3rem; color: #24221f; margin-top: 25px; margin-bottom: 8px;">1. Select the Right Material for Your Chores</h3>
@@ -890,7 +894,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

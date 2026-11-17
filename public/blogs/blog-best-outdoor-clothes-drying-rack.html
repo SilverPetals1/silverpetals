@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -435,7 +439,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -494,7 +498,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-outdoor-clothes-drying-rack-hero.webp" alt="Best Outdoor Clothes Drying Rack: Top 3 Foldable Picks">
+                <img src="/assets/best-outdoor-clothes-drying-rack-hero.webp" fetchpriority="high" decoding="async" alt="Best Outdoor Clothes Drying Rack: Top 3 Foldable Picks">
             </div>
 
             <!-- Introduction -->
@@ -510,16 +514,7 @@
                 <div class="blog-ad-wrapper" style="margin: 35px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                     <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                     <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                        <script type="text/javascript">
-                            atOptions = {
-                                'key' : '19d79c25e295f3046e227577efa2e057',
-                                'format' : 'iframe',
-                                'height' : 90,
-                                'width' : 728,
-                                'params' : {}
-                            };
-                        </script>
-                        <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                        
                     </div>
                 </div>
 
@@ -539,7 +534,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/amazon-basics-foldable-outdoor-clothes-drying-rack.webp" alt="Amazon Basics Foldable Rack" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/amazon-basics-foldable-outdoor-clothes-drying-rack.webp" decoding="async" loading="lazy" alt="Amazon Basics Foldable Rack" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Amazon Basics Foldable</strong>
                                     </div>
                                 </td>
@@ -552,7 +547,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/songmics-foldable-outdoor-clothes-drying-rack.webp" alt="SONGMICS Foldable Steel Rack" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/songmics-foldable-outdoor-clothes-drying-rack.webp" decoding="async" loading="lazy" alt="SONGMICS Foldable Steel Rack" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>SONGMICS Foldable Steel</strong>
                                     </div>
                                 </td>
@@ -565,7 +560,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/jauree-folding-stainless-steel-outdoor-drying-rack.webp" alt="JAUREE Folding Stainless Steel Rack" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/jauree-folding-stainless-steel-outdoor-drying-rack.webp" decoding="async" loading="lazy" alt="JAUREE Folding Stainless Steel Rack" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>JAUREE Stainless Steel</strong>
                                     </div>
                                 </td>
@@ -589,7 +584,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">1. Amazon Basics Foldable Portable Clothes Drying Rack &mdash; Best Overall for Small Spaces</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/amazon-basics-foldable-outdoor-clothes-drying-rack.webp" alt="Amazon Basics Foldable Portable Clothes Drying Rack for balcony and patio air drying" style="max-width: 380px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/amazon-basics-foldable-outdoor-clothes-drying-rack.webp" decoding="async" loading="lazy" alt="Amazon Basics Foldable Portable Clothes Drying Rack for balcony and patio air drying" style="max-width: 380px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>For apartment dwellers, condo owners, and renters with compact balconies or petite sun decks, bulky drying structures simply aren't practical. The <strong>Amazon Basics Foldable Portable Clothes Drying Rack</strong> solves the problem with an ultra-lightweight, accordion-style folding frame that delivers reliable utility without demanding permanent floor space.</p>
@@ -661,7 +656,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">2. SONGMICS Foldable Steel Clothes Drying Rack &mdash; Best for Family Laundry</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/songmics-foldable-outdoor-clothes-drying-rack.webp" alt="SONGMICS Foldable Steel Clothes Drying Rack on a backyard patio" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/songmics-foldable-outdoor-clothes-drying-rack.webp" decoding="async" loading="lazy" alt="SONGMICS Foldable Steel Clothes Drying Rack on a backyard patio" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>When washing for a multi-person household, standard single-tier drying racks quickly become overcrowded, resulting in overlapping damp clothes that take twice as long to dry. The <strong>SONGMICS Foldable Steel Clothes Drying Rack</strong> solves this with an expansive multi-tier design featuring height-adjustable wings and dozens of drying rails supported by a heavy-duty <strong>55-pound load capacity</strong>.</p>
@@ -728,16 +723,7 @@
                 <div class="blog-ad-wrapper" style="margin: 40px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                     <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                     <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                        <script type="text/javascript">
-                            atOptions = {
-                                'key' : '19d79c25e295f3046e227577efa2e057',
-                                'format' : 'iframe',
-                                'height' : 90,
-                                'width' : 728,
-                                'params' : {}
-                            };
-                        </script>
-                        <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                        
                     </div>
                 </div>
 
@@ -749,7 +735,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">3. JAUREE Folding Stainless Steel Drying Rack &mdash; Best for Adjustable Outdoor Drying</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/jauree-folding-stainless-steel-outdoor-drying-rack.webp" alt="JAUREE Folding Stainless Steel Drying Rack set up on an outdoor patio" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/jauree-folding-stainless-steel-outdoor-drying-rack.webp" decoding="async" loading="lazy" alt="JAUREE Folding Stainless Steel Drying Rack set up on an outdoor patio" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>If your outdoor drying ambition includes king-sized comforters, heavy duvet covers, thick beach towels, or multiple loads of heavy denim, the <strong>JAUREE Folding Stainless Steel Drying Rack</strong> is an extraordinary outdoor performer. While ordinary racks collapse under the weight of wet bedding, this industrial-grade rack features a telescoping horizontal rail system crafted from 100% rust-proof stainless steel that smoothly extends from <strong>51 inches up to 79 inches in width</strong>.</p>
@@ -994,7 +980,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

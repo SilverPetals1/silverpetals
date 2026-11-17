@@ -126,21 +126,35 @@ export default function Home({
 
   return (
     <>
-      {featuredItem && (
-        <div className="featured-hero-container">
-          <div className="featured-hero-card" onClick={() => handleCardClick(featuredItem)}>
-            <div className="featured-hero-image-container">
-              <img src={featuredItem.image} alt={featuredItem.title} />
-            </div>
-            <div className="featured-hero-content">
-              <span className="featured-hero-category">{featuredItem.categoryLabel}</span>
-              <h2 className="featured-hero-title">{featuredItem.title}</h2>
-              <p className="featured-hero-desc">{featuredItem.description}</p>
-              <span className="featured-hero-read-btn">Read Article →</span>
-            </div>
+      {featuredItem && (() => {
+        const featSlug = featuredItem.link ? featuredItem.link.replace('.html', '').replace(/^blog-/, '') : null
+        const featHref = featSlug ? `/blog/${featSlug}` : '#'
+        return (
+          <div className="featured-hero-container">
+            <a
+              href={featHref}
+              className="featured-hero-card"
+              onClick={(e) => {
+                if (!featSlug) {
+                  e.preventDefault()
+                  onOpenDetails(featuredItem)
+                }
+              }}
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex' }}
+            >
+              <div className="featured-hero-image-container">
+                <img src={featuredItem.image} alt={featuredItem.title} fetchpriority="high" decoding="async" />
+              </div>
+              <div className="featured-hero-content">
+                <span className="featured-hero-category">{featuredItem.categoryLabel}</span>
+                <h2 className="featured-hero-title">{featuredItem.title}</h2>
+                <p className="featured-hero-desc">{featuredItem.description}</p>
+                <span className="featured-hero-read-btn">Read Article →</span>
+              </div>
+            </a>
           </div>
-        </div>
-      )}
+        )
+      })()}
 
 
       <main className="main-content" style={!showHero ? { marginTop: 'calc(var(--header-height) + var(--nav-height))' } : {}}>
@@ -190,17 +204,27 @@ export default function Home({
             
             {gridItems.map((item, idx) => {
               const isPinned = savedPins.includes(item.id)
+              const slug = item.link ? item.link.replace('.html', '').replace(/^blog-/, '') : null
+              const href = slug ? `/blog/${slug}` : '#'
+              const delay = idx < 8 ? `${idx * 0.03}s` : '0s'
               return (
-                <div
+                <a
                   key={item.id}
+                  href={href}
                   className="card-item"
-                  onClick={() => handleCardClick(item)}
-                  style={{ animationDelay: `${idx * 0.05}s` }}
+                  onClick={(e) => {
+                    if (!slug) {
+                      e.preventDefault()
+                      onOpenDetails(item)
+                    }
+                  }}
+                  style={{ animationDelay: delay, textDecoration: 'none', color: 'inherit' }}
                 >
                   <div className="card-image-container">
-                    <img src={item.image} alt={item.title} loading="lazy" />
+                    <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
                     <div className="card-image-overlay-pin">
                       <button
+                        type="button"
                         className={`card-pin-btn ${isPinned ? 'pinned' : ''}`}
                         onClick={(e) => handlePinClick(e, item.id)}
                         aria-label="Pin to board"
@@ -216,7 +240,7 @@ export default function Home({
                     <h4 className="card-title-visible">{item.title}</h4>
                     <p className="card-desc-visible">{item.description}</p>
                   </div>
-                </div>
+                </a>
               )
             })}
           </div>

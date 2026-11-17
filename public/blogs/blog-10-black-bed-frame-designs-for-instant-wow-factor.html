@@ -45,10 +45,15 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit & Playfair Display -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
 
     <!-- Structured Data Schemas -->
     <script type="application/ld+json">
@@ -140,7 +145,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -201,7 +206,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/black-bed-hero.webp" alt="10 Black Bed Frame Designs for Instant Wow Factor Hero">
+                <img src="/assets/black-bed-hero.webp" fetchpriority="high" decoding="async" alt="10 Black Bed Frame Designs for Instant Wow Factor Hero">
             </div>
 
             <!-- Introduction -->
@@ -236,7 +241,7 @@
                     <h3 class="blog-h3-title">1. A Matte Black Metal Platform Frame for Sleek Minimalism</h3>
                     <p>A matte black powder-coated steel platform bed frame is the holy grail of modern, unpretentious elegance. Its razor-slim profile and right-angled geometric perimeter eliminate visual bulk, making your bedroom feel twice as expansive while delivering sharp graphic definition. The non-reflective matte finish absorbs ambient light, providing an understated industrial silhouette that contrasts crisply against pale plaster or textured concrete walls. It delivers an instant wow factor because it proves that restraint can be far more powerful than excess ornamentation.</p>
                     <p><strong>Styling Tip:</strong> Pair this streamlined metal platform with voluminous, relaxed linen bedding in off-white or oatmeal to soften the steel's rigid geometry. Add a low-pile vintage Persian rug beneath the frame and incorporate blackened steel or raw oak cantilevered nightstands to keep the floor plan visually open, airy, and impeccably curated.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-1.webp" alt="A matte black metal platform frame for sleek minimalism" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-1.webp" decoding="async" loading="lazy" alt="A matte black metal platform frame for sleek minimalism" loading="lazy">
                 </article>
 
                 <!-- Section 2 -->
@@ -244,7 +249,7 @@
                     <h3 class="blog-h3-title">2. A Black Upholstered Velvet Headboard Frame for Dramatic Texture</h3>
                     <p>If your design ambition centers on opulent boutique hotel glamour, an oversized black velvet bed frame is an undeniable showstopper. Velvet possesses a dense, plush pile that shifts from deep inky shadows to luminous charcoal highlights as light cascades across its surface. This dynamic light-catching quality brings tactile warmth and acoustics-dampening intimacy to the bedroom, transforming an ordinary wall into a lavish sanctuary. The sheer tactile richness commands the entire room's focus the moment you step through the doorway.</p>
                     <p><strong>Styling Tip:</strong> Lean into high-contrast luxury by dressing the bed in champagne or pearl-grey silk pillowcases and a heavy cashmere throw blanket. Flank the tall velvet headboard with brushed gold or satin brass pendant lights suspended from the ceiling to accentuate the rich jewel-box atmosphere without cluttering bedside tabletop surfaces.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-2.webp" alt="A black upholstered velvet headboard frame for dramatic texture" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-2.webp" decoding="async" loading="lazy" alt="A black upholstered velvet headboard frame for dramatic texture" loading="lazy">
                 </article>
 
                 <!-- Section 3 -->
@@ -252,7 +257,7 @@
                     <h3 class="blog-h3-title">3. A Black Wood Sleigh Bed Frame for Classic Drama</h3>
                     <p>The traditional sleigh bed receives a daring, high-fashion reboot when rendered in an opaque, midnight-black timber finish. The hallmark scrolled headboard and gracefully sweeping footboard introduce dramatic architectural curvature that softens boxy rectangular bedrooms. In deep black, the historical colonial or French Empire silhouette sheds its antique stiffness, transforming into a bold sculptural statement piece that feels simultaneously historic and refreshingly contemporary. The sweeping silhouette creates an enveloping cocoon that invites restorative sleep.</p>
                     <p><strong>Styling Tip:</strong> Balance the substantial visual weight of a solid black wood sleigh bed by keeping your bedding tailored and monochromatic. Crisp white 400-thread-count percale sheets with subtle black embroidered border stitching echo the frame's lines, while warm honey-toned oak flooring prevents the deep timber finish from feeling overly somber.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-3.webp" alt="A black wood sleigh bed frame for classic drama" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-3.webp" decoding="async" loading="lazy" alt="A black wood sleigh bed frame for classic drama" loading="lazy">
                 </article>
 
                 <!-- Section 4 -->
@@ -260,7 +265,7 @@
                     <h3 class="blog-h3-title">4. A Black Canopy Bed Frame for a Bold, Architectural Statement</h3>
                     <p>Nothing establishes grand scale and vertical drama quite like a black four-poster canopy bed frame. Featuring slender, pencil-thin posts that soar toward the ceiling and connect in a crisp upper perimeter rectangle, this design acts as a 3D architectural frame within your bedroom. It draws the gaze upward, emphasizing ceiling height and turning the mattress into an exclusive private retreat. Even in open-concept master suites, a black canopy frame creates a distinct, intimate room-within-a-room without blocking sightlines or natural light.</p>
                     <p><strong>Styling Tip:</strong> Keep the upper crossbeams bare for an ultra-clean, modern gallery aesthetic, or drape gossamer-fine off-white linen panels across the corner posts for romantic movement. Pair with an oversized woven wool rug in cream and charcoal to ground the towering posts firmly within the room's floor plan.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-4.webp" alt="A black canopy bed frame for a bold, architectural statement" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-4.webp" decoding="async" loading="lazy" alt="A black canopy bed frame for a bold, architectural statement" loading="lazy">
                 </article>
 
                 
@@ -287,7 +292,7 @@
                     <h3 class="blog-h3-title">5. A Black Leather-Upholstered Frame for a Moody, Tailored Look</h3>
                     <p>Exuding tailored sophistication reminiscent of high-end bespoke menswear, a black leather-upholstered bed frame brings sleek masculine refinement. The buttery, matte leather surface features precise double-needle stitching, fluted channel seams, or subtle piping along the perimeter edges. Unlike fabric upholstery that can gather dust or pet hair, top-grain leather develops a rich, supple patina over time that only improves with age. It delivers visual impact by introducing a smooth, tactile luxury finish that feels grounded, confident, and unapologetically modern.</p>
                     <p><strong>Styling Tip:</strong> Complement the tailored leather upholstery with textured natural elements like a thick ribbed wool blanket, raw concrete bedside cubes, and matte black ceramic table vessels. Keep lighting indirect and atmospheric, utilizing low-kelvin warm 2700K wall grazers that highlight the leather's supple grain.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-5.webp" alt="A black leather-upholstered frame for a moody, tailored look" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-5.webp" decoding="async" loading="lazy" alt="A black leather-upholstered frame for a moody, tailored look" loading="lazy">
                 </article>
 
                 <!-- Section 6 -->
@@ -295,7 +300,7 @@
                     <h3 class="blog-h3-title">6. A Black Wrought Iron Frame for Ornate, Gothic-Inspired Detail</h3>
                     <p>For those drawn to romantic historic charm with an edgy, moody undertone, a black wrought iron bed frame is a masterclass in vintage drama. Hand-forged spindles, decorative acanthus castings, and elegant curved scrollwork recall Victorian ironwork and French countryside cottages. The stark black finish sharpens the delicate ornamental curls, preventing them from feeling dated or overly precious. This intricate metalwork creates an instant focal point by functioning like antique silhouette art against light-painted master bedroom walls.</p>
                     <p><strong>Styling Tip:</strong> Contrast the rigid forged iron framework with ultra-soft, voluminous layering. Opt for ruffled linen euro shams, a washed ticking-stripe quilt, and antique brass bedside table accessories. Placing a lush potted fiddle-leaf fig or olive tree nearby injects fresh botanical energy that complements the antique metalwork beautifully.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-6.webp" alt="A black wrought iron frame for ornate, gothic-inspired detail" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-6.webp" decoding="async" loading="lazy" alt="A black wrought iron frame for ornate, gothic-inspired detail" loading="lazy">
                 </article>
 
                 <!-- Section 7 -->
@@ -303,7 +308,7 @@
                     <h3 class="blog-h3-title">7. A Glossy Black Lacquered Frame for a Modern, Reflective Finish</h3>
                     <p>If you love high-voltage contemporary design, a high-gloss black lacquered bed frame offers museum-grade glamour. Multiple coats of piano-grade lacquer are polished to a mirror-like sheen that catches and bounces light across the bedroom. This reflective surface creates deep dimensional reflections, ensuring that the bed never looks flat or absorbing, but instead feels alive with kinetic light. It stands out because high-gloss black is an undeniably confident, editorial design choice that signals unapologetic sophistication.</p>
                     <p><strong>Styling Tip:</strong> High-gloss surfaces demand textural balance to avoid feeling cold or sterile. Layer plush matte textures across the bed—think washed Belgian linen, waffle-weave cotton throws, and matte velvet pillows. Pair the lacquered headboard with fluted plaster wall accents and an abstract black-and-white canvas to create a cohesive luxury suite.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-7.webp" alt="A glossy black lacquered frame for a modern, reflective finish" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-7.webp" decoding="async" loading="lazy" alt="A glossy black lacquered frame for a modern, reflective finish" loading="lazy">
                 </article>
 
                 <!-- Section 8 -->
@@ -311,7 +316,7 @@
                     <h3 class="blog-h3-title">8. A Black Wood Platform Frame with Brass Hardware Accents</h3>
                     <p>The juxtaposition of deep midnight black timber and warm, luminous brass is one of interior design's most celebrated power pairings. A solid oak or ash platform bed stained in pitch black, accented with brushed brass corner brackets, brass leg ferrules, or delicate gold inlay detailing along the headboard rail, exudes mid-century prestige. The metallic accents gleam like fine jewelry against the dark wooden silhouette, elevating the bed frame into an heirloom-quality decorative showpiece that radiates warmth.</p>
                     <p><strong>Styling Tip:</strong> Carry the brass hardware motif throughout your bedroom by matching nightstand drawer pulls, picture frames, and bedside lighting fixtures. Dress the mattress with deep terracotta, warm camel, or mustard velvet accent cushions to highlight the golden brass notes while maintaining a rich, grounded palette.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-8.webp" alt="A black wood platform frame with brass hardware accents" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-8.webp" decoding="async" loading="lazy" alt="A black wood platform frame with brass hardware accents" loading="lazy">
                 </article>
 
                 <!-- Section 9 -->
@@ -319,7 +324,7 @@
                     <h3 class="blog-h3-title">9. A Black Tufted Headboard Frame for Plush, Dramatic Texture</h3>
                     <p>Deep button-tufted upholstery is the gold standard of tailored indulgence, and casting it in pitch black creates an undeniably dramatic sanctuary. Deep diamond or biscuit tufting produces undulating shadows across the upholstered panels, generating rich sculptural depth that draws the eye immediately. The cushioned headboard provides luxurious ergonomic back support for late-night reading or morning coffee, while the substantial perimeter creates a sense of palatial grandeur that anchors large master suites.</p>
                     <p><strong>Styling Tip:</strong> Pair a dramatic black tufted bed frame with soft, neutral wall treatments like warm greige limewash or grasscloth wallpaper to balance its visual presence. Incorporate crisp alabaster reading lamps, a mirrored accent tray on the dresser, and a plush high-pile ivory rug to keep the room feeling bright and welcoming.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-9.webp" alt="A black tufted headboard frame for plush, dramatic texture" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-9.webp" decoding="async" loading="lazy" alt="A black tufted headboard frame for plush, dramatic texture" loading="lazy">
                 </article>
 
                 <!-- Section 10 -->
@@ -327,7 +332,7 @@
                     <h3 class="blog-h3-title">10. A Black Frame with Integrated LED Lighting for a Modern Statement</h3>
                     <p>Fusing minimalist timber joinery with architectural ambient lighting, a black platform bed with integrated LED channels offers futuristic penthouse luxury. Concealed high-CRI warm LED strips recessed beneath the black floating platform cast a gentle halo of amber light across the flooring, creating a stunning optical floating effect. Simultaneously, an inset LED light bar running behind the black headboard washes upward against the wall, delivering soft, glare-free indirect illumination that replaces harsh overhead fixtures.</p>
                     <p><strong>Styling Tip:</strong> Enhance the sleek architectural mood with integrated wireless nightstand charging pads, dark charcoal textured bedding, and minimalist concrete floors or dark hardwood. Keep bedside accessories completely uncluttered so the clean glowing lines of the illuminated frame remain the undisputed visual centerpiece of your nocturnal retreat.</p>
-                    <img class="blog-section-image" src="/assets/black-bed-10.webp" alt="A black frame with integrated LED lighting for a modern statement" loading="lazy">
+                    <img class="blog-section-image" src="/assets/black-bed-10.webp" decoding="async" loading="lazy" alt="A black frame with integrated LED lighting for a modern statement" loading="lazy">
                 </article>
 
             </div>
@@ -390,7 +395,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

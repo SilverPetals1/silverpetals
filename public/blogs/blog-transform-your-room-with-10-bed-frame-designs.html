@@ -45,10 +45,15 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit & Playfair Display -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
 
     <!-- Structured Data Schemas -->
     <script type="application/ld+json">
@@ -140,7 +145,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -201,7 +206,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/bed-designs-hero.webp" alt="Transform Your Room with 10 Bed Frame Designs Hero">
+                <img src="/assets/bed-designs-hero.webp" fetchpriority="high" decoding="async" alt="Transform Your Room with 10 Bed Frame Designs Hero">
             </div>
 
             <!-- Introduction -->
@@ -236,7 +241,7 @@
                     <h3 class="blog-h3-title">1. An Upholstered Linen Platform Frame for Soft, Neutral Warmth</h3>
                     <p>An upholstered linen platform bed frame is the quintessential foundation for bedrooms dedicated to effortless calm, tactile comfort, and timeless understated elegance. Upholstered in durable, breathable slubbed linen or linen-cotton blends, this frame instantly softens the hard edges of drywall, wood flooring, and metal fixtures. The padded headboard provides an inviting, ergonomic backrest for evening reading, conversation, or weekend breakfast in bed, turning your mattress into a cloud-like retreat. Its subtle, earthy texture diffuses daylight softly across the room, preventing glare and cultivating an atmosphere of relaxed, spa-inspired sanctuary.</p>
                     <p><strong>Styling Tip:</strong> Embrace a sophisticated tone-on-tone neutral palette by dressing the frame with breathable washed linen sheets in soft sand, oatmeal, or muted cream. Layer a waffle-weave taupe duvet at the foot of the bed and introduce warm travertine or natural ash wood nightstands to emphasize organic, layered simplicity without cluttering your sightlines.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-1.webp" alt="An upholstered linen platform frame for soft, neutral warmth" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-1.webp" decoding="async" loading="lazy" alt="An upholstered linen platform frame for soft, neutral warmth" loading="lazy">
                 </article>
 
                 <!-- Section 2 -->
@@ -244,7 +249,7 @@
                     <h3 class="blog-h3-title">2. A Brass or Gold Metal Frame for a Glamorous Vintage Touch</h3>
                     <p>When you want to infuse your bedroom with luminous warmth and a whisper of heirloom romance, a warm brass or brushed gold metal bed frame makes an unforgettable statement. Unlike cold chrome or heavy black iron, lustrous gold and brass reflect warm ambient lighting, creating an alluring glow that makes the entire bedroom feel instantly brighter and more elevated. Whether crafted with delicate vintage-inspired vertical spindles, curved finials, or crisp modern rectangular tubing, metal frames boast an airy, open silhouette that allows light to pass straight through, making compact rooms feel wonderfully expansive.</p>
                     <p><strong>Styling Tip:</strong> Contrast the sleek metallic luster with crisp 400-thread-count white cotton percale bedding, accented with blush velvet or sage green decorative throw cushions. Position satin brass sconces beside the frame and rest the bed atop a plush vintage-style Persian runner to ground the airy metal framework with old-world charm.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-2.webp" alt="A brass or gold metal frame for a glamorous vintage touch" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-2.webp" decoding="async" loading="lazy" alt="A brass or gold metal frame for a glamorous vintage touch" loading="lazy">
                 </article>
 
                 <!-- Section 3 -->
@@ -252,7 +257,7 @@
                     <h3 class="blog-h3-title">3. A Natural Rattan or Cane Frame for Organic, Breezy Texture</h3>
                     <p>Bring the breezy ease of tropical retreats and coastal European villas directly into your sleeping quarters with a natural rattan or French cane bed frame. Crafted by weaving flexible palm stems into intricate hexagonal webbing or open lattice patterns, cane headboards add immense visual texture without any visual weight. The porous, handwoven surface allows cross breezes and morning sunlight to filter gently through, imbuing the space with an earthy, bohemian sensibility. Cane pairs seamlessly with both mid-century modern lines and relaxed seaside aesthetics, making it remarkably versatile across decorating styles.</p>
                     <p><strong>Styling Tip:</strong> Complement the organic golden hue of natural cane with earthy terracotta linen sheets, woven jute area rugs, and terracotta planters filled with fiddle-leaf figs or potted palms. Soft, dimmable woven bamboo pendant shades suspended overhead will cast gentle amber patterns across the cane frame as evening falls.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-3.webp" alt="A natural rattan or cane frame for organic, breezy texture" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-3.webp" decoding="async" loading="lazy" alt="A natural rattan or cane frame for organic, breezy texture" loading="lazy">
                 </article>
 
                 
@@ -279,7 +284,7 @@
                     <h3 class="blog-h3-title">4. A Low-Profile Japandi Wooden Platform for Serene Minimalism</h3>
                     <p>Blending the functional tranquility of traditional Japanese tatami platforms with the clean, honest warmth of Scandinavian woodworking, a low-profile Japandi bed frame creates a serene grounding effect. Built low to the floor in pale white oak, ash, or cedar, this style visually stretches the ceiling height, making standard-height bedrooms feel soaring, quiet, and Zen-like. Many Japandi platforms feature wide, cantilevered wood ledges that extend beyond the mattress perimeter, serving as built-in resting spots for cups of tea, bedtime journals, or essential oil diffusers.</p>
                     <p><strong>Styling Tip:</strong> Keep bedding tailored, flat, and deliberately unfussy in muted botanical tones like moss green, stone grey, or bleached flax. Flank the low platform with rice-paper shoji sconces or minimalist ceramic table lamps, and maintain bare, clutter-free surrounding flooring to let the clean wood joinery breathe.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-4.webp" alt="A low-profile Japandi wooden platform for serene minimalism" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-4.webp" decoding="async" loading="lazy" alt="A low-profile Japandi wooden platform for serene minimalism" loading="lazy">
                 </article>
 
                 <!-- Section 5 -->
@@ -287,7 +292,7 @@
                     <h3 class="blog-h3-title">5. A Rich Jewel-Tone Tufted Velvet Frame for Cozy Luxury</h3>
                     <p>If your design heart craves theatrical drama, tactile indulgence, and boutique hotel opulence, a jewel-tone tufted velvet bed frame delivers maximum visual impact. Upholstered in rich shades of emerald green, sapphire blue, or deep plum, velvet possesses a lustrous, light-responsive pile that creates deep shadows and shimmering highlights. Hand-pulled diamond or channel button tufting adds sculptural dimension to the tall headboard, delivering plush ergonomic padding while dampening acoustics for whisper-quiet tranquility.</p>
                     <p><strong>Styling Tip:</strong> Elevate the luxurious mood by pairing your jewel-tone velvet headboard with silky sateen or dark washed linen sheets. Add brushed brass task lights on either side of the bed and anchor the space with deep charcoal or jewel-toned accent rugs to create an enveloping, cocoon-like nocturnal retreat.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-5.webp" alt="A rich jewel-tone tufted velvet frame for cozy luxury" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-5.webp" decoding="async" loading="lazy" alt="A rich jewel-tone tufted velvet frame for cozy luxury" loading="lazy">
                 </article>
 
                 <!-- Section 6 -->
@@ -295,7 +300,7 @@
                     <h3 class="blog-h3-title">6. An Industrial Metal Pipe Frame for Urban, Modern Edge</h3>
                     <p>For lovers of urban loft character, warehouse conversions, and architectural grit, an industrial metal pipe bed frame offers a sturdy, sculptural anchor. Constructed from heavy-gauge cast iron or darkened steel fittings, threaded flanges, and matte pipe rails, this design celebrates utilitarian authenticity. Its openwork frame provides substantial physical durability without blocking sightlines, making it an excellent choice for bedrooms with exposed brick walls, timber ceiling beams, or polished concrete flooring.</p>
                     <p><strong>Styling Tip:</strong> Soften the raw, mechanical aesthetic of iron piping by layering cozy organic textiles: think heavy waffle knit wool blankets, washed graphite linen sheets, and chunky cable-knit accent pillows. Incorporate warm Edison filament lighting and reclaimed timber side tables to bring inviting warmth to the industrial silhouette.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-6.webp" alt="An industrial metal pipe frame for urban, modern edge" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-6.webp" decoding="async" loading="lazy" alt="An industrial metal pipe frame for urban, modern edge" loading="lazy">
                 </article>
 
                 <!-- Section 7 -->
@@ -303,7 +308,7 @@
                     <h3 class="blog-h3-title">7. A Whitewashed Coastal Wood Frame for a Light, Beachy Vibe</h3>
                     <p>Infuse your bedroom with the sun-drenched, carefree serenity of a seaside cottage using a whitewashed coastal wood bed frame. Featuring solid pine, reclaimed cedar, or tongue-and-groove shiplap planks treated with a semi-opaque lime wash, this frame highlights wood grain knots and subtle weathering while reflecting natural daylight throughout the room. Its relaxed, beachy appearance dissolves interior stuffiness, inviting a laid-back vacation mindset every time you step into the room.</p>
                     <p><strong>Styling Tip:</strong> Pair the chalky whitewashed wood headboard with nautical-inspired sky blue, seafoam, and crisp white textured linen duvet covers. Layer light driftwood accents, woven seagrass storage baskets, and soft sea-salt scented candles on nearby dressers to complete the coastal haven.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-7.webp" alt="A whitewashed coastal wood frame for a light, beachy vibe" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-7.webp" decoding="async" loading="lazy" alt="A whitewashed coastal wood frame for a light, beachy vibe" loading="lazy">
                 </article>
 
                 <!-- Section 8 -->
@@ -311,7 +316,7 @@
                     <h3 class="blog-h3-title">8. A Curved Sculptural Bed Frame for On-Trend, Organic Softness</h3>
                     <p>Curved furniture continues to dominate contemporary interior design, and a curved sculptural bed frame brings that gentle, enveloping silhouette directly to the master suite. Featuring rounded wrap-around headboard wings, soft bullnose corners, and tactile upholstery such as nubby bouclé or brushed wool, this silhouette eliminates harsh geometric angles from your room. The gentle concave contour creates a protective, womb-like feeling that encourages restorative relaxation, adding a high-fashion, museum-worthy sculpture to your sleeping space.</p>
                     <p><strong>Styling Tip:</strong> Emphasize the fluid organic contours with rounded ceramic mushroom table lamps, a circular high-pile area rug, and layered textured throws in camel, cream, and warm stone. Keep surrounding wall decor minimal so the sculptural arc of the headboard takes center stage.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-8.webp" alt="A curved sculptural bed frame for on-trend, organic softness" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-8.webp" decoding="async" loading="lazy" alt="A curved sculptural bed frame for on-trend, organic softness" loading="lazy">
                 </article>
 
                 <!-- Section 9 -->
@@ -319,7 +324,7 @@
                     <h3 class="blog-h3-title">9. A Dramatic Four-Poster Canopy Frame for Architectural Presence</h3>
                     <p>If you want to capitalize on high ceilings and create a stunning room-within-a-room effect, nothing rivals the grand architectural presence of a dramatic four-poster canopy bed frame. Rising gracefully with four towering vertical posts connected by an upper crown perimeter, this timeless design creates vertical rhythm and anchors expansive bedrooms effortlessly. Finished in dark stained oak, espresso timber, or sleek powder-coated metal, the canopy frame draws the eye upward, celebrating room proportions while imparting an aura of stately sophistication.</p>
                     <p><strong>Styling Tip:</strong> For an airy contemporary aesthetic, leave the overhead frame unadorned to showcase clean architectural lines. Alternatively, drape sheer gossamer linen curtains from the top rails for romantic softness and privacy. Pair with a generous plush wool area rug that extends comfortably past all four posts.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-9.webp" alt="A dramatic four-poster canopy frame for architectural presence" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-9.webp" decoding="async" loading="lazy" alt="A dramatic four-poster canopy frame for architectural presence" loading="lazy">
                 </article>
 
                 <!-- Section 10 -->
@@ -327,7 +332,7 @@
                     <h3 class="blog-h3-title">10. A Storage-Integrated Platform Frame for Smart, Functional Style</h3>
                     <p>In modern homes and apartment living, maximizing floor space without sacrificing high-end style is essential—and a storage-integrated platform bed frame is the ultimate design solution. Featuring flush soft-close drawers concealed within a streamlined timber or upholstered base, or smooth hydraulic gas-lift mechanisms that raise the mattress effortlessly, this frame turns wasted under-bed square footage into clean, organized storage. It eliminates dust bunny accumulation under the bed and allows you to tuck away seasonal duvets, extra pillows, and luggage seamlessly.</p>
                     <p><strong>Styling Tip:</strong> Ensure bedside nightstands are floating or positioned with enough clearance so drawers can slide open effortlessly. Style the bed with crisp, tucked-in European bedding to highlight the tailored lines of the platform base, maintaining an orderly and serene bedroom sanctuary.</p>
-                    <img class="blog-section-image" src="/assets/bed-designs-10.webp" alt="A storage-integrated platform frame for smart, functional style" loading="lazy">
+                    <img class="blog-section-image" src="/assets/bed-designs-10.webp" decoding="async" loading="lazy" alt="A storage-integrated platform frame for smart, functional style" loading="lazy">
                 </article>
 
             </div>
@@ -390,7 +395,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

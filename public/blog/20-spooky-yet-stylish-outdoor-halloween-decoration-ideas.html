@@ -45,10 +45,15 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit & Playfair Display -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
 
     <!-- Structured Data Schemas -->
     <script type="application/ld+json">
@@ -150,7 +155,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -211,7 +216,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/halloween-decor-hero.webp" alt="20 Spooky Yet Stylish Outdoor Halloween Decoration Ideas Hero">
+                <img src="/assets/halloween-decor-hero.webp" fetchpriority="high" decoding="async" alt="20 Spooky Yet Stylish Outdoor Halloween Decoration Ideas Hero">
             </div>
 
             <!-- Introduction -->
@@ -245,28 +250,28 @@
                 <article class="blog-section">
                     <h3 class="blog-h3-title">1. Neutral-Toned Pumpkins Layered with Black Accents for a Chic Look</h3>
                     <p>Swap out the sea of standard bright orange supermarket pumpkins for an organic mix of muted heirloom varieties like porcelain doll whites, dusty blue Jarrahdales, and pale tan butternut squashes. Cascading these natural, soft-hued gourds down your front steps provides sculptural texture without overwhelming your home's exterior palette. Weaving in a few high-contrast matte black accents—such as velvet-flocked spiders or black faux bats tucked among the vines—gives the arrangement an instant Halloween edge that feels tailored, deliberate, and undeniably sophisticated. The pairing of creamy organic ridges with ink-black decorative silhouettes establishes an upscale designer aesthetic that endures from early October through Thanksgiving dinner.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-1.webp" alt="Grand front porch staircase cascading with white, gray, and muted heirloom pumpkins accented by black spiders and creeping vines" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-1.webp" decoding="async" loading="lazy" alt="Grand front porch staircase cascading with white, gray, and muted heirloom pumpkins accented by black spiders and creeping vines" loading="lazy">
                 </article>
 
                 <!-- Section 2 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">2. Dried, Natural Foliage Paired with Spooky Elements for an Elevated Feel</h3>
                     <p>Rather than clearing away every fallen leaf, embrace the moody, melancholy beauty of late autumn nature. Pairing crispy dried oak leaves, brittle maple branches, and weathered stone gravestones produces an authentic, time-worn Gothic garden feel that artificial decor simply cannot replicate. Let the natural golden leaf carpet settle around sculpted tombstones or vintage wrought iron accents to ground your spooky theme in rich organic earth tones that celebrate the changing season. Intersperse dark dried pampas grass plumes and blackened seed pods into existing flower beds to introduce mysterious vertical height and whispering wind textures along your front walkways.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-2.webp" alt="Outdoor autumnal front garden with weathered gravestones nestled among golden fall leaves and hanging draped ghouls" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-2.webp" decoding="async" loading="lazy" alt="Outdoor autumnal front garden with weathered gravestones nestled among golden fall leaves and hanging draped ghouls" loading="lazy">
                 </article>
 
                 <!-- Section 3 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">3. A Monochromatic Black and White Porch Display</h3>
                     <p>A strictly curated black and white palette is one of the quickest ways to transform spooky Halloween elements into a sharp design statement. Against crisp white siding or neutral brick, oversized matte black spiders climbing up an exterior wall deliver high visual drama without relying on neon colors. Pair this graphic wall installation with a life-sized posable skeleton hugging a timber post, a classic black-and-white buffalo check bench pillow, and a cluster of ghostly white luminary bags for a look that feels cinematic, crisp, and wonderfully eerie. By restricting your palette to sharp monochrome, every architectural angle pops with dramatic haunted house allure.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-3.webp" alt="Modern black and white exterior porch featuring oversized black spiders climbing siding, a climbing skeleton, and buffalo check pillows" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-3.webp" decoding="async" loading="lazy" alt="Modern black and white exterior porch featuring oversized black spiders climbing siding, a climbing skeleton, and buffalo check pillows" loading="lazy">
                 </article>
 
                 <!-- Section 4 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">4. Elegant Black Lanterns Lining a Front Walkway</h3>
                     <p>Lighting is the foundation of any atmospheric outdoor Halloween scene. Instead of harsh string lights, arrange architectural black iron or brushed metal hurricane lanterns along your front walkway or door threshold. Filling each lantern with warm LED pillar candles on dusk-to-dawn timers creates a flickering, welcoming glow that guides visitors safely up the path while casting moody, dancing shadows against your siding. The clean lines of the lantern frames keep the entire composition rooted in timeless decor principles, ensuring your home looks effortlessly stately during daylight and irresistibly enchanted after dark.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-4.webp" alt="Front entryway glowing with elegant black and brass lanterns, warm candle glow, striped runner rug, and autumn florals" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-4.webp" decoding="async" loading="lazy" alt="Front entryway glowing with elegant black and brass lanterns, warm candle glow, striped runner rug, and autumn florals" loading="lazy">
                 </article>
 
                 
@@ -292,112 +297,112 @@
                 <article class="blog-section">
                     <h3 class="blog-h3-title">5. Layered White and Cream Pumpkins with Subtle Spooky Accents</h3>
                     <p>If your exterior favors a serene Scandinavian or coastal aesthetic, leaning into all-white and pale cream pumpkins preserves your home's calm exterior while introducing festive spirit. Stack varying sizes of Casper and ghost pumpkins around brass lanterns, and suspend delicate, lightweight cheesecloth spirits from the porch eaves. The pale white materials catch the evening breeze, creating gentle, spectral movement that feels whimsical, ethereal, and beautifully understated. This refined approach gives your entryway a dreamy, fairytale quality that honors the seasonal festivities without clashing with light-toned paint or natural limestone flooring.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-5.webp" alt="Charming dark wood cottage porch decorated with stacked cream pumpkins, warm string lights, and delicate hanging fabric spirits" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-5.webp" decoding="async" loading="lazy" alt="Charming dark wood cottage porch decorated with stacked cream pumpkins, warm string lights, and delicate hanging fabric spirits" loading="lazy">
                 </article>
 
                 <!-- Section 6 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">6. A Minimalist Skeleton Silhouette as a Single Statement Piece</h3>
                     <p>Less is often so much more when executing tasteful Halloween styling. Rather than crowding your lawn with dozens of competing plastic figures, pose a single high-quality skeleton lounging casually on a front porch teak bench, reading a weathered vintage book or sipping from a ceramic mug. By giving the figure a relaxed, human pose and keeping the surrounding porch clutter-free, you achieve a witty, sophisticated vignette that sparks smiles without feeling like a commercial attraction. Highlighting the skeleton with a single warm uplight keeps the scene understated and tasteful throughout the night.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-6.webp" alt="Minimalist life-sized skeleton sitting casually on an outdoor porch bench under subtle ambient lighting" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-6.webp" decoding="async" loading="lazy" alt="Minimalist life-sized skeleton sitting casually on an outdoor porch bench under subtle ambient lighting" loading="lazy">
                 </article>
 
                 <!-- Section 7 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">7. Weathered Wood Signage with a Subtle Halloween Message</h3>
                     <p>Avoid shiny printed plastic yard stakes in favor of reclaimed barnwood or antiqued timber signage hand-painted in understated gothic typography. A distressed wooden arrow pointing toward a "Witching Hour" or "Haunted Gathering" brings rustic character and texture to porch railings. Surround the timber base with flickering jack-o'-lanterns and trailing autumn garlands to make the signage feel like an organic relic discovered on an old country estate. The organic grain of natural timber softens spooky lettering, imparting timeless heirloom warmth that elevates your overall curb appeal.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-7.webp" alt="Atmospheric front porch featuring weathered wood Halloween party directional sign, carved lit pumpkins, and gossamer webs" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-7.webp" decoding="async" loading="lazy" alt="Atmospheric front porch featuring weathered wood Halloween party directional sign, carved lit pumpkins, and gossamer webs" loading="lazy">
                 </article>
 
                 <!-- Section 8 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">8. A Cohesive Orange-and-Charcoal Color Palette for the Entryway</h3>
                     <p>Classic Halloween orange can look impeccably chic when tempered by deep charcoal, slate gray, and dark navy accents. Anchor your front door with artisan ceramic pumpkins featuring terracotta glazes, paired with a layered black-and-white ticking stripe runner beneath a natural coir doormat. Incorporating deep burgundy mums and a dark dried floral wreath establishes a rich, cohesive color harmony that bridges the gap between cozy fall harvest and spirited Halloween night. This intentional color balancing prevents orange accents from feeling loud or disjointed against modern home finishes.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-8.webp" alt="Cohesive porch styled in charcoal and burnt orange tones with artisan ceramic jack-o'-lanterns, floral wreath, and layered doormats" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-8.webp" decoding="async" loading="lazy" alt="Cohesive porch styled in charcoal and burnt orange tones with artisan ceramic jack-o'-lanterns, floral wreath, and layered doormats" loading="lazy">
                 </article>
 
                 <!-- Section 9 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">9. Spiderweb Accents in a Sheer, Elegant Fabric Rather than Plastic</h3>
                     <p>Standard stretchy synthetic spiderwebs often look artificial and can harm local wildlife when strung across outdoor shrubs. Instead, opt for bleached cheesecloth or open-weave cotton gauze that has been gently shredded, frayed, and pulled by hand. Draping this lightweight textile across porch columns and over entryway transom windows creates an authentic, Miss Havisham-inspired veil of dust and cobwebs that moves gracefully in the wind and looks delightfully antique. The tactile, semi-translucent textile drapes with authentic weight, providing an upscale, haunting texture that photographs beautifully.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-9.webp" alt="Front porch pillars draped in shredded white cheesecloth and gossamer cotton webbing with subtle dark spider silhouettes" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-9.webp" decoding="async" loading="lazy" alt="Front porch pillars draped in shredded white cheesecloth and gossamer cotton webbing with subtle dark spider silhouettes" loading="lazy">
                 </article>
 
                 <!-- Section 10 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">10. A Styled Hay Bale Display with Muted, Natural Tones</h3>
                     <p>Hay bales are a quintessential fall element, but styling them with a refined eye keeps them from looking like a chaotic pumpkin patch. Stack two clean, tightly bound straw bales at varying heights on your front landing, using them as tiered pedestals for hand-carved heirloom pumpkins, potted ornamental kales, and dried husks. The natural golden tones of the straw warm up concrete steps and brick pavers, creating rich pastoral warmth that anchors your seasonal theme. To maintain an elevated aesthetic, choose neatly combed straw bales and tuck dried floral sprigs along the twine bindings.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-10.webp" alt="Rustic hay bale porch display layered with a carved jack-o'-lantern, potted deep pink coleus, and fallen autumn leaves" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-10.webp" decoding="async" loading="lazy" alt="Rustic hay bale porch display layered with a carved jack-o'-lantern, potted deep pink coleus, and fallen autumn leaves" loading="lazy">
                 </article>
 
                 <!-- Section 11 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">11. Black Urns Filled with Dramatic Dried Branches</h3>
                     <p>Transform your everyday porch planters into dramatic gothic urns by coating classic cast-iron planters in matte charcoal or deep black. Fill them with tall, sculptural birch twigs, weeping willow branches, or dried bittersweet berry vines that reach toward the porch ceiling. Topping each urn with an oversized Cinderella pumpkin or nesting miniature crow figurines among the twigs adds vertical height and moody grandeur that frames your front door with architectural majesty. The stark, bare silhouettes of the branches introduce an unmistakable autumn chill while highlighting your entrance's symmetry.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-11.webp" alt="Flanking black cast iron urns holding oversized fairytale pumpkins and trailing dried red berry branches by front door" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-11.webp" decoding="async" loading="lazy" alt="Flanking black cast iron urns holding oversized fairytale pumpkins and trailing dried red berry branches by front door" loading="lazy">
                 </article>
 
                 <!-- Section 12 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">12. Subtle, Warm-Glow Lanterns Instead of Bright Orange Lights</h3>
                     <p>Harsh purple or neon green spotlighting can easily overwhelm subtle architectural details and make your home look garish. Instead, stick to a cohesive 2200K–2700K warm amber light scheme that mimics the golden glow of real candlelight. Suspending battery-operated taper candles on transparent fishing line from your porch ceiling creates an enchanting, spellbound atmosphere reminiscent of an old wizard's hall, delivering unforgettable wonder without any visual clutter. The floating warm flames captivate passersby with gentle movement while bathing porch columns in flattering, honey-toned illumination.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-12.webp" alt="Enchanting front porch with warm floating candle tapers suspended invisibly from the ceiling casting a magical golden glow" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-12.webp" decoding="async" loading="lazy" alt="Enchanting front porch with warm floating candle tapers suspended invisibly from the ceiling casting a magical golden glow" loading="lazy">
                 </article>
 
                 <!-- Section 13 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">13. A Tasteful Ghost Silhouette Made from Draped Fabric</h3>
                     <p>Crafting ghost silhouettes from heavy linen, washed cotton canvas, or flowing muslin over sturdy wooden garden stakes yields a nostalgic, handcrafted charm that blows cheap inflatables out of the water. Position these draped fabric apparitions among autumn flower beds or along a garden tree line, grounding them with vintage galvanized watering cans and an old straw broom. Their soft, organic drapery feels romantic, nostalgic, and subtly spooky as dusk falls. In breezy weather, the billowy hems create gentle, lifelike ripples that evoke mysterious woodland folklore right outside your front window.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-13.webp" alt="Tasteful garden display featuring outdoor ghosts draped in flowing white fabric with vintage watering cans and rustic broom" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-13.webp" decoding="async" loading="lazy" alt="Tasteful garden display featuring outdoor ghosts draped in flowing white fabric with vintage watering cans and rustic broom" loading="lazy">
                 </article>
 
                 <!-- Section 14 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">14. Layered Greenery with a Few Dramatic Black Pumpkins</h3>
                     <p>Don't abandon your porch's existing lush boxwoods, ferns, or ivy when October arrives. Instead, weave seasonal elements directly into your healthy greenery. Nestling matte black craft pumpkins, dark dried eucalyptus, or delicate illuminated skull string lights deep inside leafy foliage creates a surprising layer of eerie contrast. The fresh green leaves prevent the display from feeling too bare, while the shadowy accents bring instant Halloween drama. This intentional blending celebrates living flora while introducing mysterious autumnal depth that feels organic and thoroughly curated.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-14.webp" alt="Verdant garden tree decorated with illuminated skull string lights and hanging cheesecloth phantoms nestled in lush foliage" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-14.webp" decoding="async" loading="lazy" alt="Verdant garden tree decorated with illuminated skull string lights and hanging cheesecloth phantoms nestled in lush foliage" loading="lazy">
                 </article>
 
                 <!-- Section 15 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">15. A Styled Wreath Combining Dried Florals and Subtle Spooky Elements</h3>
                     <p>Your front door wreath serves as the focal anchor of your entire porch design. Craft or choose a wreath constructed from dried botanical elements—such as bleached wheat sheaves, deep mustard yarrow, dried lotus pods, and dusty sage leaves. Tucking in subtle seasonal nods like a single feathered black raven, velvet ribbon bows, or miniature dark pods gives the wreath a sophisticated gothic twist that looks gorgeous from September straight through Thanksgiving. Its tactile textures invite closer inspection and set an elegant seasonal tone before guests even step inside.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-15.webp" alt="Handcrafted autumnal front door wreath composed of dried wheat, yarrow, dusty sage leaves, and subtle spooky botanical textures" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-15.webp" decoding="async" loading="lazy" alt="Handcrafted autumnal front door wreath composed of dried wheat, yarrow, dusty sage leaves, and subtle spooky botanical textures" loading="lazy">
                 </article>
 
                 <!-- Section 16 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">16. Elegant Candle Lanterns Lining Porch Steps</h3>
                     <p>Create an inviting, luminous runway up to your front entryway by clustering lanterns of varying heights along both outer edges of your porch steps. Mixing glass-paned bronze or matte black lanterns with hand-carved pumpkins containing flameless flickering tea lights ensures that every step is safely visible and drenched in warm candlelight. The graduated heights draw the eye upward toward your front door and give the architecture an inviting, layered depth. By keeping lantern frames slim and contemporary, your stairway retains a stately elegance suitable for evening dinner parties and trick-or-treaters alike.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-16.webp" alt="Stone front steps lined with varying heights of bronze and glass lanterns glowing warmly alongside carved pumpkins" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-16.webp" decoding="async" loading="lazy" alt="Stone front steps lined with varying heights of bronze and glass lanterns glowing warmly alongside carved pumpkins" loading="lazy">
                 </article>
 
                 <!-- Section 17 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">17. A Minimalist Bat Silhouette Accent on a Window or Door</h3>
                     <p>Simple silhouette work is a designer's secret weapon for creating dramatic Halloween impact on a budget. Arranging lightweight matte black PVC or cardstock bats or a slim hooded phantom centered neatly on your front door creates a crisp, graphic focal point. For maximum effect, curve the wings slightly to give the bats realistic three-dimensional flight as they appear to swarm out from behind shutters or across your entryway transom glass. This graphic treatment provides a clean, modern aesthetic that feels playful yet remarkably disciplined.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-17.webp" alt="Classic painted front door adorned with a sleek hanging grim reaper figure and crisp symmetrical red mums" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-17.webp" decoding="async" loading="lazy" alt="Classic painted front door adorned with a sleek hanging grim reaper figure and crisp symmetrical red mums" loading="lazy">
                 </article>
 
                 <!-- Section 18 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">18. Natural Corn Stalks Paired with Black Ribbon Detailing</h3>
                     <p>Bundles of tall, dried corn stalks add magnificent vertical drama and nostalgic harvest texture to exterior columns. Rather than tying them with standard orange twine or straw ties, bind them firmly at the waist with wide black grosgrain or velvet ribbon tied into tailored equestrian knots. This single refined tailoring detail instantly elevates a rustic country staple into a polished, high-contrast decorative element that frames your porch beautifully. Flank them with potted russet-toned chrysanthemums at the base to anchor the installation in rich, earthy harvest tones.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-18.webp" alt="Traditional farmhouse front porch with tall dried corn stalk bundles tied to porch posts with wide black satin ribbons" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-18.webp" decoding="async" loading="lazy" alt="Traditional farmhouse front porch with tall dried corn stalk bundles tied to porch posts with wide black satin ribbons" loading="lazy">
                 </article>
 
                 <!-- Section 19 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">19. A Muted Color Palette (Charcoal, Cream, Rust) for Sophisticated Spookiness</h3>
                     <p>If you want your Halloween decor to seamlessly extend your home's interior aesthetic, commit to a refined autumnal palette of charcoal, warm cream, and muted terracotta rust. By restricting your color story to these rich, moody earth tones, even distinctly playful motifs like black cats, gravestone plaques, and jack-o'-lanterns feel collected, mature, and unified with your patio furniture and outdoor textiles. This designer approach transforms whimsical holiday decorations into an atmospheric, museum-quality seasonal display that elevates your entire outdoor living area.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-19.webp" alt="Tasteful outdoor patio vignette showcasing black ceramic cats, terracotta pumpkins, and wrought iron chairs in charcoal and rust" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-19.webp" decoding="async" loading="lazy" alt="Tasteful outdoor patio vignette showcasing black ceramic cats, terracotta pumpkins, and wrought iron chairs in charcoal and rust" loading="lazy">
                 </article>
 
                 <!-- Section 20 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">20. A Styled Porch Vignette Combining Pumpkins, Lanterns, and Dried Foliage</h3>
                     <p>Bring all of these principles together into one show-stopping entryway vignette that feels like a spread from an interior design magazine. Group heirloom gourds of contrasting scales around tall architectural lanterns, tuck sprigs of dried pampas grass and eucalyptus into woven wicker baskets, and introduce one or two friendly, well-posed skeleton accents. The resulting layered composition strikes the perfect balance—spooky enough to delight neighborhood kids, and stylish enough to make every design enthusiast pause and admire your curb appeal. It celebrates the magic of autumn with cohesion, artistry, and timeless festive flair.</p>
-                    <img class="blog-section-image" src="/assets/halloween-decor-20.webp" alt="Grand New York brownstone steps exquisitely styled with cascading pumpkins, brass lanterns, dried floral arrangements, and friendly skeletons" loading="lazy">
+                    <img class="blog-section-image" src="/assets/halloween-decor-20.webp" decoding="async" loading="lazy" alt="Grand New York brownstone steps exquisitely styled with cascading pumpkins, brass lanterns, dried floral arrangements, and friendly skeletons" loading="lazy">
                 </article>
 
             </div>
@@ -459,7 +464,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

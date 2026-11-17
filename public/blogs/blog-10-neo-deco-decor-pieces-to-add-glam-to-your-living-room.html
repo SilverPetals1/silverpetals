@@ -39,12 +39,16 @@
     <link rel="alternate" type="application/rss+xml" title="SilverPetals RSS Feed" href="https://www.silverpetals.online/rss.xml">
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -482,7 +486,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -541,7 +545,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/images/neo-deco-living-room/00-hero-neo-deco-living-room.jpg" alt="Glamorous Neo Deco luxury living room with curved emerald velvet sofa, gold sunburst mirror, fluted glass, and brass table lamp">
+                <img src="/images/neo-deco-living-room/00-hero-neo-deco-living-room.jpg" fetchpriority="high" decoding="async" alt="Glamorous Neo Deco luxury living room with curved emerald velvet sofa, gold sunburst mirror, fluted glass, and brass table lamp">
             </div>
 
             <!-- Introduction -->
@@ -563,16 +567,7 @@
             <div class="blog-ad-wrapper" style="margin: 35px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                 <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                 <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key' : '19d79c25e295f3046e227577efa2e057',
-                            'format' : 'iframe',
-                            'height' : 90,
-                            'width' : 728,
-                            'params' : {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                    
                 </div>
             </div>
 
@@ -1532,7 +1527,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

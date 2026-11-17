@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -426,7 +430,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -485,7 +489,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-water-bottle-for-hot-water-hero.webp" alt="5 Best Water Bottles for Hot Water: Our Top Picks">
+                <img src="/assets/best-water-bottle-for-hot-water-hero.webp" fetchpriority="high" decoding="async" alt="5 Best Water Bottles for Hot Water: Our Top Picks">
             </div>
 
             <!-- Introduction -->
@@ -573,7 +577,7 @@
                 <section class="blog-section" id="section-1">
                     <h3 class="blog-h3-title">1. THERMOS Stainless King Vacuum Insulated Bottle &mdash; Best Overall for Hot Water</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/thermos-stainless-king-water-bottle.webp" alt="THERMOS Stainless King Vacuum Insulated Bottle" class="blog-section-image" loading="lazy">
+                        <img src="/assets/thermos-stainless-king-water-bottle.webp" decoding="async" loading="lazy" alt="THERMOS Stainless King Vacuum Insulated Bottle" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> People who want maximum thermal retention and dependable heat performance for work, outdoor trips, and all-day hot water availability.</p>
@@ -637,7 +641,7 @@
                 <section class="blog-section" id="section-2" style="margin-top: 35px; border-top: 1px solid #ede8e1; padding-top: 30px;">
                     <h3 class="blog-h3-title">2. Hydro Flask Wide Mouth Bottle &mdash; Best for Everyday Versatility</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/hydro-flask-wide-mouth-water-bottle.webp" alt="Hydro Flask Wide Mouth Insulated Water Bottle" class="blog-section-image" loading="lazy">
+                        <img src="/assets/hydro-flask-wide-mouth-water-bottle.webp" decoding="async" loading="lazy" alt="Hydro Flask Wide Mouth Insulated Water Bottle" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> People who want a stylish, versatile insulated bottle that excels at both hot water during the morning and chilled hydration in the afternoon.</p>
@@ -702,7 +706,7 @@
                 <section class="blog-section" id="section-3" style="margin-top: 35px; border-top: 1px solid #ede8e1; padding-top: 30px;">
                     <h3 class="blog-h3-title">3. Zojirushi Stainless Mug &mdash; Best for Office and Commuting</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/zojirushi-stainless-mug-water-bottle.webp" alt="Zojirushi Stainless Mug Vacuum Insulated" class="blog-section-image" loading="lazy">
+                        <img src="/assets/zojirushi-stainless-mug-water-bottle.webp" decoding="async" loading="lazy" alt="Zojirushi Stainless Mug Vacuum Insulated" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Commuters, train riders, and desk workers who need an ultra-compact, featherlight bottle with an airtight flip lid and razor-sharp heat retention.</p>
@@ -766,7 +770,7 @@
                 <section class="blog-section" id="section-4" style="margin-top: 35px; border-top: 1px solid #ede8e1; padding-top: 30px;">
                     <h3 class="blog-h3-title">4. Stanley Classic Legendary Bottle &mdash; Best for Outdoor Adventures</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/stanley-classic-legendary-bottle.webp" alt="Stanley Classic Legendary Bottle" class="blog-section-image" loading="lazy">
+                        <img src="/assets/stanley-classic-legendary-bottle.webp" decoding="async" loading="lazy" alt="Stanley Classic Legendary Bottle" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Campers, outdoor tradespeople, weekend road-trippers, and anyone needing a nearly indestructible hot water tank for rugged environments.</p>
@@ -831,7 +835,7 @@
                 <section class="blog-section" id="section-5" style="margin-top: 35px; border-top: 1px solid #ede8e1; padding-top: 30px;">
                     <h3 class="blog-h3-title">5. IRON °FLASK Insulated Water Bottle &mdash; Best for Everyday Portability and Value</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/iron-flask-insulated-water-bottle.webp" alt="IRON FLASK Insulated Water Bottle" class="blog-section-image" loading="lazy">
+                        <img src="/assets/iron-flask-insulated-water-bottle.webp" decoding="async" loading="lazy" alt="IRON FLASK Insulated Water Bottle" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Value-conscious buyers looking for an attractive, highly customizable insulated stainless steel bottle with multiple lid choices and sizes.</p>
@@ -1041,7 +1045,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -427,7 +431,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -486,7 +490,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-stainless-steel-water-bottle-with-straw-hero.webp" alt="3 Best Stainless Steel Water Bottles with Straw: Top Picks for Everyday Hydration">
+                <img src="/assets/best-stainless-steel-water-bottle-with-straw-hero.webp" fetchpriority="high" decoding="async" alt="3 Best Stainless Steel Water Bottles with Straw: Top Picks for Everyday Hydration">
             </div>
 
             <!-- Introduction -->
@@ -502,16 +506,7 @@
                 <div class="blog-ad-wrapper" style="margin: 35px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                     <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                     <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                        <script type="text/javascript">
-                            atOptions = {
-                                'key' : '19d79c25e295f3046e227577efa2e057',
-                                'format' : 'iframe',
-                                'height' : 90,
-                                'width' : 728,
-                                'params' : {}
-                            };
-                        </script>
-                        <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                        
                     </div>
                 </div>
 
@@ -531,7 +526,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/owala-freesip-straw-water-bottle.webp" alt="Owala FreeSip" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/owala-freesip-straw-water-bottle.webp" decoding="async" loading="lazy" alt="Owala FreeSip" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Owala FreeSip</strong>
                                     </div>
                                 </td>
@@ -544,7 +539,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/stanley-iceflow-flip-straw-tumbler.webp" alt="Stanley IceFlow" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/stanley-iceflow-flip-straw-tumbler.webp" decoding="async" loading="lazy" alt="Stanley IceFlow" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Stanley IceFlow</strong>
                                     </div>
                                 </td>
@@ -557,7 +552,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/hydro-flask-flex-straw-water-bottle.webp" alt="Hydro Flask Flex Straw" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/hydro-flask-flex-straw-water-bottle.webp" decoding="async" loading="lazy" alt="Hydro Flask Flex Straw" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Hydro Flask Flex Straw</strong>
                                     </div>
                                 </td>
@@ -581,7 +576,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">1. Owala FreeSip Insulated Stainless Steel Water Bottle &mdash; Best Overall</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/owala-freesip-straw-water-bottle.webp" alt="Owala FreeSip Insulated Stainless Steel Water Bottle" style="max-width: 380px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/owala-freesip-straw-water-bottle.webp" decoding="async" loading="lazy" alt="Owala FreeSip Insulated Stainless Steel Water Bottle" style="max-width: 380px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>The <strong>Owala FreeSip</strong> has quickly transitioned from an innovative cult favorite into an undeniable industry leader, and for good reason: it solves the biggest compromise inherent in conventional straw bottles. Traditional water bottles force you to choose between a straw-only lid (great for sipping, useless for chugging when thirsty) or a wide-mouth twist cap (great for chugging, cumbersome and spill-prone while moving). The FreeSip eliminates this dilemma with its patented dual-function mouthpiece.</p>
@@ -653,7 +648,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">2. Stanley IceFlow Flip Straw Tumbler &mdash; Best for Active Days</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/stanley-iceflow-flip-straw-tumbler.webp" alt="Stanley IceFlow Flip Straw Tumbler with folding carry handle" style="max-width: 380px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/stanley-iceflow-flip-straw-tumbler.webp" decoding="async" loading="lazy" alt="Stanley IceFlow Flip Straw Tumbler with folding carry handle" style="max-width: 380px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>While the Stanley Quencher took social media by storm, the <strong>Stanley IceFlow Flip Straw Tumbler</strong> is widely regarded by fitness enthusiasts, busy commuters, and outdoor adventurers as the significantly more practical, rugged, and truly leak-resistant sibling. Engineered for movement, the IceFlow swaps out the bulky side handle and exposed straw of open tumblers in favor of a folding, snap-down rigid spout and a heavy-duty pivoting carry handle.</p>
@@ -721,16 +716,7 @@
                 <div class="blog-ad-wrapper" style="margin: 40px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                     <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                     <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                        <script type="text/javascript">
-                            atOptions = {
-                                'key' : '19d79c25e295f3046e227577efa2e057',
-                                'format' : 'iframe',
-                                'height' : 90,
-                                'width' : 728,
-                                'params' : {}
-                            };
-                        </script>
-                        <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                        
                     </div>
                 </div>
 
@@ -742,7 +728,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">3. Hydro Flask Water Bottle with Flex Straw Cap &mdash; Best for Everyday Durability</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/hydro-flask-flex-straw-water-bottle.webp" alt="Hydro Flask Wide Mouth Water Bottle with Flex Straw Cap" style="max-width: 380px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/hydro-flask-flex-straw-water-bottle.webp" decoding="async" loading="lazy" alt="Hydro Flask Wide Mouth Water Bottle with Flex Straw Cap" style="max-width: 380px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>As the pioneer that revolutionized the modern insulated bottle industry, <strong>Hydro Flask</strong> has earned its sterling reputation across national parks, college campuses, and backcountry trails. When paired with the redesigned <strong>Wide Mouth Flex Straw Cap</strong>, this legendary workhorse delivers the pure simplicity of spill-proof straw hydration without compromising the indestructible DNA that outdoor adventurers rely on.</p>
@@ -1005,7 +991,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

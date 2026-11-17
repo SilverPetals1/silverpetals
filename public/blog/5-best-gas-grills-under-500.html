@@ -39,12 +39,16 @@
     <link rel="alternate" type="application/rss+xml" title="SilverPetals RSS Feed" href="https://www.silverpetals.online/rss.xml">
 
     <!-- Google Fonts -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -372,7 +376,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px; color: var(--color-primary, #2c2925);">
                     <span class="logo-accent" style="color: #9C6644;">S</span>ilver<span class="logo-serif" style="font-family: 'Playfair Display', serif; font-style: italic;">Petals</span>
                 </span>
@@ -426,7 +430,7 @@
 
             <!-- Main Hero Image (Unique High-Res Editorial Photography) -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-gas-grills-under-500-hero.jpg" alt="The 5 Best Gas Grills Under $500 – Fall 2027">
+                <img src="/assets/best-gas-grills-under-500-hero.jpg" fetchpriority="high" decoding="async" alt="The 5 Best Gas Grills Under $500 – Fall 2027">
             </div>
 
             <!-- Planning Draft Notice -->
@@ -460,7 +464,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/weber-spirit-e-325.jpg" alt="Weber Spirit E-325" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/weber-spirit-e-325.jpg" decoding="async" loading="lazy" alt="Weber Spirit E-325" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Weber Spirit E-325</strong>
                                     </div>
                                 </td>
@@ -471,7 +475,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/monument-mesa-410mbz.jpg" alt="Monument Mesa 410MBZ" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/monument-mesa-410mbz.jpg" decoding="async" loading="lazy" alt="Monument Mesa 410MBZ" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Monument Mesa 410MBZ</strong>
                                     </div>
                                 </td>
@@ -482,7 +486,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/nexgrill-4-burner.jpg" alt="Nexgrill 4-Burner with Side Burner" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/nexgrill-4-burner.jpg" decoding="async" loading="lazy" alt="Nexgrill 4-Burner with Side Burner" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Nexgrill 4-Burner</strong>
                                     </div>
                                 </td>
@@ -493,7 +497,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/char-broil-performance-4-burner.jpg" alt="Char-Broil Performance 4-Burner" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/char-broil-performance-4-burner.jpg" decoding="async" loading="lazy" alt="Char-Broil Performance 4-Burner" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Char-Broil Performance</strong>
                                     </div>
                                 </td>
@@ -504,7 +508,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/weber-traveler.jpg" alt="Weber Traveler" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/weber-traveler.jpg" decoding="async" loading="lazy" alt="Weber Traveler" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Weber Traveler</strong>
                                     </div>
                                 </td>
@@ -526,7 +530,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">1. Weber Spirit E-325 &mdash; Best Overall Gas Grill</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/weber-spirit-e-325.jpg" alt="Weber Spirit E-325 Gas Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/weber-spirit-e-325.jpg" decoding="async" loading="lazy" alt="Weber Spirit E-325 Gas Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>The Weber Spirit E-325 is an appealing choice for buyers who want a well-known grill brand, practical cooking space, and features designed for everyday outdoor cooking.</p>
@@ -595,7 +599,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">2. Monument Mesa 410MBZ &mdash; Best Features for the Price</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/monument-mesa-410mbz.jpg" alt="Monument Mesa 410MBZ Gas Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/monument-mesa-410mbz.jpg" decoding="async" loading="lazy" alt="Monument Mesa 410MBZ Gas Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>The Monument Mesa 410MBZ is worth considering if you want a full-size gas grill with several useful features without spending premium-brand money.</p>
@@ -663,7 +667,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">3. Nexgrill 4-Burner Gas Grill with Side Burner &mdash; Best Large Grill</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/nexgrill-4-burner.jpg" alt="Nexgrill 4-Burner Gas Grill with Side Burner on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/nexgrill-4-burner.jpg" decoding="async" loading="lazy" alt="Nexgrill 4-Burner Gas Grill with Side Burner on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>If cooking space is your biggest priority, the Nexgrill 4-Burner with Side Burner deserves a place on your shortlist.</p>
@@ -728,7 +732,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">4. Char-Broil Performance Series 4-Burner &mdash; Best Budget-Friendly Option</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/char-broil-performance-4-burner.jpg" alt="Char-Broil Performance Series 4-Burner Gas Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/char-broil-performance-4-burner.jpg" decoding="async" loading="lazy" alt="Char-Broil Performance Series 4-Burner Gas Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>The Char-Broil Performance Series 4-Burner is a practical candidate for buyers who want a full-size grill without stretching their budget.</p>
@@ -792,7 +796,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">5. Weber Traveler &mdash; Best Portable Gas Grill</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/weber-traveler.jpg" alt="Weber Traveler Portable Gas Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/weber-traveler.jpg" decoding="async" loading="lazy" alt="Weber Traveler Portable Gas Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>Not every buyer needs a large stationary grill. The Weber Traveler is designed for people who want outdoor cooking flexibility in a more portable package.</p>
@@ -982,7 +986,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

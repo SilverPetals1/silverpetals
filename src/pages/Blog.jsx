@@ -4,6 +4,7 @@ import { DECOR_DB } from '../db'
 function getInArticleAdHtml() { return ""; }
 
 const SMARTLINK_URL = '/'
+const postCache = new Map()
 
 function getTopGuideCardHtml() {
   return `
@@ -89,6 +90,16 @@ export default function Blog() {
   }).slice(0, 4)
 
   useEffect(() => {
+    if (postCache.has(cleanSlug)) {
+      const cached = postCache.get(cleanSlug)
+      document.title = cached.title
+      setHtmlContent(cached.content)
+      setLoading(false)
+      setError(false)
+      window.scrollTo(0, 0)
+      return
+    }
+
     setLoading(true)
     setError(false)
     
@@ -302,11 +313,9 @@ export default function Blog() {
           .map(s => s.outerHTML)
           .join('\n')
 
-        if (mainEl) {
-          setHtmlContent(headStyles + mainEl.innerHTML)
-        } else {
-          setHtmlContent(headStyles + doc.body.innerHTML)
-        }
+        const finalHtml = headStyles + (mainEl ? mainEl.innerHTML : doc.body.innerHTML)
+        postCache.set(cleanSlug, { title: document.title, content: finalHtml })
+        setHtmlContent(finalHtml)
         setLoading(false)
         window.scrollTo(0, 0)
       })

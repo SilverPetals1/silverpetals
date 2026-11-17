@@ -45,10 +45,15 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit & Playfair Display -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
 
     <!-- Structured Data Schemas -->
     <script type="application/ld+json">
@@ -142,7 +147,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -203,7 +208,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/panel-wall-hero.webp" alt="Jaw-Dropping 12 Bedroom Panel Wall Ideas Revealed Hero">
+                <img src="/assets/panel-wall-hero.webp" fetchpriority="high" decoding="async" alt="Jaw-Dropping 12 Bedroom Panel Wall Ideas Revealed Hero">
             </div>
 
             <!-- Introduction -->
@@ -238,7 +243,7 @@
                     <h3 class="blog-h3-title">1. Vertical Wood Slat Paneling for a Warm, Modern Texture</h3>
                     <p>Vertical wood slat paneling has become the premier choice for modern, Scandinavian, and Japandi bedroom retreats. Composed of narrow, evenly spaced timber battens mounted against a contrasting dark backing, this technique creates compelling optical rhythm and elongates ceiling height. As sunlight or evening lamp illumination rakes across the wall, the repetitive vertical channels cast soft, rhythmic linear shadows that make flat surfaces come alive with organic movement and warmth.</p>
                     <p><strong>Installation Tip:</strong> For seamless DIY execution, opt for pre-fabricated felt-backed slat sheets. These panels can be adhered directly to drywall with heavy-duty construction adhesive and black trim screws driven through the acoustic felt between slats, completely concealing hardware without the need for wood putty or touch-up sanding.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-1.webp" alt="Vertical wood slat paneling for a warm, modern texture" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-1.webp" decoding="async" loading="lazy" alt="Vertical wood slat paneling for a warm, modern texture" loading="lazy">
                 </article>
 
                 <!-- Section 2 -->
@@ -246,7 +251,7 @@
                     <h3 class="blog-h3-title">2. Board-and-Batten Paneling for Classic Architectural Detail</h3>
                     <p>Board-and-batten paneling provides timeless, tailored architectural sophistication that bridges traditional craftsmanship and crisp transitional style. Characterized by wide vertical backing boards overlaid with narrower projecting wood strips (battens) topped with a continuous horizontal header molding, this treatment introduces stately balance and structural weight. When installed behind your headboard, it creates an authoritative framing effect that anchors furniture without requiring heavy art pieces.</p>
                     <p><strong>Installation Tip:</strong> Calculate batten spacing carefully before cutting your trim boards. Aim for spacings between 12 and 18 inches on center, ensuring you account for electrical outlets and bed placement so vertical battens do not awkwardly overlap wall switches or bedside table lamps.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-2.webp" alt="Board-and-batten paneling for classic architectural detail" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-2.webp" decoding="async" loading="lazy" alt="Board-and-batten paneling for classic architectural detail" loading="lazy">
                 </article>
 
                 <!-- Section 3 -->
@@ -254,7 +259,7 @@
                     <h3 class="blog-h3-title">3. Shiplap Paneling for a Clean, Farmhouse-Inspired Look</h3>
                     <p>Shiplap paneling remains a beloved favorite for its crisp horizontal sightlines, casual warmth, and relaxed cottage charm. Featuring interlocking wooden boards joined by a subtle rabbeted groove, shiplap introduces fine shadow lines called "nickel gaps" that visually broaden narrow bedrooms. Unlike fussy ornate moldings, shiplap offers honest, clean-lined simplicity that pairs beautifully with rustic timber ceiling beams, woven textiles, and light coastal palettes.</p>
                     <p><strong>Installation Tip:</strong> When installing horizontal shiplap on drywall, use nickel coins or 1/8-inch plastic spacers between each plank to guarantee consistent shadow gaps from floor to ceiling. Always locate and mark wall studs prior to installation, securing planks with 2-inch 16-gauge brad nails angled slightly into the studs.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-3.webp" alt="Shiplap paneling for a clean, farmhouse-inspired look" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-3.webp" decoding="async" loading="lazy" alt="Shiplap paneling for a clean, farmhouse-inspired look" loading="lazy">
                 </article>
 
                 
@@ -281,7 +286,7 @@
                     <h3 class="blog-h3-title">4. Geometric 3D Panel Accents for a Bold, Sculptural Wall</h3>
                     <p>If you crave dramatic modern impact, geometric 3D panel accents turn your bedroom wall into a cutting-edge art installation. Built using interlocking polyurethane, molded plant-fiber tiles, or custom timber battens arranged in chevron, diamond, or isometric patterns, this technique generates bold facets that capture light dynamically. As your natural daylight changes throughout the afternoon, the geometric peaks and troughs cast evolving chiaroscuro shadows that bring vibrant energy to modern spaces.</p>
                     <p><strong>Installation Tip:</strong> Dry-fit the center geometric tiles first on the floor to verify alignment before mounting. When affixing 3D tiles, use a level and laser line to anchor your starting center row, then apply paintable silicone caulk along all tile seams before spraying the entire wall with matte or eggshell acrylic paint.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-4.webp" alt="Geometric 3D panel accents for a bold, sculptural wall" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-4.webp" decoding="async" loading="lazy" alt="Geometric 3D panel accents for a bold, sculptural wall" loading="lazy">
                 </article>
 
                 <!-- Section 5 -->
@@ -289,7 +294,7 @@
                     <h3 class="blog-h3-title">5. Wainscoting Paneling for a Traditional, Elevated Look</h3>
                     <p>Wainscoting paneling is the gold standard for adding historical pedigree, stately proportion, and classic architectural refinement to bedrooms. Typically covering the bottom third or two-thirds of the wall height, wainscoting combines recessed flat panels, elegant picture-frame molding, and a sturdy top chair rail or display ledge. This two-zone wall layout breaks up high vertical walls, adding human scale and allowing you to pair formal woodwork below with soft paint colors or patterned wallpaper above.</p>
                     <p><strong>Installation Tip:</strong> For the most harmonious visual proportions, align your chair rail height with either one-third (roughly 36 inches) or two-thirds (roughly 60 inches) of your ceiling height. Finish the wainscoting with semi-gloss enamel paint for superior scrubbability and scuff protection against bedside furniture.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-5.webp" alt="Wainscoting paneling for a traditional, elevated look" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-5.webp" decoding="async" loading="lazy" alt="Wainscoting paneling for a traditional, elevated look" loading="lazy">
                 </article>
 
                 <!-- Section 6 -->
@@ -297,7 +302,7 @@
                     <h3 class="blog-h3-title">6. Full-Wall Wood Paneling Behind the Headboard</h3>
                     <p>Covering the entire wall behind your bed in rich, book-matched hardwood veneers or solid tongue-and-groove planks creates the ultimate luxury hotel sanctuary. A full-wall timber installation establishes an enveloping, grounded cocoon that unifies your mattress, nightstands, and wall lamps into a singular architectural composition. Natural timber species like walnut, white oak, or teak bring deep organic grain variation, rich natural oils, and an innate sense of tranquility that synthetic finishes simply cannot emulate.</p>
                     <p><strong>Installation Tip:</strong> Plan integrated electrical pathways before hanging your wood panels. Drill circular recess cutouts for floating nightstand outlets and hardwired wall-mounted reading sconces behind the paneling so all wiring remains completely concealed behind the timber facade.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-6.webp" alt="Full-wall wood paneling behind the headboard" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-6.webp" decoding="async" loading="lazy" alt="Full-wall wood paneling behind the headboard" loading="lazy">
                 </article>
 
                 <!-- Section 7 -->
@@ -305,7 +310,7 @@
                     <h3 class="blog-h3-title">7. Raised-Panel Millwork for a Formal, Custom-Built Feel</h3>
                     <p>Raised-panel millwork represents the pinnacle of classic bespoke craftsmanship, echoing the architectural grandeur of historic European estates and refined Georgian manors. Each panel features a beveled edge that slopes gracefully downward toward the framing rails and stiles, giving the central field a raised, substantial profile that catches light on four distinct planes. This dimensional depth imparts undeniable luxury and permanence, making even modest bedrooms feel like custom architectural master suites.</p>
                     <p><strong>Installation Tip:</strong> Because real solid-wood raised panels can be labor-intensive, create a high-end look on a budget by combining 3/4-inch MDF stiles with applied solid-wood cove molding inside each panel recess. Prime and sand all joints meticulously before painting to create the appearance of seamless millwork.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-7.webp" alt="Raised-panel millwork for a formal, custom-built feel" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-7.webp" decoding="async" loading="lazy" alt="Raised-panel millwork for a formal, custom-built feel" loading="lazy">
                 </article>
 
                 <!-- Section 8 -->
@@ -313,7 +318,7 @@
                     <h3 class="blog-h3-title">8. Textured Acoustic Panels for a Modern, Tactile Accent</h3>
                     <p>Textured acoustic panels fuse cutting-edge Scandinavian aesthetics with tangible acoustic comfort. Manufactured with real timber veneers bonded to thick, recycled PET felt backing, these panels absorb ambient sound flutter and reverberation, turning echoing bedrooms into whisper-quiet sleeping sanctuaries. The tactile juxtaposition between warm natural wood slats and dense, dark acoustic felt adds rich textural depth while noticeably improving room privacy and speech clarity.</p>
                     <p><strong>Installation Tip:</strong> Install acoustic panels over your bed wall using black drywall screws placed directly through the felt backing every 24 inches. Ensure you cut panels with a fine-toothed circular saw or track saw from the back to prevent any splintering of the delicate natural wood face veneer.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-8.webp" alt="Textured acoustic panels for a modern, tactile accent" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-8.webp" decoding="async" loading="lazy" alt="Textured acoustic panels for a modern, tactile accent" loading="lazy">
                 </article>
 
                 <!-- Section 9 -->
@@ -321,7 +326,7 @@
                     <h3 class="blog-h3-title">9. Herringbone-Pattern Wood Paneling for Dynamic Visual Interest</h3>
                     <p>If you want to infuse your bedroom with dynamic energy and artisanal sophistication, herringbone-pattern wood paneling is an unforgettable showstopper. By orienting timber planks in alternating 90-degree zig-zag angles, herringbone creates a directional chevron weave that draws the eye upward and outward simultaneously. The contrasting wood grain directions reflect incoming natural light at varying angles, creating a shimmering, multifaceted tapestry that shifts subtly throughout the day.</p>
                     <p><strong>Installation Tip:</strong> Establish a laser-straight vertical centerline down the exact middle of your wall before installing the first herringbone V-point. Cut all plank ends precisely at 45 degrees, and work outward toward the wall perimeters, trimming edge pieces flush against corner casing.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-9.webp" alt="Herringbone-pattern wood paneling for dynamic visual interest" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-9.webp" decoding="async" loading="lazy" alt="Herringbone-pattern wood paneling for dynamic visual interest" loading="lazy">
                 </article>
 
                 <!-- Section 10 -->
@@ -329,7 +334,7 @@
                     <h3 class="blog-h3-title">10. Painted Paneling in a Bold Accent Color for Drama</h3>
                     <p>Take your wall paneling to the next level of moodiness and high-fashion drama by saturating the millwork in a daring jewel tone or moody nocturnal shade. Painting three-dimensional panels in rich forest green, deep navy, terracotta, or charcoal velvet creates intense depth, as the moldings cast deep tonal shadows in their recesses. The uniform color washes across both flat drywall and raised woodwork, resulting in an immersive, monochromatic designer envelope that wraps the room in luxurious coziness.</p>
                     <p><strong>Installation Tip:</strong> Choose an eggshell or satin finish rather than high-gloss when painting bold panel walls. Satin provides enough sheen to accentuate molding profiles without reflecting harsh glare from bedside reading lamps, ensuring the moody ambiance remains soothing for sleep.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-10.webp" alt="Painted paneling in a bold accent color for drama" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-10.webp" decoding="async" loading="lazy" alt="Painted paneling in a bold accent color for drama" loading="lazy">
                 </article>
 
                 <!-- Section 11 -->
@@ -337,7 +342,7 @@
                     <h3 class="blog-h3-title">11. Reeded or Fluted Panel Detailing for Subtle Architectural Rhythm</h3>
                     <p>Reeded and fluted paneling is having a massive resurgence in high-end bedroom design, offering ultra-fine architectural rhythm and delicate tactile charm. Featuring closely clustered convex rounded beads (reeded) or concave scooped grooves (fluted), this micro-molding technique catches light with exceptional softness. The micro-scale texture creates a gently textured backdrop that softens modern rectangular bed frames, bringing bespoke boutique-hotel elegance to primary bedrooms and guest suites alike.</p>
                     <p><strong>Installation Tip:</strong> Use flexible tambour sheets or pre-milled MDF fluted panels to cover curved wall transitions or built-in headboard niches seamlessly. Apply construction adhesive evenly with a notched trowel to prevent adhesive bleed between narrow fluted grooves during installation.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-11.webp" alt="Reeded or fluted panel detailing for subtle architectural rhythm" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-11.webp" decoding="async" loading="lazy" alt="Reeded or fluted panel detailing for subtle architectural rhythm" loading="lazy">
                 </article>
 
                 <!-- Section 12 -->
@@ -345,7 +350,7 @@
                     <h3 class="blog-h3-title">12. Mixed-Height Paneling Combining Two Techniques for a Layered Look</h3>
                     <p>For the ultimate custom architectural statement, combining two distinct paneling styles across different wall zones produces breathtaking visual complexity. For example, pairing substantial board-and-batten wainscoting on the bottom 40 inches with ultra-slender vertical slats or delicate picture molding above creates a captivating transition. This layered strategy establishes grounding architectural weight at floor level while keeping the upper wall airy and dynamic, allowing each technique to highlight the other's unique qualities.</p>
                     <p><strong>Installation Tip:</strong> Separate the lower and upper paneling styles with a substantial 4-to-6-inch picture ledge or beveled chair rail molding. This creates a clean architectural transition zone that can also function as a display shelf for framed photographs, scented candles, or miniature art pieces.</p>
-                    <img class="blog-section-image" src="/assets/panel-wall-12.webp" alt="Mixed-height paneling combining two techniques for a layered look" loading="lazy">
+                    <img class="blog-section-image" src="/assets/panel-wall-12.webp" decoding="async" loading="lazy" alt="Mixed-height paneling combining two techniques for a layered look" loading="lazy">
                 </article>
 
             </div>
@@ -407,7 +412,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

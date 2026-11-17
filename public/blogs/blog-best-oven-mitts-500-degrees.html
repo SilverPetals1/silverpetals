@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -402,7 +406,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -461,7 +465,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-oven-mitts-500-degrees-hero.webp" alt="Best Oven Mitts for 500 Degrees: 4 Silicone Picks Compared">
+                <img src="/assets/best-oven-mitts-500-degrees-hero.webp" fetchpriority="high" decoding="async" alt="Best Oven Mitts for 500 Degrees: 4 Silicone Picks Compared">
             </div>
 
             <!-- Introduction -->
@@ -543,7 +547,7 @@
                 <section class="blog-section" id="section-1">
                     <h3 class="blog-h3-title">1. HOMWE Silicone Oven Mitts &mdash; Best Overall Value</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/homwe-silicone-oven-mitts.webp" alt="HOMWE Silicone Oven Mitts for 500 Degrees" class="blog-section-image" loading="lazy">
+                        <img src="/assets/homwe-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="HOMWE Silicone Oven Mitts for 500 Degrees" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Home cooks who want a practical combination of grip, insulation, and wrist coverage.</p>
@@ -608,7 +612,7 @@
                 <section class="blog-section" id="section-2">
                     <h3 class="blog-h3-title">2. GORILLA GRIP Silicone Oven Mitts &mdash; Best for Grip</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/gorilla-grip-silicone-oven-mitts.webp" alt="GORILLA GRIP Honeycomb Silicone Oven Mitts" class="blog-section-image" loading="lazy">
+                        <img src="/assets/gorilla-grip-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="GORILLA GRIP Honeycomb Silicone Oven Mitts" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Cooks who frequently handle smooth cookware and want a textured, slip-resistant surface.</p>
@@ -671,7 +675,7 @@
                 <section class="blog-section" id="section-3">
                     <h3 class="blog-h3-title">3. All-Clad Silicone Oven Mitts &mdash; Best Premium Option</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/all-clad-silicone-oven-mitts.webp" alt="All-Clad Silicone Oven Mitts Premium Protection" class="blog-section-image" loading="lazy">
+                        <img src="/assets/all-clad-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="All-Clad Silicone Oven Mitts Premium Protection" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Home cooks who want a well-constructed mitt for frequent baking and roasting.</p>
@@ -734,7 +738,7 @@
                 <section class="blog-section" id="section-4">
                     <h3 class="blog-h3-title">4. KitchenAid Silicone Oven Mitts &mdash; Best for Everyday Baking</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/kitchenaid-ribbed-silicone-oven-mitts.webp" alt="KitchenAid Silicone Oven Mitts for Everyday Baking" class="blog-section-image" loading="lazy">
+                        <img src="/assets/kitchenaid-ribbed-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="KitchenAid Silicone Oven Mitts for Everyday Baking" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Home bakers who want a practical, familiar kitchen accessory.</p>
@@ -981,7 +985,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -349,7 +353,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -408,7 +412,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-oven-mitts-high-heat-hero.webp" alt="Best Oven Mitts for High Heat: 3 Top Picks for Every Kitchen">
+                <img src="/assets/best-oven-mitts-high-heat-hero.webp" fetchpriority="high" decoding="async" alt="Best Oven Mitts for High Heat: 3 Top Picks for Every Kitchen">
             </div>
 
             <!-- Introduction -->
@@ -484,7 +488,7 @@
                 <section class="blog-section" id="section-1">
                     <h3 class="blog-h3-title">1. OXO Good Grips Silicone Oven Mitt &mdash; Best for Everyday Cooking</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/oxo-good-grips-silicone-oven-mitt.webp" alt="OXO Good Grips Silicone Oven Mitt for Everyday Cooking" class="blog-section-image" loading="lazy">
+                        <img src="/assets/oxo-good-grips-silicone-oven-mitt.webp" decoding="async" loading="lazy" alt="OXO Good Grips Silicone Oven Mitt for Everyday Cooking" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Home cooks who want dependable grip, comfortable handling, and an easy-to-clean exterior.</p>
@@ -549,7 +553,7 @@
                 <section class="blog-section" id="section-2">
                     <h3 class="blog-h3-title">2. HOMWE Extra Long Silicone Oven Mitts &mdash; Best for Baking and Forearm Coverage</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/homwe-extra-long-silicone-oven-mitts.webp" alt="HOMWE Extra Long Silicone Oven Mitts for Forearm Heat Protection" class="blog-section-image" loading="lazy">
+                        <img src="/assets/homwe-extra-long-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="HOMWE Extra Long Silicone Oven Mitts for Forearm Heat Protection" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Frequent bakers, roasting enthusiasts, and people who want more coverage when reaching into a deep oven.</p>
@@ -612,7 +616,7 @@
                 <section class="blog-section" id="section-3">
                     <h3 class="blog-h3-title">3. Grill Armor Extreme Heat-Resistant Oven Gloves &mdash; Best for Grilling and Specialized High-Heat Tasks</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/grill-armor-extreme-heat-resistant-oven-gloves.webp" alt="Grill Armor Extreme Heat Resistant Oven Gloves for BBQ and High Heat Cooking" class="blog-section-image" loading="lazy">
+                        <img src="/assets/grill-armor-extreme-heat-resistant-oven-gloves.webp" decoding="async" loading="lazy" alt="Grill Armor Extreme Heat Resistant Oven Gloves for BBQ and High Heat Cooking" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Outdoor grilling, barbecue preparation, and cooks who need more finger movement than a traditional oven mitt provides.</p>
@@ -749,7 +753,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -353,7 +357,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -411,7 +415,7 @@
 
             <!-- Main Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-hangers-for-drying-wet-clothes-hero.webp" alt="Best Hangers for Drying Wet Clothes: 4 Top Picks">
+                <img src="/assets/best-hangers-for-drying-wet-clothes-hero.webp" fetchpriority="high" decoding="async" alt="Best Hangers for Drying Wet Clothes: 4 Top Picks">
             </div>
 
             <!-- Intro Paragraphs -->
@@ -468,7 +472,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/house-day-wide-shoulder-plastic-hangers.webp" alt="HOUSE DAY Wide-Shoulder Plastic Hangers" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/house-day-wide-shoulder-plastic-hangers.webp" decoding="async" loading="lazy" alt="HOUSE DAY Wide-Shoulder Plastic Hangers" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>HOUSE DAY Wide-Shoulder</strong>
                                 </div>
                             </td>
@@ -479,7 +483,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/sishynio-extra-wide-shoulder-hangers.webp" alt="Sishynio Extra-Wide Shoulder Hangers" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/sishynio-extra-wide-shoulder-hangers.webp" decoding="async" loading="lazy" alt="Sishynio Extra-Wide Shoulder Hangers" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Sishynio Extra-Wide</strong>
                                 </div>
                             </td>
@@ -490,7 +494,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/songmics-slim-plastic-hangers.webp" alt="SONGMICS Slim Plastic Hangers" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/songmics-slim-plastic-hangers.webp" decoding="async" loading="lazy" alt="SONGMICS Slim Plastic Hangers" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>SONGMICS Slim Plastic</strong>
                                 </div>
                             </td>
@@ -501,7 +505,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/nature-smile-pvc-coated-non-slip-hangers.webp" alt="Nature Smile PVC-Coated Non-Slip Hangers" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/nature-smile-pvc-coated-non-slip-hangers.webp" decoding="async" loading="lazy" alt="Nature Smile PVC-Coated Non-Slip Hangers" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Nature Smile PVC-Coated</strong>
                                 </div>
                             </td>
@@ -521,7 +525,7 @@
                 <p><strong>Best for:</strong> Everyday button-downs, lightweight knit sweaters, dresses, and garments that need superior shoulder support.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/house-day-wide-shoulder-plastic-hangers.webp" alt="HOUSE DAY Wide-Shoulder Plastic Hangers holding crisp linen shirt on clothing rail" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/house-day-wide-shoulder-plastic-hangers.webp" decoding="async" loading="lazy" alt="HOUSE DAY Wide-Shoulder Plastic Hangers holding crisp linen shirt on clothing rail" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>When drying wet clothes, hanger shape matters almost as much as raw strength. A hanger with wider, rounded shoulders distributes a garment's weight over a larger surface area instead of concentrating downward pressure onto two narrow points. This is essential for preventing the dreaded "shoulder horns" or stretched bumps common when wet clothes dry on thin wire or cheap plastic hangers.</p>
@@ -574,7 +578,7 @@
                 <p><strong>Best for:</strong> Heavy jeans, thick denim jackets, winter parkas, and soaked cotton hoodies.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/sishynio-extra-wide-shoulder-hangers.webp" alt="Sishynio Extra-Wide Shoulder Hangers holding heavy denim jeans and cotton jacket" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/sishynio-extra-wide-shoulder-hangers.webp" decoding="async" loading="lazy" alt="Sishynio Extra-Wide Shoulder Hangers holding heavy denim jeans and cotton jacket" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Wet clothes place extraordinary strain on hangers, particularly heavy fabrics like dense denim, fleece, or wool that retain significant water weight even after high-speed spin cycles. While basic lightweight hangers warp or snap under downward drag, heavy garments require an overbuilt reinforced frame.</p>
@@ -630,7 +634,7 @@
                 <p><strong>Best for:</strong> Everyday t-shirts, polo shirts, lightweight tops, and large family laundry days.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/songmics-slim-plastic-hangers.webp" alt="SONGMICS Slim Plastic Hangers aligned in an organized laundry room closet rack" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/songmics-slim-plastic-hangers.webp" decoding="async" loading="lazy" alt="SONGMICS Slim Plastic Hangers aligned in an organized laundry room closet rack" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>If you wash clothes frequently or manage laundry for a busy household, buying small sets of expensive specialty hangers simply isn't economical. You need enough matching hangers to transfer an entire full load from the washing machine directly onto drying rails in one pass.</p>
@@ -683,7 +687,7 @@
                 <p><strong>Best for:</strong> Synthetic blouses, silk shirts, satin slips, wide-neck dresses, and garments that slide off regular plastic.</p>
                 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/nature-smile-pvc-coated-non-slip-hangers.webp" alt="Nature Smile PVC-Coated Non-Slip Hangers with rubberized coating and metal core" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/nature-smile-pvc-coated-non-slip-hangers.webp" decoding="async" loading="lazy" alt="Nature Smile PVC-Coated Non-Slip Hangers with rubberized coating and metal core" style="max-width: 520px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Certain garments are notoriously difficult to air-dry on smooth plastic. Wide boatneck collars, delicate synthetics, satin, and silk blouses constantly slip off the shoulders, falling onto dusty floors or bunching up damp. If you regularly dry slick fabrics, non-slip friction is non-negotiable.</p>
@@ -734,7 +738,7 @@
                 <p>The right hanger depends on what you wash, where you dry your laundry, and how much space you have available. Before purchasing a multipack, evaluate these five critical factors:</p>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/hanging-wet-clothes-proper-spacing.webp" alt="Freshly washed damp clothes spaced evenly on drying rail near open sunlit window with sheer curtains" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); display: block;">
+                    <img src="/assets/hanging-wet-clothes-proper-spacing.webp" decoding="async" loading="lazy" alt="Freshly washed damp clothes spaced evenly on drying rail near open sunlit window with sheer curtains" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); display: block;">
                     <span style="font-size: 0.85rem; color: #777; display: block; margin-top: 8px;">Proper spacing and gentle airflow accelerate drying while keeping fabrics wrinkle-free.</span>
                 </div>
 
@@ -750,7 +754,7 @@
                 <p>A hanger should support a garment without extending past its natural shoulder seams or pinching them inward. Wide, contoured shoulders distribute downward pressure, eliminating peaked shoulder bumps. For standard t-shirts and shirts, standard adult widths (16.5" to 17.5") are ideal. For petite or children's wear, use smaller frames to avoid stretching necklines.</p>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/drying-knitwear-shoulder-care.webp" alt="Cable-knit sweater resting on a broad contoured wide-shoulder hanger next to wicker basket" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); display: block;">
+                    <img src="/assets/drying-knitwear-shoulder-care.webp" decoding="async" loading="lazy" alt="Cable-knit sweater resting on a broad contoured wide-shoulder hanger next to wicker basket" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); display: block;">
                     <span style="font-size: 0.85rem; color: #777; display: block; margin-top: 8px;">Contoured, rounded shoulder curves protect delicate knits and prevent unsightly fabric stretching.</span>
                 </div>
 
@@ -843,7 +847,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

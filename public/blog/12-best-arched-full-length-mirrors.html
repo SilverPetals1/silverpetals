@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -421,7 +425,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -480,7 +484,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/12-best-arched-full-length-mirrors-hero.webp" alt="12 Best Arched Full Length Mirrors for a Stylish Home">
+                <img src="/assets/12-best-arched-full-length-mirrors-hero.webp" fetchpriority="high" decoding="async" alt="12 Best Arched Full Length Mirrors for a Stylish Home">
             </div>
 
             <!-- Introduction -->
@@ -496,16 +500,7 @@
             <div class="blog-ad-wrapper" style="margin: 35px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                 <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                 <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key' : '19d79c25e295f3046e227577efa2e057',
-                            'format' : 'iframe',
-                            'height' : 90,
-                            'width' : 728,
-                            'params' : {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                    
                 </div>
             </div>
 
@@ -525,7 +520,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/olixis-64-inch-arched-full-length-mirror.webp" alt="OLIXIS Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/olixis-64-inch-arched-full-length-mirror.webp" decoding="async" loading="lazy" alt="OLIXIS Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>OLIXIS 64"</strong>
                                 </div>
                             </td>
@@ -538,7 +533,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/harritpure-76x34-inch-arched-mirror.webp" alt="HARRITPURE Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/harritpure-76x34-inch-arched-mirror.webp" decoding="async" loading="lazy" alt="HARRITPURE Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>HARRITPURE 76" &times; 34"</strong>
                                 </div>
                             </td>
@@ -551,7 +546,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/dumos-64x21-inch-gold-arched-mirror.webp" alt="DUMOS Gold Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/dumos-64x21-inch-gold-arched-mirror.webp" decoding="async" loading="lazy" alt="DUMOS Gold Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>DUMOS 64" &times; 21"</strong>
                                 </div>
                             </td>
@@ -564,7 +559,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/delma-arched-full-length-mirror.webp" alt="Delma Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/delma-arched-full-length-mirror.webp" decoding="async" loading="lazy" alt="Delma Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Delma Arched</strong>
                                 </div>
                             </td>
@@ -577,7 +572,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/tinytimes-71x30-inch-arched-mirror.webp" alt="TinyTimes Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/tinytimes-71x30-inch-arched-mirror.webp" decoding="async" loading="lazy" alt="TinyTimes Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>TinyTimes 71" &times; 30"</strong>
                                 </div>
                             </td>
@@ -590,7 +585,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/aidoly-arched-full-length-mirror.webp" alt="Aidoly Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/aidoly-arched-full-length-mirror.webp" decoding="async" loading="lazy" alt="Aidoly Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Aidoly Arched</strong>
                                 </div>
                             </td>
@@ -603,7 +598,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/antok-arched-full-length-mirror.webp" alt="Antok Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/antok-arched-full-length-mirror.webp" decoding="async" loading="lazy" alt="Antok Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Antok Arched</strong>
                                 </div>
                             </td>
@@ -616,7 +611,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/beautypeak-arched-floor-mirror.webp" alt="BEAUTYPEAK Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/beautypeak-arched-floor-mirror.webp" decoding="async" loading="lazy" alt="BEAUTYPEAK Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>BEAUTYPEAK Floor</strong>
                                 </div>
                             </td>
@@ -629,7 +624,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/koonmi-71x26-inch-arched-mirror.webp" alt="Koonmi Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/koonmi-71x26-inch-arched-mirror.webp" decoding="async" loading="lazy" alt="Koonmi Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Koonmi 71" &times; 26"</strong>
                                 </div>
                             </td>
@@ -642,7 +637,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/dewfig-76x34-inch-arched-mirror.webp" alt="Dewfig Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/dewfig-76x34-inch-arched-mirror.webp" decoding="async" loading="lazy" alt="Dewfig Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Dewfig 76" &times; 34"</strong>
                                 </div>
                             </td>
@@ -655,7 +650,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/songmics-arched-floor-mirror.webp" alt="SONGMICS Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/songmics-arched-floor-mirror.webp" decoding="async" loading="lazy" alt="SONGMICS Arched Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>SONGMICS Floor</strong>
                                 </div>
                             </td>
@@ -668,7 +663,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/neuweaby-oversized-arched-floor-mirror.webp" alt="NEUWEABY Oversized Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/neuweaby-oversized-arched-floor-mirror.webp" decoding="async" loading="lazy" alt="NEUWEABY Oversized Mirror" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>NEUWEABY 180 &times; 80cm</strong>
                                 </div>
                             </td>
@@ -690,7 +685,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">1. OLIXIS 64-Inch Arched Full Length Mirror &mdash; Best Overall</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/olixis-64-inch-arched-full-length-mirror.webp" alt="OLIXIS 64-Inch Arched Full Length Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/olixis-64-inch-arched-full-length-mirror.webp" decoding="async" loading="lazy" alt="OLIXIS 64-Inch Arched Full Length Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>The <strong>OLIXIS 64 &times; 21.5-inch arched mirror</strong> strikes an outstanding balance between functional dressing dimensions, modern minimalist aesthetics, and accessible pricing. Its curved crown immediately softens rigid bedroom geometry, creating a welcoming vignette beside dressers and wardrobes.</p>
@@ -736,7 +731,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">2. HARRITPURE 76 &times; 34-Inch Arched Mirror &mdash; Best Oversized Statement</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/harritpure-76x34-inch-arched-mirror.webp" alt="HARRITPURE 76x34-inch Oversized Arched Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/harritpure-76x34-inch-arched-mirror.webp" decoding="async" loading="lazy" alt="HARRITPURE 76x34-inch Oversized Arched Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>When you have a generous expanse of wall in a primary bedroom or grand dressing suite, standard full-length mirrors can appear undersized. The <strong>HARRITPURE 76 &times; 34-inch arched mirror</strong> delivers grand, boutique-hotel scale with a massive panoramic reflective plane.</p>
@@ -781,7 +776,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">3. DUMOS 64 &times; 21-Inch Gold Arched Mirror &mdash; Best Gold Finish</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/dumos-64x21-inch-gold-arched-mirror.webp" alt="DUMOS 64x21 Gold Arched Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/dumos-64x21-inch-gold-arched-mirror.webp" decoding="async" loading="lazy" alt="DUMOS 64x21 Gold Arched Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>While black frames provide sharp modern contrast, a brushed gold frame introduces warm luxury and decorative refinement. The <strong>DUMOS 64 &times; 21-inch gold arched mirror</strong> pairs beautifully with cream walls, boucl&eacute; fabrics, champagne hardware, and natural light oak flooring.</p>
@@ -821,7 +816,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">4. Delma Arched Full Length Mirror &mdash; Best Budget-Friendly Option</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/delma-arched-full-length-mirror.webp" alt="Delma Arched Full Length Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/delma-arched-full-length-mirror.webp" decoding="async" loading="lazy" alt="Delma Arched Full Length Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>If you are furnishing a first apartment, decorating a guest bedroom, or upgrading a college dorm, the <strong>Delma Arched Full Length Mirror</strong> delivers modern architectural styling without stretching your budget. It features clean seams, reliable clarity, and versatile mounting options.</p>
@@ -855,16 +850,7 @@
             <div class="blog-ad-wrapper" style="margin: 40px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                 <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                 <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key' : '19d79c25e295f3046e227577efa2e057',
-                            'format' : 'iframe',
-                            'height' : 90,
-                            'width' : 728,
-                            'params' : {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                    
                 </div>
             </div>
 
@@ -876,7 +862,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">5. TinyTimes 71 &times; 30-Inch Arched Mirror &mdash; Best for Larger Bedrooms</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/tinytimes-71x30-inch-arched-mirror.webp" alt="TinyTimes 71x30-inch Arched Full Length Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/tinytimes-71x30-inch-arched-mirror.webp" decoding="async" loading="lazy" alt="TinyTimes 71x30-inch Arched Full Length Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Width makes all the difference when inspecting full outfits. The <strong>TinyTimes 71 &times; 30-inch arched mirror</strong> offers a generous 30-inch breadth paired with a tall 71-inch height, providing expansive coverage that feels luxurious and unconfined.</p>
@@ -914,7 +900,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">6. Aidoly Arched Full Length Mirror &mdash; Best for Minimalist Decor</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/aidoly-arched-full-length-mirror.webp" alt="Aidoly Arched Full Length Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/aidoly-arched-full-length-mirror.webp" decoding="async" loading="lazy" alt="Aidoly Arched Full Length Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Minimalist decor thrives on understated refinement. The <strong>Aidoly Arched Mirror</strong> features a razor-thin metal bezel that maximizes glass surface area while maintaining clean, contemporary geometry.</p>
@@ -952,7 +938,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">7. Antok Arched Full Length Mirror &mdash; Best for Smaller Spaces</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/antok-arched-full-length-mirror.webp" alt="Antok Compact Arched Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/antok-arched-full-length-mirror.webp" decoding="async" loading="lazy" alt="Antok Compact Arched Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Not every bedroom can accommodate a 30-inch-wide footprint. The <strong>Antok Arched Mirror</strong> is engineered for compact dressing corners, narrow entryway foyers, and apartment bedrooms where saving floor space is vital.</p>
@@ -990,7 +976,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">8. BEAUTYPEAK Arched Floor Mirror &mdash; Best Classic Black Frame</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/beautypeak-arched-floor-mirror.webp" alt="BEAUTYPEAK Arched Black Metal Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/beautypeak-arched-floor-mirror.webp" decoding="async" loading="lazy" alt="BEAUTYPEAK Arched Black Metal Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>A black-framed arched mirror creates crisp visual definition against light walls. The <strong>BEAUTYPEAK Arched Floor Mirror</strong> is beloved for its deep metal channel that recesses the glass slightly, giving the mirror an architectural shadowbox profile.</p>
@@ -1028,7 +1014,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">9. Koonmi 71 &times; 26-Inch Arched Mirror &mdash; Best Modern Neutral Look</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/koonmi-71x26-inch-arched-mirror.webp" alt="Koonmi 71x26-inch Arched Full Length Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/koonmi-71x26-inch-arched-mirror.webp" decoding="async" loading="lazy" alt="Koonmi 71x26-inch Arched Full Length Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>The <strong>Koonmi 71 &times; 26-inch arched mirror</strong> hits an ideal proportion sweet spot. Taller than typical 64-inch models while remaining moderately wide, it fits comfortably beside tall bedroom armoires without crowding walkways.</p>
@@ -1066,7 +1052,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">10. Dewfig 76 &times; 34-Inch Arched Mirror &mdash; Best Tall Statement Mirror</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/dewfig-76x34-inch-arched-mirror.webp" alt="Dewfig 76x34-inch Arched Oversized Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/dewfig-76x34-inch-arched-mirror.webp" decoding="async" loading="lazy" alt="Dewfig 76x34-inch Arched Oversized Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>For high-ceiling lofts, open-concept dressing suites, and grand entryways, the <strong>Dewfig 76 &times; 34-inch arched mirror</strong> delivers commanding luxury. Its soaring height transforms an unadorned wall into a grand architectural vista.</p>
@@ -1104,7 +1090,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">11. SONGMICS Arched Floor Mirror &mdash; Best for Contemporary Styling</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/songmics-arched-floor-mirror.webp" alt="SONGMICS Arched Floor Mirror for Bedroom" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/songmics-arched-floor-mirror.webp" decoding="async" loading="lazy" alt="SONGMICS Arched Floor Mirror for Bedroom" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Renowned for practical home furnishings and organization products, <strong>SONGMICS</strong> offers an arched floor mirror that combines reliable packaging, durable joint hardware, and clean contemporary aesthetics.</p>
@@ -1142,7 +1128,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">12. NEUWEABY Oversized Arched Floor Mirror &mdash; Best Extra-Wide Alternative</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/neuweaby-oversized-arched-floor-mirror.webp" alt="NEUWEABY Oversized Arched Full Length Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/neuweaby-oversized-arched-floor-mirror.webp" decoding="async" loading="lazy" alt="NEUWEABY Oversized Arched Full Length Floor Mirror" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Rounding out our recommendations, the <strong>NEUWEABY Oversized Arched Mirror (approx. 71 &times; 32 inches / 180 &times; 80 cm)</strong> provides an expansive panoramic viewing plane that turns any bedroom corner into a luxury fitting room.</p>
@@ -1174,7 +1160,7 @@
 
             <!-- LIFESTYLE INSPIRATION IMAGE 1 -->
             <div style="margin: 45px 0; text-align: center;">
-                <img src="/assets/arched-floor-mirror-bedroom-dressing-corner.webp" alt="Arched floor mirror styled in a modern bedroom dressing corner" style="width: 100%; max-height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                <img src="/assets/arched-floor-mirror-bedroom-dressing-corner.webp" decoding="async" loading="lazy" alt="Arched floor mirror styled in a modern bedroom dressing corner" style="width: 100%; max-height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
                 <p style="font-size: 0.88rem; color: #777; margin-top: 10px; font-style: italic;">A leaning arched floor mirror creates an inviting, light-filled dressing alcove in any contemporary bedroom.</p>
             </div>
 
@@ -1207,7 +1193,7 @@
 
                 <!-- LIFESTYLE INSPIRATION IMAGE 2 -->
                 <div style="margin: 35px 0; text-align: center;">
-                    <img src="/assets/arched-mirror-entryway-styling.webp" alt="Arched mirror in entryway foyer reflecting light" style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.06);">
+                    <img src="/assets/arched-mirror-entryway-styling.webp" decoding="async" loading="lazy" alt="Arched mirror in entryway foyer reflecting light" style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.06);">
                     <p style="font-size: 0.88rem; color: #777; margin-top: 10px; font-style: italic;">In entryways, arched mirrors create a sense of arrival while providing convenient last-minute outfit checks.</p>
                 </div>
             </section>
@@ -1281,7 +1267,7 @@
         <div class="footer-container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px;">
             <div class="footer-brand">
                 <a href="/" class="footer-logo" style="display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; margin-bottom: 15px;">
-                    <img src="/assets/logo_brand.jpg" alt="SilverPetals" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
+                    <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
                     <span style="font-size: 1.25rem; font-weight: 700;">Silver<span style="color: var(--color-accent, #c5a059); font-family: 'Playfair Display', serif; font-style: italic;">Petals</span></span>
                 </a>
                 <p style="color: #999; font-size: 0.9rem; line-height: 1.6; max-width: 380px;">Your premier destination for interior inspiration, modern furniture curation, and thoughtful home styling guides.</p>
@@ -1324,7 +1310,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

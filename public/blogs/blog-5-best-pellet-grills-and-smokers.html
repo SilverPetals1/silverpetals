@@ -39,12 +39,16 @@
     <link rel="alternate" type="application/rss+xml" title="SilverPetals RSS Feed" href="https://www.silverpetals.online/rss.xml">
 
     <!-- Google Fonts -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -349,7 +353,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px; color: var(--color-primary, #2c2925);">
                     <span class="logo-accent" style="color: #9C6644;">S</span>ilver<span class="logo-serif" style="font-family: 'Playfair Display', serif; font-style: italic;">Petals</span>
                 </span>
@@ -403,7 +407,7 @@
 
             <!-- Main Hero Image (Unique High-Res Editorial Photography) -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-pellet-grills-and-smokers-hero.jpg" alt="The 5 Best Pellet Grills &amp; Smokers to Consider – Fall 2027">
+                <img src="/assets/best-pellet-grills-and-smokers-hero.jpg" fetchpriority="high" decoding="async" alt="The 5 Best Pellet Grills &amp; Smokers to Consider – Fall 2027">
             </div>
 
             <!-- Planning Draft Notice -->
@@ -437,7 +441,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/weber-searwood-600.jpg" alt="Weber Searwood 600" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/weber-searwood-600.jpg" decoding="async" loading="lazy" alt="Weber Searwood 600" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Weber Searwood 600</strong>
                                     </div>
                                 </td>
@@ -448,7 +452,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/pit-boss-850-dx.jpg" alt="Pit Boss 850 DX" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/pit-boss-850-dx.jpg" decoding="async" loading="lazy" alt="Pit Boss 850 DX" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Pit Boss 850 DX</strong>
                                     </div>
                                 </td>
@@ -459,7 +463,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/traeger-woodridge-pro.jpg" alt="Traeger Woodridge Pro" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/traeger-woodridge-pro.jpg" decoding="async" loading="lazy" alt="Traeger Woodridge Pro" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Traeger Woodridge Pro</strong>
                                     </div>
                                 </td>
@@ -470,7 +474,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/yoder-ys640s.jpg" alt="Yoder YS640s / recteq Flagship" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/yoder-ys640s.jpg" decoding="async" loading="lazy" alt="Yoder YS640s / recteq Flagship" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Yoder YS640s / Flagship</strong>
                                     </div>
                                 </td>
@@ -481,7 +485,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/grilla-grills-mammoth.jpg" alt="Grilla Grills Mammoth" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
+                                        <img src="/assets/grilla-grills-mammoth.jpg" decoding="async" loading="lazy" alt="Grilla Grills Mammoth" style="width: 48px; height: 48px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; background: #fff; flex-shrink: 0;" loading="lazy">
                                         <strong>Grilla Grills Mammoth</strong>
                                     </div>
                                 </td>
@@ -503,7 +507,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">1. Weber Searwood 600 Pellet Grill &mdash; Best Overall Versatility</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/weber-searwood-600.jpg" alt="Weber Searwood 600 Pellet Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/weber-searwood-600.jpg" decoding="async" loading="lazy" alt="Weber Searwood 600 Pellet Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>The Weber Searwood 600 is an appealing choice for people who want a pellet grill that can do more than traditional low-temperature smoking.</p>
@@ -571,7 +575,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">2. Pit Boss 850 DX Pellet Grill &mdash; Best Budget-Oriented Option</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/pit-boss-850-dx.jpg" alt="Pit Boss 850 DX Pellet Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/pit-boss-850-dx.jpg" decoding="async" loading="lazy" alt="Pit Boss 850 DX Pellet Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>The Pit Boss 850 DX is worth considering for shoppers who want a larger pellet-grilling setup without immediately moving into the premium price category.</p>
@@ -634,7 +638,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">3. Traeger Woodridge Pro &mdash; Best for Beginners</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/traeger-woodridge-pro.jpg" alt="Traeger Woodridge Pro Pellet Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/traeger-woodridge-pro.jpg" decoding="async" loading="lazy" alt="Traeger Woodridge Pro Pellet Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>The Traeger Woodridge Pro is a strong comparison candidate for people who want a more guided and connected pellet-grilling experience.</p>
@@ -697,7 +701,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">4. Yoder YS640s / Flagship Pellet Grill &mdash; Best Premium Option</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/yoder-ys640s.jpg" alt="Yoder YS640s / recteq Flagship Pellet Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/yoder-ys640s.jpg" decoding="async" loading="lazy" alt="Yoder YS640s / recteq Flagship Pellet Grill on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>The Yoder YS640s / recteq Flagship setup is worth considering for serious barbecue enthusiasts who want a heavy-duty, commercial-grade pellet-grilling setup.</p>
@@ -760,7 +764,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">5. Grilla Grills Mammoth Vertical Smoker &mdash; Best for Large-Capacity Smoking</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/grilla-grills-mammoth.jpg" alt="Grilla Grills Mammoth Vertical Pellet Smoker on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
+                    <img src="/assets/grilla-grills-mammoth.jpg" decoding="async" loading="lazy" alt="Grilla Grills Mammoth Vertical Pellet Smoker on Amazon" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); background: #ffffff; padding: 12px; border: 1px solid #eee;">
                 </div>
 
                 <p>The Grilla Grills Mammoth is a vertical pellet smoker designed specifically for people who prioritize smoking volume and rack capacity.</p>
@@ -973,7 +977,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

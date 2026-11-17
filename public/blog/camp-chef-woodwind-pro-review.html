@@ -39,12 +39,16 @@
     <link rel="alternate" type="application/rss+xml" title="SilverPetals RSS Feed" href="https://www.silverpetals.online/rss.xml">
 
     <!-- Google Fonts -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -277,7 +281,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px; color: var(--color-primary, #2c2925);">
                     <span class="logo-accent" style="color: #9C6644;">S</span>ilver<span class="logo-serif" style="font-family: 'Playfair Display', serif; font-style: italic;">Petals</span>
                 </span>
@@ -331,7 +335,7 @@
 
             <!-- Main Hero Image (Unique High-Res Editorial Photography) -->
             <div class="blog-hero-image-container">
-                <img src="/assets/camp-chef-woodwind-pro-hero.jpg" alt="Camp Chef Woodwind Pro Pellet Grill Review on a luxury patio">
+                <img src="/assets/camp-chef-woodwind-pro-hero.jpg" fetchpriority="high" decoding="async" alt="Camp Chef Woodwind Pro Pellet Grill Review on a luxury patio">
             </div>
 
             <!-- Intro Paragraphs -->
@@ -352,7 +356,7 @@
 
                 <!-- Product Diagram Image -->
                 <div class="article-image-box">
-                    <img src="/assets/camp-chef-woodwind-pro-diagram.jpg" alt="Camp Chef Woodwind Pro features and capacity diagram" loading="lazy">
+                    <img src="/assets/camp-chef-woodwind-pro-diagram.jpg" decoding="async" loading="lazy" alt="Camp Chef Woodwind Pro features and capacity diagram" loading="lazy">
                     <div class="img-caption">Camp Chef Woodwind Pro complete feature diagram &amp; capacity overview</div>
                 </div>
 
@@ -397,7 +401,7 @@
 
                 <!-- Wood-Fired Flavor Image -->
                 <div class="article-image-box">
-                    <img src="/assets/camp-chef-woodwind-pro-flavor.jpg" alt="Wood-fired flavor made easy on Camp Chef Woodwind Pro with ribs, whole chicken, and pizza" loading="lazy">
+                    <img src="/assets/camp-chef-woodwind-pro-flavor.jpg" decoding="async" loading="lazy" alt="Wood-fired flavor made easy on Camp Chef Woodwind Pro with ribs, whole chicken, and pizza" loading="lazy">
                     <div class="img-caption">Wood-fired flavor made easy: multi-tier rack smoking ribs, chickens, and artisan pizzas</div>
                 </div>
 
@@ -424,11 +428,11 @@
                 <!-- Smartphone App & Controller Images Grid -->
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px 0;">
                     <div class="article-image-box" style="margin: 0;">
-                        <img src="/assets/camp-chef-woodwind-pro-app.jpg" alt="Monitor cooking from the grill or phone with smart app" loading="lazy" style="height: 100%; max-height: 380px; object-fit: contain; background: #fff;">
+                        <img src="/assets/camp-chef-woodwind-pro-app.jpg" decoding="async" loading="lazy" alt="Monitor cooking from the grill or phone with smart app" loading="lazy" style="height: 100%; max-height: 380px; object-fit: contain; background: #fff;">
                         <div class="img-caption">Smart app remote monitoring &amp; notifications</div>
                     </div>
                     <div class="article-image-box" style="margin: 0;">
-                        <img src="/assets/camp-chef-woodwind-pro-controller.jpg" alt="Digital temperature controller and 3-step grilling" loading="lazy" style="height: 100%; max-height: 380px; object-fit: contain; background: #fff;">
+                        <img src="/assets/camp-chef-woodwind-pro-controller.jpg" decoding="async" loading="lazy" alt="Digital temperature controller and 3-step grilling" loading="lazy" style="height: 100%; max-height: 380px; object-fit: contain; background: #fff;">
                         <div class="img-caption">Precision digital dial &amp; easy 3-step cooking</div>
                     </div>
                 </div>
@@ -490,7 +494,7 @@
 
                 <!-- Cooking performance image -->
                 <div class="article-image-box">
-                    <img src="/assets/camp-chef-woodwind-pro-cooking.jpg" alt="Taste the wood-fired difference with steaks, cast-iron skillet and pizzas" loading="lazy">
+                    <img src="/assets/camp-chef-woodwind-pro-cooking.jpg" decoding="async" loading="lazy" alt="Taste the wood-fired difference with steaks, cast-iron skillet and pizzas" loading="lazy">
                     <div class="img-caption">Taste the wood-fired difference: searing steaks, cast-iron skillet cornbread, and sides</div>
                 </div>
 
@@ -542,7 +546,7 @@
 
                 <!-- Warranty Badge Image -->
                 <div class="article-image-box">
-                    <img src="/assets/camp-chef-woodwind-pro-warranty.jpg" alt="10 Year Limited Warranty badge" loading="lazy" style="max-width: 260px; background: #fff; padding: 15px;">
+                    <img src="/assets/camp-chef-woodwind-pro-warranty.jpg" decoding="async" loading="lazy" alt="10 Year Limited Warranty badge" loading="lazy" style="max-width: 260px; background: #fff; padding: 15px;">
                     <div class="img-caption">Manufacturer warranty protection for dependable long-term cooking</div>
                 </div>
 
@@ -742,7 +746,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

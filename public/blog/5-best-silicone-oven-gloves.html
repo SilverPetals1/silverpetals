@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -412,7 +416,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -471,7 +475,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-silicone-oven-gloves-hero.webp" alt="Best Silicone Oven Gloves for High Heat and Kitchen Safety">
+                <img src="/assets/best-silicone-oven-gloves-hero.webp" fetchpriority="high" decoding="async" alt="Best Silicone Oven Gloves for High Heat and Kitchen Safety">
             </div>
 
             <!-- Introduction -->
@@ -576,7 +580,7 @@
                 <section class="blog-section" id="section-1">
                     <h3 class="blog-h3-title">1. GORILLA GRIP Silicone Oven Mitts &mdash; Best Overall Balance of Heat &amp; Comfort</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/gorilla-grip-silicone-oven-mitts.webp" alt="GORILLA GRIP Silicone Oven Mitts with Textured Honeycomb Grip" class="blog-section-image" loading="lazy">
+                        <img src="/assets/gorilla-grip-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="GORILLA GRIP Silicone Oven Mitts with Textured Honeycomb Grip" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Home cooks who want industry-leading 550°F heat protection coupled with a soft, breathable cotton interior.</p>
@@ -634,7 +638,7 @@
                 <section class="blog-section" id="section-2">
                     <h3 class="blog-h3-title">2. KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set &mdash; Best Ergonomic Ribbed Grip</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/kitchenaid-ribbed-silicone-oven-mitts.webp" alt="KitchenAid Ribbed Soft Silicone Oven Mitt Set" class="blog-section-image" loading="lazy">
+                        <img src="/assets/kitchenaid-ribbed-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="KitchenAid Ribbed Soft Silicone Oven Mitt Set" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Cooks looking for a trusted kitchen brand with durable ribbed silicone channels and coordinated kitchen aesthetics.</p>
@@ -690,7 +694,7 @@
                 <section class="blog-section" id="section-3">
                     <h3 class="blog-h3-title">3. HOMWE Silicone Oven Mitts &mdash; Best Versatile Extended-Length Design</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/homwe-silicone-oven-mitts.webp" alt="HOMWE Silicone Oven Mitts with Extra Long Forearm Protection" class="blog-section-image" loading="lazy">
+                        <img src="/assets/homwe-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="HOMWE Silicone Oven Mitts with Extra Long Forearm Protection" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Frequent bakers, sheet-pan meal enthusiasts, and cooks who require extended mid-forearm safety.</p>
@@ -746,7 +750,7 @@
                 <section class="blog-section" id="section-4">
                     <h3 class="blog-h3-title">4. sungwoo Silicone Oven Mitts &mdash; Maximum 14.6-Inch Forearm Armor</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/sungwoo-silicone-oven-mitts.webp" alt="sungwoo Extra Long 14.6-Inch Silicone Oven Mitts with Hanging Loop" class="blog-section-image" loading="lazy">
+                        <img src="/assets/sungwoo-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="sungwoo Extra Long 14.6-Inch Silicone Oven Mitts with Hanging Loop" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Grilling aficionados, commercial oven users, and cooks who demand maximum arm reach and built-in hanging convenience.</p>
@@ -802,7 +806,7 @@
                 <section class="blog-section" id="section-5">
                     <h3 class="blog-h3-title">5. Hovico Silicone Oven Mitts &mdash; Best Snowflake Micro-Traction for Slick Cookware</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/hovico-silicone-oven-mitts.webp" alt="Hovico Snowflake Textured Silicone Oven Mitts with Thick Cotton Lining" class="blog-section-image" loading="lazy">
+                        <img src="/assets/hovico-silicone-oven-mitts.webp" decoding="async" loading="lazy" alt="Hovico Snowflake Textured Silicone Oven Mitts with Thick Cotton Lining" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Home cooks handling smooth glass bakeware, cast-iron skillets, and those looking for a compact, nimble fit.</p>
@@ -950,7 +954,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -426,7 +430,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -485,7 +489,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-hot-water-bottle-for-cramps-hero.webp" alt="Best Hot Water Bottle for Cramps: 3 Top Picks Compared">
+                <img src="/assets/best-hot-water-bottle-for-cramps-hero.webp" fetchpriority="high" decoding="async" alt="Best Hot Water Bottle for Cramps: 3 Top Picks Compared">
             </div>
 
             <!-- Introduction -->
@@ -561,7 +565,7 @@
                 <section class="blog-section" id="section-1">
                     <h3 class="blog-h3-title">1. HomeTop Premium Classic Rubber Hot Water Bottle &mdash; Best Traditional Option</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/hometop-classic-rubber-hot-water-bottle.webp" alt="HomeTop Premium Classic Rubber Hot Water Bottle" class="blog-section-image" loading="lazy">
+                        <img src="/assets/hometop-classic-rubber-hot-water-bottle.webp" decoding="async" loading="lazy" alt="HomeTop Premium Classic Rubber Hot Water Bottle" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> People who prefer a traditional, heavy-duty natural rubber hot water bottle for targeted warmth on the lower abdomen or lower back at home.</p>
@@ -625,7 +629,7 @@
                 <section class="blog-section" id="section-2" style="margin-top: 35px; border-top: 1px solid #ede8e1; padding-top: 30px;">
                     <h3 class="blog-h3-title">2. samply 2L Hot Water Bottle with Knitted Cover &mdash; Best for Comfort and Coziness</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/samply-hot-water-bottle-knitted-cover.webp" alt="samply 2L Hot Water Bottle with Knitted Cover" class="blog-section-image" loading="lazy">
+                        <img src="/assets/samply-hot-water-bottle-knitted-cover.webp" decoding="async" loading="lazy" alt="samply 2L Hot Water Bottle with Knitted Cover" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Anyone seeking ultimate comfort, tactile coziness, and a gentle fabric barrier against sensitive abdominal skin during period cramps.</p>
@@ -691,7 +695,7 @@
                 <section class="blog-section" id="section-3" style="margin-top: 35px; border-top: 1px solid #ede8e1; padding-top: 30px;">
                     <h3 class="blog-h3-title">3. FORICOM 2-Pack Hot Water Bottles &mdash; Best Value Option</h3>
                     <div class="blog-image-wrapper">
-                        <img src="/assets/foricom-2-pack-hot-water-bottles.webp" alt="FORICOM 2-Pack Hot Water Bottles with Covers" class="blog-section-image" loading="lazy">
+                        <img src="/assets/foricom-2-pack-hot-water-bottles.webp" decoding="async" loading="lazy" alt="FORICOM 2-Pack Hot Water Bottles with Covers" class="blog-section-image" loading="lazy">
                     </div>
 
                     <p><strong>Best for:</strong> Value hunters, multi-person households, and anyone who wants simultaneous front-and-back heat therapy or a dedicated spare for work and home.</p>
@@ -946,7 +950,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

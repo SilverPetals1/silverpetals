@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -404,7 +408,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -462,7 +466,7 @@
 
             <!-- Main Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-paints-for-bathroom-ceilings-to-prevent-mold-hero.webp" alt="5 Best Paints for Bathroom Ceilings to Prevent Mold: Tested and Compared">
+                <img src="/assets/best-paints-for-bathroom-ceilings-to-prevent-mold-hero.webp" fetchpriority="high" decoding="async" alt="5 Best Paints for Bathroom Ceilings to Prevent Mold: Tested and Compared">
             </div>
 
             <!-- Intro Paragraphs -->
@@ -516,7 +520,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/zinsser-perma-white-bathroom-ceiling-paint.webp" alt="Zinsser PERMA-WHITE" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/zinsser-perma-white-bathroom-ceiling-paint.webp" decoding="async" loading="lazy" alt="Zinsser PERMA-WHITE" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Zinsser PERMA-WHITE</strong>
                                     </div>
                                 </td>
@@ -527,7 +531,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/benjamin-moore-aura-bath-spa-ceiling-paint.webp" alt="Benjamin Moore Aura Bath & Spa" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/benjamin-moore-aura-bath-spa-ceiling-paint.webp" decoding="async" loading="lazy" alt="Benjamin Moore Aura Bath & Spa" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Benjamin Moore Aura Bath &amp; Spa</strong>
                                     </div>
                                 </td>
@@ -538,7 +542,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/sherwin-williams-duration-home-bathroom-paint.webp" alt="Sherwin-Williams Duration Home" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/sherwin-williams-duration-home-bathroom-paint.webp" decoding="async" loading="lazy" alt="Sherwin-Williams Duration Home" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Sherwin-Williams Duration Home</strong>
                                     </div>
                                 </td>
@@ -549,7 +553,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/behr-premium-plus-bathroom-ceiling-paint.webp" alt="BEHR PREMIUM PLUS" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/behr-premium-plus-bathroom-ceiling-paint.webp" decoding="async" loading="lazy" alt="BEHR PREMIUM PLUS" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>BEHR PREMIUM PLUS</strong>
                                     </div>
                                 </td>
@@ -560,7 +564,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/benjamin-moore-kitchen-bath-ceiling-paint.webp" alt="Benjamin Moore Kitchen & Bath" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/benjamin-moore-kitchen-bath-ceiling-paint.webp" decoding="async" loading="lazy" alt="Benjamin Moore Kitchen & Bath" style="width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Benjamin Moore Kitchen &amp; Bath</strong>
                                     </div>
                                 </td>
@@ -582,7 +586,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">1. Zinsser PERMA-WHITE Mold &amp; Mildew-Proof Interior Paint &mdash; Best Overall for Mold Resistance</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/zinsser-perma-white-bathroom-ceiling-paint.webp" alt="Zinsser PERMA-WHITE Mold and Mildew-Proof Interior Paint for bathroom ceiling" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/zinsser-perma-white-bathroom-ceiling-paint.webp" decoding="async" loading="lazy" alt="Zinsser PERMA-WHITE Mold and Mildew-Proof Interior Paint for bathroom ceiling" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>If mold and mildew are your main concerns, Zinsser PERMA-WHITE is one of the first products worth considering. It is formulated specifically for humid interior environments, including bathrooms, and is designed to resist mold and mildew growth on the cured paint film.</p>
@@ -653,7 +657,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">2. Benjamin Moore Aura Bath &amp; Spa &mdash; Best Premium Bathroom Finish</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/benjamin-moore-aura-bath-spa-ceiling-paint.webp" alt="Benjamin Moore Aura Bath and Spa matte ceiling paint in luxury bathroom" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/benjamin-moore-aura-bath-spa-ceiling-paint.webp" decoding="async" loading="lazy" alt="Benjamin Moore Aura Bath and Spa matte ceiling paint in luxury bathroom" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Benjamin Moore Aura Bath &amp; Spa is designed specifically for bathroom environments where moisture resistance and refined appearance are both important. It is particularly worth considering if you prefer a sophisticated, low-sheen matte finish rather than the glossy or shiny look often associated with standard bathroom paints.</p>
@@ -722,7 +726,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">3. Sherwin-Williams Duration Home Interior Acrylic Latex &mdash; Best for Durability and Washability</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/sherwin-williams-duration-home-bathroom-paint.webp" alt="Sherwin-Williams Duration Home Interior Acrylic Latex paint for durable ceilings" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/sherwin-williams-duration-home-bathroom-paint.webp" decoding="async" loading="lazy" alt="Sherwin-Williams Duration Home Interior Acrylic Latex paint for durable ceilings" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Sherwin-Williams Duration Home is an interior paint line worth considering if you want a durable, washable coating for a bathroom that sees frequent daily use by multiple family members.</p>
@@ -810,7 +814,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">4. BEHR PREMIUM PLUS Interior Paint &amp; Primer &mdash; Best Budget-Friendly Option</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/behr-premium-plus-bathroom-ceiling-paint.webp" alt="BEHR PREMIUM PLUS Interior Paint and Primer for budget bathroom ceiling painting" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/behr-premium-plus-bathroom-ceiling-paint.webp" decoding="async" loading="lazy" alt="BEHR PREMIUM PLUS Interior Paint and Primer for budget bathroom ceiling painting" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>If you are refreshing a guest bathroom, rental property, or modest-sized powder room, BEHR PREMIUM PLUS is an attractive option that balances cost with dependable performance. It is a widely available interior paint-and-primer product line with various finishes and low-VOC formulations.</p>
@@ -877,7 +881,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">5. Benjamin Moore Kitchen &amp; Bath &mdash; Best for Everyday Bathroom Maintenance</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/benjamin-moore-kitchen-bath-ceiling-paint.webp" alt="Benjamin Moore Kitchen and Bath paint can in modern bathroom" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/benjamin-moore-kitchen-bath-ceiling-paint.webp" decoding="async" loading="lazy" alt="Benjamin Moore Kitchen and Bath paint can in modern bathroom" style="max-width: 480px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Benjamin Moore Kitchen &amp; Bath is another product to consider when choosing paint for a moisture-prone interior. It is intended specifically for kitchens and bathrooms, where surfaces routinely experience humidity, warm condensation, and frequent cleaning.</p>
@@ -942,7 +946,7 @@
                 <p>Choosing paint for a bathroom ceiling is very different from choosing paint for a dry bedroom or living room. The ceiling is continuously exposed to rising warm air, steam, and condensation, particularly directly above a hot shower or bathtub.</p>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/painting-bathroom-ceiling-mold-prevention.webp" alt="Applying smooth matte white mold-resistant paint to a bathroom ceiling with a paint roller" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+                    <img src="/assets/painting-bathroom-ceiling-mold-prevention.webp" decoding="async" loading="lazy" alt="Applying smooth matte white mold-resistant paint to a bathroom ceiling with a paint roller" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
                 </div>
 
                 <p>Look for the following core characteristics when evaluating and comparing products:</p>
@@ -972,7 +976,7 @@
                 <p>Even the highest-grade mold-resistant paint will eventually fail if persistent moisture remains trapped behind the film. Follow these critical steps before rolling on a single drop of paint to ensure long-term success:</p>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/bathroom-ceiling-ventilation-mold-prevention.webp" alt="Modern sleek bathroom ceiling exhaust fan vent quietly clearing steam above a glass shower" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+                    <img src="/assets/bathroom-ceiling-ventilation-mold-prevention.webp" decoding="async" loading="lazy" alt="Modern sleek bathroom ceiling exhaust fan vent quietly clearing steam above a glass shower" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
                 </div>
 
                 <div style="margin: 20px 0;">
@@ -1118,7 +1122,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

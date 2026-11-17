@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -413,7 +417,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -472,7 +476,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/5-best-decorative-vases-for-a-modern-living-room-hero.webp" alt="5 Best Decorative Vases for a Modern Living Room">
+                <img src="/assets/5-best-decorative-vases-for-a-modern-living-room-hero.webp" fetchpriority="high" decoding="async" alt="5 Best Decorative Vases for a Modern Living Room">
             </div>
 
             <!-- Introduction -->
@@ -488,16 +492,7 @@
             <div class="blog-ad-wrapper" style="margin: 35px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                 <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                 <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key' : '19d79c25e295f3046e227577efa2e057',
-                            'format' : 'iframe',
-                            'height' : 90,
-                            'width' : 728,
-                            'params' : {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                    
                 </div>
             </div>
 
@@ -518,7 +513,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/le-tauci-large-white-ceramic-vase.webp" alt="LE TAUCI Large White Ceramic Vase" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/le-tauci-large-white-ceramic-vase.webp" decoding="async" loading="lazy" alt="LE TAUCI Large White Ceramic Vase" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>LE TAUCI Large White Ceramic</strong>
                                 </div>
                             </td>
@@ -532,7 +527,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/fantesticryan-modern-glass-vase.webp" alt="FANTESTICRYAN Modern Glass Vase" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/fantesticryan-modern-glass-vase.webp" decoding="async" loading="lazy" alt="FANTESTICRYAN Modern Glass Vase" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>FANTESTICRYAN Modern Glass</strong>
                                 </div>
                             </td>
@@ -546,7 +541,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/rikbvom-ribbed-ceramic-vase.webp" alt="RIKBVOM Ribbed Ceramic Vase" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/rikbvom-ribbed-ceramic-vase.webp" decoding="async" loading="lazy" alt="RIKBVOM Ribbed Ceramic Vase" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>RIKBVOM Ribbed Ceramic</strong>
                                 </div>
                             </td>
@@ -560,7 +555,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/jonronboci-hug-donut-vase.webp" alt="Jonronboci Hug Donut Vase" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/jonronboci-hug-donut-vase.webp" decoding="async" loading="lazy" alt="Jonronboci Hug Donut Vase" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Jonronboci Hug Donut</strong>
                                 </div>
                             </td>
@@ -574,7 +569,7 @@
                         <tr>
                             <td>
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="/assets/carrots-den-donut-ceramic-vase-set.webp" alt="Carrot's Den Donut Ceramic Vase Set" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                    <img src="/assets/carrots-den-donut-ceramic-vase-set.webp" decoding="async" loading="lazy" alt="Carrot's Den Donut Ceramic Vase Set" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                     <strong>Carrot's Den Donut Set</strong>
                                 </div>
                             </td>
@@ -599,7 +594,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">1. LE TAUCI Large White Ceramic Vase &mdash; Best Overall</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/le-tauci-large-white-ceramic-vase.webp" alt="LE TAUCI Large White Ceramic Vase for Modern Living Room" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/le-tauci-large-white-ceramic-vase.webp" decoding="async" loading="lazy" alt="LE TAUCI Large White Ceramic Vase for Modern Living Room" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>A classic white ceramic vase is undeniably one of the most versatile accessories you can introduce into a modern living room. It effortlessly coordinates with almost every color palette, complements organic raw materials like oak and marble, and creates an understated focal anchor without injecting visual discord.</p>
@@ -661,7 +656,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">2. FANTESTICRYAN Modern Glass Vase &mdash; Best Glass Accent</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/fantesticryan-modern-glass-vase.webp" alt="FANTESTICRYAN Modern Smoky Glass Vase on Tabletop" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/fantesticryan-modern-glass-vase.webp" decoding="async" loading="lazy" alt="FANTESTICRYAN Modern Smoky Glass Vase on Tabletop" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Glass vases introduce a completely different aesthetic weight than solid ceramics. By allowing daylight to pass directly through the vessel, glass brings lightness and optical sparkle to surfaces, making tabletop arrangements feel open, fluid, and never crowded.</p>
@@ -719,16 +714,7 @@
             <div class="blog-ad-wrapper" style="margin: 40px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                 <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                 <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key' : '19d79c25e295f3046e227577efa2e057',
-                            'format' : 'iframe',
-                            'height' : 90,
-                            'width' : 728,
-                            'params' : {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                    
                 </div>
             </div>
 
@@ -740,7 +726,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">3. RIKBVOM Ribbed Ceramic Vase &mdash; Best Budget-Friendly Style</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/rikbvom-ribbed-ceramic-vase.webp" alt="RIKBVOM White Ribbed Textured Ceramic Vase on Bookshelf" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/rikbvom-ribbed-ceramic-vase.webp" decoding="async" loading="lazy" alt="RIKBVOM White Ribbed Textured Ceramic Vase on Bookshelf" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>You do not need a high-end designer showroom budget to create a magazine-worthy living room. Accessories that feature distinctive silhouettes or architectural surface texture immediately make an affordable decor update look upscale and intentional.</p>
@@ -801,7 +787,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">4. Jonronboci Hug Donut Vase &mdash; Best Sculptural Statement</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/jonronboci-hug-donut-vase.webp" alt="Jonronboci Hug Donut Ceramic Vase Modern Art Decor" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/jonronboci-hug-donut-vase.webp" decoding="async" loading="lazy" alt="Jonronboci Hug Donut Ceramic Vase Modern Art Decor" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>Certain vases are designed primarily as vessels for flowers, while others function as miniature modern sculptures that transform tabletops into gallery-curated vignettes. The donut vase silhouette has become an iconic staple of contemporary and organic modern design for this exact reason.</p>
@@ -863,7 +849,7 @@
                 <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">5. Carrot's Den Donut Ceramic Vase Set &mdash; Best for Shelf Styling</h2>
 
                 <div style="text-align: center; margin: 25px 0;">
-                    <img src="/assets/carrots-den-donut-ceramic-vase-set.webp" alt="Carrot's Den Donut Ceramic Vase Set of 2 Modern Decor" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                    <img src="/assets/carrots-den-donut-ceramic-vase-set.webp" decoding="async" loading="lazy" alt="Carrot's Den Donut Ceramic Vase Set of 2 Modern Decor" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                 </div>
 
                 <p>On wider horizontal surfaces like expansive fireplace mantels, extended media credenzas, or multi-tiered built-in bookshelves, a single lonely vase can sometimes appear lost. Purchasing a thoughtfully coordinated set allows you to introduce visual rhythm and scale without the guesswork of matching disparate items.</p>
@@ -918,7 +904,7 @@
 
             <!-- MID-ARTICLE INSPIRATION IMAGE -->
             <div style="margin: 45px 0; text-align: center;">
-                <img src="/assets/modern-living-room-vase-styling.webp" alt="Interior designer styling a modern living room coffee table with decorative vases" style="width: 100%; max-height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                <img src="/assets/modern-living-room-vase-styling.webp" decoding="async" loading="lazy" alt="Interior designer styling a modern living room coffee table with decorative vases" style="width: 100%; max-height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
                 <p style="font-size: 0.88rem; color: #777; margin-top: 10px; font-style: italic;">Balance textures and heights on your living room coffee table with ceramic vases, art books, and natural botanicals.</p>
             </div>
 
@@ -946,7 +932,7 @@
 
                 <!-- LIFESTYLE BOTANICALS IMAGE -->
                 <div style="margin: 35px 0; text-align: center;">
-                    <img src="/assets/botanical-stems-in-ceramic-vase.webp" alt="Minimalist dried botanical stems displayed in neutral ceramic vase" style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.06);">
+                    <img src="/assets/botanical-stems-in-ceramic-vase.webp" decoding="async" loading="lazy" alt="Minimalist dried botanical stems displayed in neutral ceramic vase" style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.06);">
                     <p style="font-size: 0.88rem; color: #777; margin-top: 10px; font-style: italic;">Delicate dried grasses and architectural stems introduce organic movement without requiring water changes.</p>
                 </div>
 
@@ -1029,7 +1015,7 @@
         <div class="footer-container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px;">
             <div class="footer-brand">
                 <a href="/" class="footer-logo" style="display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; margin-bottom: 15px;">
-                    <img src="/assets/logo_brand.jpg" alt="SilverPetals" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
+                    <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
                     <span style="font-size: 1.25rem; font-weight: 700;">Silver<span style="color: var(--color-accent, #c5a059); font-family: 'Playfair Display', serif; font-style: italic;">Petals</span></span>
                 </a>
                 <p style="color: #999; font-size: 0.9rem; line-height: 1.6; max-width: 380px;">Your premier destination for interior inspiration, modern furniture curation, and thoughtful home styling guides.</p>
@@ -1072,7 +1058,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>

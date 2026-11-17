@@ -45,12 +45,16 @@
     <!-- Direct Image Source for Mobile Aggregators / Flipboard -->
 
     <!-- Google Fonts: Outfit for body, Playfair Display for headings -->
+    
+    <!-- Performance DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://bauval.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
     <!-- Schema.org JSON-LD -->
@@ -435,7 +439,7 @@
     <header class="main-header">
         <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
             <a href="/" class="logo" id="logo-home" style="display: flex; align-items: center; gap: 12px;">
-                <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
+                <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
                 <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 1px;">
                     <span class="logo-accent">S</span>ilver<span class="logo-serif">Petals</span>
                 </span>
@@ -494,7 +498,7 @@
 
             <!-- Hero Image -->
             <div class="blog-hero-image-container">
-                <img src="/assets/best-heavy-duty-clothes-drying-rack-hero.webp" alt="Best Heavy Duty Clothes Drying Rack: Top 3 Picks for Big Loads">
+                <img src="/assets/best-heavy-duty-clothes-drying-rack-hero.webp" fetchpriority="high" decoding="async" alt="Best Heavy Duty Clothes Drying Rack: Top 3 Picks for Big Loads">
             </div>
 
             <!-- Introduction -->
@@ -510,16 +514,7 @@
                 <div class="blog-ad-wrapper" style="margin: 35px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                     <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                     <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                        <script type="text/javascript">
-                            atOptions = {
-                                'key' : '19d79c25e295f3046e227577efa2e057',
-                                'format' : 'iframe',
-                                'height' : 90,
-                                'width' : 728,
-                                'params' : {}
-                            };
-                        </script>
-                        <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                        
                     </div>
                 </div>
 
@@ -539,7 +534,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/honey-can-do-gullwing-clothes-drying-rack.webp" alt="Honey-Can-Do Gullwing" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/honey-can-do-gullwing-clothes-drying-rack.webp" decoding="async" loading="lazy" alt="Honey-Can-Do Gullwing" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>Honey-Can-Do Gullwing</strong>
                                     </div>
                                 </td>
@@ -552,7 +547,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/songmics-2-level-steel-clothes-drying-rack.webp" alt="SONGMICS 2-Level" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/songmics-2-level-steel-clothes-drying-rack.webp" decoding="async" loading="lazy" alt="SONGMICS 2-Level" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>SONGMICS 2-Level</strong>
                                     </div>
                                 </td>
@@ -565,7 +560,7 @@
                             <tr>
                                 <td>
                                     <div style="display: flex; align-items: center; gap: 12px;">
-                                        <img src="/assets/jauree-expandable-stainless-steel-drying-rack.webp" alt="JAUREE Expandable" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
+                                        <img src="/assets/jauree-expandable-stainless-steel-drying-rack.webp" decoding="async" loading="lazy" alt="JAUREE Expandable" style="width: 50px; height: 50px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0;">
                                         <strong>JAUREE Expandable</strong>
                                     </div>
                                 </td>
@@ -589,7 +584,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">1. Honey-Can-Do Heavy-Duty Gullwing Drying Rack &mdash; Best Overall</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/honey-can-do-gullwing-clothes-drying-rack.webp" alt="Honey-Can-Do Heavy-Duty Gullwing Drying Rack with adjustable wings and shoe rack" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/honey-can-do-gullwing-clothes-drying-rack.webp" decoding="async" loading="lazy" alt="Honey-Can-Do Heavy-Duty Gullwing Drying Rack with adjustable wings and shoe rack" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>If you regularly wash an assortment of heavy towels, thick denim trousers, everyday work shirts, and athletic wear, the <strong>Honey-Can-Do Heavy-Duty Gullwing Drying Rack</strong> (Model DRY-01610) is our undisputed top recommendation. Its wide, symmetrical "gullwing" silhouette features two independently adjustable side wings supported by heavy-duty steel support arms, delivering a massive <strong>46 linear feet of drying space</strong> in a remarkably stable configuration.</p>
@@ -661,7 +656,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">2. SONGMICS 2-Level Steel Drying Rack &mdash; Best for Families</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/songmics-2-level-steel-clothes-drying-rack.webp" alt="SONGMICS 2-Level Foldable Steel Clothes Drying Rack with sock clips" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/songmics-2-level-steel-clothes-drying-rack.webp" decoding="async" loading="lazy" alt="SONGMICS 2-Level Foldable Steel Clothes Drying Rack with sock clips" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>When multiple family members generate a constant stream of mixed laundry&mdash;including baby onesies, adult trousers, workout gear, school uniforms, and dozens of socks&mdash;horizontal racks can quickly run out of compartmentalized space. The <strong>SONGMICS 2-Level Steel Clothes Drying Rack</strong> solves this with an ingenious multi-tiered vertical architecture boasting an impressive <strong>33 drying rails</strong> and a heavy-duty <strong>77-pound weight rating</strong>.</p>
@@ -728,16 +723,7 @@
                 <div class="blog-ad-wrapper" style="margin: 40px 0; text-align: center; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px dashed #e0e0e0;">
                     <div class="ad-label" style="font-size: 0.75rem; text-transform: uppercase; color: #999; margin-bottom: 8px; letter-spacing: 0.5px;">Advertisement</div>
                     <div style="min-height: 90px; display: flex; justify-content: center; align-items: center;">
-                        <script type="text/javascript">
-                            atOptions = {
-                                'key' : '19d79c25e295f3046e227577efa2e057',
-                                'format' : 'iframe',
-                                'height' : 90,
-                                'width' : 728,
-                                'params' : {}
-                            };
-                        </script>
-                        <script type="text/javascript" src="https://www.topcreativeformat.com/19d79c25e295f3046e227577efa2e057/invoke.js"></script>
+                        
                     </div>
                 </div>
 
@@ -749,7 +735,7 @@
                     <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 0; margin-bottom: 15px;">3. JAUREE Expandable Stainless Steel Drying Rack &mdash; Best for Flexible Drying</h2>
 
                     <div style="text-align: center; margin: 25px 0;">
-                        <img src="/assets/jauree-expandable-stainless-steel-drying-rack.webp" alt="JAUREE Expandable Stainless Steel Clothes Drying Rack for outdoor patio and bedsheets" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+                        <img src="/assets/jauree-expandable-stainless-steel-drying-rack.webp" decoding="async" loading="lazy" alt="JAUREE Expandable Stainless Steel Clothes Drying Rack for outdoor patio and bedsheets" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
                     </div>
 
                     <p>If your laundry demands fluctuate wildly between a few casual workout shirts during mid-week and gigantic king-sized duvets, heavy bedsheets, or beach towels on Sunday, the <strong>JAUREE Expandable Stainless Steel Drying Rack</strong> is an unmatched powerhouse. Crafted from heavy-gauge, rust-proof stainless steel, this rack features a telescoping tri-bar design that smoothly expands from a compact <strong>51 inches wide up to an expansive 79 inches wide</strong>.</p>
@@ -1004,7 +990,7 @@
                 'params' : {}
               };
             </script>
-            <script src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
         </div>
     </aside>
 </body>
