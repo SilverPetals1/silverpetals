@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-best-electric-smokers-2027",
+        title: "Best Electric Smokers for 2027: 5 Models Compared",
+        category: "kitchen",
+        categoryLabel: "Kitchen",
+        image: "/assets/best-electric-smokers-2027-hero.jpg",
+        saves: 308400,
+        description: "Compare the 5 best electric smokers for 2027: Masterbuilt 30-Inch, EAST OAK 30-Inch, Masterbuilt 40-Inch, Bradley Digital 4-Rack, and Smokin-It Model #2D WiFi.",
+        link: "blog-best-electric-smokers-2027.html",
+        colors: ["#24221F", "#C5A059", "#DDA15E", "#FAF8F5"],
+        steps: [
+            "Compare the 5 Best Electric Smokers across capacity, side-loaders, automatic bisquette feeding, insulated stainless build, and verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-camp-chef-woodwind-pro-review",
         title: "Camp Chef Woodwind Pro Review: Is This Premium Pellet Grill Worth Buying?",
         category: "kitchen",
