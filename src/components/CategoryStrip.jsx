@@ -31,15 +31,19 @@ export default function CategoryStrip({ activeCategory, onClearSearch }) {
   return (
     <nav className="categories-nav">
       <div className="nav-container">
-        {CATEGORIES.map(cat => (
-          <button
-            key={cat.id}
-            className={`nav-item ${activeCategory === cat.id ? 'active' : ''}`}
-            onClick={() => handleCategoryClick(cat.id)}
-          >
-            <span>{cat.label}</span>
-          </button>
-        ))}
+        {CATEGORIES.map(cat => {
+          const href = cat.id === 'all' ? '/' : `/category/${cat.id}`;
+          return (
+            <a
+              key={cat.id}
+              href={href}
+              className={`nav-item ${activeCategory === cat.id ? 'active' : ''}`}
+              onClick={() => onClearSearch()}
+            >
+              <span>{cat.label}</span>
+            </a>
+          );
+        })}
       </div>
     </nav>
   )

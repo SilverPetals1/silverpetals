@@ -58,6 +58,24 @@
       ]
     },
     {
+      "source": "/category/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=86400, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/category",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=86400, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
       "source": "/",
       "headers": [
         {
@@ -351,14 +369,14 @@
     },
     {
       "source": "/category/:categoryName",
-      "destination": "/index.html"
+      "destination": "/category/:categoryName.html"
     },
     {
       "source": "/category",
-      "destination": "/index.html"
+      "destination": "/category/index.html"
     },
     {
-      "source": "/((?!assets|blogs|blog|images|favicon\\.svg|rss\\.xml|feed\\.xml|sitemap\\.xml|robots\\.txt|googlec7a0e57d12b1176d\\.html|styles\\.css).*)",
+      "source": "/((?!assets|blogs|blog|category|images|favicon\\.svg|rss\\.xml|feed\\.xml|sitemap\\.xml|robots\\.txt|googlec7a0e57d12b1176d\\.html|styles\\.css).*)",
       "destination": "/index.html"
     }
   ]
