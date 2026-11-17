@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-best-chairs-for-small-spaces-2027",
+        title: "9 Best Chairs for Small Spaces in 2027: Stylish & Space-Saving Picks",
+        category: "home-decor",
+        categoryLabel: "Home Decor",
+        image: "/assets/best-chairs-for-small-spaces-2027-hero.jpg",
+        saves: 368200,
+        description: "Discover the 9 best chairs for small spaces in 2027. Compare compact accent chairs, armless designs, folding chairs, and stylish seating for apartments.",
+        link: "blog-best-chairs-for-small-spaces-2027.html",
+        colors: ["#9C6644", "#7F5539", "#DDA15E", "#FAF8F5"],
+        steps: [
+            "Discover the 9 Best Chairs for Small Spaces in 2027, comparing compact mid-century armchairs, flexible bentwood frames, armless profiles, swivel barrel seating, and hidden storage with verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-5-best-portable-grills-2027",
         title: "5 Best Portable Grills in 2027: Top Picks for Camping, Tailgating & Outdoor Cooking",
         category: "kitchen",
