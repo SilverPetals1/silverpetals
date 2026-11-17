@@ -1,13 +1,13 @@
 export const DECOR_DB = [
     {
-        id: "blog-best-portable-grills-2027",
+        id: "blog-5-best-portable-grills-2027",
         title: "5 Best Portable Grills in 2027: Top Picks for Camping, Tailgating & Outdoor Cooking",
         category: "kitchen",
         categoryLabel: "Kitchen",
         image: "/assets/best-portable-grills-2027-hero.jpg",
         saves: 324500,
         description: "Discover the 5 best portable grills in 2027 for camping, tailgating, picnics, and backyard cooking: Weber Traveler, Weber Q1200, Coleman RoadTrip 285, Cuisinart CGG-306, and Weber Smokey Joe.",
-        link: "blog-best-portable-grills-2027.html",
+        link: "blog-5-best-portable-grills-2027.html",
         colors: ["#24221F", "#C5A059", "#DDA15E", "#FAF8F5"],
         steps: [
             "Compare the 5 Best Portable Grills in 2027 across propane and charcoal fuel types, folding carts, tabletop designs, and verified Amazon affiliate links."
