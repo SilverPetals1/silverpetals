@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-camp-chef-woodwind-pro-review",
+        title: "Camp Chef Woodwind Pro Review: Is This Premium Pellet Grill Worth Buying?",
+        category: "kitchen",
+        categoryLabel: "Kitchen",
+        image: "/assets/camp-chef-woodwind-pro-hero.jpg",
+        saves: 318900,
+        description: "In-depth Camp Chef Woodwind Pro review: Explore the innovative Smoke Box, Wi-Fi digital controls, cooking performance, brisket results, pros, cons, and buyer tips.",
+        link: "blog-camp-chef-woodwind-pro-review.html",
+        colors: ["#24221F", "#C5A059", "#DDA15E", "#FAF8F5"],
+        steps: [
+            "Explore the Camp Chef Woodwind Pro with integrated Smoke Box for real wood chunks and charcoal, Wi-Fi smart app controls, and verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-5-best-gas-grills-under-500",
         title: "The 5 Best Gas Grills Under $500 – Fall 2027",
         category: "kitchen",
