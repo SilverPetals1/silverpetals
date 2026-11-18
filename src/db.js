@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-best-offset-smokers-2027",
+        title: "The 4 Best Offset Smokers in 2027: Top Picks for Authentic BBQ",
+        category: "kitchen",
+        categoryLabel: "Kitchen",
+        image: "/assets/best-offset-smokers-2027-hero.jpg",
+        saves: 342100,
+        description: "Discover the 4 best offset smokers in 2027. Compare Oklahoma Joe's, Old Country Brazos, Yoder Wichita, and Workhorse Pits for authentic wood-fired barbecue.",
+        link: "blog-best-offset-smokers-2027.html",
+        colors: ["#24221F", "#9C6644", "#DDA15E", "#FAF8F5"],
+        steps: [
+            "Discover the 4 Best Offset Smokers in 2027, comparing beginner-friendly smokers, heavy-duty 1/4-inch welded steel, competition rigs, and custom Texas stick burners with verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-best-chairs-for-small-spaces-2027",
         title: "9 Best Chairs for Small Spaces in 2027: Stylish & Space-Saving Picks",
         category: "home-decor",
