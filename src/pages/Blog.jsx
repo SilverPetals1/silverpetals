@@ -223,7 +223,8 @@ export default function Blog() {
           }
         })
 
-        let mainEl = doc.querySelector('main.blog-main-content') || 
+        let mainEl = doc.querySelector('.blog-main-content-column') ||
+                     doc.querySelector('main.blog-main-content') || 
                      doc.querySelector('.blog-detail-container') || 
                      doc.querySelector('main') || 
                      doc.querySelector('.blog-container') || 
@@ -374,67 +375,74 @@ export default function Blog() {
         />
 
         {/* Sidebar Inspiration Column */}
-        <aside className="blog-sidebar-column">
+        <aside className="blog-sidebar-column" aria-label="Sidebar Inspiration & Resources">
           <div className="sidebar-sticky-content">
-            {/* Sidebar ad removed */}
-
             {/* Smartlink Guide CTA Card */}
             <div className="sidebar-guide-card">
-              <span className="sidebar-guide-badge">Free Download</span>
-              <h4 className="sidebar-guide-title">2026 Decor & Styling Checklist</h4>
-              <p className="sidebar-guide-desc">Get the complete room-by-room design guide, moodboards, and product source lists.</p>
+              <span className="sidebar-guide-badge">Free Resource</span>
+              <h4 className="sidebar-guide-title">2027 Home & Outdoor Styling Checklist</h4>
+              <p className="sidebar-guide-desc">Curated product source sheets, room dimension guides & seasonal palettes for your project.</p>
               <a 
                 href={SMARTLINK_URL} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="sidebar-guide-btn"
               >
-                📥 Download Guide (Free)
+                <span>📥 Download Free Checklist</span>
               </a>
             </div>
 
-            <h3 className="sidebar-section-title">Trending Inspiration</h3>
-            
-            <div className="sidebar-posts-list">
-              {sidebarPosts.map((post) => {
-                const postSlug = post.link.replace('.html', '').replace(/^blog-/, '')
-                return (
-                  <div 
-                    key={post.id} 
-                    className="sidebar-post-card"
-                    onClick={() => {
-                      navigate(`/blog/${postSlug}`);
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }}
-                  >
-                    <div className="sidebar-post-image">
-                      <img src={post.image} alt={post.title} />
+            <div className="sidebar-widget">
+              <h3 className="sidebar-section-title">Trending Guides</h3>
+              
+              <div className="sidebar-posts-list">
+                {sidebarPosts.map((post) => {
+                  const postSlug = post.link.replace('.html', '').replace(/^blog-/, '')
+                  return (
+                    <div 
+                      key={post.id} 
+                      className="sidebar-post-card"
+                      onClick={() => {
+                        navigate(`/blog/${postSlug}`);
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }}
+                    >
+                      <div className="sidebar-post-image">
+                        <img src={post.image} alt={post.title} />
+                      </div>
+                      <div className="sidebar-post-info">
+                        <span className="sidebar-post-category">{post.categoryLabel}</span>
+                        <h4 className="sidebar-post-title">{post.title}</h4>
+                      </div>
                     </div>
-                    <div className="sidebar-post-info">
-                      <span className="sidebar-post-category">{post.categoryLabel}</span>
-                      <h4 className="sidebar-post-title">{post.title}</h4>
-                    </div>
-                  </div>
-                )
-              })}
+                  )
+                })}
+              </div>
+            </div>
+
+            {/* Popular Categories Cloud */}
+            <div className="sidebar-widget">
+              <h3 className="sidebar-section-title">Explore Categories</h3>
+              <div className="sidebar-categories-cloud">
+                <a href="/category/living-room" onClick={(e) => { e.preventDefault(); navigate('/category/living-room'); }} className="sidebar-cat-pill">Living Room</a>
+                <a href="/category/kitchen" onClick={(e) => { e.preventDefault(); navigate('/category/kitchen'); }} className="sidebar-cat-pill">Kitchen</a>
+                <a href="/category/bedroom" onClick={(e) => { e.preventDefault(); navigate('/category/bedroom'); }} className="sidebar-cat-pill">Bedroom</a>
+                <a href="/category/bathroom" onClick={(e) => { e.preventDefault(); navigate('/category/bathroom'); }} className="sidebar-cat-pill">Bathroom</a>
+                <a href="/category/outdoor" onClick={(e) => { e.preventDefault(); navigate('/category/outdoor'); }} className="sidebar-cat-pill">Outdoor & Patio</a>
+                <a href="/category/home-decor" onClick={(e) => { e.preventDefault(); navigate('/category/home-decor'); }} className="sidebar-cat-pill">Home Decor</a>
+                <a href="/category/ceiling" onClick={(e) => { e.preventDefault(); navigate('/category/ceiling'); }} className="sidebar-cat-pill">Ceiling</a>
+                <a href="/category/flooring" onClick={(e) => { e.preventDefault(); navigate('/category/flooring'); }} className="sidebar-cat-pill">Flooring</a>
+              </div>
             </div>
 
             {/* Newsletter Promo Widget */}
             <div className="sidebar-newsletter-promo">
-              <h4>Get Free Design Guides</h4>
-              <p>Sign up to receive our weekly curation of top interior projects directly to your inbox.</p>
-              <button 
-                onClick={() => {
-                  const footerInput = document.querySelector('footer input[type="email"]');
-                  if (footerInput) {
-                    footerInput.focus();
-                    footerInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                  }
-                }}
-                className="sidebar-promo-btn"
-              >
-                Subscribe Now
-              </button>
+              <h4>Join SilverPetals Club</h4>
+              <p>Get handpicked interior design inspiration, smart buying guides & seasonal decor ideas directly to your inbox.</p>
+              <form className="sidebar-newsletter-form" onSubmit={(e) => { e.preventDefault(); alert('Thank you for subscribing to SilverPetals!'); }}>
+                <input type="email" placeholder="Enter your email" required className="sidebar-newsletter-input" />
+                <button type="submit" className="sidebar-promo-btn">Join Club</button>
+              </form>
             </div>
           </div>
         </aside>

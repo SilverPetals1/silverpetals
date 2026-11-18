@@ -103,7 +103,9 @@
 
     <!-- Main Blog Container -->
     <main class="blog-main-content">
-        <div class="blog-wrapper">
+        <div class="blog-layout-wrapper">
+        <div class="blog-main-content-column">
+            <div class="blog-wrapper">
             <!-- Back navigation -->
             <a href="/" class="back-to-home">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -348,7 +350,113 @@
             </div>
 
         </div>
-    </main>
+            </div>
+        <aside class="blog-sidebar-column" aria-label="Sidebar Inspiration & Resources">
+            <div class="sidebar-sticky-content">
+                <!-- Resource CTA Card -->
+                <div class="sidebar-guide-card">
+                    <span class="sidebar-guide-badge">Free Resource</span>
+                    <h4 class="sidebar-guide-title">2027 Home & Outdoor Styling Checklist</h4>
+                    <p class="sidebar-guide-desc">Curated product source sheets, room dimension guides & seasonal palettes for your project.</p>
+                    <a href="/" class="sidebar-guide-btn">
+                        <span>📥 Download Free Checklist</span>
+                    </a>
+                </div>
+
+                <!-- Trending Guides Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-section-title">Trending Guides</h3>
+                    <div class="sidebar-posts-list">
+                        <a href="/blog/best-chairs-for-small-spaces-2027" class="sidebar-post-card">
+                            <div class="sidebar-post-image">
+                                <img src="/assets/best-chairs-for-small-spaces-2027-hero.jpg" alt="Best Chairs for Small Spaces in 2027" loading="lazy" />
+                            </div>
+                            <div class="sidebar-post-info">
+                                <span class="sidebar-post-category">Living Room</span>
+                                <h4 class="sidebar-post-title">9 Best Chairs for Small Spaces in 2027</h4>
+                            </div>
+                        </a>
+
+                        <a href="/blog/4-best-ninja-countertop-oven" class="sidebar-post-card">
+                            <div class="sidebar-post-image">
+                                <img src="/images/ninja-countertop-ovens/00-hero-ninja-countertop-ovens.jpg" alt="Best Ninja Countertop Ovens" loading="lazy" />
+                            </div>
+                            <div class="sidebar-post-info">
+                                <span class="sidebar-post-category">Kitchen</span>
+                                <h4 class="sidebar-post-title">4 Best Ninja Countertop Ovens for 2026</h4>
+                            </div>
+                        </a>
+
+                        <a href="/blog/5-best-portable-grills-2027" class="sidebar-post-card">
+                            <div class="sidebar-post-image">
+                                <img src="/assets/best-portable-grills-2027-hero.jpg" alt="Best Portable Grills in 2027" loading="lazy" />
+                            </div>
+                            <div class="sidebar-post-info">
+                                <span class="sidebar-post-category">Outdoor</span>
+                                <h4 class="sidebar-post-title">5 Best Portable Grills in 2027</h4>
+                            </div>
+                        </a>
+
+                        <a href="/blog/best-electric-smokers-2027" class="sidebar-post-card">
+                            <div class="sidebar-post-image">
+                                <img src="/assets/best-electric-smokers-2027-hero.jpg" alt="Best Electric Smokers in 2027" loading="lazy" />
+                            </div>
+                            <div class="sidebar-post-info">
+                                <span class="sidebar-post-category">BBQ & Grilling</span>
+                                <h4 class="sidebar-post-title">4 Best Electric Smokers in 2027</h4>
+                            </div>
+                        </a>
+
+                        <a href="/blog/5-best-pellet-grills-and-smokers" class="sidebar-post-card">
+                            <div class="sidebar-post-image">
+                                <img src="/assets/best-pellet-grills-and-smokers-hero.jpg" alt="Best Pellet Grills and Smokers" loading="lazy" />
+                            </div>
+                            <div class="sidebar-post-info">
+                                <span class="sidebar-post-category">Outdoor Cooking</span>
+                                <h4 class="sidebar-post-title">5 Best Pellet Grills & Smokers</h4>
+                            </div>
+                        </a>
+
+                        <a href="/blog/5-best-bottle-washer-sterilizer-and-dryer" class="sidebar-post-card">
+                            <div class="sidebar-post-image">
+                                <img src="/assets/5-best-bottle-washer-sterilizer-and-dryer-hero.webp" alt="Best Bottle Washer Sterilizers" loading="lazy" />
+                            </div>
+                            <div class="sidebar-post-info">
+                                <span class="sidebar-post-category">Baby & Kitchen</span>
+                                <h4 class="sidebar-post-title">5 Best Bottle Washer Sterilizers and Dryers</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Popular Categories Cloud -->
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-section-title">Explore Categories</h3>
+                    <div class="sidebar-categories-cloud">
+                        <a href="/category/living-room" class="sidebar-cat-pill">Living Room</a>
+                        <a href="/category/kitchen" class="sidebar-cat-pill">Kitchen</a>
+                        <a href="/category/bedroom" class="sidebar-cat-pill">Bedroom</a>
+                        <a href="/category/bathroom" class="sidebar-cat-pill">Bathroom</a>
+                        <a href="/category/outdoor" class="sidebar-cat-pill">Outdoor & Patio</a>
+                        <a href="/category/home-decor" class="sidebar-cat-pill">Home Decor</a>
+                        <a href="/category/ceiling" class="sidebar-cat-pill">Ceiling</a>
+                        <a href="/category/flooring" class="sidebar-cat-pill">Flooring</a>
+                    </div>
+                </div>
+
+                <!-- Newsletter Promo -->
+                <div class="sidebar-newsletter-promo">
+                    <h4>Join SilverPetals Club</h4>
+                    <p>Get handpicked interior design inspiration, smart buying guides & seasonal decor ideas directly to your inbox.</p>
+                    <form class="sidebar-newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to SilverPetals!');">
+                        <input type="email" placeholder="Enter your email" required class="sidebar-newsletter-input" />
+                        <button type="submit" class="sidebar-promo-btn">Join Club</button>
+                    </form>
+                </div>
+            </div>
+        </aside>
+    </div>
+</main>
 
     <!-- Footer -->
     <footer class="main-footer">
