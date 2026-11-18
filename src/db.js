@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-6-best-carpet-cleaners-of-2027",
+        title: "6 Best Carpet Cleaners of 2027: Top Machines for Deep Cleaning",
+        category: "home-decor",
+        categoryLabel: "Home Decor",
+        image: "/assets/6-best-carpet-cleaners-2027-hero.jpg",
+        saves: 382400,
+        description: "Discover the 6 best carpet cleaners of 2027 for deep cleaning, pet stains, spills, and everyday messes. Compare powerful carpet cleaning machines for every home.",
+        link: "blog-6-best-carpet-cleaners-of-2027.html",
+        colors: ["#9C6644", "#7F5539", "#DDA15E", "#FAF8F5"],
+        steps: [
+            "Discover the 6 Best Carpet Cleaners of 2027, comparing versatile upright shampooers, HydroSteam stain lifters, commercial high-capacity machines, automatic wash-and-dry systems, and compact portable spot cleaners with verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-6-best-vacuums-for-carpet-of-2027",
         title: "6 Best Vacuums for Carpet of 2027: Top Picks for Deep Cleaning",
         category: "home-decor",
