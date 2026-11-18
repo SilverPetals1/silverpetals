@@ -355,6 +355,42 @@
             line-height: 1.5;
         }
     </style>
+
+    <!-- Navigation Preserver: Guarantees article links always open proper article -->
+    <script>
+      (function() {
+        window.addEventListener('click', function(e) {
+          var targetLink = e.target && e.target.closest ? e.target.closest('a') : null;
+          if (!targetLink && e.clientX !== undefined && e.clientY !== undefined && document.elementsFromPoint) {
+            try {
+              var elements = document.elementsFromPoint(e.clientX, e.clientY);
+              for (var i = 0; i < elements.length; i++) {
+                var el = elements[i];
+                var a = el && el.closest ? el.closest('a') : null;
+                if (a && a.href) {
+                  targetLink = a;
+                  break;
+                }
+              }
+            } catch (err) {}
+          }
+          if (targetLink && targetLink.href) {
+            var href = targetLink.getAttribute('href') || targetLink.href;
+            if (href && !href.startsWith('javascript') && !href.startsWith('#')) {
+              var isInternal = href.startsWith('/') || href.startsWith('.') || targetLink.hostname === window.location.hostname;
+              if (isInternal && targetLink.target !== '_blank') {
+                var dest = targetLink.href;
+                setTimeout(function() {
+                  if (window.location.href !== dest) {
+                    window.location.href = dest;
+                  }
+                }, 60);
+              }
+            }
+          }
+        }, true);
+      })();
+    </script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->

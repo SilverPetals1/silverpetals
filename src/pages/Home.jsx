@@ -138,6 +138,10 @@ export default function Home({
                 if (!featSlug) {
                   e.preventDefault()
                   onOpenDetails(featuredItem)
+                } else {
+                  setTimeout(() => {
+                    window.location.href = featHref
+                  }, 60)
                 }
               }}
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex' }}
@@ -218,6 +222,10 @@ export default function Home({
                     if (!slug) {
                       e.preventDefault()
                       onOpenDetails(item)
+                    } else {
+                      setTimeout(() => {
+                        window.location.href = href
+                      }, 60)
                     }
                   }}
                   style={{ animationDelay: delay, textDecoration: 'none', color: 'inherit' }}
