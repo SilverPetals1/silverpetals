@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { DECOR_DB } from '../db'
+import Adsterra300x250 from '../components/Adsterra300x250'
 function getInArticleAdHtml() { return ""; }
 
 const SMARTLINK_URL = '/'
@@ -419,6 +420,9 @@ export default function Blog() {
                 })}
               </div>
             </div>
+
+            {/* Sponsored Sidebar 300x250 Ad */}
+            <Adsterra300x250 />
 
             {/* Popular Categories Cloud */}
             <div className="sidebar-widget">

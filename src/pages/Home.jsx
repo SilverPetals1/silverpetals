@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { DECOR_DB } from '../db'
-// AdsterraAd removed
+import Adsterra468x60 from '../components/Adsterra468x60'
 
 export default function Home({
   activeCategory,
@@ -200,7 +200,9 @@ export default function Home({
             <button className="btn btn-secondary" onClick={handleResetFilters}>Clear All Filters</button>
           </div>
         ) : (
-          <div id="masonry-grid" className="masonry-grid">
+          <>
+            <Adsterra468x60 />
+            <div id="masonry-grid" className="masonry-grid">
             
             {gridItems.map((item, idx) => {
               const isPinned = savedPins.includes(item.id)
@@ -244,6 +246,7 @@ export default function Home({
               )
             })}
           </div>
+        </>
         )}
       </main>
     </>
