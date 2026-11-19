@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-20-amazon-home-best-buys",
+        title: "20 Amazon Home Best Buys: Our Top Picks of the Year",
+        category: "home-decor",
+        categoryLabel: "Home Decor",
+        image: "/assets/20-amazon-home-best-buys-hero.jpg",
+        saves: 412500,
+        description: "Discover 20 of the best Amazon home finds for 2026, from clever kitchen gadgets and stylish home decor to bedroom essentials, cleaning tools, and smart organizers.",
+        link: "blog-20-amazon-home-best-buys.html",
+        colors: ["#9C6644", "#7F5539", "#DDA15E", "#FAF8F5"],
+        steps: [
+            "Discover 20 Amazon Home Best Buys, comparing clever kitchen gadgets, space-saving storage organizers, luxury bedroom linens, adhesive bathroom organizers, and top cleaning finds with verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-6-best-carpet-cleaners-of-2027",
         title: "6 Best Carpet Cleaners of 2027: Top Machines for Deep Cleaning",
         category: "home-decor",
