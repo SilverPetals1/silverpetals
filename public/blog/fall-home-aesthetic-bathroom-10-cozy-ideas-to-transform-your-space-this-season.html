@@ -109,11 +109,11 @@
       "name": "Fall Home Aesthetic Bathroom: 10 Cozy Ideas to Transform Your Space This Season",
       "numberOfItems": 10,
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "1. Warm, Plush Towels in Rich Autumn Tones"},
-        {"@type": "ListItem", "position": 2, "name": "2. A Fall-Scented Candle or Reed Diffuser for Ambient Aromatherapy"},
-        {"@type": "ListItem", "position": 3, "name": "3. A Cozy Bath Mat in a Warm, Textured Material"},
-        {"@type": "ListItem", "position": 4, "name": "4. Dried Florals or Pampas Grass in a Small Ceramic Vase"},
-        {"@type": "ListItem", "position": 5, "name": "5. Warm Amber or Copper-Toned Vanity Accessories"},
+        {"@type": "ListItem", "position": 1, "name": "American Soft Linen Premium Turkish 600GSM Cotton 6-Piece Towel Set", "url": "https://link.amazon/B04Zntomv"},
+        {"@type": "ListItem", "position": 2, "name": "Cocorrína Cashmere Vanilla 6.7 fl oz Preserved Flower Reed Diffuser", "url": "https://link.amazon/B00OP3afO"},
+        {"@type": "ListItem", "position": 3, "name": "OLANLY Extra Soft Absorbent Chenille Bath Rug (30\"x20\", Non-Slip)", "url": "https://link.amazon/B066KozXO"},
+        {"@type": "ListItem", "position": 4, "name": "200-Piece Natural Dried Flower &amp; Pampas Grass Bouquet for Vases", "url": "https://link.amazon/B09NhUEfD"},
+        {"@type": "ListItem", "position": 5, "name": "LaMarriti Amber Brown 6-Piece Ribbed Glass Bathroom Accessories Set", "url": "https://link.amazon/B0iGX1LTI"},
         {"@type": "ListItem", "position": 6, "name": "6. A Natural Woven Basket for Rolled Towels and Linens"},
         {"@type": "ListItem", "position": 7, "name": "7. Layered Lighting for a Warm, Cozy Evening Glow"},
         {"@type": "ListItem", "position": 8, "name": "8. Seasonal Hand Soap in a Decorative Autumn-Toned Dispenser"},
@@ -160,6 +160,187 @@
         }, true);
       })();
     </script>
+    <style>
+        /* Product Cards & Amazon Yellow Buttons */
+        .amazon-cta-wrapper {
+            margin: 22px 0 16px 0;
+            text-align: center;
+        }
+        .amazon-aff-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #ffd814 0%, #f7ca00 100%);
+            color: #0f1111;
+            font-size: 0.98rem;
+            font-weight: 700;
+            padding: 13px 26px;
+            border-radius: 999px;
+            text-decoration: none;
+            border: 1px solid #d5a600;
+            box-shadow: 0 4px 14px rgba(213, 166, 0, 0.35);
+            transition: all 0.25s ease;
+        }
+        .amazon-aff-btn:hover {
+            background: linear-gradient(135deg, #f7ca00 0%, #e6b800 100%);
+            box-shadow: 0 6px 20px rgba(213, 166, 0, 0.45);
+            transform: translateY(-2px);
+            color: #0f1111;
+        }
+        /* Product Recommendation Box */
+        .shelf-product-card {
+            background: #ffffff;
+            border: 1px solid #ede8e1;
+            border-radius: 14px;
+            padding: 24px;
+            margin: 24px 0 32px 0;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+            transition: box-shadow 0.25s ease;
+        }
+        .shelf-product-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+        .shelf-product-badge {
+            display: inline-block;
+            background: #9C6644;
+            color: #ffffff;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            padding: 4px 12px;
+            border-radius: 999px;
+            margin-bottom: 10px;
+        }
+        .shelf-product-card h4 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.35rem;
+            color: #1a1a1a;
+            margin: 0 0 16px 0;
+            line-height: 1.35;
+        }
+        .shelf-product-image-wrap {
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 12px 0 18px 0;
+            background: #ffffff;
+            border: 1px solid #f0ece6;
+            max-height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .shelf-product-image-wrap img {
+            width: 100%;
+            height: 100%;
+            max-height: 420px;
+            object-fit: contain;
+            display: block;
+            background: #ffffff;
+            transition: transform 0.3s ease;
+        }
+        .shelf-product-card:hover .shelf-product-image-wrap img {
+            transform: scale(1.02);
+        }
+        /* Comparison Table Matrix */
+        .table-responsive-wrapper {
+            position: relative;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 28px 0 38px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+            border: 1px solid #ede8e1;
+            background: #ffffff;
+        }
+        .comparison-table {
+            width: 100%;
+            min-width: 680px;
+            border-collapse: separate;
+            border-spacing: 0;
+            text-align: left;
+            font-size: 0.94rem;
+        }
+        .comparison-table th {
+            background: #9C6644;
+            color: #ffffff;
+            padding: 16px 18px;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+            border-bottom: 2px solid #7F5539;
+        }
+        .comparison-table td {
+            padding: 15px 18px;
+            border-bottom: 1px solid #ede8e1;
+            color: #2b2b2b;
+            line-height: 1.55;
+            vertical-align: middle;
+            background: #ffffff;
+        }
+        .comparison-table tr:nth-child(even) td {
+            background: #faf8f5;
+        }
+        .comparison-table tr:hover td {
+            background: #FDF8F5;
+        }
+        .comparison-table th:last-child,
+        .comparison-table td:last-child {
+            position: sticky !important;
+            right: 0 !important;
+            background: #ffffff !important;
+            box-shadow: -6px 0 14px rgba(0, 0, 0, 0.09) !important;
+            z-index: 10 !important;
+            text-align: center !important;
+            white-space: nowrap !important;
+            min-width: 155px !important;
+            width: 165px !important;
+        }
+        .comparison-table thead th:last-child {
+            background: #9C6644 !important;
+            color: #ffffff !important;
+        }
+        .comparison-table tbody tr:nth-child(even) td:last-child {
+            background: #faf8f5 !important;
+        }
+        .comparison-table tbody tr:hover td:last-child {
+            background: #FDF8F5 !important;
+        }
+        .amazon-tbl-btn {
+            display: inline-block;
+            background: #ffd814;
+            color: #0f1111;
+            font-weight: 700;
+            padding: 8px 14px;
+            font-size: 0.85rem;
+            border-radius: 999px;
+            text-decoration: none;
+            border: 1px solid #d5a600;
+            box-shadow: 0 2px 6px rgba(213, 166, 0, 0.3);
+            transition: all 0.2s ease;
+        }
+        .amazon-tbl-btn:hover {
+            background: #f7ca00;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(213, 166, 0, 0.4);
+            color: #0f1111;
+        }
+        @media (max-width: 768px) {
+            .shelf-product-card {
+                padding: 16px;
+                margin: 20px 0;
+            }
+            .shelf-product-card h4 {
+                font-size: 1.15rem;
+            }
+            .amazon-aff-btn {
+                width: 100%;
+                padding: 12px 18px;
+                font-size: 0.92rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -276,6 +457,85 @@
 
             <!-- Body Content -->
             <div class="blog-body-text">
+
+            <!-- Quick Comparison Table Matrix with Sticky Amazon Action Column -->
+            <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 35px; margin-bottom: 15px;">Featured Fall Bathroom Essentials on Amazon</h2>
+
+            <div class="table-responsive-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Fall Bathroom Essential</th>
+                            <th>Best For</th>
+                            <th style="text-align: center;">View on Amazon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/fall-bathroom-product-1.jpg" alt="American Soft Linen Turkish Cotton 6-Piece Towel Set" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>1. American Soft Linen Premium Turkish 6-PC Towel Set</strong>
+                                </div>
+                            </td>
+                            <td>Best Plush Autumn Bath Towels & Linens</td>
+                            <td>
+                                <a href="https://link.amazon/B04Zntomv" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/fall-bathroom-product-2.jpg" alt="Cocorrína Cashmere Vanilla Reed Diffuser" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>2. Cocorrína Cashmere Vanilla Reed Diffuser</strong>
+                                </div>
+                            </td>
+                            <td>Best Ambient Fall Aromatherapy Scent</td>
+                            <td>
+                                <a href="https://link.amazon/B00OP3afO" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/fall-bathroom-product-3.jpg" alt="OLANLY Extra Soft Chenille Bathroom Rug" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>3. OLANLY Extra Soft Absorbent Chenille Bath Rug</strong>
+                                </div>
+                            </td>
+                            <td>Best Cozy Textured Non-Slip Bath Mat</td>
+                            <td>
+                                <a href="https://link.amazon/B066KozXO" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/fall-bathroom-product-4.jpg" alt="200PCS Dried Flower & Pampas Grass Bouquet" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>4. 200-Piece Natural Dried Flower & Pampas Grass Bouquet</strong>
+                                </div>
+                            </td>
+                            <td>Best Preserved Autumn Florals & Pampas Grass</td>
+                            <td>
+                                <a href="https://link.amazon/B09NhUEfD" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/fall-bathroom-product-5.jpg" alt="LaMarriti Amber Brown 6-Piece Glass Bathroom Accessories Set" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>5. LaMarriti Amber Brown 6-Piece Glass Vanity Set</strong>
+                                </div>
+                            </td>
+                            <td>Best Warm Amber & Fluted Glass Vanity Accessories</td>
+                            <td>
+                                <a href="https://link.amazon/B0iGX1LTI" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p style="font-style: italic; color: #7f746b; font-size: 0.92rem; margin-top: 10px; margin-bottom: 35px;">*Product availability, prices, and model options may vary. Click through to Amazon for live pricing and customer reviews.*</p>
                 <section class="blog-section" id="section-1">
                     <h3 class="blog-h3-title">1. Warm, Plush Towels in Rich Autumn Tones</h3>
                     <div class="blog-image-wrapper">
