@@ -321,59 +321,114 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Festive Snowfall Canvas -->
-    <canvas id="snow-canvas"></canvas>
+    <!-- Festive Snowfall & Sparkle Canvas (Crawford Construction Style) -->
+    <canvas id="snow-canvas" aria-hidden="true" style="position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:9999;user-select:none;"></canvas>
     <script>
       (function() {
+        if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         var canvas = document.getElementById('snow-canvas');
         if (!canvas) return;
-        var ctx = canvas.getContext('2d');
-        var width, height;
-        var flakes = [];
-        var flakeCount = 45;
+        var ctx = canvas.getContext('2d', { alpha: true });
+        if (!ctx) return;
+
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        var dpr = Math.min(window.devicePixelRatio || 1, 2);
 
         function resize() {
-          width = canvas.width = window.innerWidth;
-          height = canvas.height = window.innerHeight;
+          width = window.innerWidth;
+          height = window.innerHeight;
+          dpr = Math.min(window.devicePixelRatio || 1, 2);
+          canvas.width = width * dpr;
+          canvas.height = height * dpr;
+          ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         }
-        window.addEventListener('resize', resize);
+        window.addEventListener('resize', resize, { passive: true });
         resize();
 
-        for (var i = 0; i < flakeCount; i++) {
-          flakes.push({
+        var count = width < 768 ? 30 : 60;
+        var goldPalette = ['rgba(212, 175, 55, ', 'rgba(243, 229, 171, ', 'rgba(224, 185, 85, '];
+        var whitePalette = ['rgba(255, 255, 255, ', 'rgba(235, 243, 255, '];
+
+        var particles = [];
+        for (var i = 0; i < count; i++) {
+          var isGold = Math.random() > 0.4;
+          var typeRand = Math.random();
+          var type = typeRand > 0.65 ? 'gold-star' : typeRand > 0.35 ? 'confetti' : 'snow';
+          var palette = isGold ? goldPalette : whitePalette;
+          var base = palette[Math.floor(Math.random() * palette.length)];
+          var opacity = Math.random() * 0.45 + 0.35;
+
+          particles.push({
             x: Math.random() * width,
             y: Math.random() * height,
-            radius: Math.random() * 2.2 + 0.8,
-            speedY: Math.random() * 0.8 + 0.4,
-            speedX: (Math.random() - 0.5) * 0.4,
-            opacity: Math.random() * 0.5 + 0.3
+            radius: Math.random() * 2.2 + 1,
+            density: Math.random() * 20 + 5,
+            color: base + opacity.toFixed(2) + ')',
+            type: type,
+            rotation: Math.random() * 360,
+            rotationSpeed: (Math.random() - 0.5) * 1.8,
+            size: Math.random() * 4.5 + 3,
+            tilt: Math.random() * Math.PI,
+            tiltSpeed: Math.random() * 0.04 + 0.015,
+            swingSpeed: Math.random() * 0.02 + 0.008
           });
         }
 
-        function draw() {
-          ctx.clearRect(0, 0, width, height);
-          for (var i = 0; i < flakeCount; i++) {
-            var f = flakes[i];
-            ctx.beginPath();
-            ctx.arc(f.x, f.y, f.radius, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(255, 255, 255, ' + f.opacity + ')';
-            ctx.shadowColor = 'rgba(200, 225, 255, 0.4)';
-            ctx.shadowBlur = 2;
-            ctx.fill();
+        var step = 0;
+        var isHidden = false;
+        document.addEventListener('visibilitychange', function() { isHidden = document.hidden; });
 
-            f.y += f.speedY;
-            f.x += f.speedX;
+        function render() {
+          if (!isHidden) {
+            ctx.clearRect(0, 0, width, height);
+            step += 0.012;
 
-            if (f.y > height + 5) {
-              f.y = -5;
-              f.x = Math.random() * width;
+            for (var i = 0; i < particles.length; i++) {
+              var p = particles[i];
+              p.y += Math.cos(step + p.density) * 0.4 + 0.65 + p.radius / 4;
+              p.x += Math.sin(step * p.swingSpeed * 100 + p.density) * 0.75;
+              p.rotation += p.rotationSpeed;
+              p.tilt += p.tiltSpeed;
+
+              if (p.y > height + 25) { p.y = -25; p.x = Math.random() * width; }
+              if (p.x > width + 25) p.x = -25;
+              else if (p.x < -25) p.x = width + 25;
+
+              ctx.save();
+              ctx.translate(p.x, p.y);
+              ctx.rotate((p.rotation * Math.PI) / 180);
+
+              if (p.type === 'gold-star') {
+                var s = p.size;
+                ctx.fillStyle = p.color;
+                ctx.beginPath();
+                ctx.moveTo(0, -s);
+                ctx.quadraticCurveTo(0, 0, s, 0);
+                ctx.quadraticCurveTo(0, 0, 0, s);
+                ctx.quadraticCurveTo(0, 0, -s, 0);
+                ctx.quadraticCurveTo(0, 0, 0, -s);
+                ctx.closePath();
+                ctx.fill();
+              } else if (p.type === 'confetti') {
+                var tiltCos = Math.cos(p.tilt);
+                ctx.scale(tiltCos, 1);
+                ctx.fillStyle = p.color;
+                var w = p.size * 1.3;
+                var h = p.size * 0.65;
+                ctx.fillRect(-w / 2, -h / 2, w, h);
+              } else {
+                ctx.fillStyle = p.color;
+                ctx.beginPath();
+                ctx.arc(0, 0, p.radius, 0, Math.PI * 2, true);
+                ctx.fill();
+              }
+              ctx.restore();
             }
-            if (f.x > width + 5) f.x = -5;
-            if (f.x < -5) f.x = width + 5;
           }
-          requestAnimationFrame(draw);
+          requestAnimationFrame(render);
         }
-        requestAnimationFrame(draw);
+        render();
       })();
     </script>
 
