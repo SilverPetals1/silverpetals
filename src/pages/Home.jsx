@@ -37,10 +37,15 @@ export default function Home({
       'flooring': 'Premium Hardwood & Concrete Flooring',
       'wall-decor': 'Wall Decor & Art Gallery',
       'kids-room': 'Kids Room Decor & Inspiration',
-      'outdoor': 'Outdoor Decor & Patio Living'
+      'outdoor': 'Outdoor Decor & Patio Living',
+      'christmas': 'Christmas & Holiday Decor'
     }
 
-    if (activeCategory !== 'all') {
+    if (activeCategory === 'christmas') {
+      title = "Christmas & Holiday Decor Ideas 2026 - SilverPetals"
+      description = "Explore cozy Christmas tree themes, holiday garlands, festive table settings, and luxury winter decor ideas on SilverPetals."
+      canonical = "https://www.silverpetals.online/category/christmas"
+    } else if (activeCategory !== 'all') {
       const catLabel = prettyCategoryNamesLocal[activeCategory] || 'Home Decor'
       title = `${catLabel} - Interior Design Ideas | SilverPetals`
       description = `Explore our curated selection of ${catLabel.toLowerCase()} and professional styling guides on SilverPetals.`
@@ -68,7 +73,12 @@ export default function Home({
 
   // Filter Data
   let filteredData = DECOR_DB
-  if (activeCategory !== 'all') {
+  if (activeCategory === 'christmas') {
+    filteredData = DECOR_DB.filter(item =>
+      /\b(christmas|holiday|winter)\b/i.test(item.title + ' ' + (item.description || '')) &&
+      !/halloween/i.test(item.title)
+    )
+  } else if (activeCategory !== 'all') {
     filteredData = DECOR_DB.filter(item => item.category === activeCategory)
   }
 
@@ -121,7 +131,8 @@ export default function Home({
     'flooring': 'Premium Hardwood & Concrete Flooring',
     'wall-decor': 'Wall Decor & Art Gallery',
     'kids-room': 'Kids Room Decor & Inspiration',
-    'outdoor': 'Outdoor Decor & Patio Living'
+    'outdoor': 'Outdoor Decor & Patio Living',
+    'christmas': 'Christmas & Holiday Decor'
   }
 
   return (
@@ -168,7 +179,11 @@ export default function Home({
               {searchQuery ? `Search Results for "${searchQuery}"` : (prettyCategoryNames[activeCategory] || 'Category Ideas')}
             </h2>
             <p className="section-desc">
-              {searchQuery ? `Found ${filteredData.length} matching inspirations.` : 'Explore our curated selection of professional designs.'}
+              {searchQuery
+                ? `Found ${filteredData.length} matching inspirations.`
+                : activeCategory === 'christmas'
+                  ? 'Explore cozy Christmas tree themes, holiday garlands, festive table settings, and luxury winter decor.'
+                  : 'Explore our curated selection of professional designs.'}
             </p>
             {activeCategory === 'outdoor' && (
               <div className="subcategory-strip">
