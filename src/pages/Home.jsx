@@ -28,6 +28,7 @@ export default function Home({
     let canonical = "https://www.silverpetals.online/"
 
     const prettyCategoryNamesLocal = {
+      'christmas': 'Christmas & Holiday Home Decor',
       'home-decor': 'Home Decor Ideas',
       'living-room': 'Living Room Styling',
       'kitchen': 'Kitchen Design Trends',
@@ -68,7 +69,11 @@ export default function Home({
 
   // Filter Data
   let filteredData = DECOR_DB
-  if (activeCategory !== 'all') {
+  if (activeCategory === 'christmas') {
+    filteredData = DECOR_DB.filter(item =>
+      (item.title + ' ' + (item.description || '') + ' ' + (item.category || '')).toLowerCase().match(/christmas|holiday|winter/)
+    )
+  } else if (activeCategory !== 'all') {
     filteredData = DECOR_DB.filter(item => item.category === activeCategory)
   }
 
@@ -92,6 +97,17 @@ export default function Home({
   const featuredItem = showHero && filteredData.length > 0 ? filteredData[0] : null
   const gridItems = featuredItem ? filteredData.slice(1) : filteredData
 
+  // 4 Top Curated Christmas Showcase Posts
+  const christmasSpotlight = React.useMemo(() => {
+    const list = [
+      'blog-20-red-christmas-tree-theme-ideas-for-a-cozy-holiday-home-youll-love',
+      'blog-20-classy-christmas-table-decor-ideas-that-guests-will-talk-about-all-year',
+      'blog-12-best-christmas-garland-and-cedar-swag-picks',
+      'blog-best-home-decor-gifts-for-christmas-under-50'
+    ];
+    return DECOR_DB.filter(d => list.some(id => d.id === id || (d.link && d.link.includes(id))));
+  }, []);
+
   const handleCardClick = (item) => {
     if (item.link) {
       const slug = item.link.replace('.html', '').replace(/^blog-/, '')
@@ -112,6 +128,7 @@ export default function Home({
   }
 
   const prettyCategoryNames = {
+    'christmas': 'Christmas & Holiday Home Decor',
     'home-decor': 'Home Decor Ideas',
     'living-room': 'Living Room Styling',
     'kitchen': 'Kitchen Design Trends',
@@ -160,6 +177,71 @@ export default function Home({
         )
       })()}
 
+      {/* Christmas & Holiday Special Showcase (Rendered on Homepage) */}
+      {showHero && christmasSpotlight.length > 0 && (
+        <section className="christmas-showcase-container" aria-label="Christmas & Holiday Decor Collection">
+          <div className="christmas-showcase-header">
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+              <span className="christmas-header-badge">🎄 Holiday Season 2026</span>
+              <span style={{ fontSize: '0.84rem', color: '#1B4D3E', fontWeight: '700', letterSpacing: '0.5px' }}>
+                Festive Home Decor Edition
+              </span>
+            </div>
+            <h2 className="christmas-showcase-title">
+              Christmas &amp; Holiday Home Decor Inspiration
+            </h2>
+            <p className="christmas-showcase-subtitle">
+              Explore warm fireplace cedar garlands, festive red tree themes, luxury holiday tablescapes, and cozy winter styling ideas.
+            </p>
+          </div>
+
+          <div className="christmas-showcase-grid">
+            {christmasSpotlight.map((post) => {
+              const slug = post.link ? post.link.replace('.html', '').replace(/^blog-/, '') : null;
+              const href = slug ? `/blog/${slug}` : '#';
+              return (
+                <a
+                  key={post.id}
+                  href={href}
+                  className="christmas-card"
+                  onClick={(e) => {
+                    if (slug) {
+                      setTimeout(() => {
+                        window.location.href = href;
+                      }, 60);
+                    }
+                  }}
+                >
+                  <div className="christmas-card-image-wrap">
+                    <img src={post.image} alt={post.title} loading="lazy" />
+                    <span className="christmas-card-badge">🎄 Holiday Guide</span>
+                  </div>
+                  <div className="christmas-card-body">
+                    <span className="christmas-card-tag">{post.categoryLabel || 'Holiday Decor'}</span>
+                    <h3 className="christmas-card-title">{post.title}</h3>
+                    <p className="christmas-card-snippet">{post.description}</p>
+                    <span className="christmas-card-action">Read Holiday Guide →</span>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+
+          <div style={{ textAlign: 'center', marginTop: '28px' }}>
+            <button
+              type="button"
+              className="christmas-view-all-btn"
+              onClick={() => {
+                navigate('/category/christmas');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+            >
+              <span>Explore All Christmas &amp; Holiday Guides</span>
+              <span style={{ fontSize: '1.15rem' }}>→</span>
+            </button>
+          </div>
+        </section>
+      )}
 
       <main className="main-content" style={!showHero ? { marginTop: 'calc(var(--header-height) + var(--nav-height))' } : {}}>
         {!showHero && (
@@ -218,43 +300,42 @@ export default function Home({
                   key={item.id}
                   href={href}
                   className="card-item"
+                  style={{ animationDelay: delay }}
                   onClick={(e) => {
-                    if (!slug) {
-                      e.preventDefault()
-                      onOpenDetails(item)
-                    } else {
+                    if (slug) {
                       setTimeout(() => {
                         window.location.href = href
                       }, 60)
+                    } else {
+                      e.preventDefault()
+                      onOpenDetails(item)
                     }
                   }}
-                  style={{ animationDelay: delay, textDecoration: 'none', color: 'inherit' }}
                 >
                   <div className="card-image-container">
                     <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
-                    <div className="card-image-overlay-pin">
+                    <div className="card-overlay">
                       <button
-                        type="button"
-                        className={`card-pin-btn ${isPinned ? 'pinned' : ''}`}
+                        className={`pin-btn ${isPinned ? 'pinned' : ''}`}
+                        title={isPinned ? 'Remove from board' : 'Save to board'}
                         onClick={(e) => handlePinClick(e, item.id)}
-                        aria-label="Pin to board"
                       >
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M12.72 2.03a1 1 0 01.56.88v3.42c3.48.51 6.17 3.32 6.67 6.87h1.02a1 1 0 011 .98 10 10 0 01-20 0 1 1 0 011-.98h1.02c.5-3.55 3.19-6.36 6.67-6.87V2.91a1 1 0 011.08-.88zm-2.72 17.5v1.5a2 2 0 004 0v-1.5h-4z"/>
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                         </svg>
                       </button>
                     </div>
                   </div>
-                  <div className="card-content">
-                    <span className="card-category-visible">{item.categoryLabel}</span>
-                    <h4 className="card-title-visible">{item.title}</h4>
-                    <p className="card-desc-visible">{item.description}</p>
+                  <div className="card-info">
+                    <span className="card-category">{item.categoryLabel}</span>
+                    <h3 className="card-title">{item.title}</h3>
+                    <p className="card-desc">{item.description}</p>
                   </div>
                 </a>
               )
             })}
-          </div>
-        </>
+            </div>
+          </>
         )}
       </main>
     </>

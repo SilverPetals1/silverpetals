@@ -1,8 +1,9 @@
 import React from 'react'
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const CATEGORIES = [
   { id: 'all', label: 'Home' },
+  { id: 'christmas', label: '🎄 Christmas Decor', isHoliday: true },
   { id: 'home-decor', label: 'Home Decor' },
   { id: 'living-room', label: 'Living Room' },
   { id: 'kitchen', label: 'Kitchen' },
@@ -18,7 +19,8 @@ const CATEGORIES = [
 export default function CategoryStrip({ activeCategory, onClearSearch }) {
   const navigate = useNavigate();
 
-  const handleCategoryClick = (catId) => {
+  const handleCategoryClick = (e, catId) => {
+    e.preventDefault();
     onClearSearch();
     if (catId === 'all') {
       navigate('/');
@@ -33,12 +35,14 @@ export default function CategoryStrip({ activeCategory, onClearSearch }) {
       <div className="nav-container">
         {CATEGORIES.map(cat => {
           const href = cat.id === 'all' ? '/' : `/category/${cat.id}`;
+          const isSelected = activeCategory === cat.id;
+          const extraClass = cat.isHoliday ? 'christmas-nav-pill' : '';
           return (
             <a
               key={cat.id}
               href={href}
-              className={`nav-item ${activeCategory === cat.id ? 'active' : ''}`}
-              onClick={() => onClearSearch()}
+              className={`nav-item ${isSelected ? 'active' : ''} ${extraClass}`}
+              onClick={(e) => handleCategoryClick(e, cat.id)}
             >
               <span>{cat.label}</span>
             </a>
