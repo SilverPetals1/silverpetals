@@ -4,17 +4,17 @@
 
 :root {
     /* Color Tokens */
-    --color-bg: #141518;
-    --color-card-bg: #1c1d22;
-    --color-text-primary: #f5f4f0;
-    --color-text-muted: #a3a19b;
-    --color-accent: #dfba85; /* Warm Gold */
+    --color-bg: #f7f6f2;
+    --color-card-bg: #ffffff;
+    --color-text-primary: #1e1d1a;
+    --color-text-muted: #6e6c64;
+    --color-accent: #c29d6d; /* Soft Brass/Gold */
     --color-accent-dark: #a17d4e;
     --color-pinterest: #e60023;
     --color-pinterest-hover: #ad0018;
-    --color-border: rgba(255, 255, 255, 0.08);
-    --color-badge-bg: #27282f;
-    --color-badge-text: #f5f4f0;
+    --color-border: #e6e4de;
+    --color-badge-bg: #e6e4de;
+    --color-badge-text: #1e1d1a;
     
     /* Layout Constants */
     --header-height: 80px;
@@ -70,7 +70,7 @@ button {
     left: 0;
     right: 0;
     height: var(--header-height);
-    background-color: rgba(18, 19, 22, 0.94);
+    background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-sm);
     z-index: 100;
@@ -139,8 +139,8 @@ button {
     width: 100%;
     height: 48px;
     padding: 0 45px 0 52px;
-    background-color: #222328;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: #f0eee8;
+    border: 2px solid transparent;
     border-radius: 24px;
     font-size: 0.95rem;
     font-weight: 400;
@@ -149,7 +149,7 @@ button {
 }
 
 .search-bar input:focus {
-    background-color: #282a30;
+    background-color: #ffffff;
     border-color: var(--color-accent);
     box-shadow: 0 0 0 4px rgba(194, 157, 109, 0.15);
 }
@@ -226,7 +226,7 @@ button {
     left: 0;
     right: 0;
     height: var(--nav-height);
-    background-color: rgba(20, 21, 25, 0.96); backdrop-filter: blur(12px);
+    background-color: #ffffff;
     border-bottom: 1px solid var(--color-border);
     z-index: 90;
     display: flex;
@@ -286,10 +286,7 @@ button {
     display: grid;
     grid-template-columns: 1.15fr 0.85fr;
     gap: 40px;
-    background-color: #1c1d22;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    background-color: #faf6f5;
     cursor: pointer;
     align-items: stretch;
     transition: var(--transition-smooth);
@@ -457,8 +454,8 @@ button {
 
 /* Grid Card Styling */
 .card-item {
-    background-color: #1c1d22;
-    border-radius: 12px;
+    background-color: transparent;
+    border-radius: 0;
     overflow: hidden;
     margin-bottom: 0;
     break-inside: avoid;
@@ -482,7 +479,7 @@ button {
     width: 100%;
     aspect-ratio: 1.5;
     overflow: hidden;
-    background-color: #24252a;
+    background-color: #e6e4de;
 }
 
 .card-image-container img {
@@ -529,7 +526,7 @@ button {
     justify-content: center;
     width: 42px;
     height: 42px;
-    background-color: rgba(20, 21, 25, 0.85); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #ffffff;
     color: var(--color-text-primary);
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -576,8 +573,8 @@ button {
 
 /* Card Content (Visible Below Image) */
 .card-content {
-    padding: 16px 18px 20px;
-    background-color: #1c1d22;
+    padding: 16px 0;
+    background-color: transparent;
     border-top: none;
 }
 
@@ -681,8 +678,7 @@ button {
 }
 
 .btn-secondary {
-    background-color: #26272e;
-    border: 1px solid var(--color-border);
+    background-color: #e6e4de;
     color: var(--color-text-primary);
 }
 
@@ -771,7 +767,7 @@ button {
     height: 36px;
     font-size: 2rem;
     color: var(--color-text-primary);
-    background-color: #27282f; border: 1px solid var(--color-border);
+    background-color: #ffffff;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -811,7 +807,7 @@ button {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #24252a;
+    background-color: #e6e4de;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1080,8 +1076,7 @@ button {
     padding: 12px;
     border: 1px solid var(--color-border);
     border-radius: 12px;
-    background-color: #1f2025;
-    border: 1px solid var(--color-border);
+    background-color: #ffffff;
     transition: var(--transition-smooth);
 }
 
@@ -1133,7 +1128,7 @@ button {
     justify-content: center;
     border-radius: 50%;
     color: var(--color-text-muted);
-    background-color: #27282f;
+    background-color: #f7f6f2;
     transition: var(--transition-smooth);
 }
 
@@ -1304,9 +1299,8 @@ button {
 }
 
 .sidebar-widget {
-    background: #1c1d22;
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
-    border: 1px solid var(--color-border);
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 16px;
     padding: 22px 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
@@ -1648,7 +1642,7 @@ button {
 .blog-body-text {
     font-size: 1rem;
     line-height: 1.75;
-    color: #d1cfc7;
+    color: #3e3c35;
 }
 
 .blog-section {
@@ -2183,7 +2177,7 @@ button {
    Adsterra Sponsored Ad Card Styling (Non-Intrusive & High-Earning)
    ========================================================================== */
 .adsterra-ad-card {
-    background: #1c1d22;
+    background: #ffffff;
     border: 1px solid var(--color-border, #e6e4de);
     border-radius: 12px;
     padding: 16px 14px 14px;

@@ -52,11 +52,11 @@ export default function Header({ searchQuery, setSearchQuery, savedPinsCount, on
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.1' }}>
-            <span style={{ fontSize: '1.45rem', fontWeight: '700', letterSpacing: '0.5px', color: '#F5F4F0' }}>
+            <span style={{ fontSize: '1.45rem', fontWeight: '700', letterSpacing: '0.5px', color: '#1B4D3E' }}>
               Silver<span className="logo-serif" style={{ color: '#D4AF37', fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>Petals</span>
             </span>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <span style={{ fontSize: '0.68rem', color: '#A3A19B', letterSpacing: '1px', textTransform: 'uppercase', fontWeight: '600' }}>Home Decor &amp; Living</span>
+              <span style={{ fontSize: '0.68rem', color: '#888', letterSpacing: '1px', textTransform: 'uppercase', fontWeight: '600' }}>Home Decor &amp; Living</span>
               <span className="christmas-badge" style={{
                 fontSize: '0.62rem',
                 fontWeight: '700',
