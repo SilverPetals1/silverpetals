@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-best-z-grills",
+        title: "The 6 Best Z Grills of 2027: Top Pellet Grills for Smoking and BBQ",
+        category: "kitchen",
+        categoryLabel: "Kitchen",
+        image: "/assets/best-z-grills-hero.jpg",
+        saves: 289400,
+        description: "Discover the 6 best Z Grills of 2027 for smoking, grilling, and outdoor cooking. Compare cooking capacity, Wi-Fi features, temperature control, and more.",
+        link: "blog-best-z-grills.html",
+        colors: ["#24221F", "#9C6644", "#DDA15E", "#FAF8F5"],
+        steps: [
+            "Discover the 6 Best Z Grills of 2027, comparing compact family models, Wi-Fi PID controllers, cabinet designs, and heavy-duty pellet smokers with verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-20-amazon-home-best-buys",
         title: "20 Amazon Home Best Buys: Our Top Picks of the Year",
         category: "home-decor",
