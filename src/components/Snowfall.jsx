@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 
 /**
- * Luxury Festive Snowfall & Sparkle Canvas
- * Exact holiday particle effect matching Crawford Construction:
+ * Optimized Luxury Festive Snowfall & Sparkle Canvas
+ * Crawford Construction style:
  * - 4-point curved sparkle stars (spinning in 2D)
  * - Fluttering gold & white foil confetti (3D perspective flip)
  * - Soft circular winter snow dots (gentle sinusoidal drift)
- * - Responsive particle count (60 desktop, 30 mobile)
- * - Auto-pauses when tab is inactive to preserve battery
- * - Zero pointer interference (pointer-events: none)
+ * - Ultra-lightweight (1x canvas, 38 desktop / 20 mobile particles)
+ * - Auto-pauses when tab is inactive
+ * - Isolated GPU composite layer (zero scroll jank)
  */
 export default function Snowfall() {
   const canvasRef = useRef(null);
@@ -16,7 +16,6 @@ export default function Snowfall() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    // Respect reduced motion preference
     if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       return;
     }
@@ -28,24 +27,18 @@ export default function Snowfall() {
     if (!ctx) return;
 
     let animId = null;
-    let width = window.innerWidth;
-    let height = window.innerHeight;
-    let dpr = Math.min(window.devicePixelRatio || 1, 2);
+    let width = (canvas.width = window.innerWidth);
+    let height = (canvas.height = window.innerHeight);
 
     const resize = () => {
-      width = window.innerWidth;
-      height = window.innerHeight;
-      dpr = Math.min(window.devicePixelRatio || 1, 2);
-      canvas.width = width * dpr;
-      canvas.height = height * dpr;
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
     };
 
     window.addEventListener('resize', resize, { passive: true });
-    resize();
 
-    // 60 particles on desktop, 30 on mobile
-    const count = width < 768 ? 30 : 60;
+    // 38 particles on desktop, 20 on mobile for ultra-smooth 60fps performance
+    const count = width < 768 ? 20 : 38;
 
     const goldPalette = [
       'rgba(212, 175, 55, ',   // Classic Metallic Gold
@@ -85,79 +78,78 @@ export default function Snowfall() {
 
     let step = 0;
     let isHidden = false;
+    let lastTime = 0;
+    const interval = 1000 / 50; // Cap at smooth ~50fps to avoid excessive GPU burn on 120Hz/144Hz screens
 
     const onVisibilityChange = () => {
       isHidden = document.hidden;
     };
     document.addEventListener('visibilitychange', onVisibilityChange);
 
-    const render = () => {
-      if (!isHidden) {
-        ctx.clearRect(0, 0, width, height);
-        step += 0.012;
-
-        for (let i = 0; i < particles.length; i++) {
-          const p = particles[i];
-
-          // Downward gravity + gentle swaying oscillation
-          p.y += Math.cos(step + p.density) * 0.4 + 0.65 + p.radius / 4;
-          p.x += Math.sin(step * p.swingSpeed * 100 + p.density) * 0.75;
-          p.rotation += p.rotationSpeed;
-          p.tilt += p.tiltSpeed;
-
-          // Recycle when fallen below screen
-          if (p.y > height + 25) {
-            p.y = -25;
-            p.x = Math.random() * width;
-          }
-
-          // Screen horizontal wrap
-          if (p.x > width + 25) {
-            p.x = -25;
-          } else if (p.x < -25) {
-            p.x = width + 25;
-          }
-
-          ctx.save();
-          ctx.translate(p.x, p.y);
-          ctx.rotate((p.rotation * Math.PI) / 180);
-
-          if (p.type === 'gold-star') {
-            // 4-pointed curved starburst
-            const s = p.size;
-            ctx.fillStyle = p.color;
-            ctx.beginPath();
-            ctx.moveTo(0, -s);
-            ctx.quadraticCurveTo(0, 0, s, 0);
-            ctx.quadraticCurveTo(0, 0, 0, s);
-            ctx.quadraticCurveTo(0, 0, -s, 0);
-            ctx.quadraticCurveTo(0, 0, 0, -s);
-            ctx.closePath();
-            ctx.fill();
-          } else if (p.type === 'confetti') {
-            // 3D perspective flipping foil flake
-            const tiltCos = Math.cos(p.tilt);
-            ctx.scale(tiltCos, 1);
-            ctx.fillStyle = p.color;
-            const w = p.size * 1.3;
-            const h = p.size * 0.65;
-            ctx.fillRect(-w / 2, -h / 2, w, h);
-          } else {
-            // Soft circular snow particle
-            ctx.fillStyle = p.color;
-            ctx.beginPath();
-            ctx.arc(0, 0, p.radius, 0, Math.PI * 2, true);
-            ctx.fill();
-          }
-
-          ctx.restore();
-        }
-      }
-
+    const render = (time) => {
       animId = requestAnimationFrame(render);
+      if (isHidden) return;
+
+      const delta = time - lastTime;
+      if (delta < interval) return;
+      lastTime = time - (delta % interval);
+
+      ctx.clearRect(0, 0, width, height);
+      step += 0.014;
+
+      for (let i = 0; i < particles.length; i++) {
+        const p = particles[i];
+
+        p.y += Math.cos(step + p.density) * 0.4 + 0.7 + p.radius / 4;
+        p.x += Math.sin(step * p.swingSpeed * 100 + p.density) * 0.75;
+        p.rotation += p.rotationSpeed;
+        p.tilt += p.tiltSpeed;
+
+        if (p.y > height + 25) {
+          p.y = -25;
+          p.x = Math.random() * width;
+        }
+
+        if (p.x > width + 25) {
+          p.x = -25;
+        } else if (p.x < -25) {
+          p.x = width + 25;
+        }
+
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate((p.rotation * Math.PI) / 180);
+
+        if (p.type === 'gold-star') {
+          const s = p.size;
+          ctx.fillStyle = p.color;
+          ctx.beginPath();
+          ctx.moveTo(0, -s);
+          ctx.quadraticCurveTo(0, 0, s, 0);
+          ctx.quadraticCurveTo(0, 0, 0, s);
+          ctx.quadraticCurveTo(0, 0, -s, 0);
+          ctx.quadraticCurveTo(0, 0, 0, -s);
+          ctx.closePath();
+          ctx.fill();
+        } else if (p.type === 'confetti') {
+          const tiltCos = Math.cos(p.tilt);
+          ctx.scale(tiltCos, 1);
+          ctx.fillStyle = p.color;
+          const w = p.size * 1.3;
+          const h = p.size * 0.65;
+          ctx.fillRect(-w / 2, -h / 2, w, h);
+        } else {
+          ctx.fillStyle = p.color;
+          ctx.beginPath();
+          ctx.arc(0, 0, p.radius, 0, Math.PI * 2, true);
+          ctx.fill();
+        }
+
+        ctx.restore();
+      }
     };
 
-    render();
+    animId = requestAnimationFrame(render);
 
     return () => {
       window.removeEventListener('resize', resize);
@@ -180,7 +172,9 @@ export default function Snowfall() {
         height: '100vh',
         pointerEvents: 'none',
         zIndex: 9999,
-        userSelect: 'none'
+        userSelect: 'none',
+        willChange: 'transform',
+        transform: 'translateZ(0)'
       }}
     />
   );

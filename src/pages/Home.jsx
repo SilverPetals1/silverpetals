@@ -102,6 +102,39 @@ export default function Home({
   const featuredItem = showHero && filteredData.length > 0 ? filteredData[0] : null
   const gridItems = featuredItem ? filteredData.slice(1) : filteredData
 
+  // Progressive rendering (24 initial cards) for lightning-fast initial load & DOM performance
+  const [visibleCount, setVisibleCount] = React.useState(24)
+
+  React.useEffect(() => {
+    setVisibleCount(24)
+  }, [activeCategory, activeSubcategory, searchQuery])
+
+  const visibleItems = React.useMemo(() => {
+    return gridItems.slice(0, visibleCount)
+  }, [gridItems, visibleCount])
+
+  const hasMore = visibleCount < gridItems.length
+
+  const handleLoadMore = React.useCallback(() => {
+    setVisibleCount(prev => Math.min(prev + 24, gridItems.length))
+  }, [gridItems.length])
+
+  const sentinelRef = React.useRef(null)
+  React.useEffect(() => {
+    if (!hasMore) return
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0] && entries[0].isIntersecting) {
+        handleLoadMore()
+      }
+    }, { rootMargin: '400px' })
+
+    const el = sentinelRef.current
+    if (el) observer.observe(el)
+    return () => {
+      if (el) observer.unobserve(el)
+    }
+  }, [hasMore, handleLoadMore])
+
   const handleCardClick = (item) => {
     if (item.link) {
       const slug = item.link.replace('.html', '').replace(/^blog-/, '')
@@ -222,8 +255,7 @@ export default function Home({
           <>
             <Adsterra468x60 />
             <div id="masonry-grid" className="masonry-grid">
-            
-            {gridItems.map((item, idx) => {
+            {visibleItems.map((item, idx) => {
               const isPinned = savedPins.includes(item.id)
               const slug = item.link ? item.link.replace('.html', '').replace(/^blog-/, '') : null
               const href = slug ? `/blog/${slug}` : '#'
@@ -269,6 +301,30 @@ export default function Home({
               )
             })}
           </div>
+
+          {hasMore && (
+            <div ref={sentinelRef} style={{ textAlign: 'center', padding: '36px 0 20px', width: '100%' }}>
+              <button
+                type="button"
+                onClick={handleLoadMore}
+                className="btn btn-secondary load-more-btn"
+                style={{
+                  padding: '12px 28px',
+                  borderRadius: '50px',
+                  fontSize: '0.92rem',
+                  fontWeight: '600',
+                  cursor: 'pointer',
+                  background: 'var(--color-bg-card, #ffffff)',
+                  border: '1px solid var(--color-border, #e5e5e5)',
+                  color: 'var(--color-text, #2c2925)',
+                  boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                Load More Inspirations ({gridItems.length - visibleCount} remaining) ↓
+              </button>
+            </div>
+          )}
         </>
         )}
       </main>
