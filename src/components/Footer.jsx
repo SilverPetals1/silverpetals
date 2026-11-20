@@ -31,46 +31,12 @@ export default function Footer({ setSearchQuery }) {
         {/* Brand Column */}
         <div className="footer-brand">
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '15px' }}>
-            <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
-              <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--color-accent, #c29d6d)' }} />
-              {/* Santa Hat SVG */}
-              <svg
-                viewBox="0 0 44 36"
-                aria-hidden="true"
-                style={{
-                  position: 'absolute',
-                  top: '-10px',
-                  left: '-6px',
-                  width: '28px',
-                  height: '24px',
-                  transform: 'rotate(-8deg)',
-                  pointerEvents: 'none'
-                }}
-              >
-                <path d="M 6 24 C 8 10, 24 2, 36 8 C 31 15, 26 21, 27 24 Z" fill="#C41E3A" />
-                <rect x="4" y="22" width="28" height="7" rx="3.5" fill="#FFFFFF" />
-                <circle cx="37" cy="8" r="4.5" fill="#FFFFFF" />
-              </svg>
-            </div>
+            <img src="/assets/logo_brand.jpg" alt="SilverPetals Logo" style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--color-accent, #c29d6d)' }} />
             <span className="logo" style={{ fontSize: '1.4rem', color: '#ffffff', letterSpacing: '0.5px' }}>
               Silver<span className="logo-serif" style={{ color: '#D4AF37', fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>Petals</span>
             </span>
           </div>
           <p>Inspiring your living environment with premium home decor designs, room styling guides, and curated Amazon recommendations.</p>
-          
-          <div style={{
-            marginTop: '16px',
-            padding: '8px 12px',
-            background: 'rgba(255, 255, 255, 0.05)',
-            border: '1px solid rgba(212, 175, 55, 0.35)',
-            borderRadius: '8px',
-            fontSize: '0.78rem',
-            color: '#F4D06F',
-            lineHeight: '1.4'
-          }}>
-            <span>🎄</span> <strong>Holiday Season 2026:</strong> Wishing you a warm, cozy &amp; joyful Christmas from SilverPetals!
-          </div>
-
           <a
             href="#" onClick={(e) => e.preventDefault()}
             target="_blank"
@@ -101,7 +67,6 @@ export default function Footer({ setSearchQuery }) {
         {/* Categories Column */}
         <div className="link-group">
           <h4>Categories</h4>
-          <a href="#" className="footer-cat-link" style={{ color: '#F4D06F', fontWeight: '700' }} onClick={(e) => handleCategoryClick(e, 'christmas')}>🎄 Christmas Decor</a>
           <a href="#" className="footer-cat-link" onClick={(e) => handleCategoryClick(e, 'home-decor')}>Home Decor</a>
           <a href="#" className="footer-cat-link" onClick={(e) => handleCategoryClick(e, 'living-room')}>Living Room</a>
           <a href="#" className="footer-cat-link" onClick={(e) => handleCategoryClick(e, 'kitchen')}>Kitchen</a>
@@ -110,7 +75,7 @@ export default function Footer({ setSearchQuery }) {
 
         {/* Spaces Column */}
         <div className="link-group">
-          <h4>Rooms &amp; Spaces</h4>
+          <h4>Rooms & Spaces</h4>
           <a href="#" className="footer-cat-link" onClick={(e) => handleCategoryClick(e, 'bedroom')}>Bedroom</a>
           <a href="#" className="footer-cat-link" onClick={(e) => handleCategoryClick(e, 'kids-room')}>Kids Room</a>
           <a href="#" className="footer-cat-link" onClick={(e) => handleCategoryClick(e, 'ceiling')}>Ceiling</a>
@@ -121,7 +86,7 @@ export default function Footer({ setSearchQuery }) {
         <div className="link-group">
           <h4>Newsletter</h4>
           <span className="about-text" style={{ display: 'block', marginBottom: '12px' }}>
-            Subscribe to receive daily interior styling tips, seasonal holiday guides, and curated Amazon decor finds.
+            Subscribe to receive daily interior styling tips and curated Amazon decor finds.
           </span>
           {subscribed ? (
             <div style={{ color: 'var(--color-accent)', fontSize: '0.85rem', fontWeight: '600', padding: '10px 0' }}>
@@ -142,46 +107,59 @@ export default function Footer({ setSearchQuery }) {
                   color: '#ffffff',
                   fontSize: '0.85rem',
                   outline: 'none',
-                  fontFamily: 'inherit',
-                  borderRadius: '6px'
+                  fontFamily: 'inherit'
                 }}
               />
               <button
                 type="submit"
                 style={{
-                  padding: '10px 16px',
-                  background: 'linear-gradient(135deg, #1B4D3E 0%, #12372A 100%)',
-                  color: '#F4D06F',
-                  fontWeight: '700',
-                  fontSize: '0.85rem',
-                  borderRadius: '6px',
-                  border: '1px solid rgba(244, 208, 111, 0.4)',
+                  padding: '10px',
+                  backgroundColor: 'var(--color-accent)',
+                  color: '#ffffff',
+                  fontWeight: '600',
+                  textTransform: 'uppercase',
+                  letterSpacing: '1px',
+                  fontSize: '0.75rem',
+                  border: 'none',
                   cursor: 'pointer',
-                  transition: 'all 0.3s ease'
+                  transition: 'background-color 0.2s ease'
                 }}
+                onMouseOver={(e) => e.target.style.backgroundColor = 'var(--color-accent-dark)'}
+                onMouseOut={(e) => e.target.style.backgroundColor = 'var(--color-accent)'}
               >
-                Join SilverPetals Club
+                Subscribe
               </button>
             </form>
           )}
         </div>
       </div>
 
-      {/* Footer Bottom */}
-      <div className="footer-bottom">
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '15px' }}>
-          <p style={{ color: '#888', fontSize: '0.8rem' }}>
-            &copy; 2026 SilverPetals. All rights reserved. Premium Home Decor &amp; Interior Inspiration.
-          </p>
-          <div style={{ display: 'flex', gap: '20px' }}>
-            <a href="/category/christmas" onClick={(e) => handleCategoryClick(e, 'christmas')} style={{ color: '#F4D06F', fontSize: '0.8rem', textDecoration: 'none' }}>
-              🎄 Holiday Collection
-            </a>
-            <a href="#" onClick={(e) => { e.preventDefault(); navigate('/'); }} style={{ color: '#888', fontSize: '0.8rem', textDecoration: 'none' }}>
-              Privacy &amp; Terms
-            </a>
-          </div>
+      {/* Footer Bottom copyright and simple line */}
+      <div className="footer-bottom" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '15px' }}>
+        <p style={{ margin: 0 }}>&copy; 2026 SilverPetals Home Decor & Living. All rights reserved.</p>
+        <div style={{ display: 'flex', gap: '20px', fontSize: '0.8rem', flexWrap: 'wrap' }}>
+          <a href="/about" style={{ color: '#b0ad9e', textDecoration: 'none', transition: 'color 0.2s' }}>About Us</a>
+          <a href="/contact" style={{ color: '#b0ad9e', textDecoration: 'none', transition: 'color 0.2s' }}>Contact Us</a>
+          <a href="/privacy-policy" style={{ color: '#b0ad9e', textDecoration: 'none', transition: 'color 0.2s' }}>Privacy Policy</a>
+          <a href="/terms-of-service" style={{ color: '#b0ad9e', textDecoration: 'none', transition: 'color 0.2s' }}>Terms & Conditions</a>
+          <a href="/affiliate-disclosure" style={{ color: '#b0ad9e', textDecoration: 'none', transition: 'color 0.2s' }}>Affiliate Disclosure</a>
         </div>
+        <button 
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          style={{
+            color: '#b0ad9e',
+            fontSize: '0.8rem',
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            padding: 0,
+            transition: 'color 0.2s ease'
+          }}
+          onMouseOver={(e) => e.target.style.color = '#ffffff'}
+          onMouseOut={(e) => e.target.style.color = '#b0ad9e'}
+        >
+          Back to Top ↑
+        </button>
       </div>
     </footer>
   )
