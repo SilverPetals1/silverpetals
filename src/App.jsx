@@ -5,7 +5,6 @@ import CategoryStrip from './components/CategoryStrip'
 import Footer from './components/Footer'
 import BoardDrawer from './components/BoardDrawer'
 import DetailsModal from './components/DetailsModal'
-import Snowfall from './components/Snowfall'
 import Home from './pages/Home'
 import Blog from './pages/Blog'
 import AdsterraStickyFooter from './components/AdsterraStickyFooter'
@@ -100,7 +99,6 @@ export default function App() {
 
   return (
     <>
-      <Snowfall />
       <Header
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}

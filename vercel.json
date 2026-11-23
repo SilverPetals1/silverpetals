@@ -87,6 +87,16 @@
   ],
   "redirects": [
     {
+      "source": "/category/christmas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/christmas.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/blog/best-portable-grills-2027",
       "destination": "/blog/5-best-portable-grills-2027",
       "permanent": true

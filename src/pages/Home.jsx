@@ -38,14 +38,9 @@ export default function Home({
       'wall-decor': 'Wall Decor & Art Gallery',
       'kids-room': 'Kids Room Decor & Inspiration',
       'outdoor': 'Outdoor Decor & Patio Living',
-      'christmas': 'Christmas & Holiday Decor'
     }
 
-    if (activeCategory === 'christmas') {
-      title = "Christmas & Holiday Decor Ideas 2026 - SilverPetals"
-      description = "Explore cozy Christmas tree themes, holiday garlands, festive table settings, and luxury winter decor ideas on SilverPetals."
-      canonical = "https://www.silverpetals.online/category/christmas"
-    } else if (activeCategory !== 'all') {
+    if (activeCategory !== 'all') {
       const catLabel = prettyCategoryNamesLocal[activeCategory] || 'Home Decor'
       title = `${catLabel} - Interior Design Ideas | SilverPetals`
       description = `Explore our curated selection of ${catLabel.toLowerCase()} and professional styling guides on SilverPetals.`
@@ -165,7 +160,6 @@ export default function Home({
     'wall-decor': 'Wall Decor & Art Gallery',
     'kids-room': 'Kids Room Decor & Inspiration',
     'outdoor': 'Outdoor Decor & Patio Living',
-    'christmas': 'Christmas & Holiday Decor'
   }
 
   return (
@@ -214,8 +208,6 @@ export default function Home({
             <p className="section-desc">
               {searchQuery
                 ? `Found ${filteredData.length} matching inspirations.`
-                : activeCategory === 'christmas'
-                  ? 'Explore cozy Christmas tree themes, holiday garlands, festive table settings, and luxury winter decor.'
                   : 'Explore our curated selection of professional designs.'}
             </p>
             {activeCategory === 'outdoor' && (
