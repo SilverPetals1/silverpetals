@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-best-outdoor-pizza-ovens",
+        title: "Best Outdoor Pizza Ovens in 2027: 9 Models Compared",
+        category: "kitchen",
+        categoryLabel: "Kitchen",
+        image: "/assets/best-outdoor-pizza-ovens-hero.jpg",
+        saves: 341200,
+        description: "Discover the 9 best outdoor pizza ovens for 2027, including gas, wood-fired, and multi-fuel models. Compare features, cooking capacity, portability, and value.",
+        link: "blog-best-outdoor-pizza-ovens.html",
+        colors: ["#9C6644", "#DDA15E", "#B23A22", "#FAF8F5"],
+        steps: [
+            "Discover the 9 Best Outdoor Pizza Ovens in 2027, comparing versatile multi-fuel models, high-temperature gas ovens, portable camping pizza makers, and electric options with verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-best-z-grills",
         title: "The 6 Best Z Grills of 2027: Top Pellet Grills for Smoking and BBQ",
         category: "kitchen",

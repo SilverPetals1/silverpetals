@@ -97,6 +97,21 @@
       "permanent": true
     },
     {
+      "source": "/blog/9-best-outdoor-pizza-ovens",
+      "destination": "/blog/best-outdoor-pizza-ovens",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-outdoor-pizza-ovens-2027",
+      "destination": "/blog/best-outdoor-pizza-ovens",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/blog-9-best-outdoor-pizza-ovens",
+      "destination": "/blog/best-outdoor-pizza-ovens",
+      "permanent": true
+    },
+    {
       "source": "/blog/best-portable-grills-2027",
       "destination": "/blog/5-best-portable-grills-2027",
       "permanent": true
