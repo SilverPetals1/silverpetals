@@ -25,7 +25,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="675">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:alt" content="Best Outdoor Pizza Ovens in 2027: Top Picks for Every Budget">
+    <meta property="og:image:alt" content="Best Outdoor Pizza Ovens in 2027: 9 Models Compared">
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
@@ -33,7 +33,7 @@
     <meta name="twitter:title" content="9 Best Outdoor Pizza Ovens in 2027: Top Picks for Every Budget">
     <meta name="twitter:description" content="Discover the 9 best outdoor pizza ovens for 2027, including gas, wood-fired, and multi-fuel models. Compare features, cooking capacity, portability, and value.">
     <meta name="twitter:image" content="https://www.silverpetals.online/assets/best-outdoor-pizza-ovens-hero.jpg">
-    <meta name="twitter:image:alt" content="Best outdoor pizza ovens firing artisanal Neapolitan pizza in luxury outdoor kitchen">
+    <meta name="twitter:image:alt" content="Best Outdoor Pizza Ovens in 2027: 9 Models Compared">
 
     <link rel="image_src" href="https://www.silverpetals.online/assets/best-outdoor-pizza-ovens-hero.jpg">
     <link rel="alternate" type="application/rss+xml" title="SilverPetals RSS Feed" href="https://www.silverpetals.online/rss.xml">
@@ -214,7 +214,7 @@
         }
         .comparison-table {
             width: 100%;
-            min-width: 720px;
+            min-width: 680px;
             border-collapse: separate;
             border-spacing: 0;
             text-align: left;
@@ -415,9 +415,6 @@
             line-height: 1.6;
             color: #333;
         }
-        .pros-box li, .cons-box li {
-            margin-bottom: 6px;
-        }
         .specs-list {
             background: #faf8f5;
             border: 1px solid #ede8e1;
@@ -442,56 +439,53 @@
             margin-bottom: 6px;
         }
         .why-choose-box {
-            background: #fdfaf7;
-            border-left: 4px solid #9C6644;
-            padding: 16px 20px;
-            border-radius: 0 10px 10px 0;
-            margin: 20px 0 10px 0;
+            background: #fbfbf8;
+            border-left: 4px solid #DDA15E;
+            padding: 18px 22px;
+            border-radius: 0 8px 8px 0;
+            margin: 24px 0;
         }
-        .why-choose-box strong {
+        .why-choose-box h4 {
+            margin-top: 0;
             color: #9C6644;
+            font-size: 1.08rem;
+        }
+        .why-choose-box p {
+            margin: 0;
+            font-size: 0.95rem;
+            line-height: 1.65;
+            color: #444;
         }
         .faq-item {
-            border-bottom: 1px solid #ede8e1;
+            border-bottom: 1px solid #eae6df;
             padding: 20px 0;
         }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
         .faq-item h3 {
-            font-size: 1.15rem;
+            font-size: 1.18rem;
             color: #1a1a1a;
-            margin: 0 0 10px 0;
-            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 10px;
         }
         .faq-item p {
             margin: 0;
+            font-size: 0.96rem;
+            line-height: 1.7;
             color: #444;
-            line-height: 1.65;
         }
     </style>
 
+    <!-- Navigation Preserver -->
     <script>
       (function() {
-        document.addEventListener('click', function(e) {
-          var targetLink = e.target.closest('a');
-          if (!targetLink) {
+        window.addEventListener('click', function(e) {
+          var targetLink = e.target && e.target.closest ? e.target.closest('a') : null;
+          if (!targetLink && e.clientX !== undefined && e.clientY !== undefined && document.elementsFromPoint) {
             try {
-              var path = e.composedPath ? e.composedPath() : [];
-              for (var i = 0; i < path.length; i++) {
-                var el = path[i];
-                if (el && el.tagName && el.tagName.toLowerCase() === 'a') {
-                  targetLink = el;
-                  break;
-                }
-              }
-            } catch (err) {}
-          }
-          if (!targetLink && window.event) {
-            var src = window.event.srcElement || window.event.target;
-            try {
-              for (var a = src; a && a !== document.body; a = a.parentNode) {
-                if (a.tagName && a.tagName.toLowerCase() === 'a') {
+              var elements = document.elementsFromPoint(e.clientX, e.clientY);
+              for (var i = 0; i < elements.length; i++) {
+                var el = elements[i];
+                var a = el && el.closest ? el.closest('a') : null;
+                if (a && a.href) {
                   targetLink = a;
                   break;
                 }
@@ -531,7 +525,7 @@
                     <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 0.5px; color: #1B4D3E;">
                         Silver<span class="logo-serif" style="color: #D4AF37; font-family: 'Playfair Display', serif; font-style: italic;">Petals</span>
                     </span>
-                    <span style="font-size: 0.68rem; color: #888; letter-spacing: 1px; text-transform: uppercase; font-weight: 600;">Home Decor &amp; Living</span>
+                    <span style="font-size: 0.68rem; color: #888; letter-spacing: 1px; text-transform: uppercase; fontWeight: 600;">Home Decor &amp; Living</span>
                 </div>
             </a>
             <div class="header-actions" style="display: flex; align-items: center; gap: 15px;">
@@ -563,38 +557,36 @@
     </nav>
 
     <!-- Main Container -->
-    <main class="blog-main-container">
+    <main class="blog-page-container">
         <div class="blog-layout-wrapper">
-            <!-- Article Main Column -->
-            <div class="blog-content-column">
-                <article class="blog-article-card">
-                    <!-- Breadcrumbs & Meta Top -->
-                    <div class="blog-header-box">
-                        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
-                            <a href="/">Home</a> &gt; 
-                            <a href="/category/kitchen">Kitchen</a> &gt; 
-                            <span>Best Outdoor Pizza Ovens in 2027</span>
-                        </nav>
-                        
-                        <h1 class="blog-post-title">Best Outdoor Pizza Ovens in 2027: 9 Models Compared</h1>
+            <div class="blog-main-content-column">
+                <article class="blog-wrapper">
+                    <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+                        <a href="/">Home</a>
+                        <span class="breadcrumb-separator">&gt;</span>
+                        <a href="/category/kitchen">Kitchen</a>
+                        <span class="breadcrumb-separator">&gt;</span>
+                        <span class="breadcrumb-current">Best Outdoor Pizza Ovens in 2027</span>
+                    </nav>
 
-                        <div class="blog-meta-row">
-                            <span class="blog-author-tag">Written by <strong>SilverPetals Editorial Team</strong></span>
-                            <span class="meta-dot">•</span>
-                            <span class="blog-date-tag">November 25, 2026</span>
-                            <span class="meta-dot">•</span>
-                            <span class="blog-read-time">15 min read</span>
+                    <header class="blog-header">
+                        <span class="blog-category-tag">Kitchen &bull; Outdoor Pizza Ovens</span>
+                        <h1 class="blog-h2-title" style="font-size: 2.6rem; margin-top: 10px;">Best Outdoor Pizza Ovens in 2027: 9 Models Compared</h1>
+                        
+                        <div class="blog-meta-wrapper" style="display: flex; align-items: center; gap: 16px; margin-bottom: 24px; color: var(--color-text-muted); font-size: 0.9rem;">
+                            <span>✍️ SilverPetals Editorial Team</span>
+                            <span>📅 November 25, 2026</span>
+                            <span>⏱️ 15 min read</span>
                         </div>
-                    </div>
+                    </header>
 
                     <!-- Hero Image -->
-                    <div class="blog-hero-image-wrap" style="margin: 28px 0; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
+                    <div class="blog-hero-image-wrap" style="width: 100%; border-radius: 16px; overflow: hidden; margin-bottom: 35px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
                         <img src="/assets/best-outdoor-pizza-ovens-hero.jpg" alt="Best Outdoor Pizza Ovens in 2027: 9 Models Compared" style="width: 100%; height: auto; display: block; object-fit: cover;" loading="eager" />
                     </div>
 
-                    <!-- Editorial Content Body -->
-                    <div class="blog-article-body">
-                        <h2>Introduction</h2>
+                    <!-- Introduction Content -->
+                    <div class="blog-body-text">
                         <p>Making restaurant-quality pizza at home is easier than ever with a dedicated outdoor pizza oven. Unlike traditional kitchen ovens, outdoor pizza ovens can reach extremely high temperatures, helping create crisp bases, airy crusts, and beautifully blistered toppings in just a few minutes.</p>
 
                         <p>Whether you enjoy classic Neapolitan pizza, crispy New York-style slices, or experimenting with homemade flatbreads, the right outdoor pizza oven can transform your backyard cooking experience.</p>
@@ -603,13 +595,20 @@
 
                         <p>For this 2027 buying guide, we've compared nine popular outdoor pizza ovens based on their design, fuel options, cooking capacity, portability, features, and intended use. This is a product comparison guide rather than a claim of independent hands-on testing.</p>
 
-                        <!-- Quick Comparison Table -->
-                        <h2>Quick Comparison: 9 Best Outdoor Pizza Ovens</h2>
+                        <div class="why-choose-box">
+                            <h4>Editorial Note</h4>
+                            <p>This is a 2027 planning edition prepared using currently available model information. Confirm latest model revisions, prices, and availability before final purchase.</p>
+                        </div>
+
+                        <!-- Quick Comparison Matrix -->
+                        <h2 style="font-family: 'Playfair Display', serif; font-size: 1.85rem; margin-top: 40px;">Quick Comparison: 9 Best Outdoor Pizza Ovens</h2>
+                        <p>Compare the key specifications and primary use-cases for each top-rated outdoor pizza oven below:</p>
+
                         <div class="table-responsive-wrapper">
                             <table class="comparison-table">
                                 <thead>
                                     <tr>
-                                        <th>Product</th>
+                                        <th>Model</th>
                                         <th>Best For</th>
                                         <th>Fuel Type</th>
                                         <th>Main Advantage</th>
@@ -618,64 +617,64 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong><a href="#ooni-karu-2-pro" style="color: inherit; text-decoration: none;">Ooni Karu 2 Pro</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best overall</span></td>
+                                        <td><strong>Ooni Karu 2 Pro</strong></td>
+                                        <td>Best overall multi-fuel option</td>
                                         <td>Wood, charcoal, optional gas</td>
                                         <td>Versatility &amp; large cooking space</td>
                                         <td><a href="https://link.amazon/B0dWZ7Cdx" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
                                     </tr>
                                     <tr>
-                                        <td><strong><a href="#gozney-arc-xl" style="color: inherit; text-decoration: none;">Gozney Arc XL</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best premium gas</span></td>
+                                        <td><strong>Gozney Arc XL</strong></td>
+                                        <td>Best premium gas oven</td>
                                         <td>Propane</td>
                                         <td>Spacious cooking area</td>
                                         <td><a href="https://link.amazon/B04p8AzVq" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
                                     </tr>
                                     <tr>
-                                        <td><strong><a href="#solo-stove-pi-prime" style="color: inherit; text-decoration: none;">Solo Stove Pi Prime</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best value</span></td>
+                                        <td><strong>Solo Stove Pi Prime</strong></td>
+                                        <td>Best value</td>
                                         <td>Propane</td>
                                         <td>Simple setup and operation</td>
                                         <td><a href="https://link.amazon/B03OVUGzW" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
                                     </tr>
                                     <tr>
-                                        <td><strong><a href="#gozney-tread" style="color: inherit; text-decoration: none;">Gozney Tread</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best portable oven</span></td>
+                                        <td><strong>Gozney Tread</strong></td>
+                                        <td>Best portable oven</td>
                                         <td>Propane</td>
                                         <td>Travel-friendly design</td>
                                         <td><a href="https://link.amazon/B0euZocjP" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
                                     </tr>
                                     <tr>
-                                        <td><strong><a href="#ninja-artisan-outdoor-oven" style="color: inherit; text-decoration: none;">Ninja Artisan Outdoor Oven</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best electric option</span></td>
+                                        <td><strong>Ninja Artisan Outdoor Oven</strong></td>
+                                        <td>Best electric outdoor option</td>
                                         <td>Electric</td>
                                         <td>Convenient temperature-controlled cooking</td>
                                         <td><a href="https://link.amazon/B037OCgXf" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
                                     </tr>
                                     <tr>
-                                        <td><strong><a href="#ooni-koda-2-max" style="color: inherit; text-decoration: none;">Ooni Koda 2 Max</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best for large pizzas</span></td>
+                                        <td><strong>Ooni Koda 2 Max</strong></td>
+                                        <td>Best for large pizzas</td>
                                         <td>Propane</td>
                                         <td>Extra-large cooking surface</td>
                                         <td><a href="https://link.amazon/B07te7H4e" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
                                     </tr>
                                     <tr>
-                                        <td><strong><a href="#gozney-dome-gen-2" style="color: inherit; text-decoration: none;">Gozney Dome Gen 2</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best premium multi-fuel</span></td>
+                                        <td><strong>Gozney Dome Gen 2</strong></td>
+                                        <td>Best premium multi-fuel oven</td>
                                         <td>Multiple fuel options</td>
-                                        <td>Versatile luxury outdoor cooking</td>
+                                        <td>Versatile outdoor cooking</td>
                                         <td><a href="https://link.amazon/B08wgj6uV" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
                                     </tr>
                                     <tr>
-                                        <td><strong><a href="#gozney-arc-lite" style="color: inherit; text-decoration: none;">Gozney Arc Lite</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best compact oven</span></td>
+                                        <td><strong>Gozney Arc Lite</strong></td>
+                                        <td>Best compact oven</td>
                                         <td>Propane</td>
                                         <td>Smaller footprint</td>
                                         <td><a href="https://link.amazon/B0i7Buo2m" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
                                     </tr>
                                     <tr>
-                                        <td><strong><a href="#ooni-karu-2" style="color: inherit; text-decoration: none;">Ooni Karu 2</a></strong></td>
-                                        <td><span class="product-badge" style="font-size:0.75rem; padding:3px 10px; margin:0;">Best for wood-fired</span></td>
+                                        <td><strong>Ooni Karu 2</strong></td>
+                                        <td>Best for wood-fired cooking</td>
                                         <td>Wood, charcoal, optional gas</td>
                                         <td>Traditional live-fire experience</td>
                                         <td><a href="https://link.amazon/B0a5v2Xam" target="_blank" rel="nofollow noopener" class="amazon-tbl-btn">View on Amazon &rarr;</a></td>
@@ -733,7 +732,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> The Ooni Karu 2 Pro is a strong all-around option for people who want flexibility, cooking space, and the ability to experiment with different fuels.
+                                <h4>Our Take</h4>
+                                <p>The Ooni Karu 2 Pro is a strong all-around option for people who want flexibility, cooking space, and the ability to experiment with different fuels.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -791,7 +791,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> Choose the Gozney Arc XL if cooking space, premium construction, and straightforward gas operation matter more than getting the lowest possible price.
+                                <h4>Our Take</h4>
+                                <p>Choose the Gozney Arc XL if cooking space, premium construction, and straightforward gas operation matter more than getting the lowest possible price.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -849,7 +850,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> The Solo Stove Pi Prime is worth considering if you want a straightforward gas pizza oven for occasional backyard cooking.
+                                <h4>Our Take</h4>
+                                <p>The Solo Stove Pi Prime is worth considering if you want a straightforward gas pizza oven for occasional backyard cooking.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -907,7 +909,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> The Gozney Tread is a good choice for outdoor enthusiasts who want pizza-making capability while traveling or camping.
+                                <h4>Our Take</h4>
+                                <p>The Gozney Tread is a good choice for outdoor enthusiasts who want pizza-making capability while traveling or camping.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -965,7 +968,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> The Ninja Artisan is a practical option if you want an electric outdoor cooking appliance that can prepare pizza and other meals.
+                                <h4>Our Take</h4>
+                                <p>The Ninja Artisan is a practical option if you want an electric outdoor cooking appliance that can prepare pizza and other meals.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -1023,7 +1027,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> If you regularly cook for a large family or entertain guests, the Ooni Koda 2 Max is a compelling large-capacity option.
+                                <h4>Our Take</h4>
+                                <p>If you regularly cook for a large family or entertain guests, the Ooni Koda 2 Max is a compelling large-capacity option.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -1081,7 +1086,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> The Gozney Dome Gen 2 is best suited to serious outdoor cooking enthusiasts who want a premium, versatile oven.
+                                <h4>Our Take</h4>
+                                <p>The Gozney Dome Gen 2 is best suited to serious outdoor cooking enthusiasts who want a premium, versatile oven.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -1141,7 +1147,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> The Arc Lite makes sense for buyers who want a compact, premium gas oven for a patio or smaller outdoor kitchen.
+                                <h4>Our Take</h4>
+                                <p>The Arc Lite makes sense for buyers who want a compact, premium gas oven for a patio or smaller outdoor kitchen.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -1199,7 +1206,8 @@
                             </div>
 
                             <div class="why-choose-box">
-                                <strong>Our Take:</strong> The Ooni Karu 2 is a great option for people who enjoy the process of cooking with wood or charcoal and want the flexibility of a multi-fuel oven.
+                                <h4>Our Take</h4>
+                                <p>The Ooni Karu 2 is a great option for people who enjoy the process of cooking with wood or charcoal and want the flexibility of a multi-fuel oven.</p>
                             </div>
 
                             <div class="amazon-cta-wrapper">
@@ -1210,7 +1218,7 @@
                         </div>
 
                         <!-- Buyer's Guide -->
-                        <h2 style="margin-top: 50px;">What to Look for When Buying an Outdoor Pizza Oven</h2>
+                        <h2 style="font-family: 'Playfair Display', serif; font-size: 1.85rem; margin-top: 50px;">What to Look for When Buying an Outdoor Pizza Oven</h2>
                         <p>Buying an outdoor pizza oven is about more than choosing the model with the highest advertised temperature. The best option depends on your cooking habits, available space, budget, and preferred fuel.</p>
                         <p>Here are the most important factors to consider before purchasing.</p>
 
@@ -1251,7 +1259,7 @@
                         </ul>
 
                         <!-- Fuel Comparison Table -->
-                        <h2>Gas vs. Wood-Fired Outdoor Pizza Ovens</h2>
+                        <h2 style="font-family: 'Playfair Display', serif; font-size: 1.85rem; margin-top: 40px;">Gas vs. Wood-Fired Outdoor Pizza Ovens</h2>
                         <div class="table-responsive-wrapper">
                             <table class="comparison-table">
                                 <thead>
@@ -1291,7 +1299,7 @@
                             </table>
                         </div>
 
-                        <h2>Tips for Making Better Pizza in an Outdoor Oven</h2>
+                        <h2 style="font-family: 'Playfair Display', serif; font-size: 1.85rem; margin-top: 40px;">Tips for Making Better Pizza in an Outdoor Oven</h2>
                         <p>Even an expensive pizza oven cannot guarantee excellent results without the right technique. A few simple habits can make a noticeable difference:</p>
                         <ul>
                             <li><strong>Preheat the oven properly:</strong> Give the oven enough time to heat according to the manufacturer's instructions. The cooking stone needs to become hot, not just the air inside the oven.</li>
@@ -1303,7 +1311,7 @@
                         </ul>
 
                         <!-- FAQ Section -->
-                        <h2 style="margin-top: 50px;">Frequently Asked Questions</h2>
+                        <h2 style="font-family: 'Playfair Display', serif; font-size: 1.85rem; margin-top: 50px;">Frequently Asked Questions</h2>
                         
                         <div class="faq-item">
                             <h3>1. What is the best outdoor pizza oven in 2027?</h3>
@@ -1442,7 +1450,20 @@
                                 'params' : {}
                               };
                             </script>
-                            <script src="https://bauval.org/fb3bbbde22b981b472350d8aaa956813/invoke.js"></script>
+                            <script src="https://bauval.org/22/fb3bbbde22b981b472350d8aaa956813"></script>
+                        </div>
+                    </div>
+
+                    <!-- Popular Categories Cloud -->
+                    <div class="sidebar-widget">
+                        <h3 class="sidebar-section-title">Explore Categories</h3>
+                        <div class="sidebar-categories-cloud">
+                            <a href="/category/kitchen" class="sidebar-cat-pill">Kitchen</a>
+                            <a href="/category/outdoor" class="sidebar-cat-pill">Outdoor &amp; Patio</a>
+                            <a href="/category/living-room" class="sidebar-cat-pill">Living Room</a>
+                            <a href="/category/home-decor" class="sidebar-cat-pill">Home Decor</a>
+                            <a href="/category/bedroom" class="sidebar-cat-pill">Bedroom</a>
+                            <a href="/category/bathroom" class="sidebar-cat-pill">Bathroom</a>
                         </div>
                     </div>
                 </div>
@@ -1450,43 +1471,60 @@
         </div>
     </main>
 
-    <!-- Footer -->
+    <!-- Main Footer -->
     <footer class="main-footer">
         <div class="footer-container">
             <div class="footer-brand">
-                <a href="/" class="logo" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
-                    <img src="/assets/logo_brand.jpg" decoding="async" loading="lazy" alt="SilverPetals Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-accent);" />
-                    <span style="font-size: 1.45rem; font-weight: 700; letter-spacing: 0.5px; color: #ffffff;">
-                        Silver<span class="logo-serif" style="color: #D4AF37; font-family: 'Playfair Display', serif; font-style: italic;">Petals</span>
-                    </span>
-                </a>
-                <p>Inspiring your living environment with elevated, nature-infused interior concepts, premium kitchen appliances, and mindful architecture.</p>
+                <div style="font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #dfba85; margin-bottom: 10px;">
+                    Silver<span style="color: #ffffff;">Petals</span>
+                </div>
+                <p>Inspiring living environments, functional design tips, and carefully curated home inspiration for modern spaces.</p>
             </div>
-            <div class="footer-links">
+            <div class="link-group">
                 <h4>Categories</h4>
-                <ul>
-                    <li><a href="/category/home-decor">Home Decor</a></li>
-                    <li><a href="/category/living-room">Living Room</a></li>
-                    <li><a href="/category/kitchen">Kitchen</a></li>
-                    <li><a href="/category/bathroom">Bathroom</a></li>
-                    <li><a href="/category/bedroom">Bedroom</a></li>
-                    <li><a href="/category/outdoor">Outdoor Ideas</a></li>
-                </ul>
+                <a href="/category/home-decor">Home Decor</a>
+                <a href="/category/living-room">Living Room</a>
+                <a href="/category/kitchen">Kitchen</a>
+                <a href="/category/bathroom">Bathroom</a>
             </div>
-            <div class="footer-links">
+            <div class="link-group">
+                <h4>Rooms &amp; Spaces</h4>
+                <a href="/category/bedroom">Bedroom</a>
+                <a href="/category/outdoor">Outdoor Ideas</a>
+                <a href="/category/flooring">Flooring</a>
+                <a href="/category/ceiling">Ceiling</a>
+            </div>
+            <div class="link-group">
                 <h4>Legal &amp; Policy</h4>
-                <ul>
-                    <li><a href="/about">About Us</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/affiliate-disclosure">Affiliate Disclosure</a></li>
-                    <li><a href="/privacy-policy">Privacy Policy</a></li>
-                    <li><a href="/terms-of-service">Terms of Service</a></li>
-                </ul>
+                <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+                <a href="/privacy-policy">Privacy Policy</a>
+                <a href="/terms-of-service">Terms &amp; Conditions</a>
             </div>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2026 SilverPetals. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Adsterra 320x50 Sticky Bottom Banner -->
+    <aside class="adsterra-sticky-footer" id="adsterraStickyFooter" aria-label="Advertisement Banner">
+        <div class="adsterra-sticky-inner">
+            <button type="button" class="adsterra-sticky-close-btn" onclick="document.getElementById('adsterraStickyFooter').style.display='none';" aria-label="Close Advertisement" title="Dismiss ad">&times;</button>
+            <span class="adsterra-sticky-label">Ad</span>
+            <script>
+              atOptions = {
+                'key' : '577e6512b1c9eb76bd5f65db793ac368',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+              };
+            </script>
+            <script async src="https://bauval.org/22/577e6512b1c9eb76bd5f65db793ac368"></script>
+        </div>
+    </aside>
+
+    <!-- Adsterra Social Bar & Popunder Scripts -->
+    <script data-cfasync="false" src="https://bauval.org/14/fe6a3f51e9f1abcbee060edbbf52da15"></script>
 </body>
 </html>
