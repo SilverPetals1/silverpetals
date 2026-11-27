@@ -94,6 +94,140 @@
         }, true);
       })();
     </script>
+    <!-- Amazon CTA & Table Styles -->
+    <style>
+        .table-responsive-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            margin: 25px 0 35px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            border: 1px solid #e8e3dc;
+            background: #ffffff;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.95rem;
+            text-align: left;
+        }
+        .comparison-table thead th {
+            background: #faf7f2;
+            color: #2b2520;
+            font-weight: 700;
+            padding: 14px 18px;
+            border-bottom: 2px solid #e0d8ce;
+            white-space: nowrap;
+        }
+        .comparison-table tbody td {
+            padding: 14px 18px;
+            border-bottom: 1px solid #f0eae1;
+            vertical-align: middle;
+            color: #4a423b;
+        }
+        .comparison-table tbody tr:hover {
+            background: #fdfbf7;
+        }
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .amazon-tbl-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #ffd814 0%, #f7ca00 100%);
+            color: #0f1111 !important;
+            font-weight: 700;
+            font-size: 0.88rem;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none !important;
+            border: 1px solid #d5a600;
+            box-shadow: 0 2px 6px rgba(213, 166, 0, 0.3);
+            white-space: nowrap;
+            transition: all 0.2s ease;
+        }
+        .amazon-tbl-btn:hover {
+            background: linear-gradient(135deg, #f7ca00 0%, #e6b800 100%);
+            box-shadow: 0 4px 12px rgba(213, 166, 0, 0.45);
+            transform: translateY(-1px);
+        }
+        .amazon-cta-wrapper {
+            text-align: center;
+            margin: 22px 0 14px 0;
+        }
+        .amazon-aff-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #ffd814 0%, #f7ca00 100%);
+            color: #0f1111 !important;
+            font-size: 1.02rem;
+            font-weight: 700;
+            padding: 13px 30px;
+            border-radius: 999px;
+            text-decoration: none !important;
+            border: 1px solid #d5a600;
+            box-shadow: 0 4px 14px rgba(213, 166, 0, 0.35);
+            transition: all 0.25s ease;
+            font-family: 'Outfit', sans-serif;
+        }
+        .amazon-aff-btn:hover {
+            background: linear-gradient(135deg, #f7ca00 0%, #e6b800 100%);
+            box-shadow: 0 6px 20px rgba(213, 166, 0, 0.45);
+            transform: translateY(-2px);
+        }
+        @media (max-width: 600px) {
+            .amazon-aff-btn {
+                width: 100%;
+                padding: 12px 18px;
+                font-size: 0.94rem;
+            }
+        }
+    </style>
+    <!-- Schema.org ItemList for Amazon Top Picks -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Featured Kids' Room Decor Finds on Amazon",
+      "description": "Curated top-rated kids' room decor finds available on Amazon, including galaxy star projectors, floating cloud wall lamps, boho rainbow inspirational signs, plush toy storage hammocks, and soothing magma motion lamps.",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "3D Galaxy Star Projector Night Light",
+          "url": "https://link.amazon/B08uly4Ri"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Floating Cloud Wall Lamp Night Light",
+          "url": "https://link.amazon/B0430s8Jx"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Boho Rainbow Wooden Wall Art Signs",
+          "url": "https://link.amazon/B0ebt0PU6"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Boho Macrame Stuffed Animal Corner Hammock",
+          "url": "https://link.amazon/B00AzjyIJ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "JAMBO 16-Inch Magma Motion Lava Lamp",
+          "url": "https://link.amazon/B0bO5RPY4"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -233,18 +367,25 @@
                 <!-- Section 3 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">3. A Reading Nook with Cushions and Soft Lighting</h3>
-                    <p>Fostering a love for reading starts with building a comfortable, quiet sanctuary dedicated to storytime. Tuck a soft floor mattress or sheepskin rug into an empty corner, layering it with plush throw pillows and a low-set book rail. Adding a warm wall sconce or fairy lights makes the space feel cozy and inviting for evening reading routines. This simple corner setup encourages children to self-soothe and enjoy books independently.</p>
+                    <p>Fostering a love for reading starts with building a comfortable, quiet sanctuary dedicated to storytime. Tuck a soft floor mattress or sheepskin rug into an empty corner, layering it with plush throw pillows and a low-set book rail. Adding a warm wall sconce or a calming magma motion lamp makes the space feel cozy and inviting for evening reading routines. This simple corner setup encourages children to self-soothe and enjoy books independently.</p>
                     <img class="blog-section-image" src="https://images.pexels.com/photos/7938220/pexels-photo-7938220.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Reading Nook">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B0bO5RPY4" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for JAMBO Motion Lava Lamp on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 4 -->
                 <article class="blog-section">
-                    
-
-            
-<h3 class="blog-h3-title">4. Open Storage Bins for Easy Toy Access</h3>
-                    <p>Maintaining a tidy playroom requires storage systems that are simple for kids to navigate on their own. Low open-front wooden storage bins let children reach their blocks and stuffed animals easily, and make clean-up time a quick game. Labeling bins with simple icons helps teach organization skills early on. Pair these bins with warm natural wood furniture to keep the play space feeling bright, airy, and structured.</p>
+                    <h3 class="blog-h3-title">4. Open Storage Bins & Corner Toy Hammocks</h3>
+                    <p>Maintaining a tidy playroom requires storage systems that are simple for kids to navigate on their own. Low open-front wooden storage bins let children reach their blocks and stuffed animals easily, and make clean-up time a quick game. Pair these bins with a macrame corner stuffed animal hammock to display soft plushies off the floor, teaching organization skills while adding cozy boho texture to empty corners.</p>
                     <img class="blog-section-image" src="https://images.pexels.com/photos/30161670/pexels-photo-30161670/free-photo-of-crochet-teddy-bear-baby-mobile-for-nursery-decor.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Open Storage Bins">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B00AzjyIJ" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for Macrame Toy Storage Hammock on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 5 -->
@@ -280,9 +421,14 @@
 
                 <!-- Section 7 -->
                 <article class="blog-section">
-                    <h3 class="blog-h3-title">7. Glow-in-the-Dark Star Ceiling Decals</h3>
-                    <p>Transform the ceiling into a magical night sky with subtle glow-in-the-dark star decals. When lights go out, the glowing constellations soothe kids who are afraid of the dark, helping them drift off to sleep. For a high-end designer look, apply these decals in realistic star patterns across a dark blue ceiling, creating a cozy star-filled sky right above their bed.</p>
+                    <h3 class="blog-h3-title">7. Glow-in-the-Dark Star Ceiling Decals & 3D Galaxy Projector</h3>
+                    <p>Transform the ceiling into a magical night sky with subtle glow-in-the-dark star decals or a smart 3D galaxy projector. When lights go out, glowing constellations soothe kids who are afraid of the dark, helping them drift off to sleep. High-definition planetarium projectors fill walls and ceilings with rotating nebulae, planets, and soothing cosmic soundscapes, creating a cozy star-filled universe right above their bed.</p>
                     <img class="blog-section-image" src="https://images.pexels.com/photos/9240642/pexels-photo-9240642.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Star Ceiling">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B08uly4Ri" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for 3D Galaxy Star Projector on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 8 -->
@@ -329,9 +475,14 @@
 
                 <!-- Section 14 -->
                 <article class="blog-section">
-                    <h3 class="blog-h3-title">14. Personalized Name Art or Wall Lettering</h3>
-                    <p>Hang custom wooden letters spelling your child's name to personalize the space and give them a sense of ownership. Mount the letters above the bed or crib, choosing paint colors that match the room's color scheme. This simple wall detail adds a warm, personalized touch to the bedroom.</p>
+                    <h3 class="blog-h3-title">14. Personalized Name Art & Boho Inspirational Wall Signs</h3>
+                    <p>Hang custom wooden letters or colorful motivational wall plaques to personalize the space and give kids a daily boost of confidence. Inspiring wooden rainbow signs with positive affirmations like "You Are Brave" and "You Are Loved" add sweet warmth, matching playful pastels or earthy nursery palettes while uplifting growing minds.</p>
                     <img class="blog-section-image" src="https://images.pexels.com/photos/4964372/pexels-photo-4964372.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Personalized Name Art">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B0ebt0PU6" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for Boho Rainbow Wall Art Signs on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 15 -->
@@ -357,9 +508,14 @@
 
                 <!-- Section 18 -->
                 <article class="blog-section">
-                    <h3 class="blog-h3-title">18. Whimsical Pendant Lighting (Stars, Clouds, Animals)</h3>
-                    <p>Hang a playful cloud-shaped pendant light to add whimsical style and soft ambient glow to the room. Dimmable pendant lights illuminate bedtime stories comfortably without harsh glare, setting a relaxing mood. Choose paper or fabric shades to keep the light soft and cozy.</p>
+                    <h3 class="blog-h3-title">18. Whimsical Pendant Lighting & Floating Cloud Wall Lamps</h3>
+                    <p>Hang a playful cloud-shaped wall lamp or whimsical pendant light to add dreamy style and a gentle ambient glow to the room. Dimmable battery-operated floating cloud lights illuminate bedtime stories comfortably without harsh glare, setting a relaxing mood and making nighttime transitions gentle and magical.</p>
                     <img class="blog-section-image" src="https://images.pexels.com/photos/3662946/pexels-photo-3662946.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Whimsical Pendant Light">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B0430s8Jx" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for Floating Cloud Wall Lamp on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 19 -->
