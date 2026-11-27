@@ -1,5 +1,19 @@
 export const DECOR_DB = [
     {
+        id: "blog-best-wood-for-smoking-meat",
+        title: "Best Wood for Smoking Meat: Top 9 Picks for Better BBQ Flavor",
+        category: "kitchen",
+        categoryLabel: "Kitchen",
+        image: "/assets/best-wood-for-smoking-meat-main.jpg",
+        saves: 352100,
+        description: "Discover the 9 best woods for smoking meat, from hickory and oak to apple and cherry. Compare smoke flavors and find the right wood for brisket, ribs, chicken, pork, and fish.",
+        link: "blog-best-wood-for-smoking-meat.html",
+        colors: ["#5C4033", "#8B4513", "#CD853F", "#FAF8F5"],
+        steps: [
+            "Discover the 9 Best Woods for Smoking Meat in 2027, comparing smoke profiles, smoke strength, pairing charts, and kiln-dried hardwoods with verified Amazon affiliate links."
+        ]
+    },
+    {
         id: "blog-best-outdoor-pizza-ovens",
         title: "Best Outdoor Pizza Ovens in 2027: 9 Models Compared",
         category: "kitchen",
