@@ -94,6 +94,140 @@
         }, true);
       })();
     </script>
+    <!-- Amazon CTA & Table Styles -->
+    <style>
+        .table-responsive-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            margin: 25px 0 35px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            border: 1px solid #e8e3dc;
+            background: #ffffff;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.95rem;
+            text-align: left;
+        }
+        .comparison-table thead th {
+            background: #faf7f2;
+            color: #2b2520;
+            font-weight: 700;
+            padding: 14px 18px;
+            border-bottom: 2px solid #e0d8ce;
+            white-space: nowrap;
+        }
+        .comparison-table tbody td {
+            padding: 14px 18px;
+            border-bottom: 1px solid #f0eae1;
+            vertical-align: middle;
+            color: #4a423b;
+        }
+        .comparison-table tbody tr:hover {
+            background: #fdfbf7;
+        }
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .amazon-tbl-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #ffd814 0%, #f7ca00 100%);
+            color: #0f1111 !important;
+            font-weight: 700;
+            font-size: 0.88rem;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none !important;
+            border: 1px solid #d5a600;
+            box-shadow: 0 2px 6px rgba(213, 166, 0, 0.3);
+            white-space: nowrap;
+            transition: all 0.2s ease;
+        }
+        .amazon-tbl-btn:hover {
+            background: linear-gradient(135deg, #f7ca00 0%, #e6b800 100%);
+            box-shadow: 0 4px 12px rgba(213, 166, 0, 0.45);
+            transform: translateY(-1px);
+        }
+        .amazon-cta-wrapper {
+            text-align: center;
+            margin: 22px 0 14px 0;
+        }
+        .amazon-aff-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #ffd814 0%, #f7ca00 100%);
+            color: #0f1111 !important;
+            font-size: 1.02rem;
+            font-weight: 700;
+            padding: 13px 30px;
+            border-radius: 999px;
+            text-decoration: none !important;
+            border: 1px solid #d5a600;
+            box-shadow: 0 4px 14px rgba(213, 166, 0, 0.35);
+            transition: all 0.25s ease;
+            font-family: 'Outfit', sans-serif;
+        }
+        .amazon-aff-btn:hover {
+            background: linear-gradient(135deg, #f7ca00 0%, #e6b800 100%);
+            box-shadow: 0 6px 20px rgba(213, 166, 0, 0.45);
+            transform: translateY(-2px);
+        }
+        @media (max-width: 600px) {
+            .amazon-aff-btn {
+                width: 100%;
+                padding: 12px 18px;
+                font-size: 0.94rem;
+            }
+        }
+    </style>
+    <!-- Schema.org ItemList for Amazon Top Picks -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Featured Wall Decor Focal Point Finds on Amazon",
+      "description": "Curated focal point wall decor essentials available on Amazon, including custom large-scale canvas art, solid wood magnetic chalkboards, 7 chakra tree of life crystal hanging sculptures, 60-inch pre-lit evergreen wreaths, and 2-tier rustic floating shelves.",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "wall26 Custom Canvas Wall Art Personalized Photo Print (24x36)",
+          "url": "https://link.amazon/B0eSNNp5m"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Loddie Doddie Huge Magnetic Chalkboard Menu Board (46x34.5)",
+          "url": "https://link.amazon/B05AW5hB1"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "YATSKIA 7 Chakra Tree of Life Healing Crystals Hanging Wall Decor",
+          "url": "https://link.amazon/B0bWU1ObN"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Best Choice Products 60-Inch Large Pre-Lit Artificial Fir Wreath",
+          "url": "https://link.amazon/B00lauprj"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "CHOEZON Floating Wall Shelves Set of 2 Tier Rustic Hanging Shelves",
+          "url": "https://link.amazon/B00GW1UzL"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -216,20 +350,107 @@
             <!-- Blog Body Content -->
             <div class="blog-body-text">
 
+                            <!-- Quick Comparison Table Matrix with Amazon Links -->
+            <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.85rem; color: #1a1a1a; margin-top: 35px; margin-bottom: 15px;">Featured Wall Decor Finds on Amazon</h2>
+
+            <div class="table-responsive-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Decor Essential</th>
+                            <th>Best For</th>
+                            <th style="text-align: center;">View on Amazon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/focal-point-custom-canvas.jpg" alt="wall26 Custom Canvas Wall Art" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>wall26 Custom Canvas Wall Art (24" x 36")</strong>
+                                </div>
+                            </td>
+                            <td>Best for Personalized Large-Scale Statement Art & Gallery Living Rooms</td>
+                            <td style="text-align: center;">
+                                <a href="https://link.amazon/B0eSNNp5m" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon &rarr;</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/focal-point-magnetic-chalkboard.jpg" alt="Loddie Doddie Extra Large Magnetic Chalkboard" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>Loddie Doddie Magnetic Chalkboard (46" x 34.5")</strong>
+                                </div>
+                            </td>
+                            <td>Best for High-Contrast Magnetic Chalkboard Accent Walls & Message Centers</td>
+                            <td style="text-align: center;">
+                                <a href="https://link.amazon/B05AW5hB1" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon &rarr;</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/focal-point-tree-of-life.jpg" alt="YATSKIA 7 Chakra Tree of Life Hanging Crystals" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>YATSKIA 7 Chakra Tree of Life Hanging Crystals</strong>
+                                </div>
+                            </td>
+                            <td>Best for Meditative Sculptural Wall Art & Organic Spiritual Focal Points</td>
+                            <td style="text-align: center;">
+                                <a href="https://link.amazon/B0bWU1ObN" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon &rarr;</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/focal-point-prelit-wreath.jpg" alt="Best Choice Products 60-Inch Pre-Lit Fir Wreath" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>Best Choice Products 60-Inch Pre-Lit Fir Wreath</strong>
+                                </div>
+                            </td>
+                            <td>Best for Grand Over-Mantel Fireplace Focal Points & Warm Holiday Glow</td>
+                            <td style="text-align: center;">
+                                <a href="https://link.amazon/B00lauprj" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon &rarr;</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="/assets/focal-point-floating-shelves.jpg" alt="CHOEZON 2-Tier Rustic Floating Wall Shelves" style="width: 52px; height: 52px; object-fit: contain; border-radius: 6px; border: 1px solid #eee; flex-shrink: 0; background: #fff;" loading="lazy">
+                                    <strong>CHOEZON 2-Tier Rustic Floating Wall Shelves (Set of 2)</strong>
+                                </div>
+                            </td>
+                            <td>Best for Curated Mini Gallery Wall Displays, Plants & Framed Photo Vignettes</td>
+                            <td style="text-align: center;">
+                                <a href="https://link.amazon/B00GW1UzL" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-tbl-btn">View on Amazon &rarr;</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
                 <!-- Section 1 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">1. An Oversized Piece of Art as a Singular Statement</h3>
-                    <p>Hanging a single, massive piece of artwork is one of the most effective ways to establish a visual focus. Sourcing a canvas that spans two-thirds of the width of your sofa or dining table ensures the scale looks balanced and luxury. Select abstract paintings or high-contrast graphics that coordinate with your room's color temperature. This minimalist styling choice keeps the focus clear, eliminating the clutter of small frames while grounding the entire seating arrangement softly.</p>
+                    <p>Hanging a single, massive piece of artwork is one of the most effective ways to establish a commanding visual focus. Sourcing a high-definition personalized custom canvas—like the wall26 24" x 36" stretched canvas print—that spans two-thirds of the width of your sofa or dining table ensures the scale looks balanced and luxurious. Select panoramic landscape photos, personal memories, or high-contrast graphics that harmonize with your room's color palette. This minimalist styling choice keeps the focus clear, eliminating the clutter of small mismatched frames while grounding the entire seating arrangement softly.</p>
                     
-                    <img class="blog-section-image" src="https://images.pexels.com/photos/15089595/pexels-photo-15089595/free-photo-of-straw-decoration-on-a-wall.jpeg?auto=compress&cs=tinysrgb&w=800" alt="An Oversized Piece of Art as a Singular Statement">
+                    <img class="blog-section-image" src="/assets/focal-point-custom-canvas.jpg" alt="wall26 Custom Canvas Wall Art Personalized Photo Print">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B0eSNNp5m" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for wall26 Custom Canvas Art on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 2 -->
                 <article class="blog-section">
-                    <h3 class="blog-h3-title">2. A Bold Accent Wall Color That Commands Attention</h3>
-                    <p>Painting a single wall in a deep, saturated tone like charcoal, emerald green, or navy blue is an excellent method to add architectural weight. Keep the adjacent walls a clean off-white to allow the dark color block to command attention. Contrast this dark accent wall with light wood shelves and brass reading sconces. This high-contrast design frames furniture layouts beautifully, turning flat drywall surfaces into a deep, inviting backdrop.</p>
+                    <h3 class="blog-h3-title">2. A Bold Accent Wall Color & Functional Framed Chalkboard Centerpiece</h3>
+                    <p>Painting a single wall in a deep, saturated tone like charcoal, emerald green, or navy blue is an excellent method to add architectural weight. Keep the adjacent walls a clean off-white to allow the dark color block to command attention, or anchor the wall with a large solid wood framed magnetic chalkboard—like the Loddie Doddie 46" x 34.5" menu board—to create an upscale family command center. Contrast this dark accent wall with light wood shelves and brass reading sconces. This high-contrast design frames furniture layouts beautifully, turning flat drywall surfaces into a deep, functional, and inviting backdrop.</p>
                     
-                    <img class="blog-section-image" src="https://images.pexels.com/photos/15094280/pexels-photo-15094280/free-photo-of-boho-decoration-on-a-wall.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A Bold Accent Wall Color That Commands Attention">
+                    <img class="blog-section-image" src="/assets/focal-point-magnetic-chalkboard.jpg" alt="Loddie Doddie Huge Magnetic Chalkboard Menu Board Solid Wood Frame">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B05AW5hB1" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for Loddie Doddie Framed Chalkboard on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 3 -->
@@ -286,10 +507,15 @@
 
                 <!-- Section 7 -->
                 <article class="blog-section">
-                    <h3 class="blog-h3-title">7. A Statement Wall Clock or Sculptural Wall Object</h3>
-                    <p>Hang a large metal or carved wood sculptural clock in the center of the wall. The three-dimensional structure projects from the wall, casting soft shadow lines that change throughout the day as natural daylight shifts. This artistic choice brings modern character to minimalist hallways, keeping the transitional wall looking active and interesting.</p>
+                    <h3 class="blog-h3-title">7. A Statement Wall Clock, Sculptural Object & Tree of Life Hanging Decor</h3>
+                    <p>Mounting an oversized sculptural wall clock or intricate 3D gemstone and copper wire hanging artwork creates an arresting dimensional focal point. An organic sculptural piece—such as the YATSKIA 7 Chakra Tree of Life healing crystals wall hanging—infuses the room with natural mineral textures, calming energy, and artisanal handcrafted charm. These dimensional objects catch directional ambient lighting differently throughout the day, bringing tactile movement and rich organic depth to plain vertical expanses.</p>
                     
-                    <img class="blog-section-image" src="https://images.pexels.com/photos/14281143/pexels-photo-14281143.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A Statement Wall Clock or Sculptural Wall Object">
+                    <img class="blog-section-image" src="/assets/focal-point-tree-of-life.jpg" alt="YATSKIA 7 Chakra Tree of Life Healing Crystals Stone Hanging Wall Decor">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B0bWU1ObN" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for Tree of Life Crystal Wall Decor on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 8 -->
@@ -302,10 +528,15 @@
 
                 <!-- Section 9 -->
                 <article class="blog-section">
-                    <h3 class="blog-h3-title">9. A Wall-Mounted Fireplace or Faux Fireplace Feature</h3>
-                    <p>Install a sleek, wall-mounted electric fireplace or construct a faux plaster mantel fireplace block. The fireplace establishes a cozy, traditional focus that anchors the lounge seating. Surround the mantel with matching white oak frames and brass candlesticks, bringing cozy warmth and structural symmetry that makes the room feel premium.</p>
+                    <h3 class="blog-h3-title">9. A Wall-Mounted Fireplace, Mantel & Giant Pre-Lit Wreath Focal Point</h3>
+                    <p>Install a sleek, wall-mounted electric fireplace or construct a faux plaster mantel fireplace block. The fireplace establishes a cozy, traditional focus that anchors the lounge seating. Top the mantel with a dramatic oversized 60-inch pre-lit evergreen wreath illuminated with warm white micro-lights alongside white oak frames and brass candlesticks, bringing cozy warmth, lush natural texture, and structural symmetry that makes the room feel premium year-round.</p>
                     
-                    <img class="blog-section-image" src="https://images.pexels.com/photos/17423665/pexels-photo-17423665/free-photo-of-bench-with-pillows.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A Wall-Mounted Fireplace or Faux Fireplace Feature">
+                    <img class="blog-section-image" src="/assets/focal-point-prelit-wreath.jpg" alt="Best Choice Products 60-Inch Large Pre-Lit Artificial Fir Wreath">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B00lauprj" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for 60-Inch Pre-Lit Wreath on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 10 -->
@@ -335,9 +566,14 @@
                 <!-- Section 13 -->
                 <article class="blog-section">
                     <h3 class="blog-h3-title">13. A Floating Wood Shelf Styled as a Mini Gallery</h3>
-                    <p>Mount a thick, raw wood floating shelf along the hallway wall. Arrange small framed sketches, travel souvenirs, and trailing plants along the ledge. This setup keeps the walk path open and clear, while providing a dynamic gallery display that makes narrow home pathways look active, bright, and interesting.</p>
+                    <p>Mount a multi-tier or thick raw wood floating shelf set—such as the CHOEZON 2-Tier rustic hanging shelves—along the hallway or living room wall. Multi-tier rustic hanging shelves give you generous vertical space to layer small framed sketches, travel souvenirs, small potted succulents, and trailing botanical greenery along the ledges. This setup keeps the walk path open and clear, while providing a dynamic gallery display that makes narrow home pathways look active, bright, and interesting.</p>
                     
-                    <img class="blog-section-image" src="https://images.pexels.com/photos/16176223/pexels-photo-16176223/free-photo-of-a-rustic-decoration-of-yarn-feathers-hanging-on-a-stick.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A Floating Wood Shelf Styled as a Mini Gallery">
+                    <img class="blog-section-image" src="/assets/focal-point-floating-shelves.jpg" alt="CHOEZON Floating Wall Shelves Set of 2 Tier Rustic Hanging Shelves">
+                    <div class="amazon-cta-wrapper">
+                        <a href="https://link.amazon/B00GW1UzL" target="_blank" rel="nofollow sponsored noopener noreferrer" class="amazon-aff-btn">
+                            🛒 Check Price for CHOEZON 2-Tier Floating Shelves on Amazon &rarr;
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Section 14 -->
